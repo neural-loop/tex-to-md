@@ -1,0 +1,164 @@
+\begin{thebibliography}{22}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Misc
+\bibitem[{Unit(2022)}]{unit2022democracy}
+\bibinfo{author}{E.~I. Unit}, \bibinfo{title}{Democracy index 2022: Frontline
+  democracy and the battle for ukraine}, \bibinfo{year}{2022}.
+%Type = Book
+\bibitem[{Diamond(2008)}]{larry2008spirit}
+\bibinfo{author}{L.~Diamond}, \bibinfo{title}{The spirit of democracy: The
+  struggle to build free societies throughout the world},
+  \bibinfo{publisher}{Macmillan}, \bibinfo{year}{2008}.
+%Type = Article
+\bibitem[{Schneider(2020)}]{schneider2020democratic}
+\bibinfo{author}{I.~Schneider},
+\newblock \bibinfo{title}{Democratic governance of digital platforms and
+  artificial intelligence?: Exploring governance models of china, the us, the
+  eu and mexico},
+\newblock \bibinfo{journal}{JeDEM-eJournal of eDemocracy and Open Government}
+  \bibinfo{volume}{12} (\bibinfo{year}{2020}) \bibinfo{pages}{1--24}.
+%Type = Misc
+\bibitem[{OECD(2001)}]{oecd2001}
+\bibinfo{author}{OECD}, \bibinfo{title}{Engaging citizens in policy-making:
+  Information, consultation and public participation}, \bibinfo{year}{2001}.
+%Type = Article
+\bibitem[{Pe{\~n}a-L{\'o}pez et~al.(2020)}]{pena2020oecd}
+\bibinfo{author}{I.~Pe{\~n}a-L{\'o}pez}, et~al.,
+\newblock \bibinfo{title}{The oecd digital government policy framework. six
+  dimensions of a digital government}  (\bibinfo{year}{2020}).
+%Type = Article
+\bibitem[{Sharma et~al.(2020)Sharma, Yadav, and Chopra}]{sharma2020artificial}
+\bibinfo{author}{G.~D. Sharma}, \bibinfo{author}{A.~Yadav},
+  \bibinfo{author}{R.~Chopra},
+\newblock \bibinfo{title}{Artificial intelligence and effective governance: A
+  review, critique and research agenda},
+\newblock \bibinfo{journal}{Sustainable Futures} \bibinfo{volume}{2}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{100004}.
+%Type = Inproceedings
+\bibitem[{Pham et~al.(2016)Pham, Mai, and Massey}]{pham2016key}
+\bibinfo{author}{L.~Pham}, \bibinfo{author}{T.~T. Mai},
+  \bibinfo{author}{B.~Massey},
+\newblock \bibinfo{title}{Key factors for effective citizens engagement in
+  smart city: the case of cork city},
+\newblock in: \bibinfo{booktitle}{AIS Pre-ICIS Workshop on “IoT \& Smart City
+  Challenges and Applications}, \bibinfo{year}{2016}.
+%Type = Article
+\bibitem[{Mai et~al.(2019)Mai, Crane, and Bezbradica}]{mai2019students}
+\bibinfo{author}{T.~T. Mai}, \bibinfo{author}{M.~Crane},
+  \bibinfo{author}{M.~Bezbradica},
+\newblock \bibinfo{title}{Students’ behaviours in using learning resources in
+  higher education: how do behaviours reflect success in programming
+  education?}  (\bibinfo{year}{2019}).
+%Type = Article
+\bibitem[{Nguyen et~al.(2022)Nguyen, Mai, Bezbradica, and
+  Crane}]{nguyen2022cryptocurrency}
+\bibinfo{author}{A.~P.~N. Nguyen}, \bibinfo{author}{T.~T. Mai},
+  \bibinfo{author}{M.~Bezbradica}, \bibinfo{author}{M.~Crane},
+\newblock \bibinfo{title}{The cryptocurrency market in transition before and
+  after covid-19: An opportunity for investors?},
+\newblock \bibinfo{journal}{Entropy} \bibinfo{volume}{24}
+  (\bibinfo{year}{2022}) \bibinfo{pages}{1317}.
+%Type = Article
+\bibitem[{K{\"o}nig(2022)}]{konig2022citizen}
+\bibinfo{author}{P.~D. K{\"o}nig},
+\newblock \bibinfo{title}{Citizen conceptions of democracy and support for
+  artificial intelligence in government and politics},
+\newblock \bibinfo{journal}{European Journal of Political Research}
+  (\bibinfo{year}{2022}).
+%Type = Incollection
+\bibitem[{Duberry(2022)}]{duberry2022artificial}
+\bibinfo{author}{J.~Duberry},
+\newblock \bibinfo{title}{Artificial intelligence and democracy: risks and
+  promises of ai-mediated citizen--government relations},
+\newblock in: \bibinfo{booktitle}{Artificial Intelligence and Democracy},
+  \bibinfo{publisher}{Edward Elgar Publishing}, \bibinfo{year}{2022}.
+%Type = Article
+\bibitem[{Scantamburlo et~al.(2023)Scantamburlo, Cort{\'e}s, Foffano,
+  Barru{\'e}, Distefano, Pham, and Fabris}]{scantamburlo2023artificial}
+\bibinfo{author}{T.~Scantamburlo}, \bibinfo{author}{A.~Cort{\'e}s},
+  \bibinfo{author}{F.~Foffano}, \bibinfo{author}{C.~Barru{\'e}},
+  \bibinfo{author}{V.~Distefano}, \bibinfo{author}{L.~Pham},
+  \bibinfo{author}{A.~Fabris},
+\newblock \bibinfo{title}{Artificial intelligence across europe: A study on
+  awareness, attitude and trust},
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2308.09979}
+  (\bibinfo{year}{2023}).
+%Type = Article
+\bibitem[{Kaiser(1974)}]{kaiser1974index}
+\bibinfo{author}{H.~F. Kaiser},
+\newblock \bibinfo{title}{An index of factorial simplicity},
+\newblock \bibinfo{journal}{psychometrika} \bibinfo{volume}{39}
+  (\bibinfo{year}{1974}) \bibinfo{pages}{31--36}.
+%Type = Article
+\bibitem[{Gadermann et~al.(2019)Gadermann, Guhn, and
+  Zumbo}]{gadermann2019estimating}
+\bibinfo{author}{A.~M. Gadermann}, \bibinfo{author}{M.~Guhn},
+  \bibinfo{author}{B.~D. Zumbo},
+\newblock \bibinfo{title}{Estimating ordinal reliability for likert-type and
+  ordinal item response data: A conceptual, empirical, and practical guide},
+\newblock \bibinfo{journal}{Practical assessment, research, and evaluation}
+  \bibinfo{volume}{17} (\bibinfo{year}{2019}) \bibinfo{pages}{3}.
+%Type = Article
+\bibitem[{Li(2016)}]{li2016confirmatory}
+\bibinfo{author}{C.-H. Li},
+\newblock \bibinfo{title}{Confirmatory factor analysis with ordinal data:
+  Comparing robust maximum likelihood and diagonally weighted least squares},
+\newblock \bibinfo{journal}{Behavior research methods} \bibinfo{volume}{48}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{936--949}.
+%Type = Article
+\bibitem[{Mann and Whitney(1947)}]{mann1947test}
+\bibinfo{author}{H.~B. Mann}, \bibinfo{author}{D.~R. Whitney},
+\newblock \bibinfo{title}{On a test of whether one of two random variables is
+  stochastically larger than the other},
+\newblock \bibinfo{journal}{The annals of mathematical statistics}
+  (\bibinfo{year}{1947}) \bibinfo{pages}{50--60}.
+%Type = Article
+\bibitem[{Kruskal and Wallis(1952)}]{kruskal1952use}
+\bibinfo{author}{W.~H. Kruskal}, \bibinfo{author}{W.~A. Wallis},
+\newblock \bibinfo{title}{Use of ranks in one-criterion variance analysis},
+\newblock \bibinfo{journal}{Journal of the American statistical Association}
+  \bibinfo{volume}{47} (\bibinfo{year}{1952}) \bibinfo{pages}{583--621}.
+%Type = Misc
+\bibitem[{dat(2023)}]{dataSummary}
+\bibinfo{title}{Questionnaire data summary}, \bibinfo{year}{2023}. \URLprefix
+  \url{https://github.com/EU-Survey/Material/blob/main/S2_res.xlsx}.
+%Type = Article
+\bibitem[{Lim and Jahng(2019)}]{lim2019determining}
+\bibinfo{author}{S.~Lim}, \bibinfo{author}{S.~Jahng},
+\newblock \bibinfo{title}{Determining the number of factors using parallel
+  analysis and its recent variants.},
+\newblock \bibinfo{journal}{Psychological methods} \bibinfo{volume}{24}
+  (\bibinfo{year}{2019}) \bibinfo{pages}{452}.
+%Type = Book
+\bibitem[{Kline(2023)}]{kline2023principles}
+\bibinfo{author}{R.~B. Kline}, \bibinfo{title}{Principles and practice of
+  structural equation modeling}, \bibinfo{publisher}{Guilford publications},
+  \bibinfo{year}{2023}.
+%Type = Article
+\bibitem[{Geana and Greiner(2011)}]{geana2011health}
+\bibinfo{author}{M.~V. Geana}, \bibinfo{author}{K.~A. Greiner},
+\newblock \bibinfo{title}{Health information and the digital divide},
+\newblock \bibinfo{journal}{Journal of Management \& Marketing in Healthcare}
+  \bibinfo{volume}{4} (\bibinfo{year}{2011}) \bibinfo{pages}{108--112}.
+%Type = Article
+\bibitem[{Groeniger et~al.(2021)Groeniger, Noordzij, Van Der~Waal, and
+  De~Koster}]{groeniger2021dutch}
+\bibinfo{author}{J.~O. Groeniger}, \bibinfo{author}{K.~Noordzij},
+  \bibinfo{author}{J.~Van Der~Waal}, \bibinfo{author}{W.~De~Koster},
+\newblock \bibinfo{title}{Dutch covid-19 lockdown measures increased trust in
+  government and trust in science: A difference-in-differences analysis},
+\newblock \bibinfo{journal}{Social Science \& Medicine} \bibinfo{volume}{275}
+  (\bibinfo{year}{2021}) \bibinfo{pages}{113819}.
+
+\end{thebibliography}

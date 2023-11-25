@@ -1,0 +1,51 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Zaremba et~al.(2023)Zaremba, Dhar, Ahmad, Eloundou, Santurkar, Agarwal, and Leung]{zaremba2023democratic}
+Wojciech Zaremba, Arka Dhar, Lama Ahmad, Tyna Eloundou, Shibani Santurkar, Sandhini Agarwal, and Jade Leung.
+\newblock Democratic inputs to ai, 2023.
+\newblock URL \url{https://openai.com/blog/democratic-inputs-to-ai}.
+
+\bibitem[Altman et~al.(2023)Altman, Brockman, and Sutskever]{altman2023governance}
+Sam Altman, Greg Brockman, and Ilya Sutskever.
+\newblock Governance of superintelligence, 2023.
+\newblock URL \url{https://openai.com/blog/governance-of-superintelligence}.
+
+\bibitem[Wojcik et~al.(2022)Wojcik, Hilgard, Judd, Mocanu, Ragain, Hunzaker, Coleman, and Baxter]{birdwatch2022}
+Stefan Wojcik, Sophie Hilgard, Nick Judd, Delia Mocanu, Stephen Ragain, M.~B.~Fallin Hunzaker, Keith Coleman, and Jay Baxter.
+\newblock Birdwatch: Crowd wisdom and bridging algorithms can inform understanding and reduce the spread of misinformation.
+\newblock 2022.
+\newblock URL \url{https://arxiv.org/abs/2210.15723}.
+
+\bibitem[Anthropic(2023)]{collectiveConst}
+Anthropic.
+\newblock Collective constitutional ai: Aligning a language model with public input, 2023.
+\newblock URL \url{https://www.anthropic.com/index/collective-constitutional-ai-aligning-a-language-model-with-public-input}.
+
+\bibitem[Bakker et~al.(2022)Bakker, Chadwick, Sheahan, Tessler, Campbell-Gillingham, Balaguer, McAleese, Glaese, Aslanides, Botvinick, and Summerfield]{deepmind}
+Michiel~A. Bakker, Martin~J. Chadwick, Hannah~R. Sheahan, Michael~Henry Tessler, Lucy Campbell-Gillingham, Jan Balaguer, Nat McAleese, Amelia Glaese, John Aslanides, Matthew~M. Botvinick, and Christopher Summerfield.
+\newblock Fine-tuning language models to find agreement among humans with diverse preferences.
+\newblock 2022.
+\newblock URL \url{https://arxiv.org/pdf/2211.15006.pdf}.
+
+\bibitem[Brundage et~al.(2020)Brundage, Avin, Wang, Belfield, Krueger, et~al.]{brundage2020toward}
+Miles Brundage, Shahar Avin, Jasmine Wang, Haydn Belfield, Gretchen Krueger, et~al.
+\newblock Toward trustworthy ai development: Mechanisms for supporting verifiable claims.
+\newblock 2020.
+\newblock URL \url{https://arxiv.org/abs/2004.07213}.
+
+\bibitem[X(2023)]{NoteRankingAlgorithm}
+X.
+\newblock How are community notes ranked?
+\newblock \url{https://communitynotes.twitter.com/guide/en/under-the-hood/ranking-notes}, 2023.
+
+\bibitem[Weng et~al.(2023)Weng, Goel, and Vallone]{usinggpt4contentmod}
+Lilian Weng, Vik Goel, and Andrea Vallone.
+\newblock Using gpt-4 for content moderation.
+\newblock \url{https://openai.com/blog/using-gpt-4-for-content-moderation}, 2023.
+
+\end{thebibliography}

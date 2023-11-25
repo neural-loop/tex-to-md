@@ -1,0 +1,94 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adair and Jaeger(2015)]{adair2015reynolds}
+Desmond Adair and Martin Jaeger.
+\newblock {Reynolds-averaged Navier--Stokes modeling of air pollution at the local urban scale}.
+\newblock \emph{Engineering Applications of Computational Fluid Dynamics}, 4:\penalty0 119--136, 2015.
+
+\bibitem[Basu et~al.(2022)]{basu2022uncertainty}
+Kishore Basu et~al.
+\newblock {Uncertainty quantification methods for ML-based surrogate models of scientific applications}.
+\newblock \emph{ML for Physical Sciences, NeurIPS 2022}, 2022.
+
+\bibitem[Gal(2016)]{gal2016uncertainty}
+Yarin Gal.
+\newblock {Uncertainty in deep learning}.
+\newblock PhD thesis, University of Cambridge, 2016.
+
+\bibitem[Hassan et~al.(2014)Hassan, Islam, Ali, and Islam]{hassan2014numerical}
+SM~Rakibul Hassan, Toukir Islam, Mohammad Ali, and Md~Quamrul Islam.
+\newblock {Numerical study on aerodynamic drag reduction of racing cars}.
+\newblock \emph{Procedia Engineering}, 90:\penalty0 308--313, 2014.
+
+\bibitem[He and Jiang(2023)]{he2023survey}
+Wenchong He and Zhe Jiang.
+\newblock {A Survey on Uncertainty Quantification Methods for Deep Neural Networks: An Uncertainty Source Perspective}.
+\newblock \emph{arXiv preprint arXiv:2302.13425}, 2023.
+
+\bibitem[Liu et~al.(2016)Liu, Liu, and Zhao]{liu2016navier}
+Xu~Liu, Wei Liu, and Yunfei Zhao.
+\newblock {Navier--Stokes predictions of dynamic stability derivatives for air-breathing hypersonic vehicle}.
+\newblock \emph{Acta Astronautica}, 118:\penalty0 262--285, 2016.
+
+\bibitem[Nagatani(2000)]{nagatani2000density}
+Takashi Nagatani.
+\newblock {Density waves in traffic flow}.
+\newblock \emph{Physical Review E}, 61\penalty0 (4):\penalty0 3564, 2000.
+
+\bibitem[Najm(2009)]{najm2009uncertainty}
+Habib~N Najm.
+\newblock {Uncertainty quantification and polynomial chaos techniques in computational fluid dynamics}.
+\newblock \emph{Annual Review of Fluid Mechanics}, 41:\penalty0 35--52, 2009.
+
+\bibitem[Naugolnykh et~al.(2000)Naugolnykh, Ostrovsky, Sapozhnikov, and Hamilton]{naugolnykh2000nonlinear}
+Konstantin~A Naugolnykh, Lev~A Ostrovsky, Oleg~A Sapozhnikov, and Mark~F Hamilton.
+\newblock {Nonlinear wave processes in acoustics}.
+\newblock Acoustical Society of America, 2000.
+
+\bibitem[Palmer(2019)]{palmer2019stochastic}
+TN~Palmer.
+\newblock {Stochastic weather and climate models}.
+\newblock \emph{Nature Reviews Physics}, 1\penalty0 (7):\penalty0 463--471, 2019.
+
+\bibitem[Raissi et~al.(2019)Raissi, Perdikaris, and Karniadakis]{raissi2019physics}
+Maziar Raissi, Paris Perdikaris, and George~E Karniadakis.
+\newblock {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations}.
+\newblock \emph{Journal of Computational Physics}, 378:\penalty0 686--707, 2019.
+
+\bibitem[Rico-Martinez et~al.(1994)Rico-Martinez, Anderson, and Kevrekidis]{rico1994continuous}
+R~Rico-Martinez, JS~Anderson, and IG~Kevrekidis.
+\newblock {Continuous-time nonlinear signal processing: a neural network based approach for gray box identification}.
+\newblock In \emph{Proceedings of IEEE Workshop on Neural Networks for Signal Processing}, pages 596--605. IEEE, 1994.
+
+\bibitem[Shah(2016)]{shah2016solution}
+Kunjan Shah.
+\newblock {Solution of Burger's Equation in a One-Dimensional Groundwater Recharge by Spreading Using q-Homotopy Analysis Method}.
+\newblock \emph{European Journal of Pure and Applied Mathematics}, 9\penalty0 (1):\penalty0 114--124, 2016.
+
+\bibitem[Thomas and Sumam(2016)]{thomas2016blood}
+Blessy Thomas and KS~Sumam.
+\newblock {Blood flow in human arterial system-A review}.
+\newblock \emph{Procedia Technology}, 24:\penalty0 339--346, 2016.
+
+\bibitem[Vos et~al.(2002)Vos, Rizzi, Darracq, and Hirschel]{vos2002navier}
+JB~Vos, Arthur Rizzi, D~Darracq, and EH~Hirschel.
+\newblock {Navier--Stokes solvers in European aircraft design}.
+\newblock \emph{Progress in Aerospace Sciences}, 38\penalty0 (8):\penalty0 601--697, 2002.
+
+\bibitem[Zingaro et~al.(2022)Zingaro, Fumagalli, Dede, Fedele, Africa, Corno, and Quarteroni]{AlbertoS}
+Alberto Zingaro, Ivan Fumagalli, Luca Dede, Marco Fedele, Pasquale~C. Africa, Antonio~F. Corno, and Alfio Quarteroni.
+\newblock {A geometric multiscale model for the numerical simulation of blood flow in the human left heart}.
+\newblock \emph{Discrete and Continuous Dynamical Systems - S}, 15\penalty0 (8):\penalty0 2391--2427, 2022.
+
+\bibitem[Zou et~al.(2022)Zou, Meng, Psaros, and Karniadakis]{zou2022neuraluq}
+Zongren Zou, Xuhui Meng, Apostolos~F Psaros, and George~Em Karniadakis.
+\newblock {NeuralUQ: A comprehensive library for uncertainty quantification in neural differential equations and operators}.
+\newblock arXiv preprint arXiv:2208.11866, 2022.
+\newblock Available from cs.LG.
+
+\end{thebibliography}

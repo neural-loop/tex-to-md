@@ -1,0 +1,83 @@
+\begin{thebibliography}{}
+
+\bibitem[Acemoglu et~al., 2011]{Acemoglu2011}
+Acemoglu, D., Egorovb, G., and Soninc, K. (2011).
+\newblock Political model of social evolution.
+\newblock {\em PNAS}.
+
+\bibitem[Acemoglu et~al., 2015]{Acemoglu2015a}
+Acemoglu, D., Naidu, S., Restrepo, P., and Robinson, J.~A. (2015).
+\newblock Democracy does cause growth.
+\newblock {\em NBER WORKING PAPER SERIES}.
+
+\bibitem[Acemoglu and Robinson, 2022a]{Acemoglu2022a}
+Acemoglu, D. and Robinson, J. (2022a).
+\newblock Non-modernization: Power–culture trajectories and the dynamics of
+  political institutions.
+\newblock {\em Annual Review of Political Science}.
+
+\bibitem[Acemoglu and Robinson, 2012]{Acemoglu2012}
+Acemoglu, D. and Robinson, J.~A. (2012).
+\newblock Why nations fail.
+\newblock {\em Book}.
+
+\bibitem[Acemoglu and Robinson, 2022b]{Acemoglu2022b}
+Acemoglu, D. and Robinson, J.~A. (2022b).
+\newblock Weak, despotic, or inclusive? how state type emerges from state
+  versus civil society competition?
+\newblock {\em American Political Science Review}.
+
+\bibitem[Acemoglu and Wolitzky, 2020]{Acemoglu2020}
+Acemoglu, D. and Wolitzky, A. (2020).
+\newblock A theory of equality before the law.
+\newblock {\em The Economic Journal}.
+
+\bibitem[Dizaji, 2023]{Dizaji2023a}
+Dizaji, A.~S. (2023).
+\newblock A multi-agent reinforcement learning study of libertarian and
+  utilitarian governing systems.
+\newblock {\em ArXiv}.
+
+\bibitem[Johanson et~al., 2022]{Johanson2022}
+Johanson, M.~B., Hughes, E., Timbers, F., and Leibo, J.~Z. (2022).
+\newblock Emergent bartering behaviour in multi-agent reinforcement learning.
+\newblock {\em DeepMind}.
+
+\bibitem[Katouzian, 2003]{Katouzian2003}
+Katouzian, H. (2003).
+\newblock Iranian history and politics: The dialectic of state and society.
+\newblock {\em Book}.
+
+\bibitem[Leibo et~al., 2021]{Leibo2021}
+Leibo, J.~Z., Duenez-Guzman, E., Vezhnevets, A.~S., John P.~Agapiou, P. S.
+  R.~K., Matyas, J., Beattie, C., Mordatch, I., and Graepel, T. (2021).
+\newblock Scalable evaluation of multi-agent reinforcement learning with
+  melting pot.
+\newblock {\em ICML}.
+
+\bibitem[Leibo et~al., 2019]{Leibo2019}
+Leibo, J.~Z., Hughes, E., Lanctot, M., and Graepel, T. (2019).
+\newblock Autocurricula and the emergence of innovation from social
+  interaction: A manifesto for multi-agent intelligence research.
+\newblock {\em DeepMind}.
+
+\bibitem[Trott et~al., 2021]{Trott2021}
+Trott, A., Srinivasa, S., van~der Wal, D., Haneuse, S., and Zheng, S. (2021).
+\newblock Building a foundation for data-driven, interpretable, and robust
+  policy design using the ai economist.
+\newblock {\em ArXiv}.
+
+\bibitem[Zhang et~al., 2022]{Zhang2022}
+Zhang, T., Williams, A., Phade, S., Srinivasa, S., Zhang, Y., Gupta, P.,
+  Bengio, Y., and Zheng, S. (2022).
+\newblock Ai for global climate cooperation: Modeling global climate
+  negotiations, agreements, and long-term cooperation in rice-n.
+\newblock {\em Salesforce}.
+
+\bibitem[Zheng et~al., 2022]{Zheng2022}
+Zheng, S., Trott, A., Srinivasa, S., Parkes, D.~C., and Socher, R. (2022).
+\newblock The ai economist: Taxation policy design via two-level deep
+  multiagent reinforcement learning.
+\newblock {\em Science Advances}.
+
+\end{thebibliography}

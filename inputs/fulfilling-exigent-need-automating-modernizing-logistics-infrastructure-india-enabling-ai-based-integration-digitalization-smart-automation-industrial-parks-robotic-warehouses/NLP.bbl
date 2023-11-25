@@ -1,0 +1,509 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Facchini2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5a6139881fe637557e05f098fecc24b5}{%
+           family={Facchini},
+           familyi={F\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7460caf3af3c17c2c6836f6cc1611f31}{%
+           family={Oleśków-Sz{ł}apka},
+           familyi={O\bibinithyphendelim S\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a44229893c1e0a4588279058fbc3c7c4}{%
+           family={Ranieri},
+           familyi={R\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2e59689557ce1c49a907a04de63ab0f0}{%
+           family={Urbinati},
+           familyi={U\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{MDPI} {AG}}%
+      }
+      \strng{namehash}{13fa70e0efaa36ad93f968e4b2e9177b}
+      \strng{fullhash}{afe898eb2364fef493787445f2e36da2}
+      \strng{bibnamehash}{13fa70e0efaa36ad93f968e4b2e9177b}
+      \strng{authorbibnamehash}{13fa70e0efaa36ad93f968e4b2e9177b}
+      \strng{authornamehash}{13fa70e0efaa36ad93f968e4b2e9177b}
+      \strng{authorfullhash}{afe898eb2364fef493787445f2e36da2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{A Maturity Model for Logistics 4.0: An Empirical Analysis and a Roadmap for Future Research}
+      \field{volume}{12}
+      \field{year}{2019}
+      \field{pages}{86}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su12010086
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/su12010086
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/su12010086
+      \endverb
+    \endentry
+    \entry{KANG2021123881}{article}{}
+      \name{author}{6}{}{%
+        {{hash=855eae2f88e85166e77bf9cbe3a16611}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=41aa48b0dd6f721c87a6463fd60fecf4}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Ray\bibnamedelima Y.},
+           giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=871a6627653e61724e6448e54d46a754}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Su\bibnamedelima Xiu},
+           giveni={S\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=d50e48aef4cedaa4b6fec6b547e77119}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Bing\bibnamedelima Qing},
+           giveni={B\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=65436496e63d7ea35a6bc5c412afdc17}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lihui},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3c993d2977a4935df3d2628a7944fcba}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8838c796978266d73df2b229399a8463}
+      \strng{fullhash}{6b335593f71b337b4e78f6ded4f05379}
+      \strng{bibnamehash}{8838c796978266d73df2b229399a8463}
+      \strng{authorbibnamehash}{8838c796978266d73df2b229399a8463}
+      \strng{authornamehash}{8838c796978266d73df2b229399a8463}
+      \strng{authorfullhash}{6b335593f71b337b4e78f6ded4f05379}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0959-6526}
+      \field{journaltitle}{Journal of Cleaner Production}
+      \field{title}{Auction-based cloud service allocation and sharing for logistics product service system}
+      \field{volume}{278}
+      \field{year}{2021}
+      \field{pages}{123881}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jclepro.2020.123881
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0959652620339263
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0959652620339263
+      \endverb
+      \keyw{Logistics services,Product service systems,Auction,Cloud service allocation and sharing}
+    \endentry
+    \entry{Kang2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=855eae2f88e85166e77bf9cbe3a16611}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=871a6627653e61724e6448e54d46a754}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Su\bibnamedelima Xiu},
+           giveni={S\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=41aa48b0dd6f721c87a6463fd60fecf4}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Ray\bibnamedelima Y.},
+           giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=d50e48aef4cedaa4b6fec6b547e77119}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Bing\bibnamedelima Qing},
+           giveni={B\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=ada7b3164207cecd5b7b0e862216e1d6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={George\bibnamedelima Q.},
+           giveni={G\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{8838c796978266d73df2b229399a8463}
+      \strng{fullhash}{411a73685593af3080719c9db18c759a}
+      \strng{bibnamehash}{8838c796978266d73df2b229399a8463}
+      \strng{authorbibnamehash}{8838c796978266d73df2b229399a8463}
+      \strng{authornamehash}{8838c796978266d73df2b229399a8463}
+      \strng{authorfullhash}{411a73685593af3080719c9db18c759a}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automation Science and Engineering}
+      \field{number}{1}
+      \field{title}{Double Auction-Based Manufacturing Cloud Service Allocation in an Industrial Park}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{pages}{295\bibrangedash 307}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TASE.2020.3029081
+      \endverb
+    \endentry
+    \entry{nasscom}{report}{}
+      \name{author}{2}{}{%
+        {{hash=84cb7f5dc68b9c23f53b79f07745ced3}{%
+           family={Malhotra},
+           familyi={M\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2d9953fffc755fa20ff77c675d9bbb43}{%
+           family={Chandramouli},
+           familyi={C\bibinitperiod},
+           given={Ananth},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {NASSCOM: National Association of Software}%
+        {Service Companies}%
+      }
+      \strng{namehash}{edd9c2fa45c1549fc6675707631d82c9}
+      \strng{fullhash}{edd9c2fa45c1549fc6675707631d82c9}
+      \strng{bibnamehash}{edd9c2fa45c1549fc6675707631d82c9}
+      \strng{authorbibnamehash}{edd9c2fa45c1549fc6675707631d82c9}
+      \strng{authornamehash}{edd9c2fa45c1549fc6675707631d82c9}
+      \strng{authorfullhash}{edd9c2fa45c1549fc6675707631d82c9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{India Industry 4.0 Adoption: A Case to Mature Manufacturing Digitalization by 2025}
+      \field{type}{techreport}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://nasscom.in/knowledge-center/publications/india-industry-4-adoption-case-mature-manufacturing-digitalization
+      \endverb
+      \verb{url}
+      \verb https://nasscom.in/knowledge-center/publications/india-industry-4-adoption-case-mature-manufacturing-digitalization
+      \endverb
+    \endentry
+    \entry{fi14020064}{article}{}
+      \name{author}{6}{}{%
+        {{hash=238adad93bc6193e0fbfdf7ef488cfca}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e01bab79ba2d6e141c6d42ea37ea5417}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fbf19380efd7b931e6cb13333f58446b}{%
+           family={Ripley},
+           familyi={R\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=aaa580dc8c5ddc639fdde7429c8574eb}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Mian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b7b1ccea5b77fe798b9ad0115dd02bad}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=306f61b972c01e5452d64353ce1974d6}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bb76fe2a661a07df3dd906bc9d86e8c}
+      \strng{fullhash}{48b2bf2f6785225c904d89906a27de88}
+      \strng{bibnamehash}{1bb76fe2a661a07df3dd906bc9d86e8c}
+      \strng{authorbibnamehash}{1bb76fe2a661a07df3dd906bc9d86e8c}
+      \strng{authornamehash}{1bb76fe2a661a07df3dd906bc9d86e8c}
+      \strng{authorfullhash}{48b2bf2f6785225c904d89906a27de88}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1999-5903}
+      \field{journaltitle}{Future Internet}
+      \field{number}{2}
+      \field{title}{Digital Twin—Cyber Replica of Physical Things: Architecture, Applications and Future Research Directions}
+      \field{volume}{14}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3390/fi14020064
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1999-5903/14/2/64
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1999-5903/14/2/64
+      \endverb
+    \endentry
+    \entry{QIU201316}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7709a02791cb9b63ab1e4febbb019868}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ada7b3164207cecd5b7b0e862216e1d6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={George\bibnamedelima Q.},
+           giveni={G\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{fullhash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{bibnamehash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{authorbibnamehash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{authornamehash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{authorfullhash}{a602ba3d221df1ac058c190ad67ec874}
+      \field{extraname}{1}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-8352}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{note}{Intelligent Manufacturing Systems}
+      \field{number}{1}
+      \field{title}{Supply Hub in Industrial Park (SHIP): The value of freight consolidation}
+      \field{volume}{65}
+      \field{year}{2013}
+      \field{pages}{16\bibrangedash 27}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cie.2012.06.016
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0360835212001751
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0360835212001751
+      \endverb
+    \endentry
+    \entry{RePEc:eee:proeco}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7709a02791cb9b63ab1e4febbb019868}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ada7b3164207cecd5b7b0e862216e1d6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={George\bibnamedelima Q.},
+           giveni={G\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{fullhash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{bibnamehash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{authorbibnamehash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{authornamehash}{a602ba3d221df1ac058c190ad67ec874}
+      \strng{authorfullhash}{a602ba3d221df1ac058c190ad67ec874}
+      \field{extraname}{2}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Production Economics}
+      \field{number}{C}
+      \field{title}{{Transportation service sharing and replenishment/delivery scheduling in Supply Hub in Industrial Park (SHIP)}}
+      \field{volume}{175}
+      \field{year}{2016}
+      \field{pages}{109\bibrangedash 120}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ijpe.2016.02.00
+      \endverb
+      \keyw{Supply hub; Industrial park; Milk-run logistics; Bilevel programming}
+    \endentry
+    \entry{6736130}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7709a02791cb9b63ab1e4febbb019868}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ada7b3164207cecd5b7b0e862216e1d6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={George\bibnamedelima Q.},
+           giveni={G\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=91b75b7986dd4077a689cd5fc9afb62e}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Jasmine\bibnamedelimb Siu\bibnamedelima Lee},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{c39d4355f3a5ef026dfc7291853a0490}
+      \strng{fullhash}{c39d4355f3a5ef026dfc7291853a0490}
+      \strng{bibnamehash}{c39d4355f3a5ef026dfc7291853a0490}
+      \strng{authorbibnamehash}{c39d4355f3a5ef026dfc7291853a0490}
+      \strng{authornamehash}{c39d4355f3a5ef026dfc7291853a0490}
+      \strng{authorfullhash}{c39d4355f3a5ef026dfc7291853a0490}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automation Science and Engineering}
+      \field{number}{3}
+      \field{title}{A Bilevel Analytical Model for Dynamic Storage Pricing in a Supply Hub in Industrial Park (SHIP)}
+      \field{volume}{12}
+      \field{year}{2015}
+      \field{pages}{1017\bibrangedash 1032}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TASE.2014.2301838
+      \endverb
+    \endentry
+    \entry{machines9090193}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f16494e0de88ca1f19ea1a0eb2b6ae74}{%
+           family={Sahal},
+           familyi={S\bibinitperiod},
+           given={Radhya},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7e1d1e1399529b66ea8062b101f61987}{%
+           family={Alsamhi},
+           familyi={A\bibinitperiod},
+           given={Saeed\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=757eaa1243617fa5b6fa38192f8caffb}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Kenneth\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=982431ade7bb81e13b2e69b762504a83}{%
+           family={O’Shea},
+           familyi={O\bibinitperiod},
+           given={Donna},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ff3ce41f79940bab3050c99f8da867ba}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Conor},
+           giveni={C\bibinitperiod}}}%
+        {{hash=05189762dbb0ad87814451304904fe83}{%
+           family={Guizani},
+           familyi={G\bibinitperiod},
+           given={Mohsen},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1669b37e565418a9e91f3b6686329af5}
+      \strng{fullhash}{a445df9d7c0a23f25fde0c69902ecc7d}
+      \strng{bibnamehash}{1669b37e565418a9e91f3b6686329af5}
+      \strng{authorbibnamehash}{1669b37e565418a9e91f3b6686329af5}
+      \strng{authornamehash}{1669b37e565418a9e91f3b6686329af5}
+      \strng{authorfullhash}{a445df9d7c0a23f25fde0c69902ecc7d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2075-1702}
+      \field{journaltitle}{Machines}
+      \field{number}{9}
+      \field{title}{Blockchain-Empowered Digital Twins Collaboration: Smart Transportation Use Case}
+      \field{volume}{9}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/machines9090193
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2075-1702/9/9/193
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2075-1702/9/9/193
+      \endverb
+    \endentry
+    \entry{Winkelhaus2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=20d99a014ab77e3ffc904610c4c0287d}{%
+           family={Winkelhaus},
+           familyi={W\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f6633969abf9a9f50beb5682f5ab6fad}{%
+           family={Grosse},
+           familyi={G\bibinitperiod},
+           given={Eric\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{dbc205d7ad510ef2ce68ec079986164d}
+      \strng{fullhash}{dbc205d7ad510ef2ce68ec079986164d}
+      \strng{bibnamehash}{dbc205d7ad510ef2ce68ec079986164d}
+      \strng{authorbibnamehash}{dbc205d7ad510ef2ce68ec079986164d}
+      \strng{authornamehash}{dbc205d7ad510ef2ce68ec079986164d}
+      \strng{authorfullhash}{dbc205d7ad510ef2ce68ec079986164d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Production Research}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{Logistics 4.0: a systematic review towards a new logistics system}
+      \field{volume}{58}
+      \field{year}{2019}
+      \field{pages}{18\bibrangedash 43}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1080/00207543.2019.1612964
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00207543.2019.1612964
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00207543.2019.1612964
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
