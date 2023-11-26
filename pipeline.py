@@ -15,15 +15,17 @@ from steps.post_md_clean import post_md_clean
 from steps.frontmatter import frontmatter
 from steps.clean_comments import clean_comments
 from steps.copy_images import copy_images
+from steps.copy_pdf import copy_pdf
 from steps.tex_labels import tex_labels
 from steps.tex_mdframed import tex_mdframed
+from steps.post_attribution import post_attribution
 import logging
 
 logging.basicConfig(filename='app.log', filemode='w', format='%(filename)-25s|%(levelname)s|%(message)s', level=logging.INFO)
 input_path = 'inputs'
 preprocess_path = input_path + '-preprocess'
 output_path = '/home/iguana/WebstormProjects/website/content/english/ai-governance-organizations/papers'
-output_path = '/markdown'
+# output_path = 'markdown'
 nogo_path = 'failed'
 
 if os.path.exists(preprocess_path):
@@ -58,16 +60,17 @@ for docname in directories:
         tex_mdframed(current_preprocess_path)
         tex_refs(current_preprocess_path)
         tex_itemize(current_preprocess_path)
-        tex_labels(current_preprocess_path)
+        # tex_labels(current_preprocess_path)
 
         tex_to_md(current_preprocess_path, current_output_path)
         post_md_clean(current_output_path+'/index.md')
         post_clean_string_replace(current_output_path+'/index.md')
-
         frontmatter(current_preprocess_path+'/meta/', current_output_path)
+        post_attribution(current_output_path)
+        copy_pdf(current_preprocess_path+'/meta/', current_output_path)
         copy_images(current_preprocess_path+'/images-preprocessed', current_output_path+'/images-preprocessed')
-
     except Exception as e:
         logging.error(f"Error processing {docname}: {str(e)}")
-        os.rename(current_input_path, os.path.join(nogo_path, docname))
+        print(f"Error processing {docname}: {str(e)}")
+        # os.rename(current_input_path, os.path.join(nogo_path, docname))
         continue

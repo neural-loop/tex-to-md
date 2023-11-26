@@ -125,13 +125,12 @@ def print_results(results):
                 metadata_file.write(f"primary_category: \"{result.primary_category}\"\n")
                 metadata_file.write(f"journal_ref: \"{result.journal_ref}\"\n")
                 metadata_file.write(f"get_short_id: \"{result.get_short_id()}\"\n")
-                metadata_file.write(f"cite: \"{result.entry_id}\ [{result.primary_category}]\"\n")
             os.remove(tar_file_path)
             print(f"Removed original tar.gz file: {tar_file_path}")
 
 if __name__ == "__main__":
     import argparse
-
+    # enclose in quotes
     parser = argparse.ArgumentParser(description="Search arXiv articles.")
     parser.add_argument("query", nargs="?", help="Search query")
 

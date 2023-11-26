@@ -16,7 +16,7 @@ def frontmatter(input_path, output_path):
         existing_content = index_file.read()
 
     # Insert metadata content into the frontmatter
-    new_content = f'---\n{metadata_content}pdf: main.pdf\nimage: img.png\n---\n\n{existing_content}'
+    new_content = f'---\n{metadata_content}image: img.png\n---\n\n{existing_content}'
 
     # Write the updated content back to index.md
     with open(index_path, 'w') as index_file:

@@ -24,6 +24,6 @@ def generate_div(label):
     # Generate a slug-style ID
     div_id = slugify(label)
     # Create the <div> with original formatting
-    div_tag = f'<div id="{div_id}"></div>\n'
+    div_tag = f'<div id=\'{div_id}\'></div>\n'
 
     return div_tag

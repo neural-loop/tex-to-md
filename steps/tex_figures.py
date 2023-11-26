@@ -4,8 +4,10 @@ from slugify import slugify
 import logging
 
 def process_figures_in_file(file_content):
-    figure_pattern = r'\\begin\{figure\}(.*?\\end\{figure\})'
-    img_pattern = r'\\includegraphics\[.*?\]\{(.*?)\}'
+    figure_pattern = r'\\begin\{figure\}(.*?)\\end\{figure\}'
+    # img_pattern = r'\\includegraphics\[.*?\]\{(.*?)\}'
+    # img_pattern = r'\\includegraphics\{(.*?)\}'
+    img_pattern = r'\\includegraphics(?:\[.*?\])?\{(.*?)\}'
     caption_pattern = r'\\caption\{((?:[^{}]|{[^{}]*})*)\}'
     label_pattern = r'\\label\{(.*?)\}'
 
@@ -32,6 +34,9 @@ def process_figures_in_file(file_content):
             continue
 
         escaped_caption = caption.replace('"', '\'').replace('\n', ' ').strip()
+
+        # remove label from caption
+        caption = caption.replace(label, '')
 
         markdown_images = []
         for image_filename in image_filenames:
