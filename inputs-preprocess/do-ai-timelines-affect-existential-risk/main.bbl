@@ -1,0 +1,574 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{bostrom2013existential}{article}{}
+      \name{author}{1}{}{%
+        {{hash=892acb64b0a9f67cbe51c2705c652a49}{%
+           family={Bostrom},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{fullhash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{bibnamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authorbibnamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authornamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authorfullhash}{892acb64b0a9f67cbe51c2705c652a49}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Policy}
+      \field{number}{1}
+      \field{title}{Existential risk prevention as global priority}
+      \field{volume}{4}
+      \field{year}{2013}
+      \field{pages}{15\bibrangedash 31}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb https://existential-risk.org/concept
+      \endverb
+      \verb{url}
+      \verb https://existential-risk.org/concept
+      \endverb
+    \endentry
+    \entry{bostrom1998}{article}{}
+      \name{author}{1}{}{%
+        {{hash=892acb64b0a9f67cbe51c2705c652a49}{%
+           family={Bostrom},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{fullhash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{bibnamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authorbibnamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authornamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authorfullhash}{892acb64b0a9f67cbe51c2705c652a49}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Futures Studies}
+      \field{title}{How long before superintelligence?}
+      \field{volume}{2}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://nickbostrom.com/superintelligence
+      \endverb
+      \verb{url}
+      \verb https://nickbostrom.com/superintelligence
+      \endverb
+    \endentry
+    \entry{superintelligence}{book}{}
+      \name{author}{1}{}{%
+        {{hash=892acb64b0a9f67cbe51c2705c652a49}{%
+           family={Bostrom},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press, Inc.}%
+      }
+      \strng{namehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{fullhash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{bibnamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authorbibnamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authornamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authorfullhash}{892acb64b0a9f67cbe51c2705c652a49}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0199678111}
+      \field{title}{Superintelligence: Paths, Dangers, Strategies}
+      \field{year}{2014}
+    \endentry
+    \entry{vulnerable}{article}{}
+      \name{author}{1}{}{%
+        {{hash=892acb64b0a9f67cbe51c2705c652a49}{%
+           family={Bostrom},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{fullhash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{bibnamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authorbibnamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authornamehash}{892acb64b0a9f67cbe51c2705c652a49}
+      \strng{authorfullhash}{892acb64b0a9f67cbe51c2705c652a49}
+      \field{extraname}{4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Policy}
+      \field{number}{4}
+      \field{title}{The vulnerable world hypothesis}
+      \field{volume}{10}
+      \field{year}{2019}
+      \field{pages}{455\bibrangedash 476}
+      \range{pages}{22}
+      \verb{urlraw}
+      \verb https://nickbostrom.com/papers/vulnerable.pdf
+      \endverb
+      \verb{url}
+      \verb https://nickbostrom.com/papers/vulnerable.pdf
+      \endverb
+    \endentry
+    \entry{forecastingtai}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=eda72349c7c985d1b4ea7cc82d55b33b}{%
+           family={Cotra},
+           familyi={C\bibinitperiod},
+           given={Ajeya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{fullhash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{bibnamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authorbibnamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authornamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authorfullhash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Forecasting TAI with biological anchors}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://docs.google.com/document/d/1IJ6Sr-gPeXdSJugFulwIpvavc0atjHGM82QjIfUSBGQ/
+      \endverb
+      \verb{url}
+      \verb https://docs.google.com/document/d/1IJ6Sr-gPeXdSJugFulwIpvavc0atjHGM82QjIfUSBGQ/
+      \endverb
+    \endentry
+    \entry{twoyearupdate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=eda72349c7c985d1b4ea7cc82d55b33b}{%
+           family={Cotra},
+           familyi={C\bibinitperiod},
+           given={Ajeya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{fullhash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{bibnamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authorbibnamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authornamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authorfullhash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Two-year update on my personal AI timelines}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.alignmentforum.org/posts/AfH2oPHCApdKicM4m/two-year-update-on-my-personal-ai-timelines
+      \endverb
+      \verb{url}
+      \verb https://www.alignmentforum.org/posts/AfH2oPHCApdKicM4m/two-year-update-on-my-personal-ai-timelines
+      \endverb
+    \endentry
+    \entry{withoutspecificcountermeasures}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=eda72349c7c985d1b4ea7cc82d55b33b}{%
+           family={Cotra},
+           familyi={C\bibinitperiod},
+           given={Ajeya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{fullhash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{bibnamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authorbibnamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authornamehash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \strng{authorfullhash}{eda72349c7c985d1b4ea7cc82d55b33b}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.alignmentforum.org/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to
+      \endverb
+      \verb{url}
+      \verb https://www.alignmentforum.org/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to
+      \endverb
+    \endentry
+    \entry{metaculus}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{title}{Date of Artificial General Intelligence | Metaculus}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/
+      \endverb
+      \verb{url}
+      \verb https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/
+      \endverb
+    \endentry
+    \entry{aiimpactssurvey}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=07b501c7edee8ed488de1f42d1a5ca02}{%
+           family={Grace},
+           familyi={G\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8da04f98f8598ae862d9e4b093f6fecd}{%
+           family={Weinstein-Raun},
+           familyi={W\bibinithyphendelim R\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e46417f370ebf90fe0a82f64de1a4f44}{%
+           family={Stein-Perlman},
+           familyi={S\bibinithyphendelim P\bibinitperiod},
+           given={Zach},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{964011f00810dc8b1caa5437e7f74cb1}
+      \strng{fullhash}{964011f00810dc8b1caa5437e7f74cb1}
+      \strng{bibnamehash}{964011f00810dc8b1caa5437e7f74cb1}
+      \strng{authorbibnamehash}{964011f00810dc8b1caa5437e7f74cb1}
+      \strng{authornamehash}{964011f00810dc8b1caa5437e7f74cb1}
+      \strng{authorfullhash}{964011f00810dc8b1caa5437e7f74cb1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2022 Expert Survey on Progress in AI – AI Impacts}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/
+      \endverb
+      \verb{url}
+      \verb https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/
+      \endverb
+    \endentry
+    \entry{stronglongtermism}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e0a3d4d0359469e79052da47b661508c}{%
+           family={Greaves},
+           familyi={G\bibinitperiod},
+           given={Hilary},
+           giveni={H\bibinitperiod}}}%
+        {{hash=721dac366200a6541cf960319a5d1c84}{%
+           family={MacAskill},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff204aa34f2adb61629731ac54560c95}
+      \strng{fullhash}{ff204aa34f2adb61629731ac54560c95}
+      \strng{bibnamehash}{ff204aa34f2adb61629731ac54560c95}
+      \strng{authorbibnamehash}{ff204aa34f2adb61629731ac54560c95}
+      \strng{authornamehash}{ff204aa34f2adb61629731ac54560c95}
+      \strng{authorfullhash}{ff204aa34f2adb61629731ac54560c95}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GPI Working}
+      \field{title}{The case for strong longtermism}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://globalprioritiesinstitute.org/hilary-greaves-william-macaskill-the-case-for-strong-longtermism-2/
+      \endverb
+      \verb{url}
+      \verb https://globalprioritiesinstitute.org/hilary-greaves-william-macaskill-the-case-for-strong-longtermism-2/
+      \endverb
+    \endentry
+    \entry{tai}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4fc6cbe621e2008171c6a5e6cb56d758}{%
+           family={Karnofsky},
+           familyi={K\bibinitperiod},
+           given={Holden},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fc6cbe621e2008171c6a5e6cb56d758}
+      \strng{fullhash}{4fc6cbe621e2008171c6a5e6cb56d758}
+      \strng{bibnamehash}{4fc6cbe621e2008171c6a5e6cb56d758}
+      \strng{authorbibnamehash}{4fc6cbe621e2008171c6a5e6cb56d758}
+      \strng{authornamehash}{4fc6cbe621e2008171c6a5e6cb56d758}
+      \strng{authorfullhash}{4fc6cbe621e2008171c6a5e6cb56d758}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Some Background on Our Views Regarding Advanced Artificial Intelligence - Open Philanthropy}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.openphilanthropy.org/research/some-background-on-our-views-regarding-advanced-artificial-intelligence/
+      \endverb
+      \verb{url}
+      \verb https://www.openphilanthropy.org/research/some-background-on-our-views-regarding-advanced-artificial-intelligence/
+      \endverb
+    \endentry
+    \entry{parler}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fe633b14cbfce1f470825527189473c5}{%
+           family={McDonald},
+           familyi={M\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe633b14cbfce1f470825527189473c5}
+      \strng{fullhash}{fe633b14cbfce1f470825527189473c5}
+      \strng{bibnamehash}{fe633b14cbfce1f470825527189473c5}
+      \strng{authorbibnamehash}{fe633b14cbfce1f470825527189473c5}
+      \strng{authornamehash}{fe633b14cbfce1f470825527189473c5}
+      \strng{authorfullhash}{fe633b14cbfce1f470825527189473c5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Amazon Suspends Parler App From Its Web Services, Effective Immediately}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.newsweek.com/amazon-suspends-parler-app-web-services-1560366
+      \endverb
+      \verb{url}
+      \verb https://www.newsweek.com/amazon-suspends-parler-app-web-services-1560366
+      \endverb
+    \endentry
+    \entry{existentialriskhistory}{article}{}
+      \name{author}{1}{}{%
+        {{hash=610da92ad408fb485d29de03361e6286}{%
+           family={Moynihan},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{610da92ad408fb485d29de03361e6286}
+      \strng{fullhash}{610da92ad408fb485d29de03361e6286}
+      \strng{bibnamehash}{610da92ad408fb485d29de03361e6286}
+      \strng{authorbibnamehash}{610da92ad408fb485d29de03361e6286}
+      \strng{authornamehash}{610da92ad408fb485d29de03361e6286}
+      \strng{authorfullhash}{610da92ad408fb485d29de03361e6286}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Futures}
+      \field{title}{Existential risk and human extinction: An intellectual history}
+      \field{volume}{116}
+      \field{year}{2020}
+      \field{pages}{102495}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S001632871930357X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S001632871930357X
+      \endverb
+    \endentry
+    \entry{survey}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=7345c509be779a76e6da0766d0999b99}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Vincent\bibnamedelima C},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=892acb64b0a9f67cbe51c2705c652a49}{%
+           family={Bostrom},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4ff5963f706740e2cc03b4cd2609f44d}
+      \strng{fullhash}{4ff5963f706740e2cc03b4cd2609f44d}
+      \strng{bibnamehash}{4ff5963f706740e2cc03b4cd2609f44d}
+      \strng{authorbibnamehash}{4ff5963f706740e2cc03b4cd2609f44d}
+      \strng{authornamehash}{4ff5963f706740e2cc03b4cd2609f44d}
+      \strng{authorfullhash}{4ff5963f706740e2cc03b4cd2609f44d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Fundamental issues of artificial intelligence}
+      \field{title}{Future progress in artificial intelligence: A survey of expert opinion}
+      \field{year}{2016}
+      \field{pages}{555\bibrangedash 572}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb https://nickbostrom.com/papers/survey.pdf
+      \endverb
+      \verb{url}
+      \verb https://nickbostrom.com/papers/survey.pdf
+      \endverb
+    \endentry
+    \entry{theprecipice}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59f329c6ddbd83917141d36bdd3154ba}{%
+           family={Ord},
+           familyi={O\bibinitperiod},
+           given={Toby},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hachette Books}%
+      }
+      \strng{namehash}{59f329c6ddbd83917141d36bdd3154ba}
+      \strng{fullhash}{59f329c6ddbd83917141d36bdd3154ba}
+      \strng{bibnamehash}{59f329c6ddbd83917141d36bdd3154ba}
+      \strng{authorbibnamehash}{59f329c6ddbd83917141d36bdd3154ba}
+      \strng{authornamehash}{59f329c6ddbd83917141d36bdd3154ba}
+      \strng{authorfullhash}{59f329c6ddbd83917141d36bdd3154ba}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Precipice: Existential Risk and the Future of Humanity}
+      \field{year}{2020}
+    \endentry
+    \entry{pivotal}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{Pivotal act}
+      \verb{urlraw}
+      \verb https://arbital.com/p/pivotal/
+      \endverb
+      \verb{url}
+      \verb https://arbital.com/p/pivotal/
+      \endverb
+    \endentry
+    \entry{globalcatastrophicriskssurvey}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4e15ec5763a11ac802d7e9e1a9222566}{%
+           family={Sandberg},
+           familyi={S\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+        {{hash=892acb64b0a9f67cbe51c2705c652a49}{%
+           family={Bostrom},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{da29da8b56d69436ed24a4a0115d4652}
+      \strng{fullhash}{da29da8b56d69436ed24a4a0115d4652}
+      \strng{bibnamehash}{da29da8b56d69436ed24a4a0115d4652}
+      \strng{authorbibnamehash}{da29da8b56d69436ed24a4a0115d4652}
+      \strng{authornamehash}{da29da8b56d69436ed24a4a0115d4652}
+      \strng{authorfullhash}{da29da8b56d69436ed24a4a0115d4652}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{civil wars}
+      \field{number}{30}
+      \field{title}{Global catastrophic risks survey}
+      \field{volume}{98}
+      \field{year}{2008}
+      \field{pages}{4}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.global-catastrophic-risks.com/docs/2008-1.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.global-catastrophic-risks.com/docs/2008-1.pdf
+      \endverb
+    \endentry
+    \entry{environmentalresearch}{article}{}
+      \name{author}{5}{}{%
+        {{hash=af77c293aafcf0764d06cda9c66c72d7}{%
+           family={Van\bibnamedelimb der\bibnamedelima Wal},
+           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0683497d22466b1ba7e79f13a6dc1b61}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Anke},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3e3ee948428ba1e4a24a4e86cc9aac07}{%
+           family={Marquiss},
+           familyi={M\bibinitperiod},
+           given={Mick},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fc40fb1a76a430c2bc18a5dffdb5c2c5}{%
+           family={Redpath},
+           familyi={R\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a6abdcd4f94aa98f600c941ff78c5050}{%
+           family={Wanless},
+           familyi={W\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Akadémiai Kiadó, co-published with Springer Science+ Business Media BV}%
+      }
+      \strng{namehash}{a4bfcfb8a519e85b2f381153ab3cabfb}
+      \strng{fullhash}{e0267a9f5e8764c722ca93072a3dc29a}
+      \strng{bibnamehash}{a4bfcfb8a519e85b2f381153ab3cabfb}
+      \strng{authorbibnamehash}{a4bfcfb8a519e85b2f381153ab3cabfb}
+      \strng{authornamehash}{a4bfcfb8a519e85b2f381153ab3cabfb}
+      \strng{authorfullhash}{e0267a9f5e8764c722ca93072a3dc29a}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientometrics}
+      \field{number}{2}
+      \field{title}{Is bigger necessarily better for environmental research?}
+      \field{volume}{78}
+      \field{year}{2009}
+      \field{pages}{317\bibrangedash 322}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb https://akjournals.com/view/journals/11192/78/2/article-p317.xml
+      \endverb
+      \verb{url}
+      \verb https://akjournals.com/view/journals/11192/78/2/article-p317.xml
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

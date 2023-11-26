@@ -1,0 +1,1946 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{164}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[sec(1995)]%
+        {sec_leg}
+ \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{17 CFR § 201.102}.
+\newblock \bibinfo{journal}{\emph{Code of Federal Regulations: Appearance and
+  practice before the Commission}} (\bibinfo{year}{1995}).
+\newblock
+
+
+\bibitem[202(2020a)]%
+        {2020sandvig}
+ \bibinfo{year}{2020}\natexlab{a}.
+\newblock \bibinfo{title}{Sandvig v. Barr}.
+\newblock , \bibinfo{numpages}{73}~pages.
+\newblock
+
+
+\bibitem[202(2020b)]%
+        {2020van}
+ \bibinfo{year}{2020}\natexlab{b}.
+\newblock \bibinfo{title}{Van Buren v. United States}.
+\newblock , \bibinfo{numpages}{2667}~pages.
+\newblock
+
+
+\bibitem[mar(2021)]%
+        {markupimpact}
+ \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Impact}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://themarkup.org/series/impact}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Last accessed 25 October 2021}.
+
+
+\bibitem[Adhikari et~al\mbox{.}(2021)]%
+        {adhikari2021small}
+\bibfield{author}{\bibinfo{person}{Bibek Adhikari}, \bibinfo{person}{James
+  Alm}, {and} \bibinfo{person}{Timothy~F Harris}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Small business tax compliance under third-party
+  reporting}.
+\newblock \bibinfo{journal}{\emph{Journal of Public Economics}}
+  \bibinfo{volume}{203} (\bibinfo{year}{2021}), \bibinfo{pages}{104514}.
+\newblock
+
+
+\bibitem[Administration(2022)]%
+        {noauthoraviationnodate}
+\bibfield{author}{\bibinfo{person}{Federal~Aviation Administration}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Aviation {Safety} {Reporting} {System} ({ASRS})}.
+\newblock
+\newblock
+
+
+\bibitem[Ali et~al\mbox{.}(2019)]%
+        {ali2019discrimination}
+\bibfield{author}{\bibinfo{person}{Muhammad Ali}, \bibinfo{person}{Piotr
+  Sapiezynski}, \bibinfo{person}{Miranda Bogen}, \bibinfo{person}{Aleksandra
+  Korolova}, \bibinfo{person}{Alan Mislove}, {and} \bibinfo{person}{Aaron
+  Rieke}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Discrimination through optimization: How Facebook's
+  Ad delivery can lead to biased outcomes}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{3}, \bibinfo{number}{CSCW}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{1--30}.
+\newblock
+
+
+\bibitem[Altenburger and Ho(2019)]%
+        {altenburger2019algorithms}
+\bibfield{author}{\bibinfo{person}{Kristen~M Altenburger} {and}
+  \bibinfo{person}{Daniel~E Ho}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{When algorithms import private bias into public
+  enforcement: the promise and limitations of statistical debiasing solutions}.
+\newblock \bibinfo{journal}{\emph{Journal of Institutional and Theoretical
+  Economics}} \bibinfo{volume}{175}, \bibinfo{number}{1}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{98--122}.
+\newblock
+
+
+\bibitem[Angwin et~al\mbox{.}(2016)]%
+        {angwin2016machine}
+\bibfield{author}{\bibinfo{person}{Julia Angwin}, \bibinfo{person}{Jeff
+  Larson}, \bibinfo{person}{Surya Mattu}, {and} \bibinfo{person}{Lauren
+  Kirchner}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Machine bias}.
+\newblock \bibinfo{journal}{\emph{ProPublica, May}} \bibinfo{volume}{23},
+  \bibinfo{number}{2016} (\bibinfo{year}{2016}), \bibinfo{pages}{139--159}.
+\newblock
+
+
+\bibitem[Aobdia et~al\mbox{.}(2021)]%
+        {aobdia2021economics}
+\bibfield{author}{\bibinfo{person}{Daniel Aobdia}, \bibinfo{person}{Preeti
+  Choudhary}, {and} \bibinfo{person}{Noah Newberger}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The economics of audit production: What matters for
+  audit quality? An empirical analysis of the role of mid-level managers within
+  the audit firm}.
+\newblock \bibinfo{journal}{\emph{An Empirical Analysis of the Role of
+  Mid-level Managers within the Audit Firm (January 28, 2021)}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Ayres et~al\mbox{.}(2013)]%
+        {ayres2013skeletons}
+\bibfield{author}{\bibinfo{person}{Ian Ayres}, \bibinfo{person}{Jeff Lingwall},
+  {and} \bibinfo{person}{Sonia Steinway}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Skeletons in the database: An early analysis of the
+  CFPB's consumer complaints}.
+\newblock \bibinfo{journal}{\emph{Fordham J. Corp. \& Fin. L.}}
+  \bibinfo{volume}{19} (\bibinfo{year}{2013}), \bibinfo{pages}{343}.
+\newblock
+
+
+\bibitem[Baier and Ahramjian(2020)]%
+        {agri_report}
+\bibfield{author}{\bibinfo{person}{Ann~H. Baier} {and} \bibinfo{person}{Lisa
+  Ahramjian}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Organic {Certification} of {Farms} and {Businesses}
+  {Producing} {Agricultural} {Products}}.
+\newblock , \bibinfo{numpages}{8}~pages.
+\newblock
+
+
+\bibitem[Barrios(2021)]%
+        {barrios2021occupational}
+\bibfield{author}{\bibinfo{person}{John~M Barrios}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Occupational Licensing and Accountant Quality:
+  Evidence from the 150-Hour Rule}.
+\newblock \bibinfo{journal}{\emph{Journal of Accounting Research}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Bavorova et~al\mbox{.}(2017)]%
+        {bavorova2017does}
+\bibfield{author}{\bibinfo{person}{Miroslava Bavorova},
+  \bibinfo{person}{Anica~Veronika Fietz}, {and} \bibinfo{person}{Norbert
+  Hirschauer}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Does disclosure of food inspections affect business
+  compliance? The case of Berlin, Germany}.
+\newblock \bibinfo{journal}{\emph{British Food Journal}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[B{\'e}dard and Gendron(2010)]%
+        {bedard2010strengthening}
+\bibfield{author}{\bibinfo{person}{Jean B{\'e}dard} {and} \bibinfo{person}{Yves
+  Gendron}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Strengthening the financial reporting system: can
+  audit committees deliver?}
+\newblock \bibinfo{journal}{\emph{International journal of auditing}}
+  \bibinfo{volume}{14}, \bibinfo{number}{2} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{174--210}.
+\newblock
+
+
+\bibitem[Bedford et~al\mbox{.}(2021)]%
+        {bedford2021quality}
+\bibfield{author}{\bibinfo{person}{Anna Bedford}, \bibinfo{person}{Martin
+  Bugeja}, \bibinfo{person}{Samir Ghannam}, {and} \bibinfo{person}{Nelson Ma}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The quality of other assurance services supplied by
+  accounting firms: Evidence from independent expert reports}.
+\newblock \bibinfo{journal}{\emph{International Journal of Auditing}}
+  \bibinfo{volume}{25}, \bibinfo{number}{1} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{40--58}.
+\newblock
+
+
+\bibitem[Bennett et~al\mbox{.}(2013)]%
+        {bennett2013customer}
+\bibfield{author}{\bibinfo{person}{Victor~Manuel Bennett},
+  \bibinfo{person}{Lamar Pierce}, \bibinfo{person}{Jason~A Snyder}, {and}
+  \bibinfo{person}{Michael~W Toffel}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Customer-driven misconduct: How competition
+  corrupts business practices}.
+\newblock \bibinfo{journal}{\emph{Management Science}} \bibinfo{volume}{59},
+  \bibinfo{number}{8} (\bibinfo{year}{2013}), \bibinfo{pages}{1725--1742}.
+\newblock
+
+
+\bibitem[Boffo and Patalano(2020)]%
+        {boffo2020esg}
+\bibfield{author}{\bibinfo{person}{Riccardo Boffo} {and}
+  \bibinfo{person}{Robert Patalano}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Esg investing: Practices, progress and challenges}.
+\newblock \bibinfo{journal}{\emph{{\'E}ditions OCDE, Paris}}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Brandom(2021)]%
+        {faceshutAW}
+\bibfield{author}{\bibinfo{person}{Russell Brandom}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Facebook shut down German research on Instagram
+  algorithm, researchers say}.
+\newblock
+\newblock
+
+
+\bibitem[Buolamwini and Gebru(2018)]%
+        {buolamwini2018gender}
+\bibfield{author}{\bibinfo{person}{Joy Buolamwini} {and}
+  \bibinfo{person}{Timnit Gebru}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Gender shades: Intersectional accuracy disparities
+  in commercial gender classification}. In \bibinfo{booktitle}{\emph{Conference
+  on fairness, accountability and transparency}}. PMLR,
+  \bibinfo{pages}{77--91}.
+\newblock
+
+
+\bibitem[Carcello et~al\mbox{.}(2009)]%
+        {carcello2009rules}
+\bibfield{author}{\bibinfo{person}{Joseph~V Carcello}, \bibinfo{person}{Ann
+  Vanstraelen}, {and} \bibinfo{person}{Michael Willenborg}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Rules rather than discretion in audit standards:
+  Going-concern opinions in Belgium}.
+\newblock \bibinfo{journal}{\emph{The Accounting Review}} \bibinfo{volume}{84},
+  \bibinfo{number}{5} (\bibinfo{year}{2009}), \bibinfo{pages}{1395--1428}.
+\newblock
+
+
+\bibitem[Cascino et~al\mbox{.}(2021)]%
+        {cascino2021labor}
+\bibfield{author}{\bibinfo{person}{Stefano Cascino}, \bibinfo{person}{Ane
+  Tamayo}, {and} \bibinfo{person}{Felix Vetter}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Labor market effects of spatial licensing
+  requirements: Evidence from CPA mobility}.
+\newblock \bibinfo{journal}{\emph{Journal of Accounting Research}}
+  \bibinfo{volume}{59}, \bibinfo{number}{1} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{111--161}.
+\newblock
+
+
+\bibitem[Causholli et~al\mbox{.}(2014)]%
+        {causholli2014future}
+\bibfield{author}{\bibinfo{person}{Monika Causholli}, \bibinfo{person}{Dennis~J
+  Chambers}, {and} \bibinfo{person}{Jeff~L Payne}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Future nonaudit service fees and audit quality}.
+\newblock \bibinfo{journal}{\emph{Contemporary accounting research}}
+  \bibinfo{volume}{31}, \bibinfo{number}{3} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{681--712}.
+\newblock
+
+
+\bibitem[Chen et~al\mbox{.}(2018)]%
+        {chen2018comparative}
+\bibfield{author}{\bibinfo{person}{Yi-Jung Chen}, \bibinfo{person}{Chi-Ming
+  Chiou}, \bibinfo{person}{Yu-Wen Huang}, \bibinfo{person}{Pei-Weng Tu},
+  \bibinfo{person}{Yung-Chuan Lee}, {and} \bibinfo{person}{Chia-Hung Chien}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A comparative study of medical device regulations:
+  US, Europe, Canada, and Taiwan}.
+\newblock \bibinfo{journal}{\emph{Therapeutic innovation \& regulatory
+  science}} \bibinfo{volume}{52}, \bibinfo{number}{1} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{62--69}.
+\newblock
+
+
+\bibitem[Chouldechova et~al\mbox{.}(2018)]%
+        {chouldechova2018case}
+\bibfield{author}{\bibinfo{person}{Alexandra Chouldechova},
+  \bibinfo{person}{Diana Benavides-Prado}, \bibinfo{person}{Oleksandr Fialko},
+  {and} \bibinfo{person}{Rhema Vaithianathan}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A case study of algorithm-assisted decision making
+  in child maltreatment hotline screening decisions}. In
+  \bibinfo{booktitle}{\emph{Conference on Fairness, Accountability and
+  Transparency}}. PMLR, \bibinfo{pages}{134--148}.
+\newblock
+
+
+\bibitem[Chowdhury and Williams(2021)]%
+        {twitter1}
+\bibfield{author}{\bibinfo{person}{Rumman Chowdhury} {and}
+  \bibinfo{person}{Jutta Williams}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Introducing Twitter’s first algorithmic bias bounty
+  challenge}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://blog.twitter.com/engineering/en_us/topics/insights/2021/algorithmic-bias-bounty-challenge}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Last accessed 2 November 2021}.
+
+
+\bibitem[Chung et~al\mbox{.}(2019)]%
+        {chung2019opinion}
+\bibfield{author}{\bibinfo{person}{Heesun Chung},
+  \bibinfo{person}{Catherine~Heyjung Sonu}, \bibinfo{person}{Yoonseok Zang},
+  {and} \bibinfo{person}{Jong-Hag Choi}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Opinion shopping to avoid a going concern audit
+  opinion and subsequent audit quality}.
+\newblock \bibinfo{journal}{\emph{Auditing: A Journal of Practice \& Theory}}
+  \bibinfo{volume}{38}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{101--123}.
+\newblock
+
+
+\bibitem[Church et~al\mbox{.}(2015)]%
+        {church2015auditor}
+\bibfield{author}{\bibinfo{person}{Bryan~K Church}, \bibinfo{person}{J~Gregory
+  Jenkins}, \bibinfo{person}{Susan~A McCracken}, \bibinfo{person}{Pamela~B
+  Roush}, {and} \bibinfo{person}{Jonathan~D Stanley}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Auditor independence in fact: Research, regulatory,
+  and practice implications drawn from experimental and archival research}.
+\newblock \bibinfo{journal}{\emph{Accounting Horizons}} \bibinfo{volume}{29},
+  \bibinfo{number}{1} (\bibinfo{year}{2015}), \bibinfo{pages}{217--238}.
+\newblock
+
+
+\bibitem[Cochran(2015)]%
+        {cochran2015iso}
+\bibfield{author}{\bibinfo{person}{Craig Cochran}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{ISO 9001: 2015 in plain English}}.
+\newblock \bibinfo{publisher}{Paton Professional}.
+\newblock
+
+
+\bibitem[Colbert and Murray(1999)]%
+        {colbert1999state}
+\bibfield{author}{\bibinfo{person}{Gary Colbert} {and} \bibinfo{person}{Dennis
+  Murray}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{State accountancy regulations, audit firm size, and
+  auditor quality: An empirical investigation}.
+\newblock \bibinfo{journal}{\emph{Journal of Regulatory Economics}}
+  \bibinfo{volume}{16}, \bibinfo{number}{3} (\bibinfo{year}{1999}),
+  \bibinfo{pages}{267--286}.
+\newblock
+
+
+\bibitem[Coston et~al\mbox{.}(2021)]%
+        {coston2021leveraging}
+\bibfield{author}{\bibinfo{person}{Amanda Coston}, \bibinfo{person}{Neel Guha},
+  \bibinfo{person}{Derek Ouyang}, \bibinfo{person}{Lisa Lu},
+  \bibinfo{person}{Alexandra Chouldechova}, {and} \bibinfo{person}{Daniel~E
+  Ho}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Leveraging Administrative Data for Bias Audits:
+  Assessing Disparate Coverage with Mobility Data for COVID-19 Policy}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}}. \bibinfo{pages}{173--184}.
+\newblock
+
+
+\bibitem[DeFond and Lennox(2011)]%
+        {defond2011effect}
+\bibfield{author}{\bibinfo{person}{Mark~L DeFond} {and}
+  \bibinfo{person}{Clive~S Lennox}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{The effect of SOX on small auditor exits and audit
+  quality}.
+\newblock \bibinfo{journal}{\emph{Journal of Accounting and Economics}}
+  \bibinfo{volume}{52}, \bibinfo{number}{1} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{21--40}.
+\newblock
+
+
+\bibitem[D{\'\i}az and Hecht(2021)]%
+        {diaz2021double}
+\bibfield{author}{\bibinfo{person}{{\'A}ngel D{\'\i}az} {and}
+  \bibinfo{person}{Laura Hecht}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Double Standards in Social Media Content
+  Moderation}.
+\newblock  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Djekic et~al\mbox{.}(2016)]%
+        {djekic2016improving}
+\bibfield{author}{\bibinfo{person}{Ilija Djekic}, \bibinfo{person}{Sladjana
+  Dragojlovic}, \bibinfo{person}{Zoran Miloradovic}, \bibinfo{person}{Snezana
+  Miljkovic-Zivanovic}, \bibinfo{person}{Marija Savic}, {and}
+  \bibinfo{person}{Vesna Kekic}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Improving the confectionery industry supply chain
+  through second party audits}.
+\newblock \bibinfo{journal}{\emph{British Food Journal}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[Duflo et~al\mbox{.}(2013)]%
+        {duflo2013truth}
+\bibfield{author}{\bibinfo{person}{Esther Duflo}, \bibinfo{person}{Michael
+  Greenstone}, \bibinfo{person}{Rohini Pande}, {and} \bibinfo{person}{Nicholas
+  Ryan}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Truth-telling by third-party auditors and the
+  response of polluting firms: Experimental evidence from India}.
+\newblock \bibinfo{journal}{\emph{The Quarterly Journal of Economics}}
+  \bibinfo{volume}{128}, \bibinfo{number}{4} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{1499--1545}.
+\newblock
+
+
+\bibitem[Ebell et~al\mbox{.}(2021)]%
+        {ebell2021towardstimnit2}
+\bibfield{author}{\bibinfo{person}{Christoph Ebell}, \bibinfo{person}{Ricardo
+  Baeza-Yates}, \bibinfo{person}{Richard Benjamins}, \bibinfo{person}{Hengjin
+  Cai}, \bibinfo{person}{Mark Coeckelbergh}, \bibinfo{person}{Tania Duarte},
+  \bibinfo{person}{Merve Hickok}, \bibinfo{person}{Aurelie Jacquet},
+  \bibinfo{person}{Angela Kim}, \bibinfo{person}{Joris Krijger},
+  {et~al\mbox{.}}} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Towards intellectual freedom in an AI Ethics Global
+  Community}.
+\newblock \bibinfo{journal}{\emph{AI and Ethics}} \bibinfo{volume}{1},
+  \bibinfo{number}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{131--138}.
+\newblock
+
+
+\bibitem[Eccles et~al\mbox{.}(2012)]%
+        {eccles2012need}
+\bibfield{author}{\bibinfo{person}{Robert~G Eccles}, \bibinfo{person}{Michael~P
+  Krzus}, \bibinfo{person}{Jean Rogers}, {and} \bibinfo{person}{George
+  Serafeim}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{The need for sector-specific materiality and
+  sustainability reporting standards}.
+\newblock \bibinfo{journal}{\emph{Journal of applied corporate finance}}
+  \bibinfo{volume}{24}, \bibinfo{number}{2} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{65--71}.
+\newblock
+
+
+\bibitem[Eckhouse et~al\mbox{.}(2019)]%
+        {eckhouse2019layers}
+\bibfield{author}{\bibinfo{person}{Laurel Eckhouse}, \bibinfo{person}{Kristian
+  Lum}, \bibinfo{person}{Cynthia Conti-Cook}, {and} \bibinfo{person}{Julie
+  Ciccolini}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Layers of bias: A unified approach for
+  understanding problems with risk assessment}.
+\newblock \bibinfo{journal}{\emph{Criminal Justice and Behavior}}
+  \bibinfo{volume}{46}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{185--209}.
+\newblock
+
+
+\bibitem[Efing and Hau(2015)]%
+        {efing2015structured}
+\bibfield{author}{\bibinfo{person}{Matthias Efing} {and}
+  \bibinfo{person}{Harald Hau}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Structured debt ratings: Evidence on conflicts of
+  interest}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{116}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{46--60}.
+\newblock
+
+
+\bibitem[Engler(2021)]%
+        {engler2021independent}
+\bibfield{author}{\bibinfo{person}{Alex~C Engler}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Independent auditors are struggling to hold AI
+  companies accountable. FastCompany}.
+\newblock
+\newblock
+
+
+\bibitem[Engstrom and Ho(2020)]%
+        {engstrom2020algorithmic}
+\bibfield{author}{\bibinfo{person}{David~Freeman Engstrom} {and}
+  \bibinfo{person}{Daniel~E Ho}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Algorithmic accountability in the administrative
+  state}.
+\newblock \bibinfo{journal}{\emph{Yale J. on Reg.}}  \bibinfo{volume}{37}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{800}.
+\newblock
+
+
+\bibitem[Ewelt-Knauer et~al\mbox{.}(2012)]%
+        {ewelt2012we}
+\bibfield{author}{\bibinfo{person}{Corinna Ewelt-Knauer}, \bibinfo{person}{Anna
+  Gold}, {and} \bibinfo{person}{Christiane Pott}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{What do we know about mandatory audit firm
+  rotation}.
+\newblock \bibinfo{journal}{\emph{Institute of Chartered Accountants in
+  Scotland (ICAS), Edinburgh. Available at: icas. org. uk/MAFR. pdf (accessed
+  22 January 2013)}} (\bibinfo{year}{2012}).
+\newblock
+
+
+\bibitem[Fang and Yasuda(2009)]%
+        {fang2009effectiveness}
+\bibfield{author}{\bibinfo{person}{Lily Fang} {and} \bibinfo{person}{Ayako
+  Yasuda}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{The effectiveness of reputation as a disciplinary
+  mechanism in sell-side research}.
+\newblock \bibinfo{journal}{\emph{The Review of Financial Studies}}
+  \bibinfo{volume}{22}, \bibinfo{number}{9} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{3735--3777}.
+\newblock
+
+
+\bibitem[Fedus et~al\mbox{.}(2021)]%
+        {fedus2021switch}
+\bibfield{author}{\bibinfo{person}{William Fedus}, \bibinfo{person}{Barret
+  Zoph}, {and} \bibinfo{person}{Noam Shazeer}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Switch transformers: Scaling to trillion parameter
+  models with simple and efficient sparsity}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2101.03961}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Food and Administration(2022)]%
+        {maude}
+\bibfield{author}{\bibinfo{person}{U.S. Food} {and} \bibinfo{person}{Drug
+  Administration}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Manufacturer and User Facility Device Experience}.
+\newblock  (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Foxglove(2020a)]%
+        {FOX2}
+\bibfield{author}{\bibinfo{person}{Foxglove}.}
+  \bibinfo{year}{2020}\natexlab{a}.
+\newblock \bibinfo{title}{Home Office says it will abandon its racist visa
+  algorithm – after we sued them}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.foxglove.org.uk/2020/08/04/home-office-says-it-will-abandon-its-racist-visa-algorithm-after-we-sued-them/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Last accessed 25 October 2021}.
+
+
+\bibitem[Foxglove(2020b)]%
+        {FOX1}
+\bibfield{author}{\bibinfo{person}{Foxglove}.}
+  \bibinfo{year}{2020}\natexlab{b}.
+\newblock \bibinfo{title}{We put a stop to the A Level grading algorithm!}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.foxglove.org.uk/2020/08/17/we-put-a-stop-to-the-a-level-grading-algorithm/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Last accessed 25 October 2021}.
+
+
+\bibitem[Gao and Zhang(2019)]%
+        {gao2019auditing}
+\bibfield{author}{\bibinfo{person}{Pingyang Gao} {and} \bibinfo{person}{Gaoqing
+  Zhang}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Auditing standards, professional judgment, and
+  audit quality}.
+\newblock \bibinfo{journal}{\emph{The Accounting Review}} \bibinfo{volume}{94},
+  \bibinfo{number}{6} (\bibinfo{year}{2019}), \bibinfo{pages}{201--225}.
+\newblock
+
+
+\bibitem[Geier and Geier(2004)]%
+        {geier2004review}
+\bibfield{author}{\bibinfo{person}{David~A Geier} {and} \bibinfo{person}{Mark~R
+  Geier}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{A review of the vaccine adverse event reporting
+  system database}.
+\newblock \bibinfo{journal}{\emph{Expert Opinion on Pharmacotherapy}}
+  \bibinfo{volume}{5}, \bibinfo{number}{3} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{691--698}.
+\newblock
+
+
+\bibitem[Gipper et~al\mbox{.}(2021)]%
+        {gipper2021economics}
+\bibfield{author}{\bibinfo{person}{Brandon Gipper}, \bibinfo{person}{Luzi
+  Hail}, {and} \bibinfo{person}{Christian Leuz}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{On the economics of mandatory audit partner
+  rotation and tenure: Evidence from PCAOB data}.
+\newblock \bibinfo{journal}{\emph{The Accounting Review}} \bibinfo{volume}{96},
+  \bibinfo{number}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{303--331}.
+\newblock
+
+
+\bibitem[Goldhaber and Brewer(2000)]%
+        {goldhaber2000does}
+\bibfield{author}{\bibinfo{person}{Dan~D Goldhaber} {and}
+  \bibinfo{person}{Dominic~J Brewer}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Does teacher certification matter? High school
+  teacher certification status and student achievement}.
+\newblock \bibinfo{journal}{\emph{Educational evaluation and policy analysis}}
+  \bibinfo{volume}{22}, \bibinfo{number}{2} (\bibinfo{year}{2000}),
+  \bibinfo{pages}{129--145}.
+\newblock
+
+
+\bibitem[Griffin and Tang(2011)]%
+        {griffin2011did}
+\bibfield{author}{\bibinfo{person}{John~M Griffin} {and}
+  \bibinfo{person}{Dragon~Yongjun Tang}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Did credit rating agencies make unbiased
+  assumptions on CDOs?}
+\newblock \bibinfo{journal}{\emph{American Economic Review}}
+  \bibinfo{volume}{101}, \bibinfo{number}{3} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{125--30}.
+\newblock
+
+
+\bibitem[Grother et~al\mbox{.}(2019)]%
+        {grother2019face}
+\bibfield{author}{\bibinfo{person}{Patrick Grother}, \bibinfo{person}{Mei
+  Ngan}, {and} \bibinfo{person}{Kayee Hanaoka}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Face recognition vendor test (fvrt): Part
+  3, demographic effects}}.
+\newblock \bibinfo{publisher}{National Institute of Standards and Technology}.
+\newblock
+
+
+\bibitem[Haapam{\"a}ki and Sihvonen(2019)]%
+        {haapamaki2019research}
+\bibfield{author}{\bibinfo{person}{Elina Haapam{\"a}ki} {and}
+  \bibinfo{person}{Jukka Sihvonen}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Research on International Standards on Auditing:
+  Literature synthesis and opportunities for future research}.
+\newblock \bibinfo{journal}{\emph{Journal of International Accounting, Auditing
+  and Taxation}}  \bibinfo{volume}{35} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{37--56}.
+\newblock
+
+
+\bibitem[Handan-Nader et~al\mbox{.}(2020)]%
+        {handan2020feasible}
+\bibfield{author}{\bibinfo{person}{Cassandra Handan-Nader},
+  \bibinfo{person}{Daniel~E Ho}, {and} \bibinfo{person}{Becky Elias}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Feasible policy evaluation by design: A randomized
+  synthetic stepped-wedge trial of mandated disclosure in King County}.
+\newblock \bibinfo{journal}{\emph{Evaluation Review}} \bibinfo{volume}{44},
+  \bibinfo{number}{1} (\bibinfo{year}{2020}), \bibinfo{pages}{3--50}.
+\newblock
+
+
+\bibitem[Hao(2020)]%
+        {hao2020wetimnit1}
+\bibfield{author}{\bibinfo{person}{Karen Hao}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{We read the paper that forced Timnit Gebru out of
+  Google. Here’s what it says}.
+\newblock \bibinfo{journal}{\emph{Retrieved January}}  \bibinfo{volume}{21}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{2021}.
+\newblock
+
+
+\bibitem[Hao(2021)]%
+        {hao2021facebook}
+\bibfield{author}{\bibinfo{person}{Karen Hao}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{How Facebook got addicted to spreading
+  misinformation}.
+\newblock
+\newblock
+
+
+\bibitem[Harber et~al\mbox{.}(2020)]%
+        {harber2020perceived}
+\bibfield{author}{\bibinfo{person}{Michael Harber}, \bibinfo{person}{Ben Marx},
+  {and} \bibinfo{person}{Phillip De~Jager}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The perceived financial effects of mandatory audit
+  firm rotation}.
+\newblock \bibinfo{journal}{\emph{Journal of International Financial Management
+  \& Accounting}} \bibinfo{volume}{31}, \bibinfo{number}{2}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{215--234}.
+\newblock
+
+
+\bibitem[Haskins et~al\mbox{.}(2020)]%
+        {ACLUClearview}
+\bibfield{author}{\bibinfo{person}{Caroline Haskins}, \bibinfo{person}{Ryan
+  Mac}, {and} \bibinfo{person}{Logan McDonald}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The ACLU Slammed A Facial Recognition Company That
+  Scrapes Photos From Instagram And Facebook}.
+\newblock \bibinfo{journal}{\emph{Buzzfeed News}} (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Healy and Palepu(2003)]%
+        {healy2003fall}
+\bibfield{author}{\bibinfo{person}{Paul~M Healy} {and}
+  \bibinfo{person}{Krishna~G Palepu}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{The fall of Enron}.
+\newblock \bibinfo{journal}{\emph{Journal of economic perspectives}}
+  \bibinfo{volume}{17}, \bibinfo{number}{2} (\bibinfo{year}{2003}),
+  \bibinfo{pages}{3--26}.
+\newblock
+
+
+\bibitem[Heilweil(2020)]%
+        {heilweil2020big}
+\bibfield{author}{\bibinfo{person}{Rebecca Heilweil}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Big tech companies back away from selling facial
+  recognition to police. That’s progress}.
+\newblock \bibinfo{journal}{\emph{Recode. Available at: https://www. vox.
+  com/recode/2020/6/10/21287194/amazon-microsoft-ibm-facial-recognition-moratorium-police
+  (accessed 18 June 2020)}} (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Hemenway and Solnick(1990)]%
+        {hemenway1990you}
+\bibfield{author}{\bibinfo{person}{David Hemenway} {and}
+  \bibinfo{person}{Sara~J Solnick}.} \bibinfo{year}{1990}\natexlab{}.
+\newblock \showarticletitle{“You Better Shop Around”: The Market for Motor
+  Vehicle Inspection}.
+\newblock \bibinfo{journal}{\emph{Law \& Policy}} \bibinfo{volume}{12},
+  \bibinfo{number}{4} (\bibinfo{year}{1990}), \bibinfo{pages}{317--329}.
+\newblock
+
+
+\bibitem[Henning(2004)]%
+        {henning2004syndromic}
+\bibfield{author}{\bibinfo{person}{Kelly~J Henning}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{What is syndromic surveillance?}
+\newblock \bibinfo{journal}{\emph{Morbidity and mortality weekly report}}
+  (\bibinfo{year}{2004}), \bibinfo{pages}{7--11}.
+\newblock
+
+
+\bibitem[Hirevue(2021)]%
+        {hirevueAP}
+\bibfield{author}{\bibinfo{person}{Hirevue}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{HireVue Leads the Industry with Commitment to
+  Transparent and Ethical Use of AI in Hiring}.
+\newblock
+\newblock
+
+
+\bibitem[Ho(2012)]%
+        {ho2012fudging}
+\bibfield{author}{\bibinfo{person}{Daniel~E Ho}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Fudging the nudge: Information disclosure and
+  restaurant grading}.
+\newblock \bibinfo{journal}{\emph{Yale LJ}}  \bibinfo{volume}{122}
+  (\bibinfo{year}{2012}), \bibinfo{pages}{574}.
+\newblock
+
+
+\bibitem[Ho(2017)]%
+        {ho2017does}
+\bibfield{author}{\bibinfo{person}{Daniel~E Ho}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Does peer review work: An experiment of
+  experimentalism}.
+\newblock \bibinfo{journal}{\emph{Stan. L. Rev.}}  \bibinfo{volume}{69}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{1}.
+\newblock
+
+
+\bibitem[Houghton and Jubb(2003)]%
+        {houghton2003market}
+\bibfield{author}{\bibinfo{person}{Keith~A Houghton} {and}
+  \bibinfo{person}{Christine~A Jubb}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{The market for financial report audits: Regulation
+  of and competition for auditor independence}.
+\newblock \bibinfo{journal}{\emph{Law \& Policy}} \bibinfo{volume}{25},
+  \bibinfo{number}{3} (\bibinfo{year}{2003}), \bibinfo{pages}{299--321}.
+\newblock
+
+
+\bibitem[Hubbard(2002)]%
+        {hubbard2002consumers}
+\bibfield{author}{\bibinfo{person}{Thomas~N Hubbard}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{How do consumers motivate experts? Reputational
+  incentives in an auto repair market}.
+\newblock \bibinfo{journal}{\emph{The Journal of Law and Economics}}
+  \bibinfo{volume}{45}, \bibinfo{number}{2} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{437--468}.
+\newblock
+
+
+\bibitem[ICO(2020)]%
+        {noauthorai2020}
+\bibfield{author}{\bibinfo{person}{ICO}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{{AI} {Auditing} {Framework}}.
+\newblock
+\newblock
+
+
+\bibitem[Jiang et~al\mbox{.}(2012)]%
+        {jiang2012does}
+\bibfield{author}{\bibinfo{person}{John~Xuefeng Jiang},
+  \bibinfo{person}{Mary~Harris Stanford}, {and} \bibinfo{person}{Yuan Xie}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Does it matter who pays for bond ratings?
+  Historical evidence}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{105}, \bibinfo{number}{3} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{607--621}.
+\newblock
+
+
+\bibitem[Johnson and Rose(2019)]%
+        {johnson2019federal}
+\bibfield{author}{\bibinfo{person}{Barry~W Johnson} {and}
+  \bibinfo{person}{Peter~J Rose}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Federal Tax Compliance Research: Tax Gap Estimates
+  for Tax Years 2011-2013}.
+\newblock \bibinfo{journal}{\emph{Washington, DC: IRS}} (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Kadri(2020)]%
+        {kadri2020digital}
+\bibfield{author}{\bibinfo{person}{Thomas Kadri}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Digital Gatekeepers}.
+\newblock \bibinfo{journal}{\emph{Texas Law Review}}  \bibinfo{volume}{99}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Karapetrovic and Willborn(2001)]%
+        {karapetrovic2001audit}
+\bibfield{author}{\bibinfo{person}{Stanislav Karapetrovic} {and}
+  \bibinfo{person}{Walter Willborn}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Audit system: concepts and practices}.
+\newblock \bibinfo{journal}{\emph{Total Quality Management}}
+  \bibinfo{volume}{12}, \bibinfo{number}{1} (\bibinfo{year}{2001}),
+  \bibinfo{pages}{13--28}.
+\newblock
+
+
+\bibitem[Katell et~al\mbox{.}(2020)]%
+        {katell2020toward}
+\bibfield{author}{\bibinfo{person}{Michael Katell}, \bibinfo{person}{Meg
+  Young}, \bibinfo{person}{Dharma Dailey}, \bibinfo{person}{Bernease Herman},
+  \bibinfo{person}{Vivian Guetler}, \bibinfo{person}{Aaron Tam},
+  \bibinfo{person}{Corinne Bintz}, \bibinfo{person}{Daniella Raz}, {and}
+  \bibinfo{person}{PM Krafft}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Toward situated interventions for algorithmic
+  equity: lessons from the field}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 2020 conference on fairness, accountability, and transparency}}.
+  \bibinfo{pages}{45--55}.
+\newblock
+
+
+\bibitem[Katell et~al\mbox{.}(2019)]%
+        {katell2019algorithmic}
+\bibfield{author}{\bibinfo{person}{Michael Katell}, \bibinfo{person}{Meg
+  Young}, \bibinfo{person}{Bernease Herman}, \bibinfo{person}{Dharma Dailey},
+  \bibinfo{person}{Aaron Tam}, \bibinfo{person}{Vivian Guetler},
+  \bibinfo{person}{Corinne Binz}, \bibinfo{person}{Daniella Raz}, {and}
+  \bibinfo{person}{PM Krafft}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{An Algorithmic Equity Toolkit for Technology Audits
+  by Community Advocates and Activists}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1912.02943}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Kearns and Roth(2020)]%
+        {kearns2020ethical}
+\bibfield{author}{\bibinfo{person}{Michael Kearns} {and} \bibinfo{person}{Aaron
+  Roth}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Ethical algorithm design should guide technology
+  regulation}.
+\newblock \bibinfo{journal}{\emph{Retrieved from Brookings: https://www.
+  brookings.
+  edu/research/ethical-algorithm-designshould-guide-technology-regulation}}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Kim et~al\mbox{.}(2015)]%
+        {kim2015mandatory}
+\bibfield{author}{\bibinfo{person}{Hakwoon Kim}, \bibinfo{person}{Hyoik Lee},
+  \bibinfo{person}{Jong~Eun Lee}, {et~al\mbox{.}}}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Mandatory audit firm rotation and audit quality}.
+\newblock \bibinfo{journal}{\emph{Journal of Applied Business Research (Jabr)}}
+  \bibinfo{volume}{31}, \bibinfo{number}{3} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{1089--1106}.
+\newblock
+
+
+\bibitem[Kim and Yoon(2020)]%
+        {kim2020analyzing}
+\bibfield{author}{\bibinfo{person}{Soohun Kim} {and} \bibinfo{person}{Aaron
+  Yoon}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Analyzing active managers' commitment to esg:
+  Evidence from united nations principles for responsible investment}.
+\newblock \bibinfo{journal}{\emph{Available at SSRN 3555984}}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Kingsley et~al\mbox{.}(2020)]%
+        {kingsley2020auditing}
+\bibfield{author}{\bibinfo{person}{Sara Kingsley}, \bibinfo{person}{Clara
+  Wang}, \bibinfo{person}{Alex Mikhalenko}, \bibinfo{person}{Proteeti Sinha},
+  {and} \bibinfo{person}{Chinmay Kulkarni}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Auditing digital platforms for discrimination in
+  economic opportunity advertising}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2008.09656}}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Kirchner and Goldstein(2020)]%
+        {markup1kirchner2020access}
+\bibfield{author}{\bibinfo{person}{Lauren Kirchner} {and}
+  \bibinfo{person}{Matthew Goldstein}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Access Denied: Faulty Automated Background Checks
+  Freeze Out Renters}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Kleiner(2000)]%
+        {kleiner2000occupational}
+\bibfield{author}{\bibinfo{person}{Morris~M Kleiner}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Occupational licensing}.
+\newblock \bibinfo{journal}{\emph{Journal of Economic Perspectives}}
+  \bibinfo{volume}{14}, \bibinfo{number}{4} (\bibinfo{year}{2000}),
+  \bibinfo{pages}{189--202}.
+\newblock
+
+
+\bibitem[Kleiner and Kudrle(2000)]%
+        {kleiner2000does}
+\bibfield{author}{\bibinfo{person}{Morris~M Kleiner} {and}
+  \bibinfo{person}{Robert~T Kudrle}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Does regulation affect economic outcomes? The case
+  of dentistry}.
+\newblock \bibinfo{journal}{\emph{The Journal of Law and Economics}}
+  \bibinfo{volume}{43}, \bibinfo{number}{2} (\bibinfo{year}{2000}),
+  \bibinfo{pages}{547--582}.
+\newblock
+
+
+\bibitem[Klerks et~al\mbox{.}(2013)]%
+        {klerks2013unannounced}
+\bibfield{author}{\bibinfo{person}{Marielle~CJL Klerks},
+  \bibinfo{person}{Corry~AJ Ketelaars}, {and} \bibinfo{person}{Paul~BM
+  Robben}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Unannounced, compared with announced inspections: A
+  systematic review and exploratory study in nursing homes}.
+\newblock \bibinfo{journal}{\emph{Health policy}} \bibinfo{volume}{111},
+  \bibinfo{number}{3} (\bibinfo{year}{2013}), \bibinfo{pages}{311--319}.
+\newblock
+
+
+\bibitem[Kleven et~al\mbox{.}(2011)]%
+        {kleven2011unwilling}
+\bibfield{author}{\bibinfo{person}{Henrik~Jacobsen Kleven},
+  \bibinfo{person}{Martin~B Knudsen}, \bibinfo{person}{Claus~Thustrup Kreiner},
+  \bibinfo{person}{S{\o}ren Pedersen}, {and} \bibinfo{person}{Emmanuel Saez}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Unwilling or unable to cheat? Evidence from a tax
+  audit experiment in Denmark}.
+\newblock \bibinfo{journal}{\emph{Econometrica}} \bibinfo{volume}{79},
+  \bibinfo{number}{3} (\bibinfo{year}{2011}), \bibinfo{pages}{651--692}.
+\newblock
+
+
+\bibitem[Kofman and Tobin(2019)]%
+        {kofman2019facebook}
+\bibfield{author}{\bibinfo{person}{Ava Kofman} {and} \bibinfo{person}{Ariana
+  Tobin}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Facebook Ads Can Still Discriminate Against Women
+  and Older Workers, Despite a Civil Rights Settlement}.
+\newblock \bibinfo{journal}{\emph{ProPublica. Retrieved December}}
+  \bibinfo{volume}{12} (\bibinfo{year}{2019}), \bibinfo{pages}{2020}.
+\newblock
+
+
+\bibitem[Kofman and Tobin(2021)]%
+        {kaufman}
+\bibfield{author}{\bibinfo{person}{Ava Kofman} {and} \bibinfo{person}{Ariana
+  Tobin}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Facebook Ads Can Still Discriminate Against Women
+  and Older Workers, Despite a Civil Rights Settlement}.
+\newblock  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Kontokosta and Hong(2021)]%
+        {kontokosta2021bias}
+\bibfield{author}{\bibinfo{person}{Constantine~E Kontokosta} {and}
+  \bibinfo{person}{Boyeong Hong}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Bias in smart city governance: How socio-spatial
+  disparities in 311 complaint behavior impact the fairness of data-driven
+  decisions}.
+\newblock \bibinfo{journal}{\emph{Sustainable Cities and Society}}
+  \bibinfo{volume}{64} (\bibinfo{year}{2021}), \bibinfo{pages}{102503}.
+\newblock
+
+
+\bibitem[Kotsantonis and Serafeim(2019)]%
+        {kotsantonis2019four}
+\bibfield{author}{\bibinfo{person}{Sakis Kotsantonis} {and}
+  \bibinfo{person}{George Serafeim}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Four things no one will tell you about ESG data}.
+\newblock \bibinfo{journal}{\emph{Journal of Applied Corporate Finance}}
+  \bibinfo{volume}{31}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{50--58}.
+\newblock
+
+
+\bibitem[Kov{\'a}cs et~al\mbox{.}(2020)]%
+        {kovacs2020grade}
+\bibfield{author}{\bibinfo{person}{Bal{\'a}zs Kov{\'a}cs},
+  \bibinfo{person}{David~W Lehman}, {and} \bibinfo{person}{Glenn~R Carroll}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Grade inflation in restaurant hygiene inspections:
+  Repeated interactions between inspectors and restaurateurs}.
+\newblock \bibinfo{journal}{\emph{Food Policy}}  \bibinfo{volume}{97}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{101960}.
+\newblock
+
+
+\bibitem[Krishnan et~al\mbox{.}(2008)]%
+        {krishnan2008costs}
+\bibfield{author}{\bibinfo{person}{Jagan Krishnan}, \bibinfo{person}{Dasaratha
+  Rama}, {and} \bibinfo{person}{Yinghong Zhang}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Costs to comply with SOX Section 404}.
+\newblock \bibinfo{journal}{\emph{Auditing: A Journal of Practice \& Theory}}
+  \bibinfo{volume}{27}, \bibinfo{number}{1} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{169--186}.
+\newblock
+
+
+\bibitem[Kumar et~al\mbox{.}(2021)]%
+        {kumar2021designing}
+\bibfield{author}{\bibinfo{person}{Deepak Kumar}, \bibinfo{person}{Patrick~Gage
+  Kelley}, \bibinfo{person}{Sunny Consolvo}, \bibinfo{person}{Joshua Mason},
+  \bibinfo{person}{Elie Bursztein}, \bibinfo{person}{Zakir Durumeric},
+  \bibinfo{person}{Kurt Thomas}, {and} \bibinfo{person}{Michael Bailey}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Designing Toxic Content Classification for a
+  Diversity of Perspectives}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2106.04511}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Lamoreaux(2016)]%
+        {lamoreaux2016does}
+\bibfield{author}{\bibinfo{person}{Phillip~T Lamoreaux}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Does PCAOB inspection access improve audit quality?
+  An examination of foreign firms listed in the United States}.
+\newblock \bibinfo{journal}{\emph{Journal of Accounting and Economics}}
+  \bibinfo{volume}{61}, \bibinfo{number}{2-3} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{313--337}.
+\newblock
+
+
+\bibitem[Lapowsky(2021)]%
+        {lapowsky}
+\bibfield{author}{\bibinfo{person}{Issie Lapowsky}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Why Facebook’s data-sharing project ballooned
+  into a 2-year debacle}.
+\newblock  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Larsen(2013)]%
+        {larsen2013occupational}
+\bibfield{author}{\bibinfo{person}{Bradley Larsen}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Occupational licensing and quality: Distributional
+  and heterogeneous effects in the teaching profession}.
+\newblock \bibinfo{journal}{\emph{Available at SSRN 2387096}}
+  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[Latonero and Agarwal(2021)]%
+        {latonerohuman2021}
+\bibfield{author}{\bibinfo{person}{Mark Latonero} {and} \bibinfo{person}{Aaina
+  Agarwal}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Human {Rights} {Impact} {Assessments} for {AI}:
+  {Learning} from {Facebook}'s {Failure} in {Myanmar}}.
+\newblock  (\bibinfo{year}{2021}), \bibinfo{pages}{18}.
+\newblock
+
+
+\bibitem[Levine(2021)]%
+        {shutclearview}
+\bibfield{author}{\bibinfo{person}{Alexandra Levine}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{'Chilling': Facial recognition firm Clearview AI hits
+  watchdog groups with subpoenas}.
+\newblock
+\newblock
+
+
+\bibitem[Littwin(2014)]%
+        {littwin2014process}
+\bibfield{author}{\bibinfo{person}{Angela Littwin}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Why process complaints: Then and now}.
+\newblock \bibinfo{journal}{\emph{Temp. L. Rev.}}  \bibinfo{volume}{87}
+  (\bibinfo{year}{2014}), \bibinfo{pages}{895}.
+\newblock
+
+
+\bibitem[Lovelace and DataKind(2020)]%
+        {lovelace2020examining}
+\bibfield{author}{\bibinfo{person}{Ada Lovelace} {and} \bibinfo{person}{UK
+  DataKind}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Examining the black box: Tools for
+  assessing algorithmic systems}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{Technical
+  report, AdaLovelace Institute, https://ico. org. uk/media/about~…}.
+\newblock
+
+
+\bibitem[Lytton and McAllister(2014)]%
+        {lytton2014oversight}
+\bibfield{author}{\bibinfo{person}{Timothy~D Lytton} {and}
+  \bibinfo{person}{Lesley~K McAllister}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Oversight in private food safety auditing:
+  Addressing auditor conflict of interest}.
+\newblock \bibinfo{journal}{\emph{Wis. L. Rev.}} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{289}.
+\newblock
+
+
+\bibitem[MacCarthy(2019)]%
+        {maccarthy2019examination}
+\bibfield{author}{\bibinfo{person}{Mark MacCarthy}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{An Examination of the Algorithmic Accountability
+  Act of 2019}.
+\newblock \bibinfo{journal}{\emph{Available at SSRN 3615731}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Markey and Matsui(2021)]%
+        {noauthorsenator2021}
+\bibfield{author}{\bibinfo{person}{Markey} {and} \bibinfo{person}{Matsui}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Senator {Markey}, {Rep}. {Matsui} {Introduce}
+  {Legislation} to {Combat} {Harmful} {Algorithms} and {Create} {New} {Online}
+  {Transparency} {Regime}}.
+\newblock
+\newblock
+
+
+\bibitem[Matte et~al\mbox{.}(2020)]%
+        {matte2020cookie}
+\bibfield{author}{\bibinfo{person}{C{\'e}lestin Matte},
+  \bibinfo{person}{Nataliia Bielova}, {and} \bibinfo{person}{Cristiana
+  Santos}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Do cookie banners respect my choice?: Measuring
+  legal compliance of banners from iab europe’s transparency and consent
+  framework}. In \bibinfo{booktitle}{\emph{2020 IEEE Symposium on Security and
+  Privacy (SP)}}. IEEE, \bibinfo{pages}{791--809}.
+\newblock
+
+
+\bibitem[Maurer(2021)]%
+        {maurernew2021}
+\bibfield{author}{\bibinfo{person}{Roy Maurer}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{New {York} {City} to {Require} {Bias} {Audits} of
+  {AI}-{Type} {HR} {Technology}}.
+\newblock
+\newblock
+
+
+\bibitem[McCoy(2002)]%
+        {mccoy2002realigning}
+\bibfield{author}{\bibinfo{person}{Patricia~A McCoy}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Realigning Auditors' Incentives}.
+\newblock \bibinfo{journal}{\emph{Conn. L. Rev.}}  \bibinfo{volume}{35}
+  (\bibinfo{year}{2002}), \bibinfo{pages}{989}.
+\newblock
+
+
+\bibitem[McGRORY and Bedi(2020)]%
+        {mcgrory2020targeted}
+\bibfield{author}{\bibinfo{person}{KATHLEEN McGRORY} {and}
+  \bibinfo{person}{NEIL Bedi}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Targeted}.
+\newblock \bibinfo{journal}{\emph{The Tampa Bay Times}}  \bibinfo{volume}{3}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Merrill(2020)]%
+        {merrill2020does}
+\bibfield{author}{\bibinfo{person}{JB Merrill}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Does facebook still sell discriminatory ads}.
+\newblock \bibinfo{journal}{\emph{The Markup}} (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Metcalf et~al\mbox{.}(2021)]%
+        {metcalf2021algorithmic}
+\bibfield{author}{\bibinfo{person}{Jacob Metcalf}, \bibinfo{person}{Emanuel
+  Moss}, \bibinfo{person}{Elizabeth~Anne Watkins}, \bibinfo{person}{Ranjit
+  Singh}, {and} \bibinfo{person}{Madeleine~Clare Elish}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Algorithmic impact assessments and accountability:
+  The co-construction of impacts}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 2021 ACM Conference on Fairness, Accountability, and Transparency}}.
+  \bibinfo{pages}{735--746}.
+\newblock
+
+
+\bibitem[Mittelstadt(2019)]%
+        {mittelstadt2019principles}
+\bibfield{author}{\bibinfo{person}{Brent Mittelstadt}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Principles alone cannot guarantee ethical AI}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{1}, \bibinfo{number}{11} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{501--507}.
+\newblock
+
+
+\bibitem[Miyazaki(2008)]%
+        {miyazaki2008online}
+\bibfield{author}{\bibinfo{person}{Anthony~D Miyazaki}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Online privacy and the disclosure of cookie use:
+  Effects on consumer trust and anticipated patronage}.
+\newblock \bibinfo{journal}{\emph{Journal of Public Policy \& Marketing}}
+  \bibinfo{volume}{27}, \bibinfo{number}{1} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{19--33}.
+\newblock
+
+
+\bibitem[Moore et~al\mbox{.}(2010)]%
+        {moore2010conflict}
+\bibfield{author}{\bibinfo{person}{Don~A Moore}, \bibinfo{person}{Lloyd Tanlu},
+  {and} \bibinfo{person}{Max~H Bazerman}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Conflict of interest and the intrusion of bias}.
+\newblock \bibinfo{journal}{\emph{Judgment and Decision Making}}
+  \bibinfo{volume}{5}, \bibinfo{number}{1} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{37}.
+\newblock
+
+
+\bibitem[Moss et~al\mbox{.}(2021)]%
+        {moss2021assembling}
+\bibfield{author}{\bibinfo{person}{Emanuel Moss},
+  \bibinfo{person}{Elizabeth~Anne Watkins}, \bibinfo{person}{Ranjit Singh},
+  \bibinfo{person}{Madeleine~Clare Elish}, {and} \bibinfo{person}{Jacob
+  Metcalf}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Assembling Accountability: Algorithmic Impact
+  Assessment for the Public Interest}.
+\newblock \bibinfo{journal}{\emph{Available at SSRN 3877437}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Murphy and Sandino(2010)]%
+        {murphy2010executive}
+\bibfield{author}{\bibinfo{person}{Kevin~J Murphy} {and}
+  \bibinfo{person}{Tatiana Sandino}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Executive pay and “independent” compensation
+  consultants}.
+\newblock \bibinfo{journal}{\emph{Journal of Accounting and Economics}}
+  \bibinfo{volume}{49}, \bibinfo{number}{3} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{247--262}.
+\newblock
+
+
+\bibitem[NIST(2022)]%
+        {noauthornationalnodate}
+\bibfield{author}{\bibinfo{person}{NIST}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{National {Vulnerability} {Database}}.
+\newblock
+\newblock
+
+
+\bibitem[Nouwens et~al\mbox{.}(2020)]%
+        {nouwens2020dark}
+\bibfield{author}{\bibinfo{person}{Midas Nouwens}, \bibinfo{person}{Ilaria
+  Liccardi}, \bibinfo{person}{Michael Veale}, \bibinfo{person}{David Karger},
+  {and} \bibinfo{person}{Lalana Kagal}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Dark patterns after the GDPR: Scraping consent
+  pop-ups and demonstrating their influence}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2020 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--13}.
+\newblock
+
+
+\bibitem[Obermeyer et~al\mbox{.}(2019)]%
+        {obermeyer2019dissecting}
+\bibfield{author}{\bibinfo{person}{Ziad Obermeyer}, \bibinfo{person}{Brian
+  Powers}, \bibinfo{person}{Christine Vogeli}, {and} \bibinfo{person}{Sendhil
+  Mullainathan}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Dissecting racial bias in an algorithm used to
+  manage the health of populations}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{366},
+  \bibinfo{number}{6464} (\bibinfo{year}{2019}), \bibinfo{pages}{447--453}.
+\newblock
+
+
+\bibitem[Oremus(2021)]%
+        {oremus}
+\bibfield{author}{\bibinfo{person}{Will Oremus}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Facebook keeps researching its own harms — and
+  burying the findings}.
+\newblock  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Ortutay(2021)]%
+        {faceshutNYU}
+\bibfield{author}{\bibinfo{person}{Barbara Ortutay}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Facebook shuts out NYU academics’ research on
+  political ads}.
+\newblock
+\newblock
+
+
+\bibitem[O’Leary and Valdmanis(2021)]%
+        {o2021esg}
+\bibfield{author}{\bibinfo{person}{Michael O’Leary} {and}
+  \bibinfo{person}{Warren Valdmanis}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{An ESG Reckoning Is Coming}.
+\newblock \bibinfo{journal}{\emph{Harvard Business Review}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[O’Rourke(2000)]%
+        {o2000monitoring}
+\bibfield{author}{\bibinfo{person}{Dara O’Rourke}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Monitoring the monitors: A critique of
+  PricewaterhouseCoopers (PwC) labour monitoring}.
+\newblock \bibinfo{journal}{\emph{Department of Urban Studies and Planning
+  Massachusetts Institute of Technology}} (\bibinfo{year}{2000}).
+\newblock
+
+
+\bibitem[Persily(2021)]%
+        {fbpersily2018}
+\bibfield{author}{\bibinfo{person}{Nathaniel Persily}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Facebook Hides Data Showing It Harms Users. Outside
+  Scholars Need Access.}
+\newblock  (\bibinfo{year}{2021}).
+\newblock
+\newblock
+\shownote{Last accessed 25 October 2021}.
+
+
+\bibitem[Pierce and Toffel(2013)]%
+        {pierce2013role}
+\bibfield{author}{\bibinfo{person}{Lamar Pierce} {and}
+  \bibinfo{person}{Michael~W Toffel}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{The role of organizational scope and governance in
+  strengthening private monitoring}.
+\newblock \bibinfo{journal}{\emph{Organization Science}} \bibinfo{volume}{24},
+  \bibinfo{number}{5} (\bibinfo{year}{2013}), \bibinfo{pages}{1558--1584}.
+\newblock
+
+
+\bibitem[Pluta(2013)]%
+        {plutaso2013}
+\bibfield{author}{\bibinfo{person}{Scott Pluta}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{title}{So, how do {I} submit a complaint?}
+\newblock
+\newblock
+
+
+\bibitem[Pollman(2019)]%
+        {pollman2019corporate}
+\bibfield{author}{\bibinfo{person}{Elizabeth Pollman}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Corporate Social Responsibility, ESG, and
+  Compliance}.
+\newblock \bibinfo{journal}{\emph{Forthcoming, Cambridge Handbook of Compliance
+  (D. Daniel Sokol \& Benjamin van Rooij eds.), Loyola Law School, Los Angeles
+  Legal Studies Research Paper}} \bibinfo{number}{2019-35}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Porter(2012)]%
+        {porter2012complaint}
+\bibfield{author}{\bibinfo{person}{Katherine Porter}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{The Complaint Conundrum: Thoughts on the CFPB's
+  Complaint Mechanism}.
+\newblock \bibinfo{journal}{\emph{Brook. J. Corp. Fin. \& Com. L.}}
+  \bibinfo{volume}{7} (\bibinfo{year}{2012}), \bibinfo{pages}{57}.
+\newblock
+
+
+\bibitem[Power(1997)]%
+        {power1997audit}
+\bibfield{author}{\bibinfo{person}{Michael Power}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The audit society: Rituals of
+  verification}}.
+\newblock \bibinfo{publisher}{OUP Oxford}.
+\newblock
+
+
+\bibitem[Raghavan et~al\mbox{.}(2020)]%
+        {raghavan2020mitigating}
+\bibfield{author}{\bibinfo{person}{Manish Raghavan}, \bibinfo{person}{Solon
+  Barocas}, \bibinfo{person}{Jon Kleinberg}, {and} \bibinfo{person}{Karen
+  Levy}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Mitigating bias in algorithmic hiring: Evaluating
+  claims and practices}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020
+  conference on fairness, accountability, and transparency}}.
+  \bibinfo{pages}{469--481}.
+\newblock
+
+
+\bibitem[Raji and Buolamwini(2019)]%
+        {raji2019actionable}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji} {and}
+  \bibinfo{person}{Joy Buolamwini}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Actionable auditing: Investigating the impact of
+  publicly naming biased performance results of commercial ai products}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 AAAI/ACM Conference on AI,
+  Ethics, and Society}}. \bibinfo{pages}{429--435}.
+\newblock
+
+
+\bibitem[Raji et~al\mbox{.}(2020a)]%
+        {raji2020saving}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji},
+  \bibinfo{person}{Timnit Gebru}, \bibinfo{person}{Margaret Mitchell},
+  \bibinfo{person}{Joy Buolamwini}, \bibinfo{person}{Joonseok Lee}, {and}
+  \bibinfo{person}{Emily Denton}.} \bibinfo{year}{2020}\natexlab{a}.
+\newblock \showarticletitle{Saving face: Investigating the ethical concerns of
+  facial recognition auditing}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  AAAI/ACM Conference on AI, Ethics, and Society}}. \bibinfo{pages}{145--151}.
+\newblock
+
+
+\bibitem[Raji et~al\mbox{.}(2020b)]%
+        {raji2020closing}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji},
+  \bibinfo{person}{Andrew Smart}, \bibinfo{person}{Rebecca~N White},
+  \bibinfo{person}{Margaret Mitchell}, \bibinfo{person}{Timnit Gebru},
+  \bibinfo{person}{Ben Hutchinson}, \bibinfo{person}{Jamila Smith-Loud},
+  \bibinfo{person}{Daniel Theron}, {and} \bibinfo{person}{Parker Barnes}.}
+  \bibinfo{year}{2020}\natexlab{b}.
+\newblock \showarticletitle{Closing the AI accountability gap: Defining an
+  end-to-end framework for internal algorithmic auditing}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2020 conference on fairness,
+  accountability, and transparency}}. \bibinfo{pages}{33--44}.
+\newblock
+
+
+\bibitem[Reisman et~al\mbox{.}(2018)]%
+        {reisman2018algorithmic}
+\bibfield{author}{\bibinfo{person}{Dillon Reisman}, \bibinfo{person}{Jason
+  Schultz}, \bibinfo{person}{Kate Crawford}, {and} \bibinfo{person}{Meredith
+  Whittaker}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Algorithmic impact assessments: A practical
+  framework for public agency accountability}.
+\newblock \bibinfo{journal}{\emph{AI Now Institute}} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{1--22}.
+\newblock
+
+
+\bibitem[Richardson(2021)]%
+        {richardson2021defining}
+\bibfield{author}{\bibinfo{person}{Rashida Richardson}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Defining and Demystifying Automated Decision
+  Systems}.
+\newblock \bibinfo{journal}{\emph{Maryland Law Review, Forthcoming}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Richardson et~al\mbox{.}(2019)]%
+        {richardson2019confronting}
+\bibfield{author}{\bibinfo{person}{Rashida Richardson}, \bibinfo{person}{A
+  Cahn}, \bibinfo{person}{A Kak}, \bibinfo{person}{A Diaz}, \bibinfo{person}{A
+  Samant}, {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Confronting black boxes: A shadow report of the New
+  York City automated decision system task force}.
+\newblock \bibinfo{journal}{\emph{AI Now Institute}} (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Rosen et~al\mbox{.}(2021)]%
+        {rosen2021racial}
+\bibfield{author}{\bibinfo{person}{Eva Rosen}, \bibinfo{person}{Philip~ME
+  Garboden}, {and} \bibinfo{person}{Jennifer~E Cossyleon}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Racial Discrimination in Housing: How Landlords Use
+  Algorithms and Home Visits to Screen Tenants}.
+\newblock \bibinfo{journal}{\emph{American Sociological Review}}
+  (\bibinfo{year}{2021}), \bibinfo{pages}{00031224211029618}.
+\newblock
+
+
+\bibitem[Ross and Seymour(2019)]%
+        {rossseymour}
+\bibfield{author}{\bibinfo{person}{Samantha Ross} {and} \bibinfo{person}{Gordon
+  Seymour}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{The Developing World of Assurance on Sustainability
+  Reporting}.
+\newblock
+\newblock
+\newblock
+\shownote{npublished manuscript}.
+
+
+\bibitem[Sakaeda et~al\mbox{.}(2013)]%
+        {sakaeda2013data}
+\bibfield{author}{\bibinfo{person}{Toshiyuki Sakaeda}, \bibinfo{person}{Akiko
+  Tamon}, \bibinfo{person}{Kaori Kadoyama}, {and} \bibinfo{person}{Yasushi
+  Okuno}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Data mining of the public version of the FDA
+  Adverse Event Reporting System}.
+\newblock \bibinfo{journal}{\emph{International journal of medical sciences}}
+  \bibinfo{volume}{10}, \bibinfo{number}{7} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{796}.
+\newblock
+
+
+\bibitem[Sanchez-Rola et~al\mbox{.}(2019)]%
+        {sanchez2019can}
+\bibfield{author}{\bibinfo{person}{Iskander Sanchez-Rola},
+  \bibinfo{person}{Matteo Dell'Amico}, \bibinfo{person}{Platon Kotzias},
+  \bibinfo{person}{Davide Balzarotti}, \bibinfo{person}{Leyla Bilge},
+  \bibinfo{person}{Pierre-Antoine Vervier}, {and} \bibinfo{person}{Igor
+  Santos}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Can i opt out yet? gdpr and the global illusion of
+  cookie control}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 ACM
+  Asia conference on computer and communications security}}.
+  \bibinfo{pages}{340--351}.
+\newblock
+
+
+\bibitem[Sapiezynski et~al\mbox{.}(2019)]%
+        {sapiezynski2019algorithms}
+\bibfield{author}{\bibinfo{person}{Piotr Sapiezynski}, \bibinfo{person}{Avijit
+  Ghosh}, \bibinfo{person}{Levi Kaplan}, \bibinfo{person}{Alan Mislove}, {and}
+  \bibinfo{person}{Aaron Rieke}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Algorithms that" Don't See Color": Comparing Biases
+  in Lookalike and Special Ad Audiences}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1912.07579}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Schuck(1972)]%
+        {schuck1972curious}
+\bibfield{author}{\bibinfo{person}{Peter Schuck}.}
+  \bibinfo{year}{1972}\natexlab{}.
+\newblock \showarticletitle{curious case of the indicted meat inspectors}.
+\newblock \bibinfo{journal}{\emph{Harper's magazine}} (\bibinfo{year}{1972}).
+\newblock
+
+
+\bibitem[Selbst(2021)]%
+        {selbst2021institutional}
+\bibfield{author}{\bibinfo{person}{Andrew~D Selbst}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{An Institutional View Of Algorithmic Impact
+  Assessments}.
+\newblock  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Sheard(2021)]%
+        {fban}
+\bibfield{author}{\bibinfo{person}{Nathan Sheard}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Banning Government Use of Face Recognition
+  Technology: 2020 Year in Review}.
+\newblock
+\newblock
+
+
+\bibitem[Sherwin and Bhandari(2019)]%
+        {sherwinfacebook}
+\bibfield{author}{\bibinfo{person}{G Sherwin} {and} \bibinfo{person}{E
+  Bhandari}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Facebook settles civil rights cases by making
+  sweeping changes to its online ad platform}.
+\newblock
+\newblock
+
+
+\bibitem[Short et~al\mbox{.}(2016)]%
+        {short2016monitoring}
+\bibfield{author}{\bibinfo{person}{Jodi~L Short}, \bibinfo{person}{Michael~W
+  Toffel}, {and} \bibinfo{person}{Andrea~R Hugill}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Monitoring global supply chains}.
+\newblock \bibinfo{journal}{\emph{Strategic Management Journal}}
+  \bibinfo{volume}{37}, \bibinfo{number}{9} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{1878--1897}.
+\newblock
+
+
+\bibitem[Sloane(2021)]%
+        {sloaneaudit}
+\bibfield{author}{\bibinfo{person}{Mona Sloane}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{The Algorithmic Auditing Trap}.
+\newblock
+\newblock
+
+
+\bibitem[Sloane et~al\mbox{.}(2021)]%
+        {sloane2021silicon}
+\bibfield{author}{\bibinfo{person}{Mona Sloane}, \bibinfo{person}{Emanuel
+  Moss}, {and} \bibinfo{person}{Rumman Chowdhury}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{A Silicon Valley Love Triangle: Hiring Algorithms,
+  Pseudo-Science, and the Quest for Auditability}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2106.12403}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Snow(2018)]%
+        {snow2018}
+\bibfield{author}{\bibinfo{person}{Jacob Snow}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Amazon’s Face Recognition Falsely Matched 28
+  Members of Congress With Mugshots}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.aclu.org/blog/privacy-technology/surveillance-technologies/amazons-face-recognition-falsely-matched-28}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Last accessed 25 October 2021}.
+
+
+\bibitem[Soe et~al\mbox{.}(2020)]%
+        {soe2020circumvention}
+\bibfield{author}{\bibinfo{person}{Than~Htut Soe}, \bibinfo{person}{Oda~Elise
+  Nordberg}, \bibinfo{person}{Frode Guribye}, {and} \bibinfo{person}{Marija
+  Slavkovik}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Circumvention by design-dark patterns in cookie
+  consent for online news outlets}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 11th nordic conference on human-computer interaction: Shaping
+  experiences, shaping society}}. \bibinfo{pages}{1--12}.
+\newblock
+
+
+\bibitem[Spinks(2019)]%
+        {spinks2019contemporary}
+\bibfield{author}{\bibinfo{person}{Chandler~Nicholle Spinks}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Contemporary housing discrimination: Facebook,
+  targeted advertising, and the Fair Housing Act}.
+\newblock \bibinfo{journal}{\emph{Hous. L. Rev.}}  \bibinfo{volume}{57}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{925}.
+\newblock
+
+
+\bibitem[Stevenson(2006)]%
+        {stevenson2006nursing}
+\bibfield{author}{\bibinfo{person}{David~G Stevenson}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Nursing home consumer complaints and quality of
+  care: A national view}.
+\newblock \bibinfo{journal}{\emph{Medical Care Research and Review}}
+  \bibinfo{volume}{63}, \bibinfo{number}{3} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{347--368}.
+\newblock
+
+
+\bibitem[Strahilevitz(2006)]%
+        {strahilevitz2006s}
+\bibfield{author}{\bibinfo{person}{Lior~Jacob Strahilevitz}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{How's My Driving-For Everyone (and Everything)}.
+\newblock \bibinfo{journal}{\emph{NYUL Rev.}}  \bibinfo{volume}{81}
+  (\bibinfo{year}{2006}), \bibinfo{pages}{1699}.
+\newblock
+
+
+\bibitem[Sweeney(2013)]%
+        {sweeney2013discrimination}
+\bibfield{author}{\bibinfo{person}{Latanya Sweeney}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Discrimination in online ad delivery}.
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{56},
+  \bibinfo{number}{5} (\bibinfo{year}{2013}), \bibinfo{pages}{44--54}.
+\newblock
+
+
+\bibitem[Tatonetti et~al\mbox{.}(2012)]%
+        {tatonetti2012novel}
+\bibfield{author}{\bibinfo{person}{Nicholas~P Tatonetti},
+  \bibinfo{person}{Guy~Haskin Fernald}, {and} \bibinfo{person}{Russ~B Altman}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{A novel signal detection algorithm for identifying
+  hidden drug-drug interactions in adverse event reports}.
+\newblock \bibinfo{journal}{\emph{Journal of the American Medical Informatics
+  Association}} \bibinfo{volume}{19}, \bibinfo{number}{1}
+  (\bibinfo{year}{2012}), \bibinfo{pages}{79--85}.
+\newblock
+
+
+\bibitem[Titera(2013)]%
+        {titera2013updating}
+\bibfield{author}{\bibinfo{person}{William~R Titera}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Updating audit standard—Enabling audit data
+  analysis}.
+\newblock \bibinfo{journal}{\emph{Journal of Information Systems}}
+  \bibinfo{volume}{27}, \bibinfo{number}{1} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{325--331}.
+\newblock
+
+
+\bibitem[Tobin(2019)]%
+        {tobin2019hud}
+\bibfield{author}{\bibinfo{person}{Ariana Tobin}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{HUD sues Facebook over housing discrimination and
+  says the company’s algorithms have made the problem worse}.
+\newblock \bibinfo{journal}{\emph{ProPublica (March 28, 2019). Available at
+  https://www. propublica.
+  org/article/hud-sues-facebook-housing-discrimination-advertising-algorithms
+  (last accessed April 29, 2019)}} (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[Toffolutti et~al\mbox{.}(2017)]%
+        {toffolutti2017evidence}
+\bibfield{author}{\bibinfo{person}{Veronica Toffolutti},
+  \bibinfo{person}{Martin McKee}, {and} \bibinfo{person}{David Stuckler}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Evidence points to ‘gaming’at hospitals subject
+  to National Health Service Cleanliness Inspections}.
+\newblock \bibinfo{journal}{\emph{Health Affairs}} \bibinfo{volume}{36},
+  \bibinfo{number}{2} (\bibinfo{year}{2017}), \bibinfo{pages}{355--361}.
+\newblock
+
+
+\bibitem[Trevisan et~al\mbox{.}(2019)]%
+        {trevisan20194}
+\bibfield{author}{\bibinfo{person}{Martino Trevisan}, \bibinfo{person}{Stefano
+  Traverso}, \bibinfo{person}{Eleonora Bassi}, {and} \bibinfo{person}{Marco
+  Mellia}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{4 Years of EU Cookie Law: Results and Lessons
+  Learned.}
+\newblock \bibinfo{journal}{\emph{Proc. Priv. Enhancing Technol.}}
+  \bibinfo{volume}{2019}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{126--145}.
+\newblock
+
+
+\bibitem[Trielli et~al\mbox{.}(2017)]%
+        {trielli2017algorithm}
+\bibfield{author}{\bibinfo{person}{Daniel Trielli}, \bibinfo{person}{Jennifer
+  Stark}, {and} \bibinfo{person}{Nicholas Diakopoulos}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Algorithm tips: A resource for algorithmic
+  accountability in Government}. In \bibinfo{booktitle}{\emph{Proc.
+  Computation+ Journalism Symposium}}.
+\newblock
+
+
+\bibitem[Turner et~al\mbox{.}(2010)]%
+        {turner2010improving}
+\bibfield{author}{\bibinfo{person}{Jerry~L Turner}, \bibinfo{person}{Theodore~J
+  Mock}, \bibinfo{person}{Paul~J Coram}, {and} \bibinfo{person}{Glen~L Gray}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Improving transparency and relevance of auditor
+  communications with financial statement users}.
+\newblock \bibinfo{journal}{\emph{Current issues in auditing}}
+  \bibinfo{volume}{4}, \bibinfo{number}{1} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{A1--A8}.
+\newblock
+
+
+\bibitem[Veale et~al\mbox{.}(2018)]%
+        {veale2018fairness}
+\bibfield{author}{\bibinfo{person}{Michael Veale}, \bibinfo{person}{Max
+  Van~Kleek}, {and} \bibinfo{person}{Reuben Binns}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Fairness and accountability design needs for
+  algorithmic support in high-stakes public sector decision-making}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2018 chi conference on human
+  factors in computing systems}}. \bibinfo{pages}{1--14}.
+\newblock
+
+
+\bibitem[Vecchione et~al\mbox{.}(2021)]%
+        {vecchione2021algorithmic}
+\bibfield{author}{\bibinfo{person}{Briana Vecchione}, \bibinfo{person}{Karen
+  Levy}, {and} \bibinfo{person}{Solon Barocas}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Algorithmic Auditing and Social Justice: Lessons
+  from the History of Audit Studies}.
+\newblock In \bibinfo{booktitle}{\emph{Equity and Access in Algorithms,
+  Mechanisms, and Optimization}}. \bibinfo{pages}{1--9}.
+\newblock
+
+
+\bibitem[Vincent(2021)]%
+        {googl1}
+\bibfield{author}{\bibinfo{person}{James Vincent}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Google is using AI to help users explore the topics
+  they’re searching for — here’s how}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.theverge.com/2021/9/29/22696268/google-search-on-updates-ai-mum-explained}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Last accessed 2 November 2021}.
+
+
+\bibitem[Voigt and Von~dem Bussche(2017)]%
+        {voigt2017eu}
+\bibfield{author}{\bibinfo{person}{Paul Voigt} {and} \bibinfo{person}{Axel
+  Von~dem Bussche}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{The eu general data protection regulation (gdpr)}.
+\newblock \bibinfo{journal}{\emph{A Practical Guide, 1st Ed., Cham: Springer
+  International Publishing}}  \bibinfo{volume}{10} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{3152676}.
+\newblock
+
+
+\bibitem[Wiggers(2021)]%
+        {googl2}
+\bibfield{author}{\bibinfo{person}{Kyle Wiggers}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Google trained a trillion-parameter AI language
+  model}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://venturebeat.com/2021/01/12/google-trained-a-trillion-parameter-ai-language-model/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Last accessed 2 November 2021}.
+
+
+\bibitem[Wilson et~al\mbox{.}(2021)]%
+        {wilson2021building}
+\bibfield{author}{\bibinfo{person}{Christo Wilson}, \bibinfo{person}{Avijit
+  Ghosh}, \bibinfo{person}{Shan Jiang}, \bibinfo{person}{Alan Mislove},
+  \bibinfo{person}{Lewis Baker}, \bibinfo{person}{Janelle Szary},
+  \bibinfo{person}{Kelly Trindel}, {and} \bibinfo{person}{Frida Polli}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Building and auditing fair algorithms: A case study
+  in candidate screening}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021
+  ACM Conference on Fairness, Accountability, and Transparency}}.
+  \bibinfo{pages}{666--677}.
+\newblock
+
+
+\bibitem[Wu et~al\mbox{.}(2021)]%
+        {wu2021medical}
+\bibfield{author}{\bibinfo{person}{Eric Wu}, \bibinfo{person}{Kevin Wu},
+  \bibinfo{person}{Roxana Daneshjou}, \bibinfo{person}{David Ouyang},
+  \bibinfo{person}{Daniel~E Ho}, {and} \bibinfo{person}{James Zou}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{How medical AI devices are evaluated: limitations
+  and recommendations from an analysis of FDA approvals}.
+\newblock \bibinfo{journal}{\emph{Nature Medicine}} \bibinfo{volume}{27},
+  \bibinfo{number}{4} (\bibinfo{year}{2021}), \bibinfo{pages}{582--584}.
+\newblock
+
+
+\end{thebibliography}

@@ -1,0 +1,1186 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{83}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Andreasen(1994)]%
+        {andreasen}
+\bibfield{author}{\bibinfo{person}{Alan~R. Andreasen}.}
+  \bibinfo{year}{1994}\natexlab{}.
+\newblock \showarticletitle{Social Marketing: Its Definition and Domain}.
+\newblock \bibinfo{journal}{\emph{Journal of Public Policy \& Marketing}}
+  \bibinfo{volume}{13}, \bibinfo{number}{1} (\bibinfo{year}{1994}),
+  \bibinfo{pages}{108--114}.
+\newblock
+\showISSN{07439156}
+\urldef\tempurl%
+\url{http://www.jstor.org/stable/30000176}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Andreotta et~al\mbox{.}(2022)]%
+        {Andreotta2022}
+\bibfield{author}{\bibinfo{person}{Adam~J. Andreotta}, \bibinfo{person}{Nin
+  Kirkham}, {and} \bibinfo{person}{Marco Rizzi}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{AI, big data, and the future of consent}.
+\newblock \bibinfo{journal}{\emph{AI \& SOCIETY}} \bibinfo{volume}{37},
+  \bibinfo{number}{4} (\bibinfo{year}{2022}), \bibinfo{pages}{1715--1728}.
+\newblock
+\showISBNx{1435-5655}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s00146-021-01262-5}
+\showDOI{\tempurl}
+
+
+\bibitem[Anthes(2015)]%
+        {anthes2015}
+\bibfield{author}{\bibinfo{person}{Gary Anthes}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{News: Data brokers are watching you}.
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{58},
+  \bibinfo{number}{1} (\bibinfo{year}{2015}), \bibinfo{pages}{28--30}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2686740}
+\showDOI{\tempurl}
+
+
+\bibitem[Bakir(2020)]%
+        {bakir}
+\bibfield{author}{\bibinfo{person}{Vian Bakir}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Psychological Operations in Digital Political
+  Campaigns: Assessing Cambridge Analytica's Psychographic Profiling and
+  Targeting}.
+\newblock \bibinfo{journal}{\emph{Frontiers in Communication}}
+  \bibinfo{volume}{5} (\bibinfo{year}{2020}).
+\newblock
+\showISSN{2297-900X}
+\urldef\tempurl%
+\url{https://doi.org/10.3389/fcomm.2020.00067}
+\showDOI{\tempurl}
+
+
+\bibitem[Bakir et~al\mbox{.}(2019)]%
+        {bakir2}
+\bibfield{author}{\bibinfo{person}{Vian Bakir}, \bibinfo{person}{Eric Herring},
+  \bibinfo{person}{David Miller}, {and} \bibinfo{person}{Piers Robinson}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Organized Persuasive Communication: A new
+  conceptual framework for research on public relations, propaganda and
+  promotional culture}.
+\newblock \bibinfo{journal}{\emph{Critical Sociology}} \bibinfo{volume}{45},
+  \bibinfo{number}{3} (\bibinfo{year}{2019}), \bibinfo{pages}{311--328}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/0896920518764586}
+\showDOI{\tempurl}
+\showeprint{https://doi.org/10.1177/0896920518764586}
+
+
+\bibitem[Barnhill(2022)]%
+        {barnhill}
+\bibfield{author}{\bibinfo{person}{Anne Barnhill}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{How philosophy might contribute to the
+  practical ethics of online manipulation}}.
+\newblock \bibinfo{publisher}{Taylor and Francis}, \bibinfo{pages}{49--71}.
+\newblock
+\showISBNx{9781032030012}
+\urldef\tempurl%
+\url{https://doi.org/10.4324/9781003205425-4}
+\showDOI{\tempurl}
+\newblock
+\shownote{Publisher Copyright: {\textcopyright} 2022 selection and editorial
+  matter, Fleur Jongepier and Michael Klenk; individual chapters, the
+  contributors.}.
+
+
+\bibitem[Beer et~al\mbox{.}(2019)]%
+        {Beer2019}
+\bibfield{author}{\bibinfo{person}{{David Gareth} Beer},
+  \bibinfo{person}{Joanna Redden}, \bibinfo{person}{Ben Williamson}, {and}
+  \bibinfo{person}{Simon Yuill}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Landscape Summary: Online Targeting: What
+  is online targeting, what impact does it have, and how can we maximise
+  benefits and minimise harms?}}
+\newblock \bibinfo{publisher}{Centre for Data Ethics and Innovation}.
+\newblock
+
+
+\bibitem[Benn and Lazar(2022)]%
+        {benn_lazar_2022}
+\bibfield{author}{\bibinfo{person}{Claire Benn} {and} \bibinfo{person}{Seth
+  Lazar}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{What’s Wrong with Automated Influence}.
+\newblock \bibinfo{journal}{\emph{Canadian Journal of Philosophy}}
+  \bibinfo{volume}{52}, \bibinfo{number}{1} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{125–148}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1017/can.2021.23}
+\showDOI{\tempurl}
+
+
+\bibitem[Bernays(1928)]%
+        {bernays1928manipulating}
+\bibfield{author}{\bibinfo{person}{Edward~L Bernays}.}
+  \bibinfo{year}{1928}\natexlab{}.
+\newblock \showarticletitle{Manipulating public opinion: The why and the how}.
+\newblock \bibinfo{journal}{\emph{American journal of sociology}}
+  \bibinfo{volume}{33}, \bibinfo{number}{6} (\bibinfo{year}{1928}),
+  \bibinfo{pages}{958--971}.
+\newblock
+
+
+\bibitem[Bernays(1947)]%
+        {bernays1947engineering}
+\bibfield{author}{\bibinfo{person}{Edward~L Bernays}.}
+  \bibinfo{year}{1947}\natexlab{}.
+\newblock \showarticletitle{The engineering of consent}.
+\newblock \bibinfo{journal}{\emph{The Annals of the American Academy of
+  Political and Social Science}} \bibinfo{volume}{250}, \bibinfo{number}{1}
+  (\bibinfo{year}{1947}), \bibinfo{pages}{113--120}.
+\newblock
+
+
+\bibitem[Boerman et~al\mbox{.}(2017)]%
+        {boerman2017online}
+\bibfield{author}{\bibinfo{person}{Sophie~C Boerman}, \bibinfo{person}{Sanne
+  Kruikemeier}, {and} \bibinfo{person}{Frederik~J Zuiderveen~Borgesius}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Online behavioral advertising: A literature review
+  and research agenda}.
+\newblock \bibinfo{journal}{\emph{Journal of advertising}}
+  \bibinfo{volume}{46}, \bibinfo{number}{3} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{363--376}.
+\newblock
+
+
+\bibitem[Bozeman(2007)]%
+        {bozeman2007}
+\bibfield{author}{\bibinfo{person}{Barry Bozeman}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Public Values and Public Interest:
+  Counterbalancing Economic Individualism}}.
+\newblock \bibinfo{publisher}{Georgetown University Press}.
+\newblock
+\showISBNx{9781589011779}
+\urldef\tempurl%
+\url{http://www.jstor.org/stable/j.ctt2tt37c}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Buolamwini and Gebru(2018)]%
+        {buolamwini2018gender}
+\bibfield{author}{\bibinfo{person}{Joy Buolamwini} {and}
+  \bibinfo{person}{Timnit Gebru}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Gender shades: Intersectional accuracy disparities
+  in commercial gender classification}. In \bibinfo{booktitle}{\emph{Conference
+  on fairness, accountability and transparency}}. PMLR,
+  \bibinfo{pages}{77--91}.
+\newblock
+
+
+\bibitem[Burrell(2016)]%
+        {burrell2016machine}
+\bibfield{author}{\bibinfo{person}{Jenna Burrell}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{How the machine ‘thinks’: Understanding opacity
+  in machine learning algorithms}.
+\newblock \bibinfo{journal}{\emph{Big data \& society}} \bibinfo{volume}{3},
+  \bibinfo{number}{1} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{2053951715622512}.
+\newblock
+
+
+\bibitem[Bömelburg and Gassmann(2021)]%
+        {Bomelburg2021}
+\bibfield{author}{\bibinfo{person}{Raphael Bömelburg} {and}
+  \bibinfo{person}{Oliver Gassmann}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Cambridge Analytica: Magical Rise, Disastrous
+  Fall}.
+\newblock In \bibinfo{booktitle}{\emph{Connected Business: Create Value in a
+  Networked Economy}}, \bibfield{editor}{\bibinfo{person}{Oliver Gassmann}
+  {and} \bibinfo{person}{Fabrizio Ferrandina}} (Eds.).
+  \bibinfo{publisher}{Springer International Publishing},
+  \bibinfo{address}{Cham, Switzerland}, \bibinfo{pages}{387--396}.
+\newblock
+\showISBNx{978-3-030-76897-3}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-030-76897-3_28}
+\showDOI{\tempurl}
+
+
+\bibitem[Cohen(2013)]%
+        {cohen2013privacy}
+\bibfield{author}{\bibinfo{person}{Julie~E Cohen}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{What privacy is for}.
+\newblock \bibinfo{journal}{\emph{Harvard law review}} \bibinfo{volume}{126},
+  \bibinfo{number}{7} (\bibinfo{year}{2013}), \bibinfo{pages}{1904--1933}.
+\newblock
+
+
+\bibitem[Collier et~al\mbox{.}(2021)]%
+        {collier2021}
+\bibfield{author}{\bibinfo{person}{Ben Collier}, \bibinfo{person}{Gemma Flynn},
+  \bibinfo{person}{James Stewart}, {and} \bibinfo{person}{{Daniel R.} Thomas}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{SCCJR briefing paper: Influence government:
+  Exploring practices, ethics, and power in the use of targeted advertising by
+  the UK state}}.
+\newblock \bibinfo{publisher}{The Scottish Centre for Crime \& Justice
+  Research}.
+\newblock
+
+
+\bibitem[Collier et~al\mbox{.}(2022)]%
+        {Collier2022}
+\bibfield{author}{\bibinfo{person}{Ben Collier}, \bibinfo{person}{Gemma Flynn},
+  \bibinfo{person}{James Stewart}, {and} \bibinfo{person}{Daniel Thomas}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Influence government: Exploring practices, ethics,
+  and power in the use of targeted advertising by the UK state}.
+\newblock \bibinfo{journal}{\emph{Big Data \& Society}} \bibinfo{volume}{9},
+  \bibinfo{number}{1} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{20539517221078756}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/20539517221078756}
+\showDOI{\tempurl}
+\showeprint{https://doi.org/10.1177/20539517221078756}
+
+
+\bibitem[Collier and Wilson(2022)]%
+        {collierwilson}
+\bibfield{author}{\bibinfo{person}{Ben Collier} {and} \bibinfo{person}{Lydia
+  Wilson}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Governments Try to Fight Crime via Google Ads}.
+\newblock \bibinfo{journal}{\emph{New Lines Magazine}} (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Cowls et~al\mbox{.}(2021)]%
+        {cowls2021definition}
+\bibfield{author}{\bibinfo{person}{Josh Cowls}, \bibinfo{person}{Andreas
+  Tsamados}, \bibinfo{person}{Mariarosaria Taddeo}, {and}
+  \bibinfo{person}{Luciano Floridi}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{A definition, benchmark and database of AI for
+  social good initiatives}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{3}, \bibinfo{number}{2} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{111--115}.
+\newblock
+
+
+\bibitem[Crain(2018)]%
+        {Crain2018}
+\bibfield{author}{\bibinfo{person}{Matthew Crain}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The limits of transparency: Data brokers and
+  commodification}.
+\newblock \bibinfo{journal}{\emph{new media \& society}} \bibinfo{volume}{20},
+  \bibinfo{number}{1} (\bibinfo{year}{2018}), \bibinfo{pages}{88--104}.
+\newblock
+
+
+\bibitem[Crain and Nadler(2019)]%
+        {crain2019}
+\bibfield{author}{\bibinfo{person}{Matthew Crain} {and}
+  \bibinfo{person}{Anthony Nadler}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Political Manipulation and Internet Advertising
+  Infrastructure}.
+\newblock \bibinfo{journal}{\emph{Journal of Information Policy}}
+  \bibinfo{volume}{9} (\bibinfo{year}{2019}), \bibinfo{pages}{370--410}.
+\newblock
+\showISSN{23815892, 21583897}
+\urldef\tempurl%
+\url{https://www.jstor.org/stable/10.5325/jinfopoli.9.2019.0370}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Data Protection Act 2018}(2018)]%
+        {dataprotection}
+\bibfield{author}{\bibinfo{person}{{Data Protection Act 2018}}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Parliament of the United Kingdom}.
+\newblock
+\newblock
+\newblock
+\shownote{Available at:
+  https://www.legislation.gov.uk/ukpga/2018/12/introduction/enacted}.
+
+
+\bibitem[DCMS(2018)]%
+        {dsmc2018}
+\bibfield{author}{\bibinfo{person}{DCMS}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Disinformation and `fake news': Interim Report}.
+\newblock <https://publications.parliament.uk/pa/cm201719/
+  cmselect/cmcumeds/363/363.pdf>.
+\newblock
+
+
+\bibitem[DeBrabander(2020)]%
+        {debrabander_2020}
+\bibfield{author}{\bibinfo{person}{Firmin DeBrabander}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Life after Privacy: Reclaiming Democracy in
+  a Surveillance Society}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1017/9781108868280}
+\showDOI{\tempurl}
+
+
+\bibitem[Dewey(2012)]%
+        {Dewey2012}
+\bibfield{author}{\bibinfo{person}{John Dewey}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Public and Its Problems: An Essay in
+  Political Inquiry}}.
+\newblock \bibinfo{publisher}{Penn State University Press}.
+\newblock
+\showISBNx{9780271055695}
+\urldef\tempurl%
+\url{http://www.jstor.org/stable/10.5325/j.ctt7v1gh}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Diakopoulos(2020)]%
+        {Diakopoulos2020}
+\bibfield{author}{\bibinfo{person}{Nicholas Diakopoulos}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{197Transparency}}.
+\newblock In \bibinfo{booktitle}{\emph{{The Oxford Handbook of Ethics of AI}}}.
+  \bibinfo{publisher}{Oxford University Press}.
+\newblock
+\showISBNx{9780190067397}
+\urldef\tempurl%
+\url{https://doi.org/10.1093/oxfordhb/9780190067397.013.11}
+\showDOI{\tempurl}
+\showeprint{https://academic.oup.com/book/0/chapter/290661457/chapter-ag-pdf/44521945/book\_34287\_section\_290661457.ag.pdf}
+
+
+\bibitem[Dommett(2019)]%
+        {dommett}
+\bibfield{author}{\bibinfo{person}{Katharine Dommett}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The Rise of Online Political Advertising}.
+\newblock \bibinfo{journal}{\emph{Political Insight}} \bibinfo{volume}{10},
+  \bibinfo{number}{4} (\bibinfo{year}{2019}), \bibinfo{pages}{12--15}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/2041905819891366}
+\showDOI{\tempurl}
+\showeprint{https://doi.org/10.1177/2041905819891366}
+
+
+\bibitem[Dwork(2006)]%
+        {dwork2006differential}
+\bibfield{author}{\bibinfo{person}{Cynthia Dwork}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Differential privacy}. In
+  \bibinfo{booktitle}{\emph{Automata, Languages and Programming: 33rd
+  International Colloquium, ICALP 2006, Venice, Italy, July 10-14, 2006,
+  Proceedings, Part II 33}}. Springer, \bibinfo{pages}{1--12}.
+\newblock
+
+
+\bibitem[{Equality Act 2010}(2010)]%
+        {equalityact}
+\bibfield{author}{\bibinfo{person}{{Equality Act 2010}}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{title}{Parliament of the United Kingdom}.
+\newblock
+\newblock
+\newblock
+\shownote{Available at: https://www.legislation.gov.uk/ukpga/2010/15/contents}.
+
+
+\bibitem[Eubanks(2018)]%
+        {eubanks2018automating}
+\bibfield{author}{\bibinfo{person}{Virginia Eubanks}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Automating inequality: How high-tech tools
+  profile, police, and punish the poor}}.
+\newblock \bibinfo{publisher}{St. Martin's Press}.
+\newblock
+
+
+\bibitem[Farman and Kreiss(2013)]%
+        {farman}
+\bibfield{author}{\bibinfo{person}{Lisa Farman} {and} \bibinfo{person}{Daniel
+  Kreiss}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{A Research Agenda for Online Political Advertising:
+  Surveying Campaign Practices, 2000-2012}.
+\newblock \bibinfo{journal}{\emph{International Journal of Communication}}
+  \bibinfo{volume}{7} (\bibinfo{date}{01} \bibinfo{year}{2013}),
+  \bibinfo{pages}{2046--2066}.
+\newblock
+
+
+\bibitem[Feintuck(2004)]%
+        {feintuck2004}
+\bibfield{author}{\bibinfo{person}{Mike Feintuck}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{`The Public Interest' in Regulation}}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+\showISBNx{9780199269020}
+\urldef\tempurl%
+\url{https://doi.org/10.1093/acprof:oso/9780199269020.001.0001}
+\showDOI{\tempurl}
+
+
+\bibitem[Finn et~al\mbox{.}(2013)]%
+        {finn2013seven}
+\bibfield{author}{\bibinfo{person}{Rachel~L Finn}, \bibinfo{person}{David
+  Wright}, {and} \bibinfo{person}{Michael Friedewald}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Seven types of privacy}.
+\newblock \bibinfo{journal}{\emph{European data protection: coming of age}}
+  (\bibinfo{year}{2013}), \bibinfo{pages}{3--32}.
+\newblock
+
+
+\bibitem[G{\"u}nther and Kasirzadeh(2022)]%
+        {gunther2022algorithmic}
+\bibfield{author}{\bibinfo{person}{Mario G{\"u}nther} {and}
+  \bibinfo{person}{Atoosa Kasirzadeh}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Algorithmic and human decision making: for a double
+  standard of transparency}.
+\newblock \bibinfo{journal}{\emph{AI \& SOCIETY}} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{1--7}.
+\newblock
+
+
+\bibitem[Habermas(2022)]%
+        {habermas2022neuer}
+\bibfield{author}{\bibinfo{person}{J{\"u}rgen Habermas}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Ein neuer Strukturwandel der
+  {\"O}ffentlichkeit und die deliberative Politik: Platz 1 der
+  Sachbuchbestenliste der WELT}}.
+\newblock \bibinfo{publisher}{Suhrkamp Verlag}.
+\newblock
+
+
+\bibitem[Halpern(2015)]%
+        {halpern2015}
+\bibfield{author}{\bibinfo{person}{David Halpern}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Inside the Nudge Unit: How Small Changes
+  Can Make a Big Difference}}.
+\newblock \bibinfo{publisher}{WH Allen}.
+\newblock
+\showISBNx{9780753556542}
+\urldef\tempurl%
+\url{https://books.google.hr/books?id=M4uSnQAACAAJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Halpern and Sanders(2017)]%
+        {Halpern2017}
+\bibfield{author}{\bibinfo{person}{David Halpern} {and}
+  \bibinfo{person}{Michael Sanders}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Nudging by government: Progress, impact, \& lessons
+  learned}.
+\newblock \bibinfo{journal}{\emph{Behavioral Science \& Policy}}
+  \bibinfo{volume}{2} (\bibinfo{year}{2017}), \bibinfo{pages}{52 -- 65}.
+\newblock
+
+
+\bibitem[Hansen and Jespersen(2013)]%
+        {hansen2013}
+\bibfield{author}{\bibinfo{person}{Pelle~Guldborg Hansen} {and}
+  \bibinfo{person}{Andreas~Maaløe Jespersen}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Nudge and the Manipulation of Choice: A Framework
+  for the Responsible Use of the Nudge Approach to Behaviour Change in Public
+  Policy}.
+\newblock \bibinfo{journal}{\emph{European Journal of Risk Regulation}}
+  \bibinfo{volume}{4}, \bibinfo{number}{1} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{3–28}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1017/S1867299X00002762}
+\showDOI{\tempurl}
+
+
+\bibitem[Held(1970)]%
+        {held1970}
+\bibfield{author}{\bibinfo{person}{Virginia Held}.}
+  \bibinfo{year}{1970}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Public Interest and Individual
+  Interests}}.
+\newblock \bibinfo{publisher}{Basic Books}.
+\newblock
+\showLCCN{72016850}
+\urldef\tempurl%
+\url{https://books.google.hr/books?id=bOIuswEACAAJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Human Rights Act 1998}(1998)]%
+        {humanrights}
+\bibfield{author}{\bibinfo{person}{{Human Rights Act 1998}}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{title}{Parliament of the United Kingdom}.
+\newblock
+\newblock
+\newblock
+\shownote{Article 8, Available at:
+  https://www.legislation.gov.uk/ukpga/1998/42/schedule/1/part/I/chapter/7}.
+
+
+\bibitem[Hyland-Wood et~al\mbox{.}(2021)]%
+        {hyland2021}
+\bibfield{author}{\bibinfo{person}{Bernadette Hyland-Wood},
+  \bibinfo{person}{John Gardner}, \bibinfo{person}{Julie Leask}, {and}
+  \bibinfo{person}{Ullrich K.~H. Ecker}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Toward effective government communication
+  strategies in the era of COVID-19}.
+\newblock \bibinfo{journal}{\emph{Humanities and Social Sciences
+  Communications}} \bibinfo{volume}{8}, \bibinfo{number}{1}
+  (\bibinfo{year}{2021}), \bibinfo{pages}{30}.
+\newblock
+\showISBNx{2662-9992}
+\urldef\tempurl%
+\url{https://doi.org/10.1057/s41599-020-00701-w}
+\showDOI{\tempurl}
+
+
+\bibitem[Iqbal(2019)]%
+        {iqbal2019}
+\bibfield{author}{\bibinfo{person}{Nosheen Iqbal}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{"We acknowledge we went wrong": Lifestyle website for
+  Muslim teens admits it should have been clearer about Home Office funding}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.theguardian.com/uk-news/2019/sep/15/lifestyle-website-for-muslim-teens-is-covertly-funded-by-the-home-office}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Jersey(2003)]%
+        {dejersey2003}
+\bibfield{author}{\bibinfo{person}{Paul~De Jersey}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Public Interest and Public Policy: Unruly Horses
+  Alike?}
+\newblock \bibinfo{journal}{\emph{Legal Ethics}} \bibinfo{volume}{6},
+  \bibinfo{number}{1} (\bibinfo{year}{2003}), \bibinfo{pages}{16--22}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1080/1460728X.2003.11424173}
+\showDOI{\tempurl}
+\showeprint{https://doi.org/10.1080/1460728X.2003.11424173}
+
+
+\bibitem[Johnson(2021)]%
+        {johnson2022}
+\bibfield{author}{\bibinfo{person}{Ashley Johnson}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Banning Targeted Ads Would Sink the Internet
+  Economy}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://itif.org/publications/2022/01/20/banning-targeted-ads-would-sink-internet-economy/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Jones and Edenberg(2020)]%
+        {letajones2020}
+\bibfield{author}{\bibinfo{person}{Meg~Leta Jones} {and}
+  \bibinfo{person}{Elizabeth Edenberg}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{358359Troubleshooting AI and Consent}}.
+\newblock In \bibinfo{booktitle}{\emph{{The Oxford Handbook of Ethics of AI}}}.
+  \bibinfo{publisher}{Oxford University Press}.
+\newblock
+\showISBNx{9780190067397}
+\urldef\tempurl%
+\url{https://doi.org/10.1093/oxfordhb/9780190067397.013.23}
+\showDOI{\tempurl}
+\showeprint{https://academic.oup.com/book/0/chapter/290665619/chapter-ag-pdf/44521933/book\_34287\_section\_290665619.ag.pdf}
+
+
+\bibitem[Kasirzadeh(2021)]%
+        {kasirzadeh2021reasons}
+\bibfield{author}{\bibinfo{person}{Atoosa Kasirzadeh}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Reasons, values, stakeholders: A philosophical
+  framework for explainable artificial intelligence}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2103.00752}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Kasirzadeh and Smart(2021)]%
+        {kasirzadeh2021use}
+\bibfield{author}{\bibinfo{person}{Atoosa Kasirzadeh} {and}
+  \bibinfo{person}{Andrew Smart}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The use and misuse of counterfactuals in ethical
+  machine learning}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM
+  Conference on Fairness, Accountability, and Transparency}}.
+  \bibinfo{pages}{228--236}.
+\newblock
+
+
+\bibitem[Kirchhof(2021)]%
+        {Kirchhof2021}
+\bibfield{author}{\bibinfo{person}{Paula~Johanna Kirchhof}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Marionette Question: What Is Yet to Be
+  Answered about the Ethics of Online Behaviour Change?}}
+\newblock \bibinfo{publisher}{Springer International Publishing},
+  \bibinfo{address}{Cham}, \bibinfo{pages}{35--38}.
+\newblock
+\showISBNx{978-3-030-80083-3}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-030-80083-3_4}
+\showDOI{\tempurl}
+
+
+\bibitem[Koene et~al\mbox{.}(2015)]%
+        {Koene2015}
+\bibfield{author}{\bibinfo{person}{Ansgar Koene}, \bibinfo{person}{Elvira
+  Perez}, \bibinfo{person}{Christopher~James Carter}, \bibinfo{person}{Ramona
+  Statache}, \bibinfo{person}{Svenja Adolphs}, \bibinfo{person}{Claire
+  O'Malley}, \bibinfo{person}{Tom Rodden}, {and} \bibinfo{person}{Derek
+  McAuley}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Ethics of Personalized Information Filtering}. In
+  \bibinfo{booktitle}{\emph{Internet Science}},
+  \bibfield{editor}{\bibinfo{person}{Thanassis Tiropanis},
+  \bibinfo{person}{Athena Vakali}, \bibinfo{person}{Laura Sartori}, {and}
+  \bibinfo{person}{Pete Burnap}} (Eds.). \bibinfo{publisher}{Springer
+  International Publishing}, \bibinfo{address}{Cham},
+  \bibinfo{pages}{123--132}.
+\newblock
+\showISBNx{978-3-319-18609-2}
+
+
+\bibitem[K{\"o}nigs(2022)]%
+        {konigs2022}
+\bibfield{author}{\bibinfo{person}{Peter K{\"o}nigs}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Government Surveillance, Privacy, and Legitimacy}.
+\newblock \bibinfo{journal}{\emph{Philosophy \& Technology}}
+  \bibinfo{volume}{35}, \bibinfo{number}{1} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{8}.
+\newblock
+\showISBNx{2210-5441}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s13347-022-00503-9}
+\showDOI{\tempurl}
+
+
+\bibitem[Lever(2006)]%
+        {lever2006}
+\bibfield{author}{\bibinfo{person}{Annabelle Lever}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Privacy Rights and Democracy: A Contradiction in
+  Terms?}
+\newblock \bibinfo{journal}{\emph{Contemporary Political Theory}}
+  \bibinfo{volume}{5}, \bibinfo{number}{2} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{142--162}.
+\newblock
+\showISBNx{1476-9336}
+\urldef\tempurl%
+\url{https://doi.org/10.1057/palgrave.cpt.9300187}
+\showDOI{\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2021)]%
+        {liu2021}
+\bibfield{author}{\bibinfo{person}{Bo Liu}, \bibinfo{person}{Ming Ding},
+  \bibinfo{person}{Sina Shaham}, \bibinfo{person}{Wenny Rahayu},
+  \bibinfo{person}{Farhad Farokhi}, {and} \bibinfo{person}{Zihuai Lin}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{When Machine Learning Meets Privacy: A Survey and
+  Outlook}.
+\newblock \bibinfo{journal}{\emph{ACM Comput. Surv.}} \bibinfo{volume}{54},
+  \bibinfo{number}{2}, Article \bibinfo{articleno}{31} (\bibinfo{date}{mar}
+  \bibinfo{year}{2021}), \bibinfo{numpages}{36}~pages.
+\newblock
+\showISSN{0360-0300}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3436755}
+\showDOI{\tempurl}
+
+
+\bibitem[Matz et~al\mbox{.}(2017)]%
+        {matz2017psychological}
+\bibfield{author}{\bibinfo{person}{Sandra~C Matz}, \bibinfo{person}{Michal
+  Kosinski}, \bibinfo{person}{Gideon Nave}, {and} \bibinfo{person}{David~J
+  Stillwell}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Psychological targeting as an effective approach to
+  digital mass persuasion}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the national academy of
+  sciences}} \bibinfo{volume}{114}, \bibinfo{number}{48}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{12714--12719}.
+\newblock
+
+
+\bibitem[Michaelson and Stacks(2011)]%
+        {Michaelson}
+\bibfield{author}{\bibinfo{person}{David Michaelson} {and}
+  \bibinfo{person}{Don~W. Stacks}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Standardization in Public Relations Measurement and
+  Evaluation}.
+\newblock
+
+
+\bibitem[Michelsen and Colley(2019)]%
+        {michelsen2019}
+\bibfield{author}{\bibinfo{person}{Nicholas Michelsen} {and}
+  \bibinfo{person}{Thomas Colley}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The field of Strategic Communications
+  Professionals: a new research agenda for International Security}.
+\newblock \bibinfo{journal}{\emph{European Journal of International Security}}
+  \bibinfo{volume}{4}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{61–78}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1017/eis.2018.9}
+\showDOI{\tempurl}
+
+
+\bibitem[Miller et~al\mbox{.}(2018)]%
+        {miller2018}
+\bibfield{author}{\bibinfo{person}{Catherine Miller}, \bibinfo{person}{Rachel
+  Coldicutt}, {and} \bibinfo{person}{Hannah Kitcher}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{People, Power and Technology: The 2018 Digital
+  Understanding Report}.
+\newblock \bibinfo{howpublished}{doteveryone.org}.
+\newblock
+\urldef\tempurl%
+\url{https://doteveryone.org.uk/wp-content/uploads/2019/07/Doteveryone_PeoplePowerTechDigitalUnderstanding2018.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Moore(2008)]%
+        {moore2008defining}
+\bibfield{author}{\bibinfo{person}{Adam~D Moore}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Defining privacy}.
+\newblock \bibinfo{journal}{\emph{Journal of Social Philosophy}}
+  \bibinfo{volume}{39}, \bibinfo{number}{3} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{411--428}.
+\newblock
+
+
+\bibitem[Mullainathan and Thaler(2001)]%
+        {mullainathan2001}
+\bibfield{author}{\bibinfo{person}{Sendhil Mullainathan} {and}
+  \bibinfo{person}{Richard~H. Thaler}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Behavioral Economics}.
+\newblock In \bibinfo{booktitle}{\emph{International Encyclopedia of the Social
+  \& Behavioral Sciences}}, \bibfield{editor}{\bibinfo{person}{Neil~J. Smelser}
+  {and} \bibinfo{person}{Paul~B. Baltes}} (Eds.).
+  \bibinfo{publisher}{Pergamon}, \bibinfo{address}{Oxford},
+  \bibinfo{pages}{1094--1100}.
+\newblock
+\showISBNx{978-0-08-043076-8}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/B0-08-043076-7/02247-6}
+\showDOI{\tempurl}
+
+
+\bibitem[Nys and Engelen(2017)]%
+        {nys2017}
+\bibfield{author}{\bibinfo{person}{Thomas~RV Nys} {and} \bibinfo{person}{Bart
+  Engelen}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Judging Nudging: Answering the Manipulation
+  Objection}.
+\newblock \bibinfo{journal}{\emph{Political Studies}} \bibinfo{volume}{65},
+  \bibinfo{number}{1} (\bibinfo{year}{2017}), \bibinfo{pages}{199--214}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/0032321716629487}
+\showDOI{\tempurl}
+\showeprint{https://doi.org/10.1177/0032321716629487}
+
+
+\bibitem[Obermeyer et~al\mbox{.}(2019)]%
+        {obermeyer2019dissecting}
+\bibfield{author}{\bibinfo{person}{Ziad Obermeyer}, \bibinfo{person}{Brian
+  Powers}, \bibinfo{person}{Christine Vogeli}, {and} \bibinfo{person}{Sendhil
+  Mullainathan}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Dissecting racial bias in an algorithm used to
+  manage the health of populations}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{366},
+  \bibinfo{number}{6464} (\bibinfo{year}{2019}), \bibinfo{pages}{447--453}.
+\newblock
+
+
+\bibitem[Plouffe(2010)]%
+        {plouffe2010}
+\bibfield{author}{\bibinfo{person}{D. Plouffe}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Audacity to Win: The Inside Story and
+  Lessons of Barack Obama's Historic Victory}}.
+\newblock \bibinfo{publisher}{Thorndike Press}.
+\newblock
+\showISBNx{9781410424815}
+\showLCCN{2009048783}
+\urldef\tempurl%
+\url{https://books.google.hr/books?id=9zj9QgAACAAJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Plowman et~al\mbox{.}(2015)]%
+        {plowman}
+\bibfield{author}{\bibinfo{person}{Kenneth~D. Plowman},
+  \bibinfo{person}{Robert~I. Wakefield}, {and} \bibinfo{person}{Beki Winchel}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Digital publics: Tracking and reaching them}.
+\newblock \bibinfo{journal}{\emph{Public Relations Review}}
+  \bibinfo{volume}{41}, \bibinfo{number}{2} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{272--277}.
+\newblock
+\showISSN{0363-8111}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.pubrev.2014.12.007}
+\showDOI{\tempurl}
+\newblock
+\shownote{Digital Publics}.
+
+
+\bibitem[Pykett et~al\mbox{.}(2014)]%
+        {pykett}
+\bibfield{author}{\bibinfo{person}{Jessica Pykett}, \bibinfo{person}{Rhys
+  Jones}, \bibinfo{person}{Marcus Welsh}, {and} \bibinfo{person}{Mark
+  Whitehead}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{The art of choosing and the politics of social
+  marketing}.
+\newblock \bibinfo{journal}{\emph{Policy Studies}} \bibinfo{volume}{35},
+  \bibinfo{number}{2} (\bibinfo{year}{2014}), \bibinfo{pages}{97--114}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1080/01442872.2013.875141}
+\showDOI{\tempurl}
+\showeprint{https://doi.org/10.1080/01442872.2013.875141}
+
+
+\bibitem[Rosendorff and Doces(2006)]%
+        {rosendorff2006}
+\bibfield{author}{\bibinfo{person}{B.~Peter Rosendorff} {and}
+  \bibinfo{person}{John~A. Doces}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Democracy and Transparency}.
+\newblock \bibinfo{journal}{\emph{Swiss Political Science Review}}
+  \bibinfo{volume}{12}, \bibinfo{number}{3} (\bibinfo{date}{October}
+  \bibinfo{year}{2006}), \bibinfo{pages}{99--112}.
+\newblock
+
+
+\bibitem[Schneble et~al\mbox{.}(2018)]%
+        {schneble2018}
+\bibfield{author}{\bibinfo{person}{Christophe~Olivier Schneble},
+  \bibinfo{person}{Bernice~Simone Elger}, {and} \bibinfo{person}{David Shaw}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The Cambridge Analytica affair and
+  Internet-mediated research}.
+\newblock \bibinfo{journal}{\emph{EMBO reports}} \bibinfo{volume}{19},
+  \bibinfo{number}{8} (\bibinfo{year}{2018}), \bibinfo{pages}{e46579}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.15252/embr.201846579}
+\showDOI{\tempurl}
+\showeprint{https://www.embopress.org/doi/pdf/10.15252/embr.201846579}
+
+
+\bibitem[Solove(2008)]%
+        {solove2008}
+\bibfield{author}{\bibinfo{person}{D.J. Solove}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Understanding Privacy}}.
+\newblock Number s. 10 in \bibinfo{series}{Understanding privacy}.
+  \bibinfo{publisher}{Harvard University Press}.
+\newblock
+\showISBNx{9780674027725}
+\showLCCN{2007032776}
+\urldef\tempurl%
+\url{https://books.google.hr/books?id=XU5-AAAAMAAJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Susser(2019)]%
+        {susser2019}
+\bibfield{author}{\bibinfo{person}{Daniel Susser}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Invisible Influence: Artificial Intelligence and
+  the Ethics of Adaptive Choice Architectures}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 AAAI/ACM Conference on AI,
+  Ethics, and Society}} (Honolulu, HI, USA) \emph{(\bibinfo{series}{AIES
+  '19})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{403–408}.
+\newblock
+\showISBNx{9781450363242}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3306618.3314286}
+\showDOI{\tempurl}
+
+
+\bibitem[Susser et~al\mbox{.}(2019a)]%
+        {Susser20192}
+\bibfield{author}{\bibinfo{person}{Daniel Susser}, \bibinfo{person}{Beate
+  Roessler}, {and} \bibinfo{person}{Helen Nissenbaum}.}
+  \bibinfo{year}{2019}\natexlab{a}.
+\newblock \showarticletitle{Online Manipulation: Hidden Influences in a Digital
+  World}.
+\newblock \bibinfo{journal}{\emph{Georgetown Law Technology Review}}
+  \bibinfo{volume}{4} (\bibinfo{year}{2019}), \bibinfo{pages}{1--45}.
+\newblock
+
+
+\bibitem[Susser et~al\mbox{.}(2019b)]%
+        {Susserand2019}
+\bibfield{author}{\bibinfo{person}{Daniel Susser}, \bibinfo{person}{Beate
+  Roessler}, {and} \bibinfo{person}{Helen Nissenbaum}.}
+  \bibinfo{year}{2019}\natexlab{b}.
+\newblock \showarticletitle{Technology, autonomy, and manipulation}.
+\newblock \bibinfo{journal}{\emph{Internet Policy Review}} \bibinfo{volume}{8},
+  \bibinfo{number}{2} (\bibinfo{year}{2019}), \bibinfo{pages}{1--22}.
+\newblock
+\showISSN{2197-6775}
+\urldef\tempurl%
+\url{https://doi.org/10.14763/2019.2.1410}
+\showDOI{\tempurl}
+
+
+\bibitem[Thaler and Sunstein(2008)]%
+        {thaler2008}
+\bibfield{author}{\bibinfo{person}{Richard~H. Thaler} {and}
+  \bibinfo{person}{Cass~R. Sunstein}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Nudge: Improving Decisions about Health,
+  Wealth, and Happiness}}.
+\newblock \bibinfo{publisher}{Yale University Press}.
+\newblock
+\showISBNx{9780300146813}
+\showLCCN{2009417516}
+\urldef\tempurl%
+\url{https://books.google.hr/books?id=dSJQn8egXvUC}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Thomson(1975)]%
+        {thomson1975right}
+\bibfield{author}{\bibinfo{person}{Judith~Jarvis Thomson}.}
+  \bibinfo{year}{1975}\natexlab{}.
+\newblock \showarticletitle{The right to privacy}.
+\newblock \bibinfo{journal}{\emph{Philosophy \& Public Affairs}}
+  (\bibinfo{year}{1975}), \bibinfo{pages}{295--314}.
+\newblock
+
+
+\bibitem[Toma{\v{s}}ev et~al\mbox{.}(2020)]%
+        {tomavsev2020ai}
+\bibfield{author}{\bibinfo{person}{Nenad Toma{\v{s}}ev},
+  \bibinfo{person}{Julien Cornebise}, \bibinfo{person}{Frank Hutter},
+  \bibinfo{person}{Shakir Mohamed}, \bibinfo{person}{Angela Picciariello},
+  \bibinfo{person}{Bec Connelly}, \bibinfo{person}{Danielle~CM Belgrave},
+  \bibinfo{person}{Daphne Ezer}, \bibinfo{person}{Fanny Cachat van~der Haert},
+  \bibinfo{person}{Frank Mugisha}, {et~al\mbox{.}}}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{AI for social good: unlocking the opportunity for
+  positive impact}.
+\newblock \bibinfo{journal}{\emph{Nature Communications}} \bibinfo{volume}{11},
+  \bibinfo{number}{1} (\bibinfo{year}{2020}), \bibinfo{pages}{2468}.
+\newblock
+
+
+\bibitem[V{\'e}liz(2020)]%
+        {veliz2020}
+\bibfield{author}{\bibinfo{person}{Carissa V{\'e}liz}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Privacy is Power: Why and How You Should
+  Take Back Control of Your Data}}.
+\newblock \bibinfo{publisher}{Penguin Random House}.
+\newblock
+
+
+\bibitem[Wachter(2021)]%
+        {wachter2021}
+\bibfield{author}{\bibinfo{person}{Sandra Wachter}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Affinity profiling and discrimination by
+  association in online behavioural advertising}.
+\newblock \bibinfo{journal}{\emph{Berkeley Technology Law Journal}}
+  \bibinfo{volume}{35}, \bibinfo{number}{2} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{369--430}.
+\newblock
+
+
+\bibitem[Webster(2019)]%
+        {webster2019}
+\bibfield{author}{\bibinfo{person}{Julia Webster}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{'Racist, or, at Best, Unfathomably Stupid.' Britons
+  Finding it Hard to Swallow Campaign to Curb Knife Crime With Ads on Fried
+  Chicken Boxes}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://time.com/5656420/britain-knife-crime-racist-chicken-campaign/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Weidinger et~al\mbox{.}(2022)]%
+        {weidinger2022taxonomy}
+\bibfield{author}{\bibinfo{person}{Laura Weidinger}, \bibinfo{person}{Jonathan
+  Uesato}, \bibinfo{person}{Maribeth Rauh}, \bibinfo{person}{Conor Griffin},
+  \bibinfo{person}{Po-Sen Huang}, \bibinfo{person}{John Mellor},
+  \bibinfo{person}{Amelia Glaese}, \bibinfo{person}{Myra Cheng},
+  \bibinfo{person}{Borja Balle}, \bibinfo{person}{Atoosa Kasirzadeh},
+  \bibinfo{person}{Courtney Biles}, \bibinfo{person}{Sasha Brown},
+  \bibinfo{person}{Zac Kenton}, \bibinfo{person}{Will Hawkins},
+  \bibinfo{person}{Tom Stepleton}, \bibinfo{person}{Abeba Birhane},
+  \bibinfo{person}{Lisa~Anne Hendricks}, \bibinfo{person}{Laura Rimell},
+  \bibinfo{person}{William Isaac}, \bibinfo{person}{Julia Haas},
+  \bibinfo{person}{Sean Legassick}, \bibinfo{person}{Geoffrey Irving}, {and}
+  \bibinfo{person}{Iason Gabriel}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Taxonomy of Risks posed by Language Models}. In
+  \bibinfo{booktitle}{\emph{FAccT '22: 2022 ACM Conference on Fairness,
+  Accountability, and Transparency}}. ACM, \bibinfo{pages}{214--229}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3531146.3533088}
+\showDOI{\tempurl}
+
+
+\bibitem[Wilkinson(2013)]%
+        {wilkinson2013}
+\bibfield{author}{\bibinfo{person}{T.~M. Wilkinson}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Nudging and Manipulation}.
+\newblock \bibinfo{journal}{\emph{Political Studies}} \bibinfo{volume}{61},
+  \bibinfo{number}{2} (\bibinfo{year}{2013}), \bibinfo{pages}{341--355}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1111/j.1467-9248.2012.00974.x}
+\showDOI{\tempurl}
+\showeprint{https://doi.org/10.1111/j.1467-9248.2012.00974.x}
+
+
+\bibitem[Wilson(2021)]%
+        {wilson}
+\bibfield{author}{\bibinfo{person}{Lydia Wilson}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Gone to Waste: the 'CVE' Industry After 9/11}.
+\newblock \bibinfo{journal}{\emph{New Lines Magazine}} (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Wring(1997)]%
+        {wring}
+\bibfield{author}{\bibinfo{person}{Dominic Wring}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{Reconciling marketing with political science:
+  Theories of political marketing}.
+\newblock \bibinfo{journal}{\emph{Journal of Marketing Management}}
+  \bibinfo{volume}{13}, \bibinfo{number}{7} (\bibinfo{year}{1997}),
+  \bibinfo{pages}{651--663}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1080/0267257X.1997.9964502}
+\showDOI{\tempurl}
+\showeprint{https://doi.org/10.1080/0267257X.1997.9964502}
+
+
+\bibitem[Zuboff(2015)]%
+        {zuboff2015big}
+\bibfield{author}{\bibinfo{person}{Shoshana Zuboff}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Big other: surveillance capitalism and the
+  prospects of an information civilization}.
+\newblock \bibinfo{journal}{\emph{Journal of information technology}}
+  \bibinfo{volume}{30}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{75--89}.
+\newblock
+
+
+\bibitem[Z{\"u}ger and Asghari(2022)]%
+        {zuger2022}
+\bibfield{author}{\bibinfo{person}{Theresa Z{\"u}ger} {and}
+  \bibinfo{person}{Hadi Asghari}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{AI for the public. How public interest theory
+  shifts the discourse on AI}.
+\newblock \bibinfo{journal}{\emph{AI \& SOCIETY}} (\bibinfo{year}{2022}).
+\newblock
+\showISBNx{1435-5655}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s00146-022-01480-5}
+\showDOI{\tempurl}
+
+
+\bibitem[Zuiderveen~Borgesius et~al\mbox{.}(2018)]%
+        {zuiderveen2018}
+\bibfield{author}{\bibinfo{person}{Frederik~J. Zuiderveen~Borgesius},
+  \bibinfo{person}{Judith Möller}, \bibinfo{person}{Sanne Kruikemeier},
+  \bibinfo{person}{Ronan Ó~Fathaigh}, \bibinfo{person}{Kristina Irion},
+  \bibinfo{person}{Tom Dobber}, \bibinfo{person}{Balazs Bodo}, {and}
+  \bibinfo{person}{Claes de Vreese}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Online Political Microtargeting: Promises and
+  Threats for Democracy}.
+\newblock \bibinfo{journal}{\emph{Utrecht Law Review}} (\bibinfo{date}{Feb}
+  \bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18352/ulr.420}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}

@@ -1,0 +1,22 @@
+pipeline.py              |INFO|Processing u-s-public-opinion-governance-artificial-intelligence
+tex_figure_prep.py       |INFO| Preprocessing inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images/eu-1.pdf -> inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images-preprocessed/eu-1
+tex_figure_prep.py       |INFO| Preprocessing inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images/airisksus-1.pdf -> inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images-preprocessed/airisksus-1
+tex_figure_prep.py       |INFO| Preprocessing inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images/airisksworld-1.pdf -> inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images-preprocessed/airisksworld-1
+tex_figure_prep.py       |INFO| Preprocessing inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images/airisksdemo-1.pdf -> inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images-preprocessed/airisksdemo-1
+tex_figure_prep.py       |INFO| Preprocessing inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images/trustcoef-1.pdf -> inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images-preprocessed/trustcoef-1
+tex_figure_prep.py       |INFO| Preprocessing inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images/trustdevtable1-1.pdf -> inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images-preprocessed/trustdevtable1-1
+tex_figure_prep.py       |INFO| Preprocessing inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images/trustdevtable2-1.pdf -> inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images-preprocessed/trustdevtable2-1
+tex_figure_prep.py       |INFO| Preprocessing inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images/demographicsupportstackbar-1.pdf -> inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/images-preprocessed/demographicsupportstackbar-1
+tex_figures.py           |INFO| TexFile: inputs-preprocess/u-s-public-opinion-governance-artificial-intelligence/main.tex
+tex_figures.py           |INFO| Match: []
+tex_figures.py           |INFO|Invalid image extension for fig:manage. Skipping replacement.
+tex_figures.py           |INFO| Match: ['images-preprocessed/airisksus-1.png', 'images-preprocessed/airisksworld-1.png']
+tex_figures.py           |INFO| Match: ['images-preprocessed/airisksdemo-1.png']
+tex_figures.py           |INFO| Match: ['images-preprocessed/trustcoef-1.png']
+tex_figures.py           |INFO| Match: ['images-preprocessed/trustdevtable1-1.png']
+tex_figures.py           |INFO| Match: ['images-preprocessed/trustdevtable2-1.png']
+tex_figures.py           |INFO| Match: ['images-preprocessed/demographicsupportstackbar-1.png']
+tex_to_md.py             |INFO|Conversion complete. Output written to /home/iguana/WebstormProjects/website/content/english/ai-governance-organizations/papers/u-s-public-opinion-governance-artificial-intelligence
+post_md_clean.py         |INFO|Post-processing complete. Output written to /home/iguana/WebstormProjects/website/content/english/ai-governance-organizations/papers/u-s-public-opinion-governance-artificial-intelligence/index.md
+frontmatter.py           |INFO|Frontmatter inserted. Output written to /home/iguana/WebstormProjects/website/content/english/ai-governance-organizations/papers/u-s-public-opinion-governance-artificial-intelligence/index.md
+copy_images.py           |INFO|Copied all images
