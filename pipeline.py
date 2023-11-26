@@ -9,6 +9,9 @@ from steps.tex_itemize import tex_itemize
 from steps.tex_figure_prep import tex_figure_prep
 from steps.tex_tables import tex_tables
 from steps.tex_input import tex_input
+from steps.tex_bibliography import tex_bibliography
+from steps.tex_citations import tex_citations
+from steps.tex_citations_group import tex_citations_group
 from steps.tex_figures import tex_figures
 from steps.tex_to_md import tex_to_md
 from steps.post_md_clean import post_md_clean
@@ -60,7 +63,11 @@ for docname in directories:
         tex_mdframed(current_preprocess_path)
         tex_refs(current_preprocess_path)
         tex_itemize(current_preprocess_path)
-        # tex_labels(current_preprocess_path)
+        tex_labels(current_preprocess_path)
+
+        tex_bibliography(current_preprocess_path)
+        # tex_citations(current_preprocess_path+'/main.tex', current_preprocess_path+'/main.bib', current_preprocess_path+'/main.tex'),
+        # tex_citations_group(current_preprocess_path+'/main.tex', current_preprocess_path+'/main.bib', current_preprocess_path+'/main.tex'),
 
         tex_to_md(current_preprocess_path, current_output_path)
         post_md_clean(current_output_path+'/index.md')

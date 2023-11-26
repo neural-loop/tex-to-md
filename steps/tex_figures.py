@@ -41,12 +41,13 @@ def process_figures_in_file(file_content):
         markdown_images = []
         for image_filename in image_filenames:
             markdown_image = (
-                f'<div id="{slugified_label}" class="flex items-center justify-center">'
-                '\{\{< image src="' + image_filename +
-                '" caption="' + escaped_caption +
-                '" zoomable="true" >\}\}'
-                '</div>\n\n'
+                    f'<div id="{slugified_label}" class="flex items-center justify-center ">'
+                    '\{\{< image src="' + image_filename +
+                    '" caption="' + escaped_caption +
+                    '" zoomable="true" class="bg-white rounded p-4">\}\}'
+                    '</div>\n\n'
             )
+
             markdown_images.append(markdown_image)
 
         # Replace the entire figure block with the new markdown images
