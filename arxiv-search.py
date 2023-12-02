@@ -51,16 +51,16 @@ def get_license_type(license_href):
 
 def search_arxiv(query):
     client = arxiv.Client()
-    search = arxiv.Search(query=query, max_results=50, sort_by=arxiv.SortCriterion.SubmittedDate)
+    search = arxiv.Search(query=query, max_results=400, sort_by=arxiv.SortCriterion.SubmittedDate)
     return list(client.results(search))
 
 def print_results(results):
     for idx, result in enumerate(results, start=1):
         print(dir(result))
-        fields = ['title', 'entry_id', 'get_short_id', 'published', 'authors', 'primary_category', 'journal_ref']
+        fields = ['title', 'entry_id', 'get_short_id', 'published', 'authors', 'primary_category']
 
         # Check if the directory already exists
-        extract_directory = os.path.join("inputs", custom_slugify(result.title, stopwords=stopwords))
+        extract_directory = os.path.join("inputs/source", custom_slugify(result.title, stopwords=stopwords))
         if os.path.exists(extract_directory):
             print(f"Directory already exists, skipping download: {extract_directory}")
             continue  # Skip to the next result if the directory exists
@@ -80,9 +80,16 @@ def print_results(results):
         soup = BeautifulSoup(html_content, 'html.parser')
 
         abs_license_div = soup.find('div', class_='abs-license')
-        license_href = abs_license_div.find('a')['href']
-        license_type = get_license_type(license_href)
-        print(f"License: {license_type}")
+
+        # Check if abs_license_div and 'a' tag are not None before attempting to access 'href'
+        if abs_license_div and abs_license_div.find('a'):
+            license_href = abs_license_div.find('a')['href']
+            license_type = get_license_type(license_href)
+            print(f"License: {license_type}")
+        else:
+            print("License href is None or 'a' tag not found. Using default license_type.")
+            license_type = "other"
+
 
         if license_type != "other":
             os.makedirs(extract_directory, exist_ok=True)
@@ -95,11 +102,12 @@ def print_results(results):
 
             print(f"Downloaded and extracted: {tar_file_path} to {extract_directory}")
 
-            # Check if the directory contains a .tex file
             if not any(filename.endswith(".tex") for filename in os.listdir(extract_directory)):
-                print(f"Removing directory as it doesn't contain a .tex file: {extract_directory}")
-                shutil.rmtree(extract_directory)
+                print(f"Moving directory to inputs/notex as it doesn't contain a .tex file: {extract_directory}")
+                os.makedirs(os.path.join("inputs", "failed","notex"), exist_ok=True)
+                shutil.move(extract_directory, os.path.join("inputs", "notex"))
                 continue  # Skip to the next result if the directory doesn't contain a .tex file
+
             else:
                 print(f"Directory contains a .tex file.")
 
@@ -115,6 +123,7 @@ def print_results(results):
                 title_safe = result.title.replace('"', '\\"')
                 authors_safe = authors.replace('"', '\\"')
 
+                metadata_file.write(f"---\n")
                 metadata_file.write(f"title: \"{title_safe}\"\n")
                 metadata_file.write(f"title_slug: \"{custom_slugify(result.title, stopwords=['a', 'an', 'the'])}\"\n")
                 metadata_file.write(f"license: \"{license_type}\"\n")
@@ -123,8 +132,12 @@ def print_results(results):
                 metadata_file.write(f"author: \"{authors_safe}\"\n")  # Write the authors string
                 metadata_file.write(f"pdf: \"{standard_slugify(result.title)}.pdf\"\n")
                 metadata_file.write(f"primary_category: \"{result.primary_category}\"\n")
-                metadata_file.write(f"journal_ref: \"{result.journal_ref}\"\n")
                 metadata_file.write(f"get_short_id: \"{result.get_short_id()}\"\n")
+                metadata_file.write(f'image: img.png\n')
+                metadata_file.write(f"section: \"Papers\"\n")
+
+                metadata_file.write(f"---\n")
+
             os.remove(tar_file_path)
             print(f"Removed original tar.gz file: {tar_file_path}")
 

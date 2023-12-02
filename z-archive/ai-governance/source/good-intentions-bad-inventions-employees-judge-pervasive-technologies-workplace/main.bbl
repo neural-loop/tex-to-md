@@ -1,0 +1,109 @@
+\begin{thebibliography}{10}
+
+\bibitem{adib2013see}
+F.~Adib and D.~Katabi.
+\newblock See through walls with wifi!
+\newblock In {\em Proceedings of the ACM SIGCOMM 2013 conference on SIGCOMM},
+  pages 75--86, 2013.
+
+\bibitem{alge2013workplace}
+B.~J. Alge and S.~D. Hansen.
+\newblock Workplace monitoring and surveillance research since “1984”: A
+  review and agenda.
+\newblock {\em The psychology of workplace technology}, pages 233--261, 2013.
+
+\bibitem{arrieta2020explainable}
+A.~B. Arrieta et~al.
+\newblock Explainable artificial intelligence (xai): Concepts, taxonomies,
+  opportunities and challenges toward responsible ai.
+\newblock {\em Information fusion}, 58:82--115, 2020.
+
+\bibitem{ball2010workplace}
+K.~Ball.
+\newblock Workplace surveillance: An overview.
+\newblock {\em Labor History}, 51(1):87--106, 2010.
+
+\bibitem{mckinsey}
+J.~Boehm, J.~Kaplan, M.~Sorel, N.~Sportsman, and T.~Steen.
+\newblock Cybersecurity tactics for the coronavirus pandemic, 2020.
+
+\bibitem{buolamwini2018gender}
+J.~Buolamwini and T.~Gebru.
+\newblock Gender shades: Intersectional accuracy disparities in commercial
+  gender classification.
+\newblock In {\em Conference on Fairness, Accountability and Transparency},
+  pages 77--91. PMLR, 2018.
+
+\bibitem{choi2021kairos}
+J.-H. Choi, M.~Constantinides, S.~Joglekar, and D.~Quercia.
+\newblock Kairos: Talking heads and moving bodies for successful meetings.
+\newblock In {\em Proceedings of the 22nd International Workshop on Mobile
+  Computing Systems and Applications}, pages 30--36, 2021.
+
+\bibitem{eef_analysis}
+B.~Cyphers and K.~Gullo.
+\newblock Inside the invasive, secretive “bossware” tracking workers, 2020.
+
+\bibitem{haidt2007new}
+J.~Haidt.
+\newblock The new synthesis in moral psychology.
+\newblock {\em science}, 316(5827):998--1002, 2007.
+
+\bibitem{hidalgo2021humans}
+C.~A. Hidalgo, D.~Orghian, J.~A. Canals, F.~De~Almeida, and N.~Martin.
+\newblock {\em How humans judge machines}.
+\newblock MIT Press, 2021.
+
+\bibitem{jacobs2019employee}
+J.~V. Jacobs, L.~J. Hettinger, Y.-H. Huang, S.~Jeffries, M.~F. Lesch, L.~A.
+  Simmons, S.~K. Verma, and J.~L. Willetts.
+\newblock Employee acceptance of wearable technology in the workplace.
+\newblock {\em Applied ergonomics}, 78:148--156, 2019.
+
+\bibitem{kallio2021unobtrusive}
+J.~Kallio, E.~Vildjiounaite, J.~Kantorovitch, A.~Kinnula, and
+  M.~Bordallo~L{\'o}pez.
+\newblock Unobtrusive continuous stress detection in knowledge
+  work—statistical analysis on user acceptance.
+\newblock {\em Sustainability}, 13(4):2003, 2021.
+
+\bibitem{kawsar2018earables}
+F.~Kawsar, C.~Min, A.~Mathur, and A.~Montanari.
+\newblock Earables for personal-scale behavior analytics.
+\newblock {\em IEEE Pervasive Computing}, 17(3):83--89, 2018.
+
+\bibitem{marchant2019best}
+G.~E. Marchant.
+\newblock What are best practices for ethical use of nanosensors for worker
+  surveillance?
+\newblock {\em AMA Journal of Ethics}, 21(4):356--362, 2019.
+
+\bibitem{nippert2010islands}
+C.~E. Nippert-Eng.
+\newblock Islands of privacy.
+\newblock In {\em Islands of Privacy}. University of Chicago Press, 2010.
+
+\bibitem{peer2014reputation}
+E.~Peer, J.~Vosgerau, and A.~Acquisti.
+\newblock Reputation as a sufficient condition for data quality on amazon
+  mechanical turk.
+\newblock {\em Behavior Research Methods}, 46(4):1023--1031, 2014.
+
+\bibitem{rudnicka2020eworklife}
+A.~Rudnicka, J.~W. Newbold, D.~Cook, M.~E. Cecchinato, S.~Gould, and A.~L. Cox.
+\newblock Eworklife: Developing effective strategies for remote working during
+  the covid-19 pandemic.
+\newblock In {\em Eworklife: developing effective strategies for remote working
+  during the COVID-19 pandemic}. The new future of work online symposium, 2020.
+
+\bibitem{tucsurvey}
+{Trades Union Congress}.
+\newblock I'll be watching you. a report on workplace monitoring, 2018.
+
+\bibitem{wang2018deep}
+Y.~Wang and M.~Kosinski.
+\newblock Deep neural networks are more accurate than humans at detecting
+  sexual orientation from facial images.
+\newblock {\em Journal of personality and social psychology}, 114(2):246, 2018.
+
+\end{thebibliography}

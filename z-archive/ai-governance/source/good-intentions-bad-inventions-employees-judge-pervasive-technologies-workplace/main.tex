@@ -1,0 +1,103 @@
+\documentclass{IEEEcsmag}
+
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+
+\usepackage{upmath}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{balance}
+
+
+\usepackage{mathtools}
+\usepackage{color, colortbl}
+% \usepackage{fancyhdr}
+\usepackage{ctable}
+\definecolor{Gray}{gray}{0.9}
+% \usepackage{enumitem}
+% \usepackage{compactenum}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{color, colortbl}
+\usepackage{array}
+\usepackage{booktabs} % For formal tables
+\usepackage{makecell}
+\usepackage{cellspace}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{amsmath}
+
+\usepackage{xurl}
+
+
+\usepackage{xcolor}
+
+
+% \usepackage{refcheck}
+
+\usepackage{breakcites}
+\usepackage{multirow}
+
+\jvol{XX}
+\jnum{XX}
+\paper{8}
+% \jmonth{May/June}
+% \jname{IT Professional}
+% \pubyear{2019}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+% \sptitle{Department: Head}
+% \editor{Editor: Name, xxxx@email}
+
+
+\title{Good Intentions, Bad Inventions: How Employees Judge Pervasive Technologies in the Workplace}
+
+
+\author{\ Marios Constantinides}
+\affil{\ Nokia Bell Labs, Cambridge (UK)}
+\editor{Corresponding author: Marios Constantinides, marios.constantinides@nokia-bell-labs.com}
+
+\author{\ Daniele Quercia}
+\affil{\ Nokia Bell Labs, Cambridge (UK)}
+
+% \markboth{Department Head}{Paper title}
+
+\begin{abstract}
+Pervasive technologies combined with powerful AI have been recently introduced to enhance work productivity. Yet, some of these technologies are judged to be invasive. To identify which ones, we should understand how employees tend to judge these technologies. We considered 16 technologies that track productivity, and conducted a study in which 131 crowd-workers judged these scenarios. We found that a technology was judged to be right depending on the following three aspects of increasing importance. That is, whether the technology: \emph{1)} was currently supported by existing tools; \emph{2)} did not interfere with work or was fit for purpose; and \emph{3)} did not cause any harm or did not infringe on any individual rights. Ubicomp research currently focuses on how to design better technologies by making them more accurate, or by increasingly blending them into the background. It might be time to design better ubiquitous technologies by unpacking AI ethics as well.
+\end{abstract}
+
+
+\maketitle
+
+\begin{IEEEkeywords}
+H.1.2.b Human-centered computing; C.3.h Ubiquitous computing
+\end{IEEEkeywords}
+
+\input{sections/1_Introduction}
+\input{sections/2_RelatedWork}
+\input{sections/3_OnlineStudy}
+\input{sections/4_Analysis}
+\input{sections/5_Results}
+\input{sections/6_Discussion}
+
+% \balance
+% \nocite{*}
+\bibliographystyle{abbrv} % Style BST file (bmc-mathphys, vancouver, spbasic).
+
+
+\bibliography{bibliography}  
+
+\begin{IEEEbiography}{Marios Constantinides}{\,}is currently a Senior Research Scientist at Nokia Bell Labs Cambridge (UK). He works in the areas of human-computer interaction and ubiquitous computing. Contact him at marios.constantinides@nokia-bell-labs.com.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}{Daniele Quercia}{\,}is currently the Department Head at Nokia Bell Labs in Cambridge (UK) and Professor of Urban Informatics at King's College London. He works in the areas of computational social science and urban informatics. Contact him at quercia@cantab.net.
+\end{IEEEbiography}
+
+
+
+\end{document}
+

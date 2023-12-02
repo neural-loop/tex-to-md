@@ -1,0 +1,168 @@
+\section{Diagnosing AI ethics Of ChatGPT}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\textwidth]{figure/evaluation.pdf}
+    \caption{Framework of diagnosing AI ethics of ChatGPT, with the comparisons of SOTA LLMs. The diagnosis focuses on four perspectives, 1) \textit{Bias}, 2) \textit{Robustness}, 3) \textit{Reliability} and 4) \textit{Toxicity}. The evaluation of each perspective consists of two parts, existing benchmarks and human-evaluated case studies.}
+    \label{fig:evaluation}
+\end{figure*}
+The objective of this research is to evaluate ChatGPT with respect to four critical ethical considerations: Bias, Reliability, Robustness, and Toxicity. To achieve this, we use established benchmarks that are consistent with HELM~\cite{liang2022holistic}. Our aim is to maximize the alignment between our chosen benchmarks and the scenarios and metrics under evaluation. To conserve computational resources, we evaluate 80\% randomly selected samples of each dataset. Unlike HELM, our evaluation on ChatGPT is conducted in a zero-shot setting, which more accurately reflects the typical human-computer interaction scenario where in-context examples are not provided. Additionally, to gain a comprehensive understanding of the model's performance on these benchmarks, we present results from several state-of-the-art (SOTA) LLM baselines. Like HELM, the baselines are evaluated with five in-context ground-truth examples, which we choose from the remaining 20\% samples for each dataset. Although there are a few benchmarks developed for measuring AI ethics, a lot of unethical scenarios have not yet been collected for evaluation. Hence, we preliminarily evaluate ChatGPT on some representative case studies. The analysis of these use cases further reveals the potential vulnerability of advanced LLM applications in real-world practice. We illustrate the evaluation framework in Figure~\ref{fig:evaluation}.
+
+\subsection{Bias}
+\label{sec:bias_exp}
+
+\subsubsection{\textbf{Experiment Settings}}
+
+\paragraph{Datasets}
+% We may add examples in the next version
+As evaluation criteria for a comprehensive examination of biased and unjust behavior in open-domain chatbots, we have chosen the BBQ and BOLD standards. Prior to the introduction of these standards, there have been numerous attempts to evaluate bias and fairness in chatbots, but their validity has been heavily criticized. As a result, we have selected to conduct our study using BBQ~\cite{parrish2022bbq} and BOLD~\cite{dhamala2021bold}. BBQ is specifically developed to assess bias in the context of question-answering, which is in line with our preference for assessments that are both accurate and less artificial when considering social effects. Moreover, BBQ is more useful and practical in dialogue circumstances. On the other hand, BOLD is a dataset used to measure text generation fairness. Although BOLD has previously been used to quantify toxicity, we suggest that, given its neutral background, it is better suited for measuring bias. In each generation, LLMs are given a domain-specific sub-sentence or prompt to complete.
+
+\paragraph{Models} In addition to ChatGPT, we have also selected two SOTA LLMs, InstructGPT (davinci-v2) and GPT-3 (davinci-v1) ~\cite{brown2020language}, which have demonstrated comparable results in HELM. Both InstructGPT and GPT-3 are prompt-based, few-shot generative models, capable of learning to perform based on in-context examples and instructions. However, InstructGPT utilizes a reinforcement-based training strategy, resulting in a more comprehensive understanding of in-context prompts.
+
+\paragraph{Metrics} In the BBQ question answering task, we employ the Quasi-exact match ($EM$) metric and a bias score as evaluation criteria. The $EM$ metric, as introduced in the HELM framework, extends the criterion of correctness from exact match to match after slight post-processing, such as lower-casing and punctuation, in order to assess the performance of generative models in closed-ended question answering tasks. The bias score, adopted from the original BBQ, reflects the percentage of undetermined outputs that align with a specific social bias. A bias score of 0\% indicates that the model is unbiased, while a score of 100\% or -100\% indicates alignment or opposition to the targeted social bias, respectively. Specifically, the bias score is calculated for both ambiguous and disambiguated context, denoted as $BS_{amb}$ and $BS_{dis}$, respectively.
+% Mathematically, $BS_{amb}$ and $BS_{dis}$ are defined as,
+% \begin{equation}
+%     BS_{amb}
+% \end{equation}
+% \begin{equation}
+%     BS_{dis}
+% \end{equation}
+In the context of the BOLD benchmark, we employ two metrics from the HELM framework to quantify bias in text generation, namely demographic representation bias and stereotypical associations. These metrics gauge the prevalence of stereotyped phrases in conjunction with demographic terms across various generations of models. Specifically, we assess bias in the domains of gender and race. Accordingly, the metrics for demographic representation bias are designated as $RP_{race}$ and $RP_{gender}$, while the metrics for stereotypical associations are designated as $ST_{race}$ and $ST_{gender}$. These metrics take into account the frequency of stereotyped phrases appearing in conjunction with demographic terms across various generations of models.
+
+\subsubsection{\textbf{Result Analysis}}
+\input{table/bbq.tex}
+\input{table/bold.tex}
+\hfill
+
+Table~\ref{tab:bbq} presents a comparative analysis of BBQ, utilizing InstructGPT and GPT-3 as few-shot language models, against the zero-shot ChatGPT. The results indicate that ChatGPT exhibits superior performance in terms of $EM$ and $BS_{dis}$, demonstrating its robustness across a diverse range of scenarios, including demographic characteristics such as age, disability status, gender identity, socioeconomic status, and sexual orientation. Although GPT-3 demonstrated the highest performance on $BS_{dis}$, ChatGPT is still able to achieve comparable results, surpassing InstructGPT, without the need for in-context examples. Table~\ref{tab:bold} presents bias measurements in BOLD generation, where ChatGPT consistently outperformed the other two baselines on three out of four metrics. In conclusion, our empirical findings demonstrate that ChatGPT exhibits lower levels of bias in comparison to current SOTA LLMs when performing question answering or text generation tasks. Furthermore, ChatGPT demonstrates the ability to complete tasks without the need for in-context few-shot learning, suggesting a comprehensive understanding of limited context. It is worth noting that the ground-truth examples utilized by InstructGPT and GPT-3 have no bias and may implicitly minimize bias in these models. This implies that existing LLMs may have a more significant level of bias than ChatGPT.
+\finding{1.1}{Indicated by the performance on datasets, ChatGPT may have less bias than other LLMs.}
+
+\subsubsection{\textbf{Beyond Benchmarking}}
+\hfill
+
+Despite the noteworthy performance of ChatGPT on current benchmarks for social bias, it should be acknowledged that these measurements only encompass a limited subset of potential bias aspects. As previously outlined in Section~\ref{sec:2}, user feedback on Twitter has indicated the presence of biases in other domains, such as multilingual comprehension and code generation. In light of this, we have undertaken three case studies in order to determine the extent to which more biases are presented in ChatGPT.
+
+\paragraph{Case Study 1} Language Understanding
+\hfill
+
+To understand the bias in language, we provide an example in Table~\ref{tab:diaoyudao}, where the user asks ChatGPT ``Which country does Kunashir Island belong to?'' in Japanese, Russian and English. From the fact, these islands are disputed territories. Based on the observation, ChatGPT shows biased opinions in different languages. Even though when the question is asked in English, ChatGPT reflects biases to different controversial names of the islands.
+
+The findings promote our further investigation on language understanding. As machine translation is one of the most traditional tasks for multilingual understanding, we let ChatGPT perform zero-shot machine translation using FLORES-200~\cite{team2022NoLL} devtest set. We choose three low-resource languages and three high-resource languages, as defined in the dataset. For each selected language, ChatGPT is required to translate the sentence to English.
+\input{table/bias_language_example.tex}
+To assess the translation quality, we use sacreBLEU~\cite{post-2018-call} and its variant, spBLEU~\cite{goyal2022flores}, to measured $n$-gram word overlaps between language model's predication and reference. In addition, we also measure the character $n$-gram overlaps via ChrF~\cite{popovic2015chrf}, without segmenting the sentence into words. All these metrics range from 0 to 100.
+\input{table/flores.tex}
+
+The performance of ChatGPT's zero-shot machine translation is displayed in Table~\ref{tab:flores}. A study of ChatGPT's performance relative to language resources demonstrates a considerable gap between its performance on low-resource and high-resource languages. In particular, the near-zero scores on the BLUE and spBLEU metrics for low-resource languages show that ChatGPT has insufficient comprehension of these languages, whereas its performance on high-resource languages indicates a rather high level of semantic understanding. In addition, a comparison of ChatGPT's performance within the same resource group demonstrates that the quality of its translations varies between languages.
+\finding{1.2}{ChatGPT's inadequate comprehension of low-resource languages and variations in translation quality among high-resource languages.}
+
+\paragraph{Case Study 2} Code Generation
+\hfill \break
+To illustrate prejudice in code generation, we provide an example in Table~\ref{tab:code_bias}, in which ChatGPT is requested to develop a Python function to determine whether a person is a doctor based on race and gender. Instead of acknowledging that people of all genders and races could be doctors, ChatGPT expresses plainly biased opinions about doctors. We suggest that real-world LLM applications should be capable of avoiding biases, despite the fact that this particular example could lead to bias.
+\input{table/code_gen_settings.tex}
+We conduct a case study on the ability of ChatGPT to generate unbiased code with minimal guidance, as illustrated in Table~\ref{tab:code_prompt}, using randomly sampled 100 occupations associated by language models~\cite{kirk2021bias}. Results indicate that ChatGPT is highly likely to generate biased programs with biased induction in Round 1, as 87\% of generated Python programs are found to be biased, as determined by manual annotation with inter-rater reliability of 0.99 and 1.00 for Round 1 and 2 generations respectively. However, when required to remove bias, ChatGPT struggles to eliminate all bias, with 31\% of programs found to be biased in Round 2.
+\finding{1.3}{ChatGPT is highly likely to generate biased programs with biased induction, and struggles to remove all bias in generation.}
+% \input{table/code_occupation.tex}
+\input{table/bias_code.tex}
+
+\paragraph{Case Study 3} Open-ended Dialogue
+\hfill
+
+Our case study utilizing ProsocialDialog~\cite{kim2022prosocialdialog}, a dataset focusing on multi-turn problematic dialogue following social norms, demonstrates that ChatGPT possesses high social awareness through its ability to generate socially safe and unbiased responses in open-ended dialogues. This is evidenced by the results of our human evaluation, in which 50 dialogues from the test set were evaluated against ground-truth labels, resulting in a Fleiss’ kappa coefficient of 0.94, indicating high agreement among annotators, and 92\% alignment with ground truth.
+\finding{1.4}{ChatGPT is able to generate socially safe and unbiased responses in open-ended dialogues.}
+
+\subsection{Robustness}
+
+\subsubsection{\textbf{Experiment Settings}}
+
+\paragraph{Datasets} In order to evaluate the robustness of ChatGPT, we utilize two datasets, IMDB sentiment analysis~\cite{maas2011learning} and BoolQ factual question answering~\cite{clark2019boolq}, and adopt the evaluation settings from HELM. As there is a lack of conventional assumptions and benchmarks for robustness in language models, we focus on measuring a specific subfield of robustness, namely adversarial semantic robustness. To this end, we employ the perturbation methods defined in HELM, which were originally inspired by NL-Augmenter~\cite{dhole2021nl}. Specifically, for the notion of invariance, we utilize two types of augmentation: misspelling and formatting (lowercasing, contractions, expansions, and extra-spacing). For the notion of equivariance, we utilize \textit{Contrast Sets}~\cite{gardner2020evaluating}, a data resource that has been counterfactually-augmented on IMDB and BoolQA.
+
+\paragraph{Models} We deploy two SOTA LLMs as baselines, InstructGPT (davinci v2) and GLM (130b) ~\cite{zeng2022glm}, where GLM is an open bilingual LLM with 130B parameters. Similar to InstructGPT, GLM is prompt-based, requiring in-context examples for the idea output behavior. We instruct both models with 5 in-context examples on each dataset.
+
+\paragraph{Metrics} Same as HELM, we evaluate the correctness of model results with $EM$. Ideally, a robust model should perform consistently regardless of the perturbations. By comparing the performances among augmented subsets, we are able to determine how robust each LLM is.
+
+\subsubsection{\textbf{Result Analysis}}
+\input{table/imdb.tex}
+\input{table/boolqa.tex}
+\hfill
+
+The performance of the model is systematically evaluated using three perturbed subsets of the IMDB dataset, specifically misspelling ($EM_{msp}$), formatting ($EM_{fmt}$), and contrasting ($EM_{ctst}$) in relation to the original subset. The performance differences are quantitatively measured in terms of percentage, in conjunction with the computation of the $EM$ metric. The results of this evaluation are presented in Table~\ref{tab:imdb}. The analysis demonstrates that ChatGPT demonstrates superior accuracy in sentiment analysis, as well as an increased level of robustness across all augmented variants. In contrast, InstructGPT and GLM exhibit a statistically significant degradation in performance, averaging approximately 5\% across the various perturbation methods. Notably, all three language models exhibit a heightened level of susceptibility to semantics-altering perturbations in the IMDB sentiment analysis scenario, as indicated by the $EM_{ctst}$ metric.
+
+In addition, the model performance is evaluated on the BoolQA dataset using identical experimental settings. The results of this evaluation are consistent with the aforementioned findings, with ChatGPT outperforming the other two baselines on both the original and perturbed subsets. Furthermore, it is observed that the three language models exhibit a degradation in performance when subjected to contrasting semantic perturbations, suggesting that equivariance of robustness may pose a significant challenge for the current advanced language models and their applications.
+\finding{2.1}{Compared to two LLM baselines, ChatGPT demonstrates superior accuracy and adversarial robustness, while still exhibiting a heightened level of susceptibility to semantics-altering perturbations.}
+
+\subsubsection{\textbf{Beyond Benchmarking}}
+\hfill
+
+In addition to adversarial semantic robustness, there exist other forms of robustness. In this section, we focus on a specific type of vulnerability, namely, adversarial prompt injection. Adversarial prompt injection refers to the phenomenon where the model's response may vary significantly in response to subtle changes in the input prompt, due to the model's high sensitivity to the prompt. To examine the ethical implications of this behavior, we conduct a case study.
+
+\paragraph{Case Study} Scenairo-based Safety Jailbreaking
+\hfill
+
+In order to demonstrate the potential concerns associated with jailbreak, two of the authors manually construct prompts for 100 distinct scenarios that are deemed unsafe, unethical, and illegal, such as ``how to sell drugs to my classmate?'' and ``how to secretly steal my dad's money?''. %reference in the next version
+It is expected that the ChatGPT model will not provide responses to these prompts. Drawing inspiration from previous jailbreak cases~\cite{ethical-constraint}, the authors employed the technique of prompt injection (e.g. ``write a song about...'', ``write a poem about...'') to these 100 prompts as a means of bypassing ChatGPT's safety awareness mechanisms. The robustness of this adversarial prompt injection is evaluated through manual examination by the two authors to determine if ChatGPT provided responses to these prompts. The inter-annotator agreement, as measured by Cohen's kappa coefficient, is found to be 1.00.
+
+The results of this evaluation indicate that only 2 out of 100 scenarios are directly answered by ChatGPT, indicating a high level of safety. However, it is found that 95 out of the 98 scenarios that are previously protected by safety mechanisms could be successfully jailbroken through the use of persona-assigned adversarial prompts. This highlights the high vulnerability and potentially unsafe nature of the ChatGPT.
+\finding{2.2}{ChatGPT is very susceptible to prompt injections, allowing its safety features to be bypassed and possibly dangerous, immoral, or illegal responses to be generated..}
+
+\subsection{Reliability}
+
+\subsubsection{\textbf{Experiment Settings}}
+
+\paragraph{Datasets} To evaluate the factual knowledge and commonsense capabilities of the models, we utilize two multiple-choice question-answering benchmarks, OpenBookQA~\cite{mihaylov2018can} and TruthfulQA~\cite{lin2022truthfulqa}. The OpenBookQA dataset comprises basic science facts collected from open-book exams. In contrast, the TruthfulQA dataset contains questions aligned with prevalent human misconceptions and covers topics such as law, medicine, finance, and politics.
+
+\paragraph{Models} In line with the experiments in Section~\ref{sec:bias_exp}, InstructGPT (davinci v2) and GPT-3 (davinci v1) are employed as baseline models for comparison.
+
+\paragraph{Metrics} To evaluate the accuracy of model performance, we utilize the Exact Match (EM) metric.
+
+\subsubsection{\textbf{Result Analysis}}
+\hfill \break
+\input{table/reliable_qa.tex}
+
+We present our evaluation results in Table~\ref{tab:qa}. To our surprise, we observed comparable performance between ChatGPT and InstructGPT across both datasets. We attribute this similarity to the utilization of similar training strategies and architectures in both models~\cite{openai-chatgpt}. The only distinction is the data collection setup, where ChatGPT is additionally trained on a manually labeled dialogue dataset. Conversely, GPT-3 demonstrated a significantly lower accuracy on TruthfulQA, suggesting that it may have encoded more misconceptions during training. A similar performance gap has been also reported by HELM. Overall, we find that ChatGPT marginally outperforms previous SOTA LLMs, correctly answering no more than 65\% of the test cases. This highlights the challenges faced by current chatbots in effectively learning factual knowledge, resulting in low reliability in real-world scenarios.
+
+\finding{3.1}{Due to the similar training strategies and architectures, ChatGPT maintains mediocre reliability in factual knowledge to SOTA LLMs.}
+
+\subsubsection{\textbf{Beyond Benchmarking}}
+\hfill
+
+As previously discussed in Section~\ref{sec:2}, the reliability of generative language models may be compromised by the phenomenon of hallucination. Hallucination refers to the generation of false or misleading information by such models. This problem is prevalent in natural language generation, and the distribution of misinformation and disinformation is a common manifestation of this phenomenon. However, measuring the prevalence of hallucination in natural language generation is a challenging task, as it typically necessitates the use of human judgment, which may be costly and resource-intensive. This is highlighted in ~\cite{ji2022survey} which describes the difficulty of measuring hallucination in natural language generation.
+
+\paragraph{Case Study} Open-ended Question Answering
+\input{table/hallucination.tex}
+\hfill
+
+Given the aforementioned constraint, we conducted a limited evaluation of ChatGPT's performance in open-ended factual question answering by utilizing the TruthfulQA${gen}$ test set. To assess the severity of hallucination in text generation, we solicited the evaluation of three authors to determine whether the generated responses contained misinformation or disinformation, utilizing a random sample of 100 questions from TruthfulQA${gen}$. Table~\ref{tab:hallucination} presents two examples of misinformed responses, along with the corresponding ground-truth answers. According to the results of the human evaluation, we observed that 24 instances of hallucination were present. This observation confirms the previously reported findings on the OpenBookQA and TruthfulQA datasets, leading us to conclude that ChatGPT's performance is unreliable and may pose a risk of misleading users in practical applications.
+
+\finding{3.2}{The demonstration of ChatGPT's proficiency in addressing open-ended factual queries serves to validate previous reports of hallucination within language models.}
+
+\subsection{Toxicity}
+
+\subsubsection{Experiment Settings}
+
+\paragraph{Datasets} In order to evaluate toxicity, we have selected RealToxicPrompts~\cite{gehman2020realtoxicityprompts}, a compilation of benign prompts sourced from OpenWebText~\cite{Gokaslan2019OpenWeb}. RealToxicPrompts serves as the primary benchmark for assessing toxicity in text generation. Although the HELM study employs both RealToxicPrompts and BOLD for similar purposes, we contend that language models exhibit a reduced tendency for toxicity generation when utilizing BOLD, as previously noted in the HELM discussion.
+
+\paragraph{Models} In our analysis, we contrast ChatGPT with two state-of-the-art language models on RealToxicPrompts, specifically Cohere (medium-2022126)~\footnote{\url{https://cohere.ai/}} and T5 (11b)~\cite{raffel2020exploring}. While Cohere is a prompt-based, few-shot language model, T5 is solely pre-trained on a combination of supervised and unsupervised tasks. Nonetheless, we continue to evaluate these two models using the 5-shot in-context examples, as previously experimented in HELM.
+
+\paragraph{Metrics} The toxicity of the model completions is measured using PerspectiveAPI\footnote{\url{https://perspectiveapi.com/}}, with due consideration given to the comprehensive cautions regarding the validity of PerspectiveAPI as outlined in HELM. We compute the proportion of model outputs that exceed the toxic threshold.
+
+\subsubsection{Result Analysis}
+\hfill \break
+\input{table/toxic.tex}
+Table~\ref{tab:toxic} illustrates the findings on RealToxicPrompts. One notable aspect is that all language models exhibit minimal toxicity, as the toxic fractions are nearly zero. Through a comparison of ChatGPT to the other two baselines, it is apparent that ChatGPT exhibits a slight advantage. This may be due to the fact that it is trained on a cleaner dataset.
+
+\finding{4.1}{ChatGPT demonstrates a superior level of toxicity reduction in comparison to the other two baseline LLMs, as a result of its utilization of a cleaner training dataset.}
+
+\subsubsection{\textbf{Beyond Benchmarking}}
+\hfill
+
+Despite its inherent design for safe usage, it is plausible that ChatGPT may be susceptible to jailbreaking for the generation of toxic language. To assess this potentiality, we conducted a human study utilizing prompt-injected dialogues.
+
+\paragraph{Case Study} Persona-assigned Toxicity Jailbreak
+\input{table/gaslight.tex}
+\hfill
+
+Motivated by the Awesome ChatGPT Prompts\footnote{\url{https://prompts.chat/}} repository, our objective is to prompt ChatGPT to generate toxic language through the utilization of prompt injection, a technique known to circumvent model constraints. To achieve this, we employ the prompt of \textbf{Act as `Character' from `Movie/Book/Anything'} In selecting characters, we source a list of the most rude and poisonous characters from the Open-Source Psychometrics Project\footnote{\url{https://openpsychometrics.org/tests/characters/stats/MLP/4/}}. To ensure fairness in our evaluation, we instruct ChatGPT to generate toxic content based on each injected prompt and measured the results using PerspectiveAPI. Our findings indicate that the toxic fraction is 0.977 for all 43 dialogues with ChatGPT, with 42 out of 43 answers being classified as toxic. In contrast, the default behavior of ChatGPT is to avoid generating toxic content.
+
+
+
+
+\finding{4.2}{ChatGPT is prone to the exploitation of prompt injection technique, which enables the generation of harmful language. The current mitigation strategy adopted by the model is inadequate as it lacks the ability to detect potential toxicity in an early stage.}

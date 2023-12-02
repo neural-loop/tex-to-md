@@ -1,0 +1,52 @@
+\section{Common Themes of Ethical Concerns}
+\label{sec:2}
+This section outlines the two main application scenarios of ChatGPT and the four corresponding common ethical concerns.
+In order to establish a taxonomy based on data analysis, we conducted a comprehensive collection of 305,701 tweets pertaining to ChatGPT for the duration of December 2022.
+We studied all data\footnote{Details of manual labels and data analysis will be discussed in an upcoming technical report.}, and summarized common themes of these tweets on the basis of the previous risk landscape associated with LLMs~\cite{weidinger2021ethical}.
+%??To me, this manual labeling of 305701 tweets is the most important contribution and the foundation for justifying benchmarking and case study designs. Maybe we should mention the core of the this tweet analysis here. Even a concise summary would be much better than leaving it to the upcoming techreport.
+
+\subsection{Application Scenarios}
+LLMs are powerful tools for understanding and generating natural language and potentially programming language. They have a wide range of applications with two main scenarios: Creative Generation and Decision-making.
+
+\paragraph{Creative Generation}
+Creative generation involves using language models to develop fresh and creative content, such as writing a story, composing poetry, or scripting film dialogue. This is achieved by training the model on a massive corpus of existing books, articles, and scripts. The model learns the patterns, structures, and styles of text, allowing it to generate similar content. This has several downstream applications, such as producing content for entertainment~\cite{higashinaka2018role}, marketing~\cite{reisenbichler2022frontiers}, advertising~\cite{bartz2008natural}, and content summarization~\cite{cao2022ai}.
+
+\paragraph{Decision-making}
+The use of language models in decision-making is a significant application scenario in the field of machine learning. This refers to using these models to make informed decisions based on natural language input, as demonstrated in studies on sentiment analysis~\cite{zhang2018deep}, text classification~\cite{minaee2021deep}, and question answering~\cite{abbasiantaeb2021text}. By analyzing and comprehending the meaning and context of the input, these models are able to provide judgments or suggestions based on their understanding of the information. The models can be used in natural language processing activities to comprehend, interpret, and generate human-like speech, which is a vital component of chatbots, virtual assistants, and language-based games.
+
+\subsection{Common Themes of Ethical Concerns}
+% \zc{May need a brief justification why these four not others?}
+
+\paragraph{Bias}
+Bias is a common ethical concern in language model development and deployment. There are multiple manifestations of bias, such as social stereotypes and unfair discrimination, exclusionary norms, and multilingualism.
+
+\textbf{Social stereotypes and unfair discrimination:} When the data used to train a language model includes biased representations of specific groups of individuals, social stereotypes and unfair discrimination may result~\cite{weidinger2021ethical}. This may cause the model to provide predictions that are unfair or discriminatory towards those groups. For example, a language technology that analyzes curricula vitae for recruitment or career guidance may be less likely to recommend historically discriminated groups to recruiters or more likely to offer lower-paying occupations to marginalized groups. To prevent this, it is essential to ensure that the training data is diverse and representative of the population for which it will be used, and to actively discover and eradicate any potential biases in the data.
+
+\textbf{Exclusionary norms:} When a language model is trained on data that only represents a fraction of the population, such as one culture, exclusionary norms may emerge. This can result in the model being unable to comprehend or generate content for groups that are not represented in the training data, such as speakers of different languages or people from other cultures~\cite{weidinger2021ethical}.
+
+\textbf{Multilingualism:} The monolingual bias in multilingualism is a type of bias that can occur in language models~\cite{talat2022you}. Often, language models are only trained on data in one language, preventing them from understanding or generating text in other languages. This can result in a lack of access to the benefits of these models for people who speak different languages and can lead to biased or unfair predictions about those groups~\cite{weidinger2021ethical,liang2021towards}. To overcome this, it is crucial to ensure that the training data contains a substantial proportion of diverse, high-quality corpora from various languages and cultures.
+
+\paragraph{Robustness}
+Another major ethical consideration in the design and implementation of language models is their robustness. Robustness refers to a model's ability to maintain its performance when given input that is semantically or syntactically different from the input it was trained on.
+
+\textbf{Semantic Perturbation:} Semantic perturbation is a type of input that can cause a language model to fail~\cite{alzantot2018generating,li2020bert}. This input has different syntax but is semantically similar to the input used for training the model. To address this, it is crucial to ensure that the training data is diverse and representative of the population it will be used for, and to actively identify and eliminate any potential biases in the data.
+
+\textbf{Data Leakage:} Data leakage in language models can result in exposing the model to attacks where adversaries try to extract sensitive information from the model, jeopardizing individual privacy and organizational security~\cite{carlini2021extracting}. To mitigate these risks, it is essential to prevent data leakage by carefully selecting the training dataset, using techniques such as regularization and cross-validation to reduce overfitting, and implementing techniques like differential privacy and model distillation to protect the model from attacks. Furthermore, it is crucial to conduct thorough evaluations using a wide range of test data, monitor the model's performance, and be transparent about the training data and any known biases in the model.
+
+\textbf{Prompt Injection:} Prompt injection is a type of input that can lead to a failure in a language model, particularly a LLM. This input is data that is deliberately introduced into the model's input with the intention of causing it to malfunction. To address this vulnerability, it is crucial to conduct exhaustive testing on a wide variety of inputs and ensure that the model can accurately recognize and reject inputs that are different from the semantic and syntactic patterns of the input it was trained on. Additionally, it is essential to establish robust monitoring methods to detect any malicious use of the model and implement necessary security measures to prevent such malicious intent. This includes, but is not limited to, testing, monitoring, and upgrading the models as needed to ensure optimal performance.
+
+\paragraph{Reliability}
+
+The reliability of language models is a crucial ethical concern in their development and deployment. It pertains to the capability of the model to provide precise and dependable information.
+
+\textbf{False or Misleading Information:} The dissemination of false or misleading information is a significant concern in the field of natural language processing, particularly when it comes to training language models~\cite{mcguffie2020radicalization}. This unreliable information may result from using inaccurate or biased training data, which can lead to false or misleading outputs when the model is used by users. For example, if a language model is trained on data that contains misinformation about a certain topic, it may provide erroneous information to users when queried about that topic. To address this issue, it is crucial to exercise due diligence in ensuring the accuracy and impartiality of the training data, as well as actively identify and rectify any inaccuracies that may be present.
+
+\textbf{Outdated Information:} Outdated information is another type of incorrect information that may occur when a language model is trained on obsolete or inaccurate data~\cite{jang2021towards}. This can result in the model providing users with outdated information, which is detrimental to decision-making and information-seeking activities. To prevent this, it is essential to keep the training data current and to continuously monitor and update the model as new data becomes available, so that the language model provides users with the most accurate and relevant information.
+
+\paragraph{Toxicity}
+
+The ethical considerations related to toxicity in the development and deployment of language models are of utmost importance. Toxicity refers to the model's ability to generate or understand harmful or offensive content.
+
+\textbf{Offensive Language:} One form of toxicity that may arise is the presence of offensive language in the training data. This can result in the model generating or understanding offensive or harmful content when interacting with users~\cite{gehman2020realtoxicityprompts}. For instance, if a language model is trained on data that includes racist or sexist language, it may generate or understand racist or sexist content when interacting with users. To mitigate this, it is crucial to ensure that the training data does not contain any offensive or hurtful language, and to actively identify and remove any offensive or harmful information that may be present in the data.
+
+\textbf{Pornography:} Another form of toxicity that may arise is the presence of pornographic content in the training data. This can lead to the model generating or understanding pornographic content when interacting with users~\cite{solaiman2021process}. To mitigate this, it is crucial to guarantee that the training data is free of pornographic content and to actively identify and remove any pornographic content that may be present in the data. Additionally, it is essential to implement the necessary security measures to prevent improper use of the model.

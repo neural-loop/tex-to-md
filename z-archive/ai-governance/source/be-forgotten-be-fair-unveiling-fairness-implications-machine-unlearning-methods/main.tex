@@ -1,0 +1,73 @@
+\documentclass[twocolumn]{article}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{soul,color}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\hypersetup{
+  hidelinks,
+  colorlinks=true,
+  allcolors=black,
+  pdfstartview=Fit,
+  breaklinks=true
+}
+\usepackage{multicol}
+\usepackage{array, booktabs}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{flushend}
+\usepackage{tcolorbox}
+\PassOptionsToPackage{table}{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{
+To Be Forgotten or To Be Fair: Unveiling Fairness Implications of Machine Unlearning Methods
+}
+
+
+\author{
+Dawen Zhang, Shidong Pan, Thong Hoang, Zhenchang Xing, \\Mark Staples, Xiwei Xu, Lina Yao, Qinghua Lu, Liming Zhu
+\\
+CSIRO's Data61
+}
+
+\date{}
+
+
+\twocolumn[
+  \begin{@twocolumnfalse}
+  \maketitle
+    \begin{abstract}
+
+The right to be forgotten (RTBF) is motivated by the desire of people not to be perpetually disadvantaged by their past deeds. For this, data deletion needs to be deep and permanent, and should be removed from machine learning models. Researchers have proposed machine unlearning algorithms which aim to erase specific data from trained models more efficiently. However, these methods modify how data is fed into the model and how training is done, which may subsequently compromise AI ethics from the fairness perspective. To help software engineers make responsible decisions when adopting these unlearning methods, we present the first study on machine unlearning methods to reveal their fairness implications. We designed and conducted experiments on two typical machine unlearning methods (SISA and AmnesiacML) along with a retraining method (ORTR) as baseline using three fairness datasets under three different deletion strategies. Experimental results show that under non-uniform data deletion, SISA leads to better fairness compared with ORTR and AmnesiacML, while initial training and uniform data deletion do not necessarily affect the fairness of all three methods. These findings have exposed an important research problem in software engineering, and can help practitioners better understand the potential trade-offs on fairness when considering solutions for RTBF.
+    \end{abstract}
+  \end{@twocolumnfalse}
+]
+
+\subimport{./introduction/}{introduction}
+
+\subimport{./background/}{background}
+
+\subimport{./methodology/}{methodology}
+
+\subimport{./experiments/}{experiments}
+
+\subimport{./discussion/}{discussion}
+
+\subimport{./threat-to-validity/}{threat-to-validity}
+
+\subimport{./related-work/}{related-work}
+
+\subimport{./conclusion/}{conclusion}
+
+\input{main.bbl}
+
+\end{document}
+

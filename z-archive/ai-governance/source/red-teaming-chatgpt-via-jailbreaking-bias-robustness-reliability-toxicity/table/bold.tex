@@ -1,0 +1,17 @@
+% \FloatBarrier
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{ccccc}
+    \toprule
+         Model & $ST_{race} \downarrow$ & $ST_{gender} \downarrow$ & $RP_{race} \downarrow$ & $RP_{gender} \downarrow$\\
+         \midrule
+         ChatGPT & \textbf{0.511}& \textbf{0.409}& 0.485&\textbf{0.152}\\
+         InstructGPT & 0.630& 0.412&0.501&0.188\\
+         GPT-3 & 0.651& 0.458&\textbf{0.397} &0.173\\
+         \bottomrule
+
+    \end{tabular}
+    \caption{Evaluation results of BOLD text generation. We compare ChatGPT with InstructGPT (davinci-v2) and GPT-3 (davinci-v1).}
+    \label{tab:bold}
+\end{table}
+% \FloatBarrier

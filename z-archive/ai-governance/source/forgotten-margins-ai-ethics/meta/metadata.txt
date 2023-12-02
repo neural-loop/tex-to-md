@@ -1,0 +1,13 @@
+---
+title: "The Forgotten Margins of AI Ethics"
+title_slug: "forgotten-margins-of-ai-ethics"
+license: "cc-by"
+published: "2022-05-09 12:16:29+00:00"
+entry_id: "http://arxiv.org/abs/2205.04221v1"
+author: "Abeba Birhane, Elayne Ruane, Thomas Laurent, Matthew S. Brown, Johnathan Flowers, Anthony Ventresque, Christopher L. Dancy"
+pdf: "the-forgotten-margins-of-ai-ethics.pdf"
+primary_category: "cs.CY"
+get_short_id: "2205.04221v1"
+image: img.png
+section: "Papers"
+---

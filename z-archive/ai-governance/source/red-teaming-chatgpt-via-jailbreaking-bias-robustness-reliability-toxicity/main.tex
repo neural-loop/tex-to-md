@@ -1,0 +1,60 @@
+\documentclass[10pt,conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage[numbers]{natbib}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage[svgnames]{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+\DeclareRobustCommand*{\IEEEauthorrefmark}[1]{%
+  \raisebox{0pt}[0pt][0pt]{\textsuperscript{\footnotesize #1}}%
+}
+\input{00_definition.tex}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\newcommand{\zc}[1]{\textcolor{red}{\textbf{ZC:} #1}}
+
+\title{Red teaming ChatGPT via Jailbreaking:\\Bias, Robustness, Reliability and Toxicity}
+
+
+\author{
+    \IEEEauthorblockN{Terry Yue Zhuo\IEEEauthorrefmark{1,}\IEEEauthorrefmark{2}\textsuperscript{\textsection}, Yujin Huang\IEEEauthorrefmark{2}, Chunyang Chen\IEEEauthorrefmark{2}, Zhenchang Xing\IEEEauthorrefmark{1,}\IEEEauthorrefmark{3}}
+    
+    \IEEEauthorblockA{\IEEEauthorrefmark{1}CSIRO's Data61}
+    \IEEEauthorblockA{\IEEEauthorrefmark{2}{Monash University}}
+    \IEEEauthorblockA{\IEEEauthorrefmark{3}Australian National University}
+}
+\maketitle
+\begingroup\renewcommand\thefootnote{\textsection}
+\footnotetext{Correspondence: \texttt{terry.zhuo@monash.edu}}
+\endgroup
+ \textit{\color{red!55!black}\textbf{Warning}: this paper may contain content that is offensive or upsetting.}
+
+ 
+\begin{abstract}
+
+Recent breakthroughs in natural language processing (NLP) have permitted the synthesis and comprehension of coherent text in an open-ended way, therefore translating the theoretical algorithms into practical applications. The large language models (LLMs) have significantly impacted businesses such as report summarization software and copywriters. Observations indicate, however, that LLMs may exhibit social prejudice and toxicity, posing ethical and societal dangers of consequences resulting from irresponsibility. Large-scale benchmarks for accountable LLMs should consequently be developed. Although several empirical investigations reveal the existence of a few ethical difficulties in advanced LLMs, there is little systematic examination and user study of the risks and harmful behaviors of current LLM usage. To further educate future efforts on constructing ethical LLMs responsibly, we perform a qualitative research method called ``red teaming'' on OpenAI's ChatGPT\footnote{In this paper, ChatGPT refers to the version released on Dec 15th.} to better understand the practical features of ethical dangers in recent LLMs. We analyze ChatGPT comprehensively from four perspectives: 1) \textit{Bias} 2) \textit{Reliability} 3) \textit{Robustness} 4) \textit{Toxicity}. In accordance with our stated viewpoints, we empirically benchmark ChatGPT on multiple sample datasets. We find that a significant number of ethical risks cannot be addressed by existing benchmarks, and hence illustrate them via additional case studies. In addition, we examine the implications of our findings on AI ethics and harmal behaviors of ChatGPT, as well as future problems and practical design considerations for responsible LLMs. We believe that our findings may give light on future efforts to determine and mitigate the ethical hazards posed by machines in LLM applications.
+\end{abstract}
+
+
+% \begin{IEEEkeywords}
+% \end{IEEEkeywords}
+\input{01_introduction.tex}
+\input{02_related_work.tex}
+\input{03_research_design.tex}
+\input{04_tweet_analysis.tex}
+\input{05_benchmarking_chatgpt.tex}
+\input{06_discussion.tex}
+
+\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+\bibliography{reference}
+\end{document}

@@ -1,0 +1,77 @@
+\section{ONLINE STUDY}
+\label{sec:study}
+
+\begin{table*}[t]
+    \centering
+    \caption{Summary of crowd-workers demographics. }
+    \begin{tabular}{|l l|}
+        \hline
+        Type                  & Count                                                                                                                \\  \hline
+        Gender                & Male (66\%), Female (34\%)                                                                                           \\
+        Ethnicity             & White (80\%), African-American (13\%), Asian (4\%) Hispanic (3\%)                                                    \\
+        Years of employment   & Less than 2 years (24\%), 2-5 years (53\%), 5+ years (23\%)                                                          \\
+        Time working remotely & Less than years (67\%), 2-5 years (20\%), 5+ years (5\%), Never (8\%)                                                \\
+        Industry sector       & {\shortstack [l]{IT (40\%), Financials (21\%), Industrials (12\%), Energy (11\%), Health Care (6\%), Materials (4\%) \\  Consumer Staples (2\%), Communication Service (2\%), Consumer Discretionary (2\%)}}                  \\
+        Role                  & {\shortstack [l]{Manager (54\%), Software Engineer (17\%), Sales and Marketing (5\%), Accountant (5\%) \\ Office administrator (3\%), Human Resources (2\%) not specified (14\%)}}                  \\
+        \hline
+    \end{tabular}
+    \label{tab:crowdworkers_demographics}
+\end{table*}
+
+\subsection{Scenarios Generation}
+\label{sec:workplace_technologies}
+The Electronic Frontier Foundation, a leading non-profit organization defending digital privacy and free speech has analyzed employee-monitoring software programs~\cite{eef_analysis}, and classified these programs based on five main aspects that are being tracked: (a) work time on computer (e.g., tracking inactivity) (b) log keystrokes (e.g., typing behavior, text messages being exchanged), (c) websites, apps, social media use, and emails, (d) screenshots to monitor task completion time, and (e) webcams monitoring facial expressions, body postures, or eye movements. Drawing from this analysis, we devised a set of 16 AI-based workplace technologies (Table~\ref{tab:technologies}). As a result of rapid technological advancements, this list might not be exhaustive, but, as we shall see next (\S\nameref{sec:analysis}), our methodology could be used on newly introduced technologies as it is a generalizable way of identifying how individuals tend to make their moral judgments.
+
+\begin{table*}[t]
+    \centering
+    \caption{Sixteen tracking technologies that were judged along five well-established moral dimensions: harm, fairness, loyalty, authority, and purity.}
+    \begin{tabular}{|l l|}
+        \hline
+        Tracking technology                     & Example                                                                              \\  \hline
+
+        (1) body postures outside meetings      & An earbud device tracking body postures through inertial measurement unit (IMU) data \\
+        (2) body postures during meetings       & An earbud device tracking body postures through IMU data \\
+        (3) facial expressions outside meetings & A camera recording and analyzing an employee's face outside a meeting\\
+        (4) facial expressions during meetings  & A camera recording and analyzing an employee's face during a meeting\\
+        (5) eye movements outside meetings      & A camera or smart-glasses recording and analyzing an employee's face\\
+        (6) eye movements during meetings       & A camera or smart-glasses recording and analyzing an employee's face\\
+        (7) video streams during meetings       & A camera recording an employee's face and body\\
+        (8) audio conversations during meetings & A microphone recording a meeting's conversation\\
+        (9) text exchanges during meetings      & A software tracking textual conversations during a meeting\\
+        (10) physical movements                 & A camera- or IMU-based tracking device that infers physical movements\\
+        (11) work emails                        & A software accessing and analyzing emails\\
+        (12) applications used                  & A software tracking applications in an employee's workstation \\
+        (13) websites visited                   & A software tracking sites an employee visited\\
+        (14) social media use                   & A software recording an employee's social media activity \\
+        (15) tasks completion                   & A software tracking a to-do list where one marks the completed tasks  \\
+        (16) typing behavior                    & A keylogger software installed in an employee's workstation                          \\
+        \hline
+    \end{tabular}
+
+    \label{tab:technologies}
+\end{table*}
+
+Having the 16 technologies at hand, we created scenarios involving their use onsite and remotely. Scenarios are short stories that describe an action that can have a positive or negative moral outcome~\cite{hidalgo2021humans}. Here, an action is defined as a technology that tracks productivity through certain types of data. For example, the scenario for \emph{tracking productivity through social media use (Technology 14 in Table~\ref{tab:technologies})} when working remotely reads as:
+\emph{All employees are working remotely and, as a new policy, their company is using the latest technologies to keep track of their social media use to monitor productivity.} Having 16 technologies and 2 work modes (i.e., onsite or remotely), we ended up with 32 scenarios.
+
+\subsection{Procedure}
+\label{sec:procedure}
+For each scenario, we used a set of questions probing people's attitudes toward a technology. We captured these attitudes through three questions (facets) concerning whether a technology is: hard to adopt, intrusive, and harmful. These facets originate from experiments conducted to understand people's attitudes toward AI more generally~\cite{hidalgo2021humans} (p. 27). For each scenario, we asked three questions, answered on a Likert-scale:
+
+\begin{enumerate}
+    \item Was the technology hard to adopt? \\ (1: extremely unlikely; 7: extremely likely)
+    \item Was the technology intrusive? \\ (1: extremely unobtrusive; 7: extremely intrusive)
+    \item Was the technology harmful? \\ (1: extremely harmless; 7: extremely harmful)
+\end{enumerate}
+
+After responding to these questions, crowd-workers were asked to choose words associated with five moral dimensions that best describe the scenario. In general, morality speaks to what is judged to be ``right'' or ``wrong'', ``good'' or ``bad''. Moral psychologists identified a set of five dimensions that influence individuals' judgments~\cite{haidt2007new}: \emph{harm} (which can be both physical or psychological), \emph{fairness} (which is typically about biases), \emph{loyalty} (which ranges from supporting a group to betraying a country), \emph{authority} (which involves disrespecting elders or superiors, or breaking rules), and \emph{purity} (which involves concepts as varied as the sanctity of religion or personal hygiene).
+
+Each dimension included two positive and two negative words~\cite{hidalgo2021humans} (p. 28). The dimension \emph{harm} included the words `harmful (-)', `violent (-)', `caring (+)', `protective (+)'; the dimension \emph{fairness} included the words `unjust (-)', `discriminatory (-)', `fair (+)', `impartial (+)'; the dimension  \emph{loyalty} included the words `disloyal (-)', `traitor (-)', `devoted (+)', `loyal (+)'; the dimension \emph{authority} included the words `disobedient (-)', `defiant (-)', `lawful (+)', `respectful (+)'; the dimension \emph{purity} included the words `indecent (-)', `obscene (-)', `decent (+)', `virtuous (+)'. The (-) and (+) signs indicate whether a word has a negative or positive connotation. In the work environment, some of these terms (e.g., violent, traitor) might not apply, and, as such, we studied all the words aggregated by moral dimension rather than studying them individually. Finally, to place our results into context, we asked crowd-workers to report their basic demographic information  (e.g., gender, ethnicity, industry sector, number of years of employment).
+
+\subsection{Participants and Recruitment}
+We administered the 32 scenarios through Amazon Mechanical Turk (AMT), which is a popular crowd-sourcing platform for conducting social experiments. We only recruited highly reputable AMT workers by targeting workers with 95\% HIT (Human Intelligence Task) approval rate and at least 100 approved HITs. We applied quality checks using an attention question, which took the form of ``Without speculating on possible advances in science, how likely are you to live to 500 years old?'' An attention question is a standard proactive measure to ensure data integrity~\cite{peer2014reputation}, which helps to detect and discard responses generated by inattentive respondents. To this end, we rejected those who chose any option other than the less likely, leaving us with a total of 131 crowd-workers with eligible answers. To ensure that crowd-workers had a common understanding of these technologies, we provided examples of how each technology could work in tracking employees. The scenarios were randomized, ensuring no ordering effect would bias the responses. The task completion time was, on average, 12 minutes, and each crowd-worker received 1\$ as a compensation.
+
+In our sample, crowd-workers were from the U.S (whose statistics are summarized in Table~\ref{tab:crowdworkers_demographics}). In total, we received responses from 87 male and 44 female with diverse ethnic backgrounds; White (80\%), African-American (13\%), Asian (4\%), and Hispanic (3\%). These crowd-workers also come from diverse work backgrounds, ranging from Information Technology (40\%) to Industrials (12\%) to Communications Services (2\%), and held different roles in their companies such as managerial positions (54\%), software engineers (17\%), among others.
+
+\subsection{Ethical Considerations}
+The study was approved by Nokia Bell Labs, and the study protocol stated that the collected data will be analyzed for research purposes only. In accordance to GDPR, no researcher involved in the study could have tracked the identities of the crowd-workers (the AMT platform also uses unique identifiers that do not disclose the real identity of the worker), and all anonymous responses were analyzed at an aggregated level. 

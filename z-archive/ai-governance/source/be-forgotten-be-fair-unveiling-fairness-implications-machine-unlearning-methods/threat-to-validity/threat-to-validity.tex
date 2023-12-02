@@ -1,0 +1,12 @@
+\section{Threat to Validity}
+\label{sec:threat}
+\subsection{Internal validity}
+To perform our empirical study, we employed two machine unlearning methods on three AI fairness datasets. For machine unlearning algorithms, we reused existing implementations by following their open-source repositories. All three datasets are well-known and widely used by AI fairness researchers. We employed the AIF360 library to preprocess the datasets for fairness evaluation. We have carefully checked the code and data, but there might be some remaining errors. Although there was some randomness involved in the experiments, we have tried to minimize this threat by conducting experiments multiple times (5-fold cross-validation).
+
+\subsection{External validity}
+Threats to external validity refer to the generalizability of the study. In our experiments, we only used three AI fairness datasets, collected from three tasks, i.e., income prediction, customer churn prediction, and criminal detection, with a total of five protected classes and two machine unlearning methods to perform our experiments. We also performed two data deletion strategies. 
+This may be a threat to external validity as these datasets, tasks, methods, and data deletion strategies may not be generalized beyond our studies. As the datasets and methods are widely adopted in AI fairness and machine unlearning research fields respectively, we believe that there is minimal threat to external validity. In the future, we plan to
+investigate more machine unlearning methods and AI fairness datasets.
+
+\subsection{Construct validity}
+Threats to construct validity indicate evaluation metrics failing to be selective. We employed different evaluation metrics, widely used to measure fairness in machine learning models, to minimize threats to construct validity. 

@@ -1,0 +1,13 @@
+---
+title: "Fairness Assessment for Artificial Intelligence in Financial Industry"
+title_slug: "fairness-assessment-for-artificial-intelligence-in-financial-industry"
+license: "cc-by-nc-sa"
+published: "2019-12-16 06:09:39+00:00"
+entry_id: "http://arxiv.org/abs/1912.07211v1"
+author: "Yukun Zhang, Longsheng Zhou"
+pdf: "fairness-assessment-for-artificial-intelligence-in-financial-industry.pdf"
+primary_category: "stat.ML"
+get_short_id: "1912.07211v1"
+image: img.png
+section: "Papers"
+---

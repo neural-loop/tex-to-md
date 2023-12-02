@@ -1,0 +1,13 @@
+
+
+\section{Discussion}
+\label{sec:discussion}
+
+Our research explores machine unlearning methods on fairness and has gained empirical observations about fairness regarding initial training, data deletion with uniform distribution, and data deletion with non-uniform distribution. We will discuss these observations as follows. 
+
+Before the \textit{``right to be forgotten''} requests arrive, we see that there are no significant impacts of machine unlearning methods, such as SISA, on fairness. The observations also indicate that SISA achieves lower performance on large datasets, such as Adult and Bank, in this setting.
+
+When the deleted data is in uniform distribution, there is no clear impact of machine unlearning methods on fairness. The observations also show that ORTR, a naive approach that retrains a model from scratch, outperforms SISA and AmnesiacML in terms of accuracy and F1 score on large datasets, i.e., Adult and Bank.
+
+
+When the deleted data is in a non-uniform distribution, SISA with a sharding strategy (see Figure~\ref{fig:sisa-sharding}) is more likely to achieve better fairness compared to other models. Moreover, we also see that there is no significant performance difference between before and after the data deletion in machine unlearning methods.

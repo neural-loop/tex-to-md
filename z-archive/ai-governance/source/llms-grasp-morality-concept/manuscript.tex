@@ -1,0 +1,169 @@
+\documentclass{article}
+
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2023
+
+
+% ready for submission
+% \usepackage{neurips_2023}
+
+
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+%     \usepackage[preprint]{neurips_2023}
+
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+    \usepackage[final]{neurips_2023}
+
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2023}
+
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+\usepackage{mathtools}
+\usepackage{tikz}
+% \usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% \bibliography{/bibliography.bib}
+
+\title{LLMs grasp morality in concept.}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to break the
+% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
+% authors names on the first line, and the last on the second line, try using
+% \AND instead of \And before the third author name.
+
+
+\author{%
+  Mark Pock\thanks{Both authors contributed equally to this research.} \\
+  % Allen School of Computer Science\\
+  University of Washington\\
+  % Seattle, Washington \\
+  \texttt{markpock@uw.edu} \\
+  \And
+  Andre Ye$^*$ \\
+  % Allen School of Computer Science\\
+  University of Washington \\
+  \texttt{andreye@uw.edu} \\
+  \And
+  Jared Moore\\
+  Stanford University\\
+  % 450 Jane Stanford Way, Palo Alto, California\\
+  \texttt{jlcmoore@stanford.edu}\\
+}
+
+
+\begin{document}
+
+\newcommand{\jared}[1]{\textcolor{blue}{[jared: #1]}}
+\newcommand{\andre}[1]{\textcolor{red}{[andre: #1]}}
+\newcommand{\markC}[1]{\textcolor{purple}{[mark: #1]}}
+
+% TODO: uncomment this to produce a pdf without comments
+% \renewcommand{\jared}[1]{}
+% \renewcommand{\andre}[1]{}
+% \renewcommand{\markC}[1]{}
+
+\maketitle
+
+%Potential titles
+
+%LLMs grasp morality in concept
+
+%Language models understand morality in concept
+
+\begin{abstract}
+  \input{NeurIPS/sections/abstract}
+\end{abstract}
+
+\maketitle
+
+% Blaise Aguera y Arcas 'Can Language Models Learn How to Behave' Turkish to English tr
+% Cite Alison Gopnik Cultural Technologies
+% Delphi, kidney algorithms, moral machines (modern trolley problem things), ChatGPT
+% Delphi as part of a larger ecosystem of commonsense moral reasoning, review objections (many objections in content - not aligned properly); Delphi already embodies a morality of a certain type - not critical, just descriptive; name a system
+% The oracle
+% Victims of meaning: The model is a victim of meaning
+
+\input{NeurIPS/sections/introduction}
+\input{NeurIPS/sections/theory}
+\input{NeurIPS/sections/model-meaning}
+\input{NeurIPS/sections/morality-llms}
+\input{NeurIPS/sections/conclusion}
+ 
+
+% \begin{ack}
+% Acknowledgements.
+% \end{ack}
+
+% \section{Supplementary Material}
+
+% Authors may wish to optionally include extra information (complete proofs, additional experiments and plots) in the appendix. All such materials should be part of the supplemental material (submitted separately) and should NOT be included in the main submission.
+
+\appendix
+\section{Supplementary Material}
+\input{NeurIPS/sections/appendix}
+% \section*{References}
+
+
+\bibliography{bibliography}
+\bibliographystyle{apalike}
+
+% \bibliographystyle{}
+% References follow the acknowledgments in the camera-ready paper. Use unnumbered first-level heading for
+% the references. Any choice of citation style is acceptable as long as you are
+% consistent. It is permissible to reduce the font size to \verb+small+ (9 point)
+% when listing the references.
+% Note that the Reference section does not count towards the page limit.
+% \medskip
+
+
+% {
+% \small
+
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+Current goals
+\begin{itemize}
+    \item Rewrite inscription - td 2am. Done 2:39am god I'm behind schedule
+    \item Examplify the introduction - td 2:30am
+    \item Add an outline to the introduction - td 3am - Done 5:17am
+    \item Introduce the oracular model somewhere (introduction or sec. 4) - td 3:30am
+    \item Add label and ref everywhere instead of using naive references - td 4 am Done some pt before 8:32am
+    --- break 30m
+    \item Rewrite 3.1 and 3.3 - td 5am
+    \item Go cite a bunch of things in section 3 - td 5:30am
+    \item Write a section header for 3 - td 6am
+    \item Complete the section header for 4 - td 6:30am Done 8:32am
+    \item Examplify 4 - td 7:30am
+    
+    \item Oracular-model-ify 4 especially, also 3, potentially 2 (to be done in process of examplification)
+    --- leave for classes
+    \item Write a conclusion - td 10:45am (stf meeting time)
+    --- meetings, 451, after do visuals and general stuff:
+    \item Figure-ify table and images - td 2:30pm
+    \item Diagram the 2-sorted 4-roled 2-contexted theory - td 2:30pm
+    \item (Re)diagram the model insofar as it partakes thereof - td 2:30pm
+\end{itemize}

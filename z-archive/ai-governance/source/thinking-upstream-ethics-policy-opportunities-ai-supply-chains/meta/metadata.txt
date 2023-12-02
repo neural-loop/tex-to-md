@@ -1,0 +1,13 @@
+---
+title: "Thinking Upstream: Ethics and Policy Opportunities in AI Supply Chains"
+title_slug: "thinking-upstream-ethics-and-policy-opportunities-in-ai-supply-chains"
+license: "cc-by"
+published: "2023-03-13 23:33:15+00:00"
+entry_id: "http://arxiv.org/abs/2303.07529v1"
+author: "David Gray Widder, Richmond Wong"
+pdf: "thinking-upstream-ethics-and-policy-opportunities-in-ai-supply-chains.pdf"
+primary_category: "cs.CY"
+get_short_id: "2303.07529v1"
+image: img.png
+section: "Papers"
+---

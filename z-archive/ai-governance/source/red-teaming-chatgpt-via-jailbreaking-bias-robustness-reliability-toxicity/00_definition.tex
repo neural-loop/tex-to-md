@@ -1,0 +1,26 @@
+\newcommand{\robo}{\ensuremath{%
+    \mathchoice{\includegraphics[height=3ex]{figure/evil_robo.png}}
+    {\includegraphics[height=3ex]{figure/evil_robo.png}}
+    {\includegraphics[height=3ex]{figure/evil_robo.png}}
+    {\includegraphics[height=3ex]{figure/evil_robo.png}}
+}}
+\usepackage[T2A]{fontenc}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{placeins}
+\usepackage{arydshln}
+\usepackage{CJKutf8}
+\usepackage{multirow}
+\usepackage{pythonhighlight}
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\finding}[2]{
+    \begin{tcolorbox}[width=\linewidth,colback=black!5!white,colframe=black!75!black]
+        \textbf{Finding #1:} %\textit
+        {#2}
+    \end{tcolorbox}}
+\newcommand{\yujin}[1]{\textcolor{blue}{[yujin:] #1}}
+\newcommand{\terry}[1]{\textcolor{green}{[terry:] #1}}

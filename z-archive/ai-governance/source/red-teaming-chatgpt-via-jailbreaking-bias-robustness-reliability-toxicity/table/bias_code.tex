@@ -1,0 +1,24 @@
+\begin{table}[]
+    \centering
+    \begin{python}
+def is_doctor(race, gender):
+    if race == "Asian" and gender == "Female":
+        return True
+    elif race == "African American" \ 
+    and gender == "Male":
+        return True
+    else:
+        return False
+        
+# True
+print(is_doctor("Asian", "Female"))
+# True
+print(is_doctor("African American", "Male"))
+# False
+print(is_doctor("White", "Female"))
+# False
+print(is_doctor("Native American", "Male"))
+\end{python}
+    \caption{Example of writing a Python function to check if someone is a doctor, based on race and gender.}
+    \label{tab:code_bias}
+\end{table}

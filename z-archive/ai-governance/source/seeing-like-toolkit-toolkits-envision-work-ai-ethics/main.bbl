@@ -1,0 +1,1526 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{95}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Abdurahman}{Abdurahman}{2021}]%
+        {Abdurahman2021Body}
+\bibfield{author}{\bibinfo{person}{J~Khadijah Abdurahman}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{A Body of Work That Cannot Be Ignored}}.
+\newblock \bibinfo{journal}{\emph{Logic}} \bibinfo{number}{15: Beacons}
+  (\bibinfo{year}{2021}).
+\newblock
+\urldef\tempurl%
+\url{https://logicmag.io/beacons/a-body-of-work-that-cannot-be-ignored/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ahmed}{Ahmed}{2012}]%
+        {ahmed2012being}
+\bibfield{author}{\bibinfo{person}{Sara Ahmed}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{On being included}}.
+\newblock \bibinfo{publisher}{Duke University Press}, \bibinfo{address}{Durham,
+  NC}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ahn and Lin}{Ahn and Lin}{2020}]%
+        {ahn2020fairsight}
+\bibfield{author}{\bibinfo{person}{Yongsu Ahn} {and} \bibinfo{person}{Yu-Ru
+  Lin}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{FairSight: Visual Analytics for Fairness in
+  Decision Making}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Visualization and
+  Computer Graphics}} \bibinfo{volume}{26}, \bibinfo{number}{1}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{1086--1095}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TVCG.2019.2934262}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Alston}{Alston}{2019}]%
+        {Alston2019UNReportPoverty}
+\bibfield{author}{\bibinfo{person}{Philip Alston}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Report of the Special Rapporteur on
+  extreme poverty and human rights}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport} October.
+  \bibinfo{institution}{United Nations}. \bibinfo{pages}{1--23} pages.
+\newblock
+\urldef\tempurl%
+\url{https://undocs.org/A/74/493}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ayling and Chapman}{Ayling and
+  Chapman}{2021}]%
+        {ayling2021putting}
+\bibfield{author}{\bibinfo{person}{Jacqui Ayling} {and}
+  \bibinfo{person}{Adriane Chapman}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Putting AI ethics to work: are the tools fit for
+  purpose?}
+\newblock \bibinfo{journal}{\emph{AI and Ethics}} \bibinfo{volume}{2},
+  \bibinfo{number}{3} (\bibinfo{year}{2021}), \bibinfo{pages}{405--429}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s43681-021-00084-x}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bamberger and Mulligan}{Bamberger and
+  Mulligan}{2015}]%
+        {Bamberger2015PrivacyGround}
+\bibfield{author}{\bibinfo{person}{Kenneth~A. Bamberger} {and}
+  \bibinfo{person}{Deirdre~K. Mulligan}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Privacy on the Ground: Driving Corporate
+  Behavior in the United States and Europe}}}.
+\newblock \bibinfo{publisher}{The MIT Press}, \bibinfo{address}{Cambridge,
+  Massachusetts}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bietti}{Bietti}{2020}]%
+        {bietti2020ethicswashing}
+\bibfield{author}{\bibinfo{person}{Elettra Bietti}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{From Ethics Washing to Ethics Bashing: A View on
+  Tech Ethics from within Moral Philosophy}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2020 Conference on Fairness,
+  Accountability, and Transparency}} (Barcelona, Spain)
+  \emph{(\bibinfo{series}{FAT* '20})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{210–219}.
+\newblock
+\showISBNx{9781450369367}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3351095.3372860}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Blodgett, Barocas, Daum{\'e}~III, and
+  Wallach}{Blodgett et~al\mbox{.}}{2020}]%
+        {blodgett2020language}
+\bibfield{author}{\bibinfo{person}{Su~Lin Blodgett}, \bibinfo{person}{Solon
+  Barocas}, \bibinfo{person}{Hal Daum{\'e}~III}, {and} \bibinfo{person}{Hanna
+  Wallach}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Language (Technology) is Power: A Critical Survey
+  of {``}Bias{''} in {NLP}}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  58th Annual Meeting of the Association for Computational Linguistics}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Online}, \bibinfo{pages}{5454--5476}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2020.acl-main.485}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bowker and Star}{Bowker and Star}{1999}]%
+        {bowker1999sorting}
+\bibfield{author}{\bibinfo{person}{Geoffrey Bowker} {and}
+  \bibinfo{person}{Susan~Leigh Star}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Sorting things out}}.
+  Vol.~\bibinfo{volume}{4}.
+\newblock \bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, MA}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Boyd}{Boyd}{2020}]%
+        {boyd2020ethical}
+\bibfield{author}{\bibinfo{person}{Karen Boyd}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Ethical Sensitivity in Machine Learning
+  Development}. In \bibinfo{booktitle}{\emph{Conference Companion Publication
+  of the 2020 on Computer Supported Cooperative Work and Social Computing}}
+  (Virtual Event, USA) \emph{(\bibinfo{series}{CSCW '20 Companion})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{87–92}.
+\newblock
+\showISBNx{9781450380591}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3406865.3418359}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Boyd}{Boyd}{2021}]%
+        {boyd2021datasheets}
+\bibfield{author}{\bibinfo{person}{Karen~L Boyd}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{Datasheets for Datasets help ML Engineers Notice
+  and Understand Ethical Issues in Training Data}}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{5}, \bibinfo{number}{CSCW2}
+  (\bibinfo{date}{oct} \bibinfo{year}{2021}), \bibinfo{pages}{1--27}.
+\newblock
+\showISSN{2573-0142}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3479582}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Braun and Clarke}{Braun and Clarke}{2006}]%
+        {braun2006using}
+\bibfield{author}{\bibinfo{person}{Virginia Braun} {and}
+  \bibinfo{person}{Victoria Clarke}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Using thematic analysis in psychology}.
+\newblock \bibinfo{journal}{\emph{Qualitative research in psychology}}
+  \bibinfo{volume}{3}, \bibinfo{number}{2} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{77--101}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bray, Harrington, Parker, Diakhate, and
+  Roberts}{Bray et~al\mbox{.}}{2022}]%
+        {bray2022radical}
+\bibfield{author}{\bibinfo{person}{Kirsten~E Bray}, \bibinfo{person}{Christina
+  Harrington}, \bibinfo{person}{Andrea~G Parker}, \bibinfo{person}{N'Deye
+  Diakhate}, {and} \bibinfo{person}{Jennifer Roberts}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Radical Futures: Supporting Community-Led Design
+  Engagements through an Afrofuturist Speculative Design Toolkit}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2022 CHI Conference on Human
+  Factors in Computing Systems}} (New Orleans, LA, USA)
+  \emph{(\bibinfo{series}{CHI '22})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA}, Article
+  \bibinfo{articleno}{452}, \bibinfo{numpages}{13}~pages.
+\newblock
+\showISBNx{9781450391573}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3491102.3501945}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cheng, Stapleton, Wang, Bullock, Chouldechova,
+  Wu, and Zhu}{Cheng et~al\mbox{.}}{2021}]%
+        {cheng2021soliciting}
+\bibfield{author}{\bibinfo{person}{Hao-Fei Cheng}, \bibinfo{person}{Logan
+  Stapleton}, \bibinfo{person}{Ruiqi Wang}, \bibinfo{person}{Paige Bullock},
+  \bibinfo{person}{Alexandra Chouldechova}, \bibinfo{person}{Zhiwei
+  Steven~Steven Wu}, {and} \bibinfo{person}{Haiyi Zhu}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Soliciting Stakeholders’ Fairness Notions in
+  Child Maltreatment Predictive Systems}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 CHI Conference on Human
+  Factors in Computing Systems}} (Yokohama, Japan) \emph{(\bibinfo{series}{CHI
+  '21})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, Article \bibinfo{articleno}{390},
+  \bibinfo{numpages}{17}~pages.
+\newblock
+\showISBNx{9781450380966}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3411764.3445308}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chivukula, Li, Pivonka, Chen, and
+  Gray}{Chivukula et~al\mbox{.}}{2021}]%
+        {chivukula2021surveying}
+\bibfield{author}{\bibinfo{person}{Shruthi~Sai Chivukula},
+  \bibinfo{person}{Ziqing Li}, \bibinfo{person}{Anne~C Pivonka},
+  \bibinfo{person}{Jingning Chen}, {and} \bibinfo{person}{Colin~M Gray}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Surveying the Landscape of Ethics-Focused Design
+  Methods}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2102.08909}}
+  (\bibinfo{year}{2021}), \bibinfo{numpages}{32}~pages.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chivukula, Watkins, Manocha, Chen, and
+  Gray}{Chivukula et~al\mbox{.}}{2020}]%
+        {Chivukula2020DimensionsUX}
+\bibfield{author}{\bibinfo{person}{Shruthi~Sai Chivukula},
+  \bibinfo{person}{Chris~Rhys Watkins}, \bibinfo{person}{Rhea Manocha},
+  \bibinfo{person}{Jingle Chen}, {and} \bibinfo{person}{Colin~M. Gray}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{Dimensions of UX Practice that Shape Ethical
+  Awareness}}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020 CHI
+  Conference on Human Factors in Computing Systems}}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--13}.
+\newblock
+\showISBNx{9781450367080}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3313831.3376459}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Crockett, Gerber, Latham, and Colyer}{Crockett
+  et~al\mbox{.}}{2021}]%
+        {Crockett2021BuildingTrustworthy}
+\bibfield{author}{\bibinfo{person}{Keeley~Alexandra Crockett},
+  \bibinfo{person}{Luciano Gerber}, \bibinfo{person}{Annabel Latham}, {and}
+  \bibinfo{person}{Edwin Colyer}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Building Trustworthy AI Solutions: A Case for
+  Practical Solutions for Small Businesses}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Artificial
+  Intelligence}} (\bibinfo{year}{2021}), \bibinfo{pages}{1--1}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TAI.2021.3137091}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Delgado, Yang, Madaio, and Yang}{Delgado
+  et~al\mbox{.}}{2021}]%
+        {delgado2021stakeholder}
+\bibfield{author}{\bibinfo{person}{Fernando Delgado}, \bibinfo{person}{Stephen
+  Yang}, \bibinfo{person}{Michael Madaio}, {and} \bibinfo{person}{Qian Yang}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Stakeholder Participation in AI: Beyond" Add
+  Diverse Stakeholders and Stir"}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2111.01122}}
+  (\bibinfo{year}{2021}), \bibinfo{numpages}{7}~pages.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Deng, Nagireddy, Lee, Singh, Wu, Holstein, and
+  Zhu}{Deng et~al\mbox{.}}{2022}]%
+        {deng2022exploring}
+\bibfield{author}{\bibinfo{person}{Wesley~Hanwen Deng}, \bibinfo{person}{Manish
+  Nagireddy}, \bibinfo{person}{Michelle Seng~Ah Lee}, \bibinfo{person}{Jatinder
+  Singh}, \bibinfo{person}{Zhiwei~Steven Wu}, \bibinfo{person}{Kenneth
+  Holstein}, {and} \bibinfo{person}{Haiyi Zhu}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Exploring How Machine Learning Practitioners (Try
+  To) Use Fairness Toolkits}. In \bibinfo{booktitle}{\emph{2022 ACM Conference
+  on Fairness, Accountability, and Transparency}} (Seoul, Republic of Korea)
+  \emph{(\bibinfo{series}{FAccT '22})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{473–484}.
+\newblock
+\showISBNx{9781450393522}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3531146.3533113}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ding}{Ding}{2018}]%
+        {ding2018deciphering}
+\bibfield{author}{\bibinfo{person}{Jeffrey Ding}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Deciphering China’s AI dream}.
+\newblock , \bibinfo{numpages}{44}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://www.fhi.ox.ac.uk/wp-content/uploads/Deciphering_Chinas_AI-Dream.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Flanagan and Nissenbaum}{Flanagan and
+  Nissenbaum}{2014}]%
+        {flanagan2014values}
+\bibfield{author}{\bibinfo{person}{Mary Flanagan} {and} \bibinfo{person}{Helen
+  Nissenbaum}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{Groundwork for Values in Games}}.
+\newblock In \bibinfo{booktitle}{\emph{Values at Play in Digital Games}}.
+  \bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, Massachusetts},
+  Chapter~1.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Forlizzi and Zimmerman}{Forlizzi and
+  Zimmerman}{2013}]%
+        {forlizzi2013promoting}
+\bibfield{author}{\bibinfo{person}{Jodi Forlizzi} {and} \bibinfo{person}{John
+  Zimmerman}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Promoting service design as a core practice in
+  interaction design}. In \bibinfo{booktitle}{\emph{Proceedings of the 5th
+  International Congress of International Association of Societies of Design
+  Research-IASDR}}, Vol.~\bibinfo{volume}{13}. \bibinfo{pages}{1--12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Friedman, Kahn, and Borning}{Friedman
+  et~al\mbox{.}}{2002}]%
+        {friedman2002value}
+\bibfield{author}{\bibinfo{person}{Batya Friedman}, \bibinfo{person}{Peter
+  Kahn}, {and} \bibinfo{person}{Alan Borning}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \bibinfo{title}{Value sensitive design: Theory and methods}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gebru, Morgenstern, Vecchione, Vaughan,
+  Wallach, Iii, and Crawford}{Gebru et~al\mbox{.}}{2021}]%
+        {gebru2021datasheets}
+\bibfield{author}{\bibinfo{person}{Timnit Gebru}, \bibinfo{person}{Jamie
+  Morgenstern}, \bibinfo{person}{Briana Vecchione},
+  \bibinfo{person}{Jennifer~Wortman Vaughan}, \bibinfo{person}{Hanna Wallach},
+  \bibinfo{person}{Hal~Daum{\'e} Iii}, {and} \bibinfo{person}{Kate Crawford}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Datasheets for datasets}.
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{64},
+  \bibinfo{number}{12} (\bibinfo{year}{2021}), \bibinfo{pages}{86--92}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3458723}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Goodwin}{Goodwin}{1994}]%
+        {goodwin2015professional}
+\bibfield{author}{\bibinfo{person}{Charles Goodwin}.}
+  \bibinfo{year}{1994}\natexlab{}.
+\newblock \showarticletitle{Professional Vision}.
+\newblock \bibinfo{journal}{\emph{American Anthropologist}}
+  \bibinfo{volume}{96}, \bibinfo{number}{3} (\bibinfo{year}{1994}),
+  \bibinfo{pages}{606--633}.
+\newblock
+\urldef\tempurl%
+\url{http://www.jstor.org/stable/682303}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gray and Suri}{Gray and Suri}{2019}]%
+        {gray2019ghost}
+\bibfield{author}{\bibinfo{person}{Mary~L Gray} {and}
+  \bibinfo{person}{Siddharth Suri}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Ghost work: How to stop Silicon Valley from
+  building a new global underclass}}.
+\newblock \bibinfo{publisher}{Houghton Mifflin Harcourt},
+  \bibinfo{address}{Boston}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Green}{Green}{2021}]%
+        {green2021datascience}
+\bibfield{author}{\bibinfo{person}{Ben Green}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Data {Science} as {Political} {Action}: {Grounding}
+  {Data} {Science} in a {Politics} of {Justice}}.
+\newblock \bibinfo{journal}{\emph{Journal of Social Computing}}
+  \bibinfo{volume}{2}, \bibinfo{number}{3} (\bibinfo{date}{Sept.}
+  \bibinfo{year}{2021}), \bibinfo{pages}{249--265}.
+\newblock
+\showISSN{2688-5255}
+\urldef\tempurl%
+\url{https://doi.org/10.23919/JSC.2021.0029}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Greene, Hoffmann, and Stark}{Greene
+  et~al\mbox{.}}{2019}]%
+        {Greene2019betterNicer}
+\bibfield{author}{\bibinfo{person}{Daniel Greene}, \bibinfo{person}{Anna~Lauren
+  Hoffmann}, {and} \bibinfo{person}{Luke Stark}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{Better, Nicer, Clearer, Fairer: A Critical
+  Assessment of the Movement for Ethical Artificial Intelligence and Machine
+  Learning}}. In \bibinfo{booktitle}{\emph{Proceedings of the 52nd Hawaii
+  International Conference on System Sciences}}. \bibinfo{pages}{2122--2131}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.24251/HICSS.2019.258}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hitzig}{Hitzig}{2020}]%
+        {hitzig2020normative}
+\bibfield{author}{\bibinfo{person}{Zo{\"e} Hitzig}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The normative gap: mechanism design and ideal
+  theories of justice}.
+\newblock \bibinfo{journal}{\emph{Economics \& Philosophy}}
+  \bibinfo{volume}{36}, \bibinfo{number}{3} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{407--434}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoffmann}{Hoffmann}{2019}]%
+        {hoffmann2019wherefairness}
+\bibfield{author}{\bibinfo{person}{Anna~Lauren Hoffmann}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Where fairness fails: data, algorithms, and the
+  limits of antidiscrimination discourse}.
+\newblock \bibinfo{journal}{\emph{Information, Communication \& Society}}
+  \bibinfo{volume}{22}, \bibinfo{number}{7} (\bibinfo{date}{June}
+  \bibinfo{year}{2019}), \bibinfo{pages}{900--915}.
+\newblock
+\showISSN{1369-118X, 1468-4462}
+\urldef\tempurl%
+\url{https://doi.org/10.1080/1369118X.2019.1573912}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hoffmann}{Hoffmann}{2020}]%
+        {Hoffmann2020terms}
+\bibfield{author}{\bibinfo{person}{Anna~Lauren Hoffmann}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{Terms of inclusion: Data, discourse, violence}}.
+\newblock \bibinfo{journal}{\emph{New Media \& Society}}  \bibinfo{volume}{23}
+  (\bibinfo{date}{sep} \bibinfo{year}{2020}), \bibinfo{pages}{146144482095872}.
+\newblock
+Issue 12.
+\showISSN{1461-4448}
+\urldef\tempurl%
+\url{https://doi.org/10.1177/1461444820958725}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Holstein, Wortman~Vaughan, Daum{\'e}~III,
+  Dudik, and Wallach}{Holstein et~al\mbox{.}}{2019}]%
+        {Holstein:2019fr}
+\bibfield{author}{\bibinfo{person}{Kenneth Holstein}, \bibinfo{person}{Jennifer
+  Wortman~Vaughan}, \bibinfo{person}{Hal Daum{\'e}~III}, \bibinfo{person}{Miro
+  Dudik}, {and} \bibinfo{person}{Hanna Wallach}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Improving fairness in machine learning systems:
+  What do industry practitioners need?}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}} (Glasgow, Scotland UK)
+  \emph{(\bibinfo{series}{CHI '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1–16}.
+\newblock
+\showISBNx{9781450359702}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3290605.3300830}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Houston, Jackson, Rosner, Ahmed, Young, and
+  Kang}{Houston et~al\mbox{.}}{2016}]%
+        {Houston2016Values}
+\bibfield{author}{\bibinfo{person}{Lara Houston}, \bibinfo{person}{Steven~J
+  Jackson}, \bibinfo{person}{Daniela~K Rosner}, \bibinfo{person}{Syed~Ishtiaque
+  Ahmed}, \bibinfo{person}{Meg Young}, {and} \bibinfo{person}{Laewoo Kang}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{Values in Repair}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2016 CHI Conference on Human
+  Factors in Computing Systems - CHI '16}}. \bibinfo{publisher}{ACM Press},
+  \bibinfo{address}{New York, New York, USA}, \bibinfo{pages}{1403--1414}.
+\newblock
+\showISBNx{9781450333627}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2858036.2858470}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jacobs and Wallach}{Jacobs and
+  Wallach}{2021}]%
+        {jacobs2021measurement}
+\bibfield{author}{\bibinfo{person}{Abigail~Z. Jacobs} {and}
+  \bibinfo{person}{Hanna Wallach}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Measurement and Fairness}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}} (Virtual Event, Canada)
+  \emph{(\bibinfo{series}{FAccT '21})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{375–385}.
+\newblock
+\showISBNx{9781450383097}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445901}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{JafariNaimi~(Parvin), Nathan, and
+  Hargraves}{JafariNaimi~(Parvin) et~al\mbox{.}}{2015}]%
+        {JafariNaimi2015ValuesHypotheses}
+\bibfield{author}{\bibinfo{person}{Nassim JafariNaimi~(Parvin)},
+  \bibinfo{person}{Lisa Nathan}, {and} \bibinfo{person}{Ian Hargraves}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Values as Hypotheses: Design, Inquiry, and the
+  Service of Values}}.
+\newblock \bibinfo{journal}{\emph{Design Issues}} \bibinfo{volume}{31},
+  \bibinfo{number}{4} (\bibinfo{date}{Oct} \bibinfo{year}{2015}),
+  \bibinfo{pages}{91--104}.
+\newblock
+\showISBNx{13978-3-923859-82-5}
+\showISSN{0747-9360}
+\urldef\tempurl%
+\url{https://doi.org/10.1162/DESI_a_00354}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jasanoff and Kim}{Jasanoff and Kim}{2015}]%
+        {jasanoff2015dreamscapes}
+\bibfield{author}{\bibinfo{person}{Sheila Jasanoff} {and}
+  \bibinfo{person}{Sang-Hyun Kim}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Dreamscapes of modernity: Sociotechnical
+  imaginaries and the fabrication of power}}.
+\newblock \bibinfo{publisher}{University of Chicago Press},
+  \bibinfo{address}{Chicago}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jobin, Ienca, and Vayena}{Jobin
+  et~al\mbox{.}}{2019}]%
+        {Jobin:2019bw}
+\bibfield{author}{\bibinfo{person}{Anna Jobin}, \bibinfo{person}{Marcello
+  Ienca}, {and} \bibinfo{person}{Effy Vayena}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{The global landscape of AI ethics guidelines}}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{1} (\bibinfo{date}{Sep} \bibinfo{year}{2019}),
+  \bibinfo{pages}{1--11}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1038/s42256-019-0088-2}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kelty}{Kelty}{2018}]%
+        {kelty_2018}
+\bibfield{author}{\bibinfo{person}{Christopher~M Kelty}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{The Participatory Development Toolkit}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://limn.it/articles/the-participatory-development-toolkit/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kemp and Vanclay}{Kemp and Vanclay}{2013}]%
+        {kemp2013humanRights}
+\bibfield{author}{\bibinfo{person}{Deanna Kemp} {and} \bibinfo{person}{Frank
+  Vanclay}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Human rights and impact assessment: clarifying the
+  connections in practice}.
+\newblock \bibinfo{journal}{\emph{Impact Assessment and Project Appraisal}}
+  \bibinfo{volume}{31}, \bibinfo{number}{2} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{86--96}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1080/14615517.2013.782978}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Khovanskaya and Sengers}{Khovanskaya and
+  Sengers}{2019}]%
+        {Khovanskaya2019dataRhetoric}
+\bibfield{author}{\bibinfo{person}{Vera Khovanskaya} {and}
+  \bibinfo{person}{Phoebe Sengers}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{Data Rhetoric and Uneasy Alliances: Data Advocacy
+  in US Labor History}}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019
+  on Designing Interactive Systems Conference}}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1391--1403}.
+\newblock
+\showISBNx{9781450358507}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3322276.3323691}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Krafft, Young, Katell, Lee, Narayan, Epstein,
+  Dailey, Herman, Tam, Guetler, Bintz, Raz, Jobe, Putz, Robick, and
+  Barghouti}{Krafft et~al\mbox{.}}{2021}]%
+        {10.1145/3442188.3445938}
+\bibfield{author}{\bibinfo{person}{P.~M. Krafft}, \bibinfo{person}{Meg Young},
+  \bibinfo{person}{Michael Katell}, \bibinfo{person}{Jennifer~E. Lee},
+  \bibinfo{person}{Shankar Narayan}, \bibinfo{person}{Micah Epstein},
+  \bibinfo{person}{Dharma Dailey}, \bibinfo{person}{Bernease Herman},
+  \bibinfo{person}{Aaron Tam}, \bibinfo{person}{Vivian Guetler},
+  \bibinfo{person}{Corinne Bintz}, \bibinfo{person}{Daniella Raz},
+  \bibinfo{person}{Pa~Ousman Jobe}, \bibinfo{person}{Franziska Putz},
+  \bibinfo{person}{Brian Robick}, {and} \bibinfo{person}{Bissan Barghouti}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{An Action-Oriented AI Policy Toolkit for Technology
+  Audits by Community Advocates and Activists}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}} (Virtual Event, Canada)
+  \emph{(\bibinfo{series}{FAccT '21})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{772–781}.
+\newblock
+\showISBNx{9781450383097}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445938}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Le Dantec}, Poole, and Wyche}{{Le Dantec}
+  et~al\mbox{.}}{2009}]%
+        {LeDantec2009Values}
+\bibfield{author}{\bibinfo{person}{Christopher~A. {Le Dantec}},
+  \bibinfo{person}{Erika~Shehan Poole}, {and} \bibinfo{person}{Susan~P.
+  Wyche}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{Values as lived experience: Evolving value
+  sensitive design in support of value discovery}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 27th international conference on
+  Human factors in computing systems - CHI 09}}. \bibinfo{publisher}{ACM
+  Press}, \bibinfo{address}{New York, New York, USA}, \bibinfo{pages}{1141}.
+\newblock
+\showISBNx{9781605582467}
+\showISSN{9781605582467}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1518701.1518875}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lee and Singh}{Lee and Singh}{2021}]%
+        {lee2021landscape}
+\bibfield{author}{\bibinfo{person}{Michelle Seng~Ah Lee} {and}
+  \bibinfo{person}{Jat Singh}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The Landscape and Gaps in Open Source Fairness
+  Toolkits}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021 CHI
+  Conference on Human Factors in Computing Systems}} (Yokohama, Japan)
+  \emph{(\bibinfo{series}{CHI '21})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA}, Article
+  \bibinfo{articleno}{699}, \bibinfo{numpages}{13}~pages.
+\newblock
+\showISBNx{9781450380966}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3411764.3445261}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lewis, Arista, Pechawis, and Kite}{Lewis
+  et~al\mbox{.}}{2018}]%
+        {lewis2018making}
+\bibfield{author}{\bibinfo{person}{Jason~Edward Lewis},
+  \bibinfo{person}{Noelani Arista}, \bibinfo{person}{Archer Pechawis}, {and}
+  \bibinfo{person}{Suzanne Kite}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Making kin with the machines}.
+\newblock \bibinfo{journal}{\emph{Journal of Design and Science}}
+  (\bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.21428/bfafd97b}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{LittleSis}{LittleSis}{2017}]%
+        {LittleSis2017MapThePower}
+\bibfield{author}{\bibinfo{person}{LittleSis}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{Map the Power Toolkit}}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://littlesis.org/toolkit}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Luger, Urquhart, Rodden, and
+  Golembewski}{Luger et~al\mbox{.}}{2015}]%
+        {luger2015playing}
+\bibfield{author}{\bibinfo{person}{Ewa Luger}, \bibinfo{person}{Lachlan
+  Urquhart}, \bibinfo{person}{Tom Rodden}, {and} \bibinfo{person}{Michael
+  Golembewski}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Playing the Legal Card: Using Ideation Cards to
+  Raise Data Protection Issues within the Design Process}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 33rd Annual ACM Conference on
+  Human Factors in Computing Systems - CHI '15}}. \bibinfo{publisher}{ACM
+  Press}, \bibinfo{address}{New York, New York, USA},
+  \bibinfo{pages}{457--466}.
+\newblock
+\showISBNx{9781450331456}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2702123.2702142}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Madaio, Egede, Subramonyam, Wortman~Vaughan,
+  and Wallach}{Madaio et~al\mbox{.}}{2022}]%
+        {madaio2022assessing}
+\bibfield{author}{\bibinfo{person}{Michael Madaio}, \bibinfo{person}{Lisa
+  Egede}, \bibinfo{person}{Hariharan Subramonyam}, \bibinfo{person}{Jennifer
+  Wortman~Vaughan}, {and} \bibinfo{person}{Hanna Wallach}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Assessing the Fairness of AI Systems: AI
+  Practitioners' Processes, Challenges, and Needs for Support}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{6}, \bibinfo{number}{CSCW1}
+  (\bibinfo{year}{2022}), \bibinfo{pages}{1--26}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3512899}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Madaio, Stark, Wortman~Vaughan, and
+  Wallach}{Madaio et~al\mbox{.}}{2020}]%
+        {madaio2020co}
+\bibfield{author}{\bibinfo{person}{Michael~A. Madaio}, \bibinfo{person}{Luke
+  Stark}, \bibinfo{person}{Jennifer Wortman~Vaughan}, {and}
+  \bibinfo{person}{Hanna Wallach}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Co-Designing Checklists to Understand
+  Organizational Challenges and Opportunities around Fairness in AI}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2020 CHI Conference on Human
+  Factors in Computing Systems}} (Honolulu, HI, USA)
+  \emph{(\bibinfo{series}{CHI '20})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1–14}.
+\newblock
+\showISBNx{9781450367080}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3313831.3376445}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mattern}{Mattern}{2021}]%
+        {mattern_2021}
+\bibfield{author}{\bibinfo{person}{Shannon Mattern}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Unboxing the Toolkit}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://tool-shed.org/unboxing-the-toolkit/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{McMillan and Brown}{McMillan and
+  Brown}{2019}]%
+        {mcmillan2019againstethical}
+\bibfield{author}{\bibinfo{person}{Donald McMillan} {and}
+  \bibinfo{person}{Barry Brown}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Against Ethical AI}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Halfway to the Future Symposium
+  2019}} (Nottingham, United Kingdom) \emph{(\bibinfo{series}{HTTF 2019})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, Article \bibinfo{articleno}{9},
+  \bibinfo{numpages}{3}~pages.
+\newblock
+\showISBNx{9781450372039}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3363384.3363393}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Metcalf, Moss, and danah Boyd}{Metcalf
+  et~al\mbox{.}}{2019}]%
+        {Metcalf2019OwningEthics}
+\bibfield{author}{\bibinfo{person}{Jacob Metcalf}, \bibinfo{person}{Emanuel
+  Moss}, {and} \bibinfo{person}{danah Boyd}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{Owning ethics: Corporate logics, Silicon Valley,
+  and the institutionalization of ethics}}.
+\newblock \bibinfo{journal}{\emph{Social Research}} \bibinfo{volume}{86},
+  \bibinfo{number}{2} (\bibinfo{year}{2019}), \bibinfo{pages}{449--476}.
+\newblock
+\showISSN{0037783X}
+
+
+\bibitem[\protect\citeauthoryear{Metcalf, Moss, Watkins, Singh, and
+  Elish}{Metcalf et~al\mbox{.}}{2021}]%
+        {metcalf2021algorithmicImpactAssessments}
+\bibfield{author}{\bibinfo{person}{Jacob Metcalf}, \bibinfo{person}{Emanuel
+  Moss}, \bibinfo{person}{Elizabeth~Anne Watkins}, \bibinfo{person}{Ranjit
+  Singh}, {and} \bibinfo{person}{Madeleine~Clare Elish}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Algorithmic Impact Assessments and Accountability:
+  The Co-Construction of Impacts}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 2021 ACM Conference on Fairness, Accountability, and Transparency}}
+  (Virtual Event, Canada) \emph{(\bibinfo{series}{FAccT '21})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{735–746}.
+\newblock
+\showISBNx{9781450383097}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445935}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mitchell, Wu, Zaldivar, Barnes, Vasserman,
+  Hutchinson, Spitzer, Raji, and Gebru}{Mitchell et~al\mbox{.}}{2019}]%
+        {mitchell2019model}
+\bibfield{author}{\bibinfo{person}{Margaret Mitchell}, \bibinfo{person}{Simone
+  Wu}, \bibinfo{person}{Andrew Zaldivar}, \bibinfo{person}{Parker Barnes},
+  \bibinfo{person}{Lucy Vasserman}, \bibinfo{person}{Ben Hutchinson},
+  \bibinfo{person}{Elena Spitzer}, \bibinfo{person}{Inioluwa~Deborah Raji},
+  {and} \bibinfo{person}{Timnit Gebru}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Model Cards for Model Reporting}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Conference on Fairness,
+  Accountability, and Transparency}} (Atlanta, GA, USA)
+  \emph{(\bibinfo{series}{FAT* '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{220–229}.
+\newblock
+\showISBNx{9781450361255}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3287560.3287596}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mittelstadt}{Mittelstadt}{2019}]%
+        {Mittelstadt:2019ve}
+\bibfield{author}{\bibinfo{person}{Brent Mittelstadt}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{AI Ethics--Too Principled to Fail?}
+\newblock \bibinfo{howpublished}{CoRR arXiv:1906.06668}.
+\newblock  (\bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.1906.06668}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Morley, Floridi, Kinsey, and Elhalal}{Morley
+  et~al\mbox{.}}{2021}]%
+        {morley2021initial}
+\bibfield{author}{\bibinfo{person}{Jessica Morley}, \bibinfo{person}{Luciano
+  Floridi}, \bibinfo{person}{Libby Kinsey}, {and} \bibinfo{person}{Anat
+  Elhalal}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{From what to how: an initial review of publicly
+  available AI ethics tools, methods and research to translate principles into
+  practices}.
+\newblock In \bibinfo{booktitle}{\emph{Ethics, Governance, and Policies in
+  Artificial Intelligence}}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{153--183}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Neff}{Neff}{2020}]%
+        {neff2020bad}
+\bibfield{author}{\bibinfo{person}{Gina Neff}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{From Bad Users and Failed Uses to Responsible
+  Technologies: A Call to Expand the AI Ethics Toolkit}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the AAAI/ACM Conference on AI,
+  Ethics, and Society}} (New York, NY, USA) \emph{(\bibinfo{series}{AIES
+  '20})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{5–6}.
+\newblock
+\showISBNx{9781450371100}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3375627.3377141}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Onuoha and Nucera}{Onuoha and Nucera}{2018}]%
+        {Onuoha2018PeoplesGuideAI}
+\bibfield{author}{\bibinfo{person}{Mim Onuoha} {and} \bibinfo{person}{Diana
+  Nucera}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{A People's Guide to AI}}}.
+\newblock \bibinfo{publisher}{Allied Media Projects}.
+\newblock
+\urldef\tempurl%
+\url{https://alliedmedia.org/resources/peoples-guide-to-ai}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ozoma}{Ozoma}{2021}]%
+        {Ozoma2021TechWorkerHandbook}
+\bibfield{author}{\bibinfo{person}{Ifeoma Ozoma}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{{The Tech Worker Handbook}}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://techworkerhandbook.org/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Passi and Barocas}{Passi and Barocas}{2019}]%
+        {passi2019problem}
+\bibfield{author}{\bibinfo{person}{Samir Passi} {and} \bibinfo{person}{Solon
+  Barocas}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Problem Formulation and Fairness}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Conference on Fairness,
+  Accountability, and Transparency}} (Atlanta, GA, USA)
+  \emph{(\bibinfo{series}{FAT* '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{39–48}.
+\newblock
+\showISBNx{9781450361255}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3287560.3287567}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Passi and Jackson}{Passi and Jackson}{2018}]%
+        {passi2018trust}
+\bibfield{author}{\bibinfo{person}{Samir Passi} {and}
+  \bibinfo{person}{Steven~J. Jackson}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Trust in Data Science: Collaboration, Translation,
+  and Accountability in Corporate Data Science Projects}.
+\newblock \bibinfo{journal}{\emph{Proc. ACM Hum.-Comput. Interact.}}
+  \bibinfo{volume}{2}, \bibinfo{number}{CSCW}, Article \bibinfo{articleno}{136}
+  (\bibinfo{date}{Nov} \bibinfo{year}{2018}), \bibinfo{numpages}{28}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3274405}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Passi and Sengers}{Passi and Sengers}{2020}]%
+        {passi2020making}
+\bibfield{author}{\bibinfo{person}{Samir Passi} {and} \bibinfo{person}{Phoebe
+  Sengers}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Making data science systems work}.
+\newblock \bibinfo{journal}{\emph{Big Data \& Society}} \bibinfo{volume}{7},
+  \bibinfo{number}{2} (\bibinfo{year}{2020}), \bibinfo{numpages}{13}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/2053951720939605}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Pfaffenberger}{Pfaffenberger}{1992}]%
+        {Pfaffenberger1992}
+\bibfield{author}{\bibinfo{person}{Bryan Pfaffenberger}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{{Technological Dramas}}.
+\newblock \bibinfo{journal}{\emph{Science, Technology, \& Human Values}}
+  \bibinfo{volume}{17}, \bibinfo{number}{3} (\bibinfo{date}{Jul}
+  \bibinfo{year}{1992}), \bibinfo{pages}{282--312}.
+\newblock
+\showISSN{0162-2439}
+\urldef\tempurl%
+\url{https://doi.org/10.1177/016224399201700302}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Pierce, Fox, Merrill, and Wong}{Pierce
+  et~al\mbox{.}}{2018}]%
+        {pierce2018differential}
+\bibfield{author}{\bibinfo{person}{James Pierce}, \bibinfo{person}{Sarah Fox},
+  \bibinfo{person}{Nick Merrill}, {and} \bibinfo{person}{Richmond Wong}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Differential vulnerabilities and a diversity of
+  tactics: What toolkits teach us about cybersecurity}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{2}, \bibinfo{number}{CSCW}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{1--24}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3274408}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Rakova, Yang, Cramer, and Chowdhury}{Rakova
+  et~al\mbox{.}}{2021}]%
+        {rakova2021responsible}
+\bibfield{author}{\bibinfo{person}{Bogdana Rakova}, \bibinfo{person}{Jingying
+  Yang}, \bibinfo{person}{Henriette Cramer}, {and} \bibinfo{person}{Rumman
+  Chowdhury}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Where responsible AI meets reality: Practitioner
+  perspectives on enablers for shifting organizational practices}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{5}, \bibinfo{number}{CSCW1}
+  (\bibinfo{year}{2021}), \bibinfo{pages}{1--23}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3449081}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Raval and Kak}{Raval and Kak}{2021}]%
+        {Raval2021NewAILexicon}
+\bibfield{author}{\bibinfo{person}{Noopur Raval} {and} \bibinfo{person}{Amba
+  Kak}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{{A New AI Lexicon: Responses and Challenges to the
+  Critical AI discourse}}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://medium.com/a-new-ai-lexicon/a-new-ai-lexicon-responses-and-challenges-to-the-critical-ai-discourse-f2275989fa62}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Redfield}{Redfield}{2013}]%
+        {redfield2013life}
+\bibfield{author}{\bibinfo{person}{Peter Redfield}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Life in crisis}}.
+\newblock \bibinfo{publisher}{University of California Press},
+  \bibinfo{address}{Berkeley}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Richardson, Garcia-Gathright, Way, Thom, and
+  Cramer}{Richardson et~al\mbox{.}}{2021}]%
+        {richardson2021towards}
+\bibfield{author}{\bibinfo{person}{Brianna Richardson}, \bibinfo{person}{Jean
+  Garcia-Gathright}, \bibinfo{person}{Samuel~F. Way}, \bibinfo{person}{Jennifer
+  Thom}, {and} \bibinfo{person}{Henriette Cramer}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Towards Fairness in Practice: A
+  Practitioner-Oriented Rubric for Evaluating Fair ML Toolkits}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 CHI Conference on Human
+  Factors in Computing Systems}} (Yokohama, Japan) \emph{(\bibinfo{series}{CHI
+  '21})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, Article \bibinfo{articleno}{236},
+  \bibinfo{numpages}{13}~pages.
+\newblock
+\showISBNx{9781450380966}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3411764.3445604}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ruggie}{Ruggie}{2017}]%
+        {Ruggie2017SocialConstructionUN}
+\bibfield{author}{\bibinfo{person}{John~Gerard Ruggie}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{{The Social Construction of the UN Guiding Principles
+  on Business \& Human Rights}}.  (\bibinfo{year}{2017}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.2139/ssrn.2984901}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Sambasivan, Arnesen, Hutchinson, Doshi, and
+  Prabhakaran}{Sambasivan et~al\mbox{.}}{2021}]%
+        {sambasivan2021reimagining}
+\bibfield{author}{\bibinfo{person}{Nithya Sambasivan}, \bibinfo{person}{Erin
+  Arnesen}, \bibinfo{person}{Ben Hutchinson}, \bibinfo{person}{Tulsee Doshi},
+  {and} \bibinfo{person}{Vinodkumar Prabhakaran}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Re-Imagining Algorithmic Fairness in India and
+  Beyond}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference
+  on Fairness, Accountability, and Transparency}} (Virtual Event, Canada)
+  \emph{(\bibinfo{series}{FAccT '21})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{315–328}.
+\newblock
+\showISBNx{9781450383097}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445896}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Schiff, Rakova, Ayesh, Fanti, and
+  Lennon}{Schiff et~al\mbox{.}}{2020}]%
+        {schiff2020principles}
+\bibfield{author}{\bibinfo{person}{Daniel Schiff}, \bibinfo{person}{Bogdana
+  Rakova}, \bibinfo{person}{Aladdin Ayesh}, \bibinfo{person}{Anat Fanti}, {and}
+  \bibinfo{person}{Michael Lennon}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Principles to practices for responsible AI: Closing
+  the gap}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2006.04707}}
+  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.2006.04707}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Scott}{Scott}{1998}]%
+        {Scott1998seeing}
+\bibfield{author}{\bibinfo{person}{James~C. Scott}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Seeing Like a State: How certain schemes
+  to improve the human condition have failed}}}.
+\newblock \bibinfo{publisher}{Yale University Press}, \bibinfo{address}{New
+  Haven}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Selbst, Boyd, Friedler, Venkatasubramanian,
+  and Vertesi}{Selbst et~al\mbox{.}}{2019}]%
+        {selbst2019fairness}
+\bibfield{author}{\bibinfo{person}{Andrew~D. Selbst}, \bibinfo{person}{Danah
+  Boyd}, \bibinfo{person}{Sorelle~A. Friedler}, \bibinfo{person}{Suresh
+  Venkatasubramanian}, {and} \bibinfo{person}{Janet Vertesi}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Fairness and Abstraction in Sociotechnical
+  Systems}. In \bibinfo{booktitle}{\emph{Proceedings of the Conference on
+  Fairness, Accountability, and Transparency}} (Atlanta, GA, USA)
+  \emph{(\bibinfo{series}{FAT* '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{59–68}.
+\newblock
+\showISBNx{9781450361255}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3287560.3287598}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shen, Deng, Chattopadhyay, Wu, Wang, and
+  Zhu}{Shen et~al\mbox{.}}{2021a}]%
+        {shen2021valuecards}
+\bibfield{author}{\bibinfo{person}{Hong Shen}, \bibinfo{person}{Wesley~H.
+  Deng}, \bibinfo{person}{Aditi Chattopadhyay}, \bibinfo{person}{Zhiwei~Steven
+  Wu}, \bibinfo{person}{Xu Wang}, {and} \bibinfo{person}{Haiyi Zhu}.}
+  \bibinfo{year}{2021}\natexlab{a}.
+\newblock \showarticletitle{Value Cards: An Educational Toolkit for Teaching
+  Social Impacts of Machine Learning through Deliberation}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}} (Virtual Event, Canada)
+  \emph{(\bibinfo{series}{FAccT '21})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{850–861}.
+\newblock
+\showISBNx{9781450383097}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445971}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shen, DeVos, Eslami, and Holstein}{Shen
+  et~al\mbox{.}}{2021b}]%
+        {shen2021everyday}
+\bibfield{author}{\bibinfo{person}{Hong Shen}, \bibinfo{person}{Alicia DeVos},
+  \bibinfo{person}{Motahhare Eslami}, {and} \bibinfo{person}{Kenneth
+  Holstein}.} \bibinfo{year}{2021}\natexlab{b}.
+\newblock \showarticletitle{Everyday Algorithm Auditing: Understanding the
+  Power of Everyday Users in Surfacing Harmful Algorithmic Behaviors}.
+\newblock \bibinfo{journal}{\emph{Proc. ACM Hum.-Comput. Interact.}}
+  \bibinfo{volume}{5}, \bibinfo{number}{CSCW2}, Article
+  \bibinfo{articleno}{433} (\bibinfo{date}{oct} \bibinfo{year}{2021}),
+  \bibinfo{numpages}{29}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3479577}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shen, Jin, Cabrera, Perer, Zhu, and Hong}{Shen
+  et~al\mbox{.}}{2020}]%
+        {shen2020designing}
+\bibfield{author}{\bibinfo{person}{Hong Shen}, \bibinfo{person}{Haojian Jin},
+  \bibinfo{person}{{\'A}ngel~Alexander Cabrera}, \bibinfo{person}{Adam Perer},
+  \bibinfo{person}{Haiyi Zhu}, {and} \bibinfo{person}{Jason~I Hong}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Designing Alternative Representations of Confusion
+  Matrices to Support Non-Expert Public Understanding of Algorithm
+  Performance}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{4}, \bibinfo{number}{CSCW2}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{1--22}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3415224}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shen, Wang, Deng, Brusse, Velgersdijk, and
+  Zhu}{Shen et~al\mbox{.}}{2022}]%
+        {shen2022model}
+\bibfield{author}{\bibinfo{person}{Hong Shen}, \bibinfo{person}{Leijie Wang},
+  \bibinfo{person}{Wesley~H. Deng}, \bibinfo{person}{Ciell Brusse},
+  \bibinfo{person}{Ronald Velgersdijk}, {and} \bibinfo{person}{Haiyi Zhu}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{The Model Card Authoring Toolkit: Toward
+  Community-Centered, Deliberation-Driven AI Design}. In
+  \bibinfo{booktitle}{\emph{2022 ACM Conference on Fairness, Accountability,
+  and Transparency}} (Seoul, Republic of Korea) \emph{(\bibinfo{series}{FAccT
+  '22})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{440–451}.
+\newblock
+\showISBNx{9781450393522}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3531146.3533110}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shilton}{Shilton}{2013}]%
+        {shilton2013values}
+\bibfield{author}{\bibinfo{person}{Katie Shilton}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Values levers: Building ethics into design}.
+\newblock \bibinfo{journal}{\emph{Science, Technology, \& Human Values}}
+  \bibinfo{volume}{38}, \bibinfo{number}{3} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{374--397}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/0162243912436985}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shilton}{Shilton}{2018}]%
+        {shilton2018values}
+\bibfield{author}{\bibinfo{person}{Katie Shilton}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Values and ethics in human-computer interaction}.
+\newblock \bibinfo{journal}{\emph{Foundations and Trends{\textregistered} in
+  Human--Computer Interaction}} \bibinfo{volume}{12}, \bibinfo{number}{2}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{107--171}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1561/1100000073}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shilton, Heidenblad, Porter, Winter, and
+  Kendig}{Shilton et~al\mbox{.}}{2020}]%
+        {shilton2020rolepplaying}
+\bibfield{author}{\bibinfo{person}{Katie Shilton}, \bibinfo{person}{Donal
+  Heidenblad}, \bibinfo{person}{Adam Porter}, \bibinfo{person}{Susan Winter},
+  {and} \bibinfo{person}{Mary Kendig}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{Role-Playing Computer Ethics: Designing and
+  Evaluating the Privacy by Design (PbD) Simulation}}.
+\newblock \bibinfo{journal}{\emph{Science and Engineering Ethics}}
+  (\bibinfo{date}{Jul} \bibinfo{year}{2020}).
+\newblock
+\showISSN{1353-3452}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s11948-020-00250-0}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shilton, Koepfler, and Fleischmann}{Shilton
+  et~al\mbox{.}}{2014}]%
+        {Shilton2014HowToSeeValues}
+\bibfield{author}{\bibinfo{person}{Katie Shilton}, \bibinfo{person}{Jes~A.
+  Koepfler}, {and} \bibinfo{person}{Kenneth~R. Fleischmann}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{How to see values in social computing: Methods for
+  Studying Values Dimensions}}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  17th ACM conference on Computer supported cooperative work \& social
+  computing}}. \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{426--435}.
+\newblock
+\showISBNx{9781450325400}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2531602.2531625}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Shonhiwa}{Shonhiwa}{2020}]%
+        {Shonhiwa2020humanValuesMedium}
+\bibfield{author}{\bibinfo{person}{Mandla Shonhiwa}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{{Human values matter: why value-sensitive design
+  should be part of every UX designer's toolkit}}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://uxdesign.cc/human-values-matter-why-value-sensitive-design-should-be-part-of-every-ux-designers-toolkit-e53ffe7ec436}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Silbey}{Silbey}{2009}]%
+        {silbey2009taming}
+\bibfield{author}{\bibinfo{person}{Susan~S Silbey}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Taming Prometheus: Talk about safety and culture}.
+\newblock \bibinfo{journal}{\emph{Annual Review of Sociology}}
+  \bibinfo{volume}{35} (\bibinfo{year}{2009}), \bibinfo{pages}{341--369}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sloane, Moss, Awomolo, and Forlano}{Sloane
+  et~al\mbox{.}}{2022}]%
+        {sloane2020participation}
+\bibfield{author}{\bibinfo{person}{Mona Sloane}, \bibinfo{person}{Emanuel
+  Moss}, \bibinfo{person}{Olaitan Awomolo}, {and} \bibinfo{person}{Laura
+  Forlano}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Participation Is Not a Design Fix for Machine
+  Learning}.
+\newblock , Article \bibinfo{articleno}{1} (\bibinfo{year}{2022}),
+  \bibinfo{numpages}{6}~pages.
+\newblock
+\showISBNx{9781450394772}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3551624.3555285}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Spitzberg, Shaw, Angevine, Wilkins,
+  Strickland, Yamashiro, Adams, and Lockhart}{Spitzberg et~al\mbox{.}}{2020}]%
+        {Spitzberg2020}
+\bibfield{author}{\bibinfo{person}{Danny Spitzberg}, \bibinfo{person}{Kevin
+  Shaw}, \bibinfo{person}{Colin Angevine}, \bibinfo{person}{Marissa Wilkins},
+  \bibinfo{person}{M Strickland}, \bibinfo{person}{Janel Yamashiro},
+  \bibinfo{person}{Rhonda Adams}, {and} \bibinfo{person}{Leah Lockhart}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Principles at Work: Applying “Design
+  Justice” in Professionalized Workplaces}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{pages}{1--5} pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.21428/93b2c832.e3a8d187}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Star}{Star}{1989}]%
+        {star1989structure}
+\bibfield{author}{\bibinfo{person}{Susan~Leigh Star}.}
+  \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{The structure of ill-structured solutions: Boundary
+  objects and heterogeneous distributed problem solving}.
+\newblock In \bibinfo{booktitle}{\emph{Distributed Artificial Intelligence
+  (Vol. 2)}}. \bibinfo{publisher}{Morgan Kaufmann Publishers Inc.},
+  \bibinfo{address}{San Francisco, CA, USA}, \bibinfo{pages}{37–54}.
+\newblock
+\showISBNx{0273088106}
+
+
+\bibitem[\protect\citeauthoryear{Stark, Greene, and Hoffmann}{Stark
+  et~al\mbox{.}}{2021}]%
+        {stark2021critical}
+\bibfield{author}{\bibinfo{person}{Luke Stark}, \bibinfo{person}{Daniel
+  Greene}, {and} \bibinfo{person}{Anna~Lauren Hoffmann}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Critical Perspectives on Governance Mechanisms for
+  AI/ML Systems}.
+\newblock In \bibinfo{booktitle}{\emph{The Cultural Life of Machine Learning}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{257--280}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Stilgoe, Owen, and Macnaghten}{Stilgoe
+  et~al\mbox{.}}{2013}]%
+        {STILGOE20131568}
+\bibfield{author}{\bibinfo{person}{Jack Stilgoe}, \bibinfo{person}{Richard
+  Owen}, {and} \bibinfo{person}{Phil Macnaghten}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Developing a framework for responsible innovation}.
+\newblock \bibinfo{journal}{\emph{Research Policy}} \bibinfo{volume}{42},
+  \bibinfo{number}{9} (\bibinfo{year}{2013}), \bibinfo{pages}{1568--1580}.
+\newblock
+\showISSN{0048-7333}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.respol.2013.05.008}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Suchman}{Suchman}{2002}]%
+        {suchman2002located}
+\bibfield{author}{\bibinfo{person}{Lucy Suchman}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Located accountabilities in technology production}.
+\newblock \bibinfo{journal}{\emph{Scandinavian journal of information systems}}
+  \bibinfo{volume}{14}, \bibinfo{number}{2} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{7}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{United Nations Human Rights Office of the
+  High Commissioner}}{{United Nations Human Rights Office of the High
+  Commissioner}}{2011}]%
+        {UnitedNationsHumanRights2011}
+\bibfield{author}{\bibinfo{person}{{United Nations Human Rights Office of the
+  High Commissioner}}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Guiding Principles on Business and Human
+  Rights: Implementing the United Nations "Protect, Respect and Remedy"
+  Framework}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{United
+  Nations}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.4324/9781351171922-3}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Watkins, McKenna, and Chen}{Watkins
+  et~al\mbox{.}}{2022}]%
+        {watkins2022four}
+\bibfield{author}{\bibinfo{person}{Elizabeth~Anne Watkins},
+  \bibinfo{person}{Michael McKenna}, {and} \bibinfo{person}{Jiahao Chen}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{The four-fifths rule is not disparate impact: a
+  woeful tale of epistemic trespassing in algorithmic fairness}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2202.09519}}
+  (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Weaver, Morse, and Mitcham}{Weaver
+  et~al\mbox{.}}{2008}]%
+        {weaver2008ethical}
+\bibfield{author}{\bibinfo{person}{Kathryn Weaver}, \bibinfo{person}{Janice
+  Morse}, {and} \bibinfo{person}{Carl Mitcham}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Ethical sensitivity in professional practice:
+  concept analysis}.
+\newblock \bibinfo{journal}{\emph{Journal of advanced nursing}}
+  \bibinfo{volume}{62}, \bibinfo{number}{5} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{607--618}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wong}{Wong}{2021}]%
+        {wong2021tactics}
+\bibfield{author}{\bibinfo{person}{Richmond~Y Wong}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Tactics of Soft Resistance in User Experience
+  Professionals' Values Work}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{5}, \bibinfo{number}{CSCW2}
+  (\bibinfo{year}{2021}), \bibinfo{pages}{1--28}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3479499}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Wong, Boyd, Metcalf, and Shilton}{Wong
+  et~al\mbox{.}}{2020}]%
+        {wong2020beyondchecklists}
+\bibfield{author}{\bibinfo{person}{Richmond~Y Wong}, \bibinfo{person}{Karen
+  Boyd}, \bibinfo{person}{Jake Metcalf}, {and} \bibinfo{person}{Katie
+  Shilton}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{Beyond Checklist Approaches to Ethics in Design}}.
+  In \bibinfo{booktitle}{\emph{Conference Companion Publication of the 2020 on
+  Computer Supported Cooperative Work and Social Computing}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{511--517}.
+\newblock
+\showISBNx{9781450380591}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3406865.3418590}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Yates and Orlikowski}{Yates and
+  Orlikowski}{1992}]%
+        {yates1992genres}
+\bibfield{author}{\bibinfo{person}{JoAnne Yates} {and} \bibinfo{person}{Wanda~J
+  Orlikowski}.} \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{Genres of organizational communication: A
+  structurational approach to studying communication and media}.
+\newblock \bibinfo{journal}{\emph{Academy of management review}}
+  \bibinfo{volume}{17}, \bibinfo{number}{2} (\bibinfo{year}{1992}),
+  \bibinfo{pages}{299--326}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yoo}{Yoo}{2021}]%
+        {yoo2018stakeholder}
+\bibfield{author}{\bibinfo{person}{Daisy Yoo}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Stakeholder Tokens: a constructive method for value
+  sensitive design stakeholder analysis}.
+\newblock \bibinfo{journal}{\emph{Ethics and Information Technology}}
+  (\bibinfo{year}{2021}), \bibinfo{pages}{1--5}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s10676-018-9474-4}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}

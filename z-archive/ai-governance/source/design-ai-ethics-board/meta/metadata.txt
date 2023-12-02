@@ -1,0 +1,13 @@
+---
+title: "How to design an AI ethics board"
+title_slug: "how-to-design-ai-ethics-board"
+license: "cc-by"
+published: "2023-04-14 16:53:50+00:00"
+entry_id: "http://arxiv.org/abs/2304.07249v1"
+author: "Jonas Schuett, Anka Reuel, Alexis Carlier"
+pdf: "how-to-design-an-ai-ethics-board.pdf"
+primary_category: "cs.CY"
+get_short_id: "2304.07249v1"
+image: img.png
+section: "Papers"
+---

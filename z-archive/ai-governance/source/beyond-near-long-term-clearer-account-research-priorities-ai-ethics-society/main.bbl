@@ -1,0 +1,445 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{34}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Anderson and Waxman}{Anderson and
+  Waxman}{2013}]%
+        {anderson2013law}
+\bibfield{author}{\bibinfo{person}{Kenneth Anderson} {and}
+  \bibinfo{person}{Matthew~C Waxman}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Law and ethics for autonomous weapon systems: Why a
+  ban won't work and how the laws of war can}.
+\newblock  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Asaro}{Asaro}{2012}]%
+        {asaro2012banning}
+\bibfield{author}{\bibinfo{person}{Peter Asaro}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{On banning autonomous weapon systems: human rights,
+  automation, and the dehumanization of lethal decision-making}.
+\newblock \bibinfo{journal}{\emph{International Review of the Red Cross}}
+  \bibinfo{volume}{94}, \bibinfo{number}{886} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{687--709}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Baum}{Baum}{2018}]%
+        {baum2018}
+\bibfield{author}{\bibinfo{person}{Seth~D Baum}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Reconciliation between factions focused on
+  near-term and long-term artificial intelligence}.
+\newblock \bibinfo{journal}{\emph{AI \& SOCIETY}} \bibinfo{volume}{33},
+  \bibinfo{number}{4} (\bibinfo{year}{2018}), \bibinfo{pages}{565--572}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bonnefon, Shariff, and Rahwan}{Bonnefon
+  et~al\mbox{.}}{2016}]%
+        {bonnefon2016social}
+\bibfield{author}{\bibinfo{person}{Jean-Fran{\c{c}}ois Bonnefon},
+  \bibinfo{person}{Azim Shariff}, {and} \bibinfo{person}{Iyad Rahwan}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{The social dilemma of autonomous vehicles}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{352},
+  \bibinfo{number}{6293} (\bibinfo{year}{2016}), \bibinfo{pages}{1573--1576}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bostrom}{Bostrom}{2014}]%
+        {bostrom_superintelligence_2014}
+\bibfield{author}{\bibinfo{person}{Nick Bostrom}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Superintelligence: {Paths}, {Dangers},
+  {Strategies}}}.
+\newblock \bibinfo{publisher}{OUP Oxford}, \bibinfo{address}{Oxford}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brockman}{Brockman}{2019}]%
+        {brockman2019}
+\bibfield{author}{\bibinfo{person}{John Brockman}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Possible} {Minds}: {Twenty}-{Five} {Ways}
+  of {Looking} at {AI}}}.
+\newblock \bibinfo{publisher}{Penguin Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brundage}{Brundage}{2017}]%
+        {brundage_guide_2017}
+\bibfield{author}{\bibinfo{person}{Miles Brundage}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Guide to working in {AI} policy and
+  strategy}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+\newblock
+\urldef\tempurl%
+\url{https://80000hours.org/articles/ai-policy-guide/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Buch, Ahmed, and Maruthappu}{Buch
+  et~al\mbox{.}}{2018}]%
+        {buch_artificial_2018}
+\bibfield{author}{\bibinfo{person}{Varun~H. Buch}, \bibinfo{person}{Irfan
+  Ahmed}, {and} \bibinfo{person}{Mahiben Maruthappu}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Artificial intelligence in medicine: current trends
+  and future possibilities}.
+\newblock \bibinfo{journal}{\emph{British Journal of General Practice}}
+  \bibinfo{volume}{68}, \bibinfo{number}{668} (\bibinfo{date}{March}
+  \bibinfo{year}{2018}), \bibinfo{pages}{143--144}.
+\newblock
+\showISSN{0960-1643, 1478-5242}
+\urldef\tempurl%
+\url{https://doi.org/10.3399/bjgp18X695213}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cave and ÓhÉigeartaigh}{Cave and
+  ÓhÉigeartaigh}{2019}]%
+        {cave_bridging_2019}
+\bibfield{author}{\bibinfo{person}{Stephen Cave} {and}
+  \bibinfo{person}{Seán~S. ÓhÉigeartaigh}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Bridging near- and long-term concerns about {AI}}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{1}, \bibinfo{number}{1} (\bibinfo{date}{Jan.}
+  \bibinfo{year}{2019}), \bibinfo{pages}{5--6}.
+\newblock
+\showISSN{2522-5839}
+\urldef\tempurl%
+\url{https://doi.org/10.1038/s42256-018-0003-2}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Crawford}{Crawford}{2016}]%
+        {crawford_artificial_2016}
+\bibfield{author}{\bibinfo{person}{Kate Crawford}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Artifical {I}ntelligence's {W}hite {G}uy
+  {P}roblem.}
+\newblock \bibinfo{journal}{\emph{The {New} {York} {Times}}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Crawford and Calo}{Crawford and Calo}{2016}]%
+        {crawfordcalo2016}
+\bibfield{author}{\bibinfo{person}{Kate Crawford} {and} \bibinfo{person}{Ryan
+  Calo}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{There is a blind spot in {AI} research}.
+\newblock \bibinfo{journal}{\emph{Nature News}} \bibinfo{volume}{538},
+  \bibinfo{number}{7625} (\bibinfo{year}{2016}), \bibinfo{pages}{311}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dafoe}{Dafoe}{2018}]%
+        {dafoe_ai_2018}
+\bibfield{author}{\bibinfo{person}{Allan Dafoe}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{AI} {Governance}: {A} {Research} {Agenda}}.
+\newblock \bibinfo{journal}{\emph{Center for the Governance of AI, Future of
+  Humanity Institute, University of Oxford}} (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dafoe and Russel}{Dafoe and Russel}{2016}]%
+        {dafoe_yes_2016}
+\bibfield{author}{\bibinfo{person}{Allan Dafoe} {and} \bibinfo{person}{Stuart
+  Russel}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Yes, {We} {Are} {Worried} {About} the {Existential}
+  {Risk} of {Artificial} {Intelligence}}.
+\newblock \bibinfo{journal}{\emph{{MIT} {T}echnology {R}eview}}
+  (\bibinfo{date}{Nov.} \bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Etzioni}{Etzioni}{2016}]%
+        {etzioni_no_2016}
+\bibfield{author}{\bibinfo{person}{Oren Etzioni}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{No, the {Experts} {Don't} {Think}
+  {Superintelligent} {AI} is a {Threat} to {Humanity}}.
+\newblock \bibinfo{journal}{\emph{{MIT} {T}echnology {R}eview}}
+  (\bibinfo{date}{Sept.} \bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ford}{Ford}{2019}]%
+        {ford2019}
+\bibfield{author}{\bibinfo{person}{Martin Ford}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Architects} of {Intelligence}: {The} truth
+  abut {AI} from the people building it}}.
+\newblock \bibinfo{publisher}{Packt Publishing}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Garling}{Garling}{2015}]%
+        {garling_why_2015}
+\bibfield{author}{\bibinfo{person}{Caleb Garling}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{Andrew} {Ng}: {Why} `{Deep} {Learning}' is a
+  mandate for humans, not just machines.}
+\newblock \bibinfo{journal}{\emph{Wired}} (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Goodall}{Goodall}{2016}]%
+        {goodall2016can}
+\bibfield{author}{\bibinfo{person}{Noah~J Goodall}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Can you program ethics into a self-driving car?}
+\newblock \bibinfo{journal}{\emph{IEEE Spectrum}} \bibinfo{volume}{53},
+  \bibinfo{number}{6} (\bibinfo{year}{2016}), \bibinfo{pages}{28--58}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gruetzemacher and Whittlestone}{Gruetzemacher
+  and Whittlestone}{2019}]%
+        {gruetzemacher_2019}
+\bibfield{author}{\bibinfo{person}{Ross Gruetzemacher} {and}
+  \bibinfo{person}{Jess Whittlestone}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{Defining} and {Unpacking} {Transformative} {AI}}.
+\newblock \bibinfo{journal}{\emph{Effective Altruism Global, London 2019}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hajian, Bonchi, and Castillo}{Hajian
+  et~al\mbox{.}}{2016}]%
+        {hajian2016algorithmic}
+\bibfield{author}{\bibinfo{person}{Sara Hajian}, \bibinfo{person}{Francesco
+  Bonchi}, {and} \bibinfo{person}{Carlos Castillo}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Algorithmic bias: From discrimination discovery to
+  fairness-aware data mining}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  22nd ACM SIGKDD international conference on knowledge discovery and data
+  mining}}. ACM, \bibinfo{pages}{2125--2126}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Karnofsky}{Karnofsky}{2016}]%
+        {karnofsky_potential_2016}
+\bibfield{author}{\bibinfo{person}{Holden Karnofsky}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{Potential {Risks} from {Advanced} {Artificial}
+  {Intelligence}: {The} {Philanthropic} {Opportunity}}.
+\newblock
+  \bibinfo{howpublished}{https://www.openphilanthropy.org/blog/potential-risks-advanced-artificial-intelligence-philanthropic-opportunity}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Koene}{Koene}{2017}]%
+        {koene2017algorithmic}
+\bibfield{author}{\bibinfo{person}{Ansgar Koene}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Algorithmic Bias: Addressing Growing Concerns
+  [Leading Edge]}.
+\newblock \bibinfo{journal}{\emph{IEEE Technology and Society Magazine}}
+  \bibinfo{volume}{36}, \bibinfo{number}{2} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{31--32}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krakovna}{Krakovna}{2018}]%
+        {krakovna_is_2018}
+\bibfield{author}{\bibinfo{person}{Viktoriya Krakovna}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Is {There} a {Trade}-{Off} {Between} {Immediate}
+  and {Longer}-term {AI} {Safety} {Efforts}?}
+\newblock \bibinfo{journal}{\emph{Future of Life Institute News}}
+  (\bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{https://futureoflife.org/2018/01/29/trade-off-immediate-longer-term-ai-safety-efforts/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Newell and Marabelli}{Newell and
+  Marabelli}{2015}]%
+        {newellmarabelli2015}
+\bibfield{author}{\bibinfo{person}{Sue Newell} {and} \bibinfo{person}{Marco
+  Marabelli}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Strategic opportunities (and challenges) of
+  algorithmic decision-making: A call for action on the long-term societal
+  effects of `datification'}.
+\newblock \bibinfo{journal}{\emph{The Journal of Strategic Information
+  Systems}} \bibinfo{volume}{24}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{3--14}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ngo}{Ngo}{2019}]%
+        {ngo2019}
+\bibfield{author}{\bibinfo{person}{Richard Ngo}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Disentangling arguments for the importance of {AI}
+  safety}.
+\newblock
+  \bibinfo{howpublished}{https://thinkingcomplete.blogspot.com/2019/01/disentangling-arguments-for-importance.html}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Parfit}{Parfit}{1991}]%
+        {parfit_equality_1991}
+\bibfield{author}{\bibinfo{person}{Derek Parfit}.}
+  \bibinfo{year}{1991}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Equality or priority}}.
+\newblock \bibinfo{publisher}{University of Kansas, Department of Philosophy}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Parfit}{Parfit}{2017}]%
+        {parfit_future_2017}
+\bibfield{author}{\bibinfo{person}{Derek Parfit}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Future people, the non-identity problem, and
+  person-affecting principles}.
+\newblock \bibinfo{journal}{\emph{Philosophy \& Public Affairs}}
+  \bibinfo{volume}{45}, \bibinfo{number}{2} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{118--157}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Parson, Re, Solow-Niederman, and Zeide}{Parson
+  et~al\mbox{.}}{2019}]%
+        {parson_artificial_2019}
+\bibfield{author}{\bibinfo{person}{Edward Parson}, \bibinfo{person}{Richard
+  Re}, \bibinfo{person}{Alicia Solow-Niederman}, {and} \bibinfo{person}{Elana
+  Zeide}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Artificial {Intelligence} in {Strategic} {Context}:
+  {An} {Introduction}}.
+\newblock
+  \bibinfo{howpublished}{aipulse.org/artificial-intelligence-in-strategic-context-an-introduction/}.
+\newblock  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Richardson, Schultz, and Crawford}{Richardson
+  et~al\mbox{.}}{2019}]%
+        {richardson_dirty_2019}
+\bibfield{author}{\bibinfo{person}{Rashida Richardson}, \bibinfo{person}{Jason
+  Schultz}, {and} \bibinfo{person}{Kate Crawford}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Dirty {Data}, {Bad} {Predictions}: {How}
+  {Civil} {Rights} {Violations} {Impact} {Police} {Data}, {Predictive}
+  {Policing} {Systems}, and {Justice}}}.
+\newblock \bibinfo{type}{{SSRN} {Scholarly} {Paper}} ID 3333423.
+  \bibinfo{institution}{Social Science Research Network},
+  \bibinfo{address}{Rochester, NY}.
+\newblock
+\urldef\tempurl%
+\url{https://papers.ssrn.com/abstract=3333423}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Science and House)}{Science and
+  House)}{2016}]%
+        {whitehouse_2016}
+\bibfield{author}{\bibinfo{person}{National Science} {and}
+  \bibinfo{person}{Technology Council (Obama~White House)}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{{Preparing} {For} {The} {Future} {Of} {Artificial}
+  {Intelligence}}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sittler}{Sittler}{2019}]%
+        {sittler2019}
+\bibfield{author}{\bibinfo{person}{Tom Sittler}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{A shift in arguments for {AI} risk}.
+\newblock
+  \bibinfo{howpublished}{https://fragile-credences.github.io/prioritising-ai/}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tegmark}{Tegmark}{2017}]%
+        {tegmark2017}
+\bibfield{author}{\bibinfo{person}{Max Tegmark}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Life 3.0: Being human in the age of
+  artificial intelligence}}.
+\newblock \bibinfo{publisher}{Knopf}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tucker}{Tucker}{2018}]%
+        {tucker2018privacy}
+\bibfield{author}{\bibinfo{person}{Catherine Tucker}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Privacy, algorithms, and artificial intelligence}.
+\newblock \bibinfo{journal}{\emph{The Economics of Artificial Intelligence: An
+  Agenda}} (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Whittaker, Crawford, Dobbe, Fried, Kaziunas,
+  Mathur, West, Richardson, Schultz, and Schwartz}{Whittaker
+  et~al\mbox{.}}{2018}]%
+        {whittaker_ai_2018}
+\bibfield{author}{\bibinfo{person}{Meredith Whittaker}, \bibinfo{person}{Kate
+  Crawford}, \bibinfo{person}{Roel Dobbe}, \bibinfo{person}{Genevieve Fried},
+  \bibinfo{person}{Elizabeth Kaziunas}, \bibinfo{person}{Varoon Mathur},
+  \bibinfo{person}{Sarah~Mysers West}, \bibinfo{person}{Rashida Richardson},
+  \bibinfo{person}{Jason Schultz}, {and} \bibinfo{person}{Oscar Schwartz}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{AI now report 2018}}.
+\newblock \bibinfo{publisher}{AI Now Institute at New York University}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zuboff}{Zuboff}{2019}]%
+        {zuboff2019age}
+\bibfield{author}{\bibinfo{person}{Shoshana Zuboff}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The age of surveillance capitalism: The
+  fight for a human future at the new frontier of power}}.
+\newblock \bibinfo{publisher}{Profile Books}.
+\newblock
+
+
+\end{thebibliography}

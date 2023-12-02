@@ -1,0 +1,13 @@
+% \FloatBarrier
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{ccccc}\toprule
+         &  $EM$ & $EM_{msp}\textcolor{gray}{[\Delta \%]}$&  $EM_{fmt} \textcolor{gray}{[\Delta \%]}$ & $EM_{ctst}\textcolor{gray}{[\Delta \%]}$\\\midrule
+       ChatGPT  & \textbf{0.960} & \textbf{0.960} \text{\textcolor{gray}{[-0.0\%]}} & \textbf{0.958} \textcolor{gray}{[-0.2\%]}& \textbf{0.957} \textcolor{gray}{[-0.3\%]}\\
+       InstructGPT & 0.932 & 0.924 \textcolor{gray}{[-0.9\%]}& 0.927 \textcolor{gray}{[-0.5\%]}& 0.912 \textcolor{gray}{[-2.1\%]}\\
+       GLM & 0.952 & 0.950 \textcolor{gray}{[-0.2\%]}& 0.948 \textcolor{gray}{[-0.4\%]}& 0.929 \textcolor{gray}{[-2.1\%]}\\\bottomrule
+    \end{tabular}
+    \caption{Evaluation results of semantic perturbations on IMDB. We compare ChatGPT with 5-shot InstructGPT (davinci-v2) and 5-shot GLM (130b).}
+    \label{tab:imdb}
+\end{table}
+% \FloatBarrier

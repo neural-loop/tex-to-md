@@ -1,0 +1,37 @@
+
+
+\section{Related Work}
+\label{sec:related_work}
+This section introduces the work related to machine unlearning and AI fairness.
+
+\subsection{Machine Unlearning}
+
+
+Machine unlearning was first presented by Cao and Yang~\cite{towards-unlearning}. Its objective is to build a system that can remove the impact of a data point in the training data. Early works on \textit{machine unlearning} focused on traditional machine learning (ML) models, i.e., support vector machines, linear classification, logistic regression, etc., by facilitating incremental and decremental learning techniques to efficiently retrain ML models after adding or removing multiple data points from the training set~\cite{multi-incre-decre, regression-incre-decre, incre-decre-svm, incre-decre-linear}. Since then, machine unlearning has been extensively studied to reduce the computational cost of retraining deep learning (DL) models~\cite{towards-unlearning, baumhauer2022machine, sisa, golatkar2020forgetting, lifelong, amnesiac}. Specifically, there are two main research approaches for employing machine unlearning in deep neural networks, i.e., \textit{exact machine unlearning} and \textit{approximate machine unlearning}. 
+
+The exact machine unlearning approach requires a new model to be trained from scratch by removing the deleted data from the training set. This approach ensures that the deleted data has no impact on the new model as we exclude it from the training set.
+To make the retraining process more efficient, previous works~\cite{baumhauer2022machine, sisa} divided the training data into multiple disjoint shards and DL models were trained on each of these shards. Hence, when a request to remove data points from the training set comes, we only need to retrain the models containing the removed data points. The exact machine unlearning approach necessitates changes in the DL architecture, making testing and maintaining the DL system challenging. 
+
+The approximate machine unlearning approach starts with the trained DL model and attempts to update its weights so that the model will no longer be affected by the removed data points from the training data. 
+Izzo et al.~\cite{approximate} showed that we may achieve a linear time complexity in machine unlearning by updating a projective residual of the trained DL models. 
+Guo et al.~\cite{certified-removal} and Golatkar et al.~\cite{selective-forgetting} employed a Newton step on the model weights to eliminate the influence of removed data points. 
+Graves et al.~\cite{amnesiac} later proposed an amnesiac unlearning method by storing a list of batches and their updated weights; hence, DL models only need to undo the updated weights from the batches containing the removed data points. 
+The approximate machine unlearning approach is more computationally efficient than the exact machine learning approach. However, we are unsure whether the removed data points have been completely forgotten in the trained model. 
+
+Although machine unlearning methods have been comprehensively studied, their fairness has not been investigated in the process of building machine unlearning systems. To fill in this gap, we perform an extensive study on the two machine unlearning approaches, i.e., extract and approximate, to reveal their fairness implications. 
+
+
+\subsection{AI Fairness}
+
+\textit{AI fairness} or machine learning (ML) fairness has been deeply investigated during the last decade~\cite{fairness-re, RE-AI, fairness-survey, fairness-testing, zhang2021ignorance, biswas2020machine, dwork2012fairness}. Its basic idea is that the prediction model should not be biased between different individuals or groups from the protected attribute class (e.g., race, sex, familial status, etc.). There are mainly two major types of AI fairness, i.e., \textit{group fairness} and \textit{individual fairness}~\cite{fairness-survey, dwork2012fairness}. 
+
+Group fairness requires the prediction model to produce different predictive results for different groups in the protected attribute class. Several studies proposed a specific kind of utility maximization decision function to satisfy a fairness constraint and derive optimal fairness decisions~\cite{corbett2017algorithmic, hardt2016equality, menon2018cost, baumann2022enforcing}. Hardt et al.~\cite{hardt2016equality} employed the Bayes optimal non-discriminant to derive fairness in a classification model. Corbett-Davies et al.~\cite{corbett2017algorithmic} considered AI fairness as a constrained optimization problem to maximize accuracy while satisfying group fairness constraints. Menon and Williamson~\cite{menon2018cost} investigated the trade-off between accuracy and group fairness in AI models and proposed a threshold function for the fairness problem. Group fairness often ignores the individual characteristics of the group, leading to permit unfairness in training ML models~\cite{kearns2018preventing}. 
+
+Individual fairness on the other hand expects the prediction model to produce similar predictive results among similar individuals who are only different in protected attributes. 
+Udeshi et al.~\cite{udeshi2018automated} presented Aequitas, a fully automated and directed test generation framework, to generate test inputs and improve the individual fairness of ML models. Aggarwal et al.~\cite{aggarwal2019black} employed both symbolic execution (together with local explainability) to identify factors making decisions and then generate test inputs. Sun et al.~\cite{sun2020automatic} combined both input mutation and metamorphic relations to improve the fairness of machine translation.
+
+
+Other works explore the effectiveness and efficiency of existing ML methods for software fairness~\cite{biswas2020machine, chakraborty2020fairway, zhang2021ignorance}. Specifically, researchers focus on improving fairness in ML systems by leveraging mitigation techniques~\cite{biswas2020machine}, removing biased instances in training data~\cite{chakraborty2020fairway}, or improving the quality of features in the datasets~\cite{zhang2021ignorance}.
+
+Even though AI fairness has been widely adopted, its properties have not been revealed in machine unlearning. We perform an empirical study on the three AI fairness datasets, i.e., Adult, Bank, and COMPAS to understand the impacts of machine unlearning models on fairness.
+

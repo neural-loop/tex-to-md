@@ -1,0 +1,17 @@
+% \FloatBarrier
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{cccc}
+    \toprule
+         Model & $EM$ $\uparrow$& $BS_{amb} \downarrow$ & $BS_{dis}\downarrow$\\
+         \midrule 
+         ChatGPT & \textbf{0.904} & -0.033 &\textbf{-0.215}\\
+         InstructGPT & 0.883 & 0.038 &-0.168\\
+         GPT-3 & 0.392 & \textbf{-0.048} &-0.133\\
+    \bottomrule
+
+    \end{tabular}
+    \caption{Evaluation results of BBQ question answering. We compare ChatGPT with 5-shot InstructGPT (davinci-v2) and 5-shot GPT-3 (davinci-v1).}
+    \label{tab:bbq}
+\end{table}
+% \FloatBarrier

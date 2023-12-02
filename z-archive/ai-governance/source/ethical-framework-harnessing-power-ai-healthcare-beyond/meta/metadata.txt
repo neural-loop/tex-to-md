@@ -1,0 +1,13 @@
+---
+title: "Ethical Framework for Harnessing the Power of AI in Healthcare and Beyond"
+title_slug: "ethical-framework-for-harnessing-power-of-ai-in-healthcare-and-beyond"
+license: "cc-by"
+published: "2023-08-31 18:12:12+00:00"
+entry_id: "http://arxiv.org/abs/2309.00064v1"
+author: "Sidra Nasir, Rizwan Ahmed Khan, Samita Bai"
+pdf: "ethical-framework-for-harnessing-the-power-of-ai-in-healthcare-and-beyond.pdf"
+primary_category: "cs.CY"
+get_short_id: "2309.00064v1"
+image: img.png
+section: "Papers"
+---

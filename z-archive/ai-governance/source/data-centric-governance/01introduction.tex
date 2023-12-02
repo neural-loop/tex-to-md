@@ -1,0 +1,29 @@
+% Buying an AI system is like hiring a person that will work tirelessly in their work at fantastical speed. If you were to hire such a person, how would you go about supervising the quality of their work?
+
+An emerging set of guidelines originating in both the public \cite{office_of_the_director_of_national_intelligence_artificial_2022,jared_dunnmon_responsible_2021,erin_mulvaney_nyc_2021,information_commisioners_office_guidance_2022,european_union_ai_2021} and private sectors \cite{google_building_2022,ibm_ai_2022,mokander_operationalising_2022} has advanced varying perspectives on what constitutes responsible artificial intelligence (AI). These guidelines typically focus on qualitative properties of the AI system and their assurance through human application of processes, such as stakeholder consultations, that shape the requirements of the AI system and evaluate its compliance with these requirements. Following these human processes, AI systems are deployed to the real world where they operate at large scale and high speed. Human staff must then play catch-up to AI systems whose operating environment and consequent behavior are constantly changing. The result is an increasing number of AI incidents \cite{mcgregor_indexing_2022,mcgregor_preventing_2021} where people are unfairly impacted or even killed by AI systems that fail to conform to their nominal governance requirements when deployed. These incidents principally occur due to a gap between identifying the governance requirements of a system and applying them in the development and deployment of AI systems. In short, \textbf{AI governance unmoored from the engineering practice of AI inevitably leads to unexpected, damaging, or dangerous outcomes.}
+
+% A collection of best practices from across research, government, and industry indicates how to transition AI assurance from the test and evaluation phase to the entire AI life cycle. These practices show the importance of formalizing governance requirements in terms of \textit{data}. 
+
+Modern AI systems are inherently data-centric -- they are produced from data then deployed to the real world to make decisions on input data. Given the centrality of data to AI systems, governance requirements are most comprehensively assured when they are defined and evaluated with data. Through appropriate preparation of governance datasets, it becomes possible to produce systems of ``continuous assurance.'' In analogy to continuous integration and deployment in software engineering, continuous assurance integrates evaluation of governance requirements at every stage of the product lifecycle by formulating requirements verification as a low-friction, repeatable algorithmic process.
+
+\begin{definition}[Continuous Assurance of AI]
+    Continuous verification and validation of system governance requirements.
+\end{definition}
+
+Continuous assurance places AI systems into an operating scope coinciding with governance requirements. In the absence of data defining a system of continuous assurance, intelligent systems continue operating even when they begin violating governance requirements. \textbf{An intelligent system that is not governed with data, is one that is not governed.}
+
+Formulating governance requirements in terms of data implies operational changes over the whole life cycle of a system. When governance is left to a final gate at delivery time, any violation of governance requirements presents a choice of either waiting months for an updated system or deploying the solution in an absence of a fix. Through the adoption of \textit{governance requirements as solution requirements} during engineering, it becomes possible to realize the benefits of good governance (i.e., a better product) while greatly reducing the downstream compliance risk. Consequently, while we are presenting an approach to satisfying emerging governance requirements of AI systems, we are primarily concerned with how product teams can best move governance from a deployment barrier to a core system specification enabling better solutions.
+
+In this work we begin by detailing the elements of data-centric governance before introducing the teams and data involved in its application, then we step through a series of technical problems and incidents (i.e., harm events) that are identified via the team structure and data. We close the paper with details on the computer systems involved in its application.
+
+\highlight{
+    \textbf{What is the one insight everyone should take away from this paper?}
+
+    \takeaway{Shipping better products, faster, and with fewer risks requires embedding governance requirements throughout the product life cycle}}
+
+% todo: resolve
+% - From Richard Mallah, Specification gaming
+% https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml
+%- "The Landscape of AI Safety and Beneficence Research: Input for Brainstorming at Beneficial AI 2017" https://futureoflife.org/landscape/ResearchLandscapeExtended.pdf
+
+

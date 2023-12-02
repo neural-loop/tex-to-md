@@ -1,0 +1,13 @@
+---
+title: "Big data ethics, machine ethics or information ethics? Navigating the maze of applied ethics in IT"
+title_slug: "big-data-ethics-machine-ethics-or-information-ethics-navigating-maze-of-applied-ethics-in-it"
+license: "cc-by"
+published: "2022-03-25 08:05:46+00:00"
+entry_id: "http://arxiv.org/abs/2203.13494v1"
+author: "Niina Zuber, Severin Kacianka, Jan Gogoll"
+pdf: "big-data-ethics-machine-ethics-or-information-ethics-navigating-the-maze-of-applied-ethics-in-it.pdf"
+primary_category: "cs.SE"
+get_short_id: "2203.13494v1"
+image: img.png
+section: "Papers"
+---

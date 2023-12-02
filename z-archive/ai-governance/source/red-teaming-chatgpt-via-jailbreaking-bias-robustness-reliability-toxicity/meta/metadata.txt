@@ -1,0 +1,13 @@
+---
+title: "Red teaming ChatGPT via Jailbreaking: Bias, Robustness, Reliability and Toxicity"
+title_slug: "red-teaming-chatgpt-via-jailbreaking-bias-robustness-reliability-and-toxicity"
+license: "cc-by"
+published: "2023-01-30 13:20:48+00:00"
+entry_id: "http://arxiv.org/abs/2301.12867v4"
+author: "Terry Yue Zhuo, Yujin Huang, Chunyang Chen, Zhenchang Xing"
+pdf: "red-teaming-chatgpt-via-jailbreaking-bias-robustness-reliability-and-toxicity.pdf"
+primary_category: "cs.CL"
+get_short_id: "2301.12867v4"
+image: img.png
+section: "Papers"
+---

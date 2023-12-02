@@ -1,0 +1,174 @@
+\documentclass{article}
+
+
+% if you need to pass options to natbib, use, e.g.:
+\PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2022
+
+
+% ready for submission
+% \usepackage{neurips_2022}
+
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+%     \usepackage[preprint]{neurips_2022}
+
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+\usepackage[final]{neurips_2022}
+
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2022}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+
+% Added by Sean/Jesse
+
+\usepackage{tikz}
+%\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{calc}
+%\setlength\intextsep{0pt}
+\usetikzlibrary{backgrounds}
+\newtheorem{definition}{Definition}
+\newtheorem{corollary}{Corollary}[definition]
+\newcommand{\VnV}[0]{V\&V}
+\newcommand{\Keyword}[1]{\textbf{#1}}
+\usepackage{amssymb}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{multicol}
+\usepackage{enumitem}
+
+% Generates a tilde.
+\newcommand{\roughly}{$\mathtt{\sim}$}
+\newcommand{\takeaway}[1]{$\therefore$ \emph{ #1}}
+\newcommand{\makegray}[1]{
+\begin{mdframed}[hidealllines=true,backgroundcolor=black!5]\textbf{Takeaway}: #1\end{mdframed}}
+\newcommand{\highlight}[1]{
+\begin{mdframed}[hidealllines=true,backgroundcolor=black!5] #1\end{mdframed}}
+
+\title{Data-Centric Governance}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to break the
+% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
+% authors names on the first line, and the last on the second line, try using
+% \AND instead of \And before the third author name.
+
+
+\author{%
+  Sean McGregor \\ %\thanks{https://seanbmcgregor.com} \\
+  Alignment Labs\\
+  California \\
+  \texttt{sean@alignmentlabs.ai} \\
+  %\texttt{sean@alignmentlabs.ai} \\
+  % examples of more authors
+  \And
+  Jesse Hostetler \\
+  Alignment Labs\\
+  Colorado \\
+  \texttt{jesse@alignmentlabs.ai} \\
+  %\texttt{jesse@alignmentlabs.ai} \\
+  % \AND
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+  % \And
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+  % \And
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Artificial intelligence (AI) governance is the body of standards and practices used to ensure that AI systems are deployed responsibly. Current AI governance approaches consist mainly of manual review and documentation processes. While such reviews are necessary for many systems, they are not sufficient to  systematically address all potential harms, as they do not operationalize governance requirements for system engineering, behavior, and outcomes in a way that facilitates rigorous and reproducible evaluation. Modern AI systems are data-centric: they act on data, produce data, and are built through data engineering. The assurance of governance requirements must also be carried out in terms of data. This work explores the systematization of governance requirements via datasets and algorithmic evaluations. When applied throughout the product lifecycle, data-centric governance decreases time to deployment, increases solution quality, decreases deployment risks, and places the system in a continuous state of assured compliance with governance requirements.
+\end{abstract}
+
+% Contacts: https://docs.google.com/spreadsheets/d/1XEa_13medF8pdAvoX19vOOwRC1CQThSbUvkmQBxxrVw/edit#gid=0
+
+% Outline: https://docs.google.com/document/d/1WnsnoDUlRzlnvuy78NDBxK2rpCfyJzhGJuXJOkGnj5Y/edit#
+
+% \highlight{
+% \textbf{Confidential Draft for Comment (version 0.3)} Governance is inherently an interdisciplinary pursuit. The writing is directed at technically sophisticated persons operating in machine learning, safety, verification, test, compliance, policy, risk, and more. Thank you for reviewing the working draft and ensuring the paper speaks to all these disciplines.
+% }
+
+\section{Introduction}
+\label{sec:intro}
+\input{01introduction}
+
+\section{Data-Centric Governance}
+\label{sec:datagovernance}
+\input{datacentricgovernance}
+
+\section{Organizational Factors in Data-centric Governance}
+\label{sec:teams}
+\input{teams}
+
+\section{Evaluation Authorities}
+\label{sec:evaluationauthorities}
+\input{evaluationauthorities}
+
+\section{Governance and Engineering Datasets}
+\label{sec:data}
+\input{03dataintro}
+
+
+\section{Continuous Assurance for Data-Centric Governance}
+\label{sec:outline_systems}
+\input{05systems}
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{06conclusion}
+
+\begin{ack}
+We gratefully acknowledge the review and contributions of Andrea Brennen and Jill Crisman in the production of this work. As a position paper from and for the communities of test and evaluation, verification and validation, AI safety, machine learning, assurance systems, risk, and more, this paper would not be what it is without broad and varied input. We invite your review and feedback to improve the concepts and their communication to varied audiences.
+
+\textbf{Funding.} This work was made possible by the funding of IQT Labs.
+\end{ack}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{zotero-sean}
+
+% \appendix
+% \input{appendix-A-FormalDefinitions}
+% \input{appendix-B-RoleOfAugmentation}
+% \input{appendix-C-DataIsHard}
+% \input{appendix-D-MismatchCatalog}
+% %\input{appendix-E-VVTestingApproaches}
+% %\input{appendix-F-LessonsFromMLCompetitions}
+% \input{appendix-G-ModelGeneralization}
+% %\input{appendix-H-DesireableProperties}
+% \input{appendix-I-GovernanceParadox}
+
+\end{document}

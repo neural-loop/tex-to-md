@@ -1,0 +1,13 @@
+---
+title: "A blindspot of AI ethics: anti-fragility in statistical prediction"
+title_slug: "blindspot-of-ai-ethics-anti-fragility-in-statistical-prediction"
+license: "cc-by"
+published: "2020-06-21 14:46:55+00:00"
+entry_id: "http://arxiv.org/abs/2006.11814v1"
+author: "Michele Loi, Lonneke van der Plas"
+pdf: "a-blindspot-of-ai-ethics-anti-fragility-in-statistical-prediction.pdf"
+primary_category: "cs.AI"
+get_short_id: "2006.11814v1"
+image: img.png
+section: "Papers"
+---

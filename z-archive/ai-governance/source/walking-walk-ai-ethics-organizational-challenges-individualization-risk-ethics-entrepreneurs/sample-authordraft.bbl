@@ -1,0 +1,657 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{44}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Anderson and Rainie(2020)]%
+        {anderson_many_2020}
+\bibfield{author}{\bibinfo{person}{Janna Anderson} {and} \bibinfo{person}{Lee
+  Rainie}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Many tech experts say digital disruption will hurt
+  democracy}.
+\newblock \bibinfo{journal}{\emph{Pew Research Center}}
+  (\bibinfo{date}{February} \bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://www.pewresearch.org/internet/2020/02/21/many-tech-experts-say-digital-disruption-will-hurt-democracy/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Avnoon et~al\mbox{.}(2023)]%
+        {avnoon_contextualizing_2023}
+\bibfield{author}{\bibinfo{person}{Netta Avnoon}, \bibinfo{person}{Dan~M.
+  Kotliar}, {and} \bibinfo{person}{Shira Rivnai-Bahir}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Contextualizing the ethics of algorithms: {A}
+  socio-professional approach}.
+\newblock \bibinfo{journal}{\emph{New Media \& Society}}
+  (\bibinfo{year}{2023}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/14614448221145728}
+\showDOI{\tempurl}
+
+
+\bibitem[Bromley and Powell(2012)]%
+        {bromley_smoke_2012}
+\bibfield{author}{\bibinfo{person}{Patricia Bromley} {and}
+  \bibinfo{person}{Walter~W. Powell}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{From smoke and mirrors to walking the talk:
+  {Decoupling} in the contemporary world}.
+\newblock \bibinfo{journal}{\emph{Academy of Management Annals}}
+  \bibinfo{volume}{6}, \bibinfo{number}{1} (\bibinfo{year}{2012}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.5465/19416520.2012.684462}
+\showDOI{\tempurl}
+
+
+\bibitem[Chang(2018)]%
+        {chang_facebook_2018}
+\bibfield{author}{\bibinfo{person}{Alvin Chang}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The {Facebook} and {Cambridge} {Analytica} scandal,
+  explained with a simple diagram}.
+\newblock  (\bibinfo{date}{March} \bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{https://www.vox.com/policy-and-politics/2018/3/23/17151916/facebook-cambridge-analytica-trump-diagram}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Christin(2017)]%
+        {christin_algorithms_2017}
+\bibfield{author}{\bibinfo{person}{Ang{\`e}le Christin}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Algorithms in Practice: Comparing Web Journalism
+  and Criminal Justice}.
+\newblock \bibinfo{journal}{\emph{Big Data and Society}} \bibinfo{volume}{4},
+  \bibinfo{number}{2} (\bibinfo{year}{2017}), \bibinfo{pages}{1--14}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/2053951717718855}
+\showDOI{\tempurl}
+
+
+\bibitem[Christin(2020)]%
+        {christin_ethnographer_2020}
+\bibfield{author}{\bibinfo{person}{Ang{\`e}le Christin}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The ethnographer and the algorithm: beyond the
+  black box}.
+\newblock \bibinfo{journal}{\emph{Theory and Society}} \bibinfo{volume}{49},
+  \bibinfo{number}{5-6} (\bibinfo{year}{2020}), \bibinfo{pages}{897--918}.
+\newblock
+
+
+\bibitem[Costanza-Chock et~al\mbox{.}(2022)]%
+        {costanza-chock_who_2022}
+\bibfield{author}{\bibinfo{person}{Sasha Costanza-Chock},
+  \bibinfo{person}{Inioluwa~Deborah Raji}, {and} \bibinfo{person}{Joy
+  Buolamwini}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Who audits the auditors? {Recommendations} from a
+  field scan of the algorithmic auditing ecosystem}. In
+  \bibinfo{booktitle}{\emph{2022 {ACM} {Conference} on {Fairness},
+  {Accountability}, and {Transparency}}}. \bibinfo{pages}{1571--1583}.
+\newblock
+
+
+\bibitem[DiMaggio(1988)]%
+        {dimaggio_interest_1988}
+\bibfield{author}{\bibinfo{person}{Paul DiMaggio}.}
+  \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Interest and agency in institutional theory}.
+\newblock In \bibinfo{booktitle}{\emph{Research on institutional patterns:
+  {Environment} and culture}}, \bibfield{editor}{\bibinfo{person}{Lynne~G.
+  Zucker}} (Ed.). \bibinfo{pages}{3--21}.
+\newblock
+
+
+\bibitem[DiMaggio and Powell(1983)]%
+        {dimaggio_iron_1983}
+\bibfield{author}{\bibinfo{person}{Paul~J. DiMaggio} {and}
+  \bibinfo{person}{Walter~W. Powell}.} \bibinfo{year}{1983}\natexlab{}.
+\newblock \showarticletitle{The {Iron} {Cage} {Revisited}: {Institutional}
+  {Isomorphism} and {Collective} {Rationality} in {Organizational} {Fields}}.
+\newblock \bibinfo{journal}{\emph{American Sociological Review}}
+  \bibinfo{volume}{48}, \bibinfo{number}{2} (\bibinfo{year}{1983}),
+  \bibinfo{pages}{147--160}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.2307/2095101}
+\showDOI{\tempurl}
+
+
+\bibitem[Espeland(1998)]%
+        {espeland_struggle_1998}
+\bibfield{author}{\bibinfo{person}{Wendy~Nelson Espeland}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The struggle for water: {Politics},
+  rationality, and identity in the {American} {Southwest}}}.
+\newblock \bibinfo{publisher}{University of Chicago Press}.
+\newblock
+
+
+\bibitem[Fjeld et~al\mbox{.}(2020)]%
+        {fjeld_principled_2020}
+\bibfield{author}{\bibinfo{person}{Jessica Fjeld}, \bibinfo{person}{Nele
+  Achten}, \bibinfo{person}{Hannah Hilligoss}, \bibinfo{person}{Adam Nagy},
+  {and} \bibinfo{person}{Madhulika Srikumar}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Principled artificial intelligence: {Mapping}
+  consensus in ethical and rights-based approaches to principles for {AI}}.
+\newblock \bibinfo{journal}{\emph{Berkman Klein Center Research Publication}}
+  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3518482}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Foroohar(2018)]%
+        {foroohar_year_2018}
+\bibfield{author}{\bibinfo{person}{Rana Foroohar}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Year in a word: {Techlash}}.
+\newblock \bibinfo{journal}{\emph{Financial Times}} (\bibinfo{date}{Dec.}
+  \bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{https://www.ft.com/content/76578fba-fca1-11e8-ac00-57a2a826423e}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Frenkel(2018)]%
+        {frenkel_big_2018}
+\bibfield{author}{\bibinfo{person}{Sheera Frenkel}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Big tech to testify before {Senate} on the
+  midterms}.
+\newblock \bibinfo{journal}{\emph{The New York Times}} (\bibinfo{date}{Sept.}
+  \bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{https://www.nytimes.com/2018/09/02/business/week-ahead-big-tech-testifies-senate.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Gallup}(2020)]%
+        {gallup_techlash_2020}
+\bibfield{author}{\bibinfo{person}{{Gallup}}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Techlash? {America}’s growing concern
+  with major technology companies}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+\newblock
+\urldef\tempurl%
+\url{https://knightfoundation.org/wp-content/uploads/2020/03/Gallup-Knight-Report-Techlash-Americas-Growing-Concern-with-Major-Tech-Companies-Final.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Garud et~al\mbox{.}(2007)]%
+        {garud_institutional_2007}
+\bibfield{author}{\bibinfo{person}{Raghu Garud}, \bibinfo{person}{Cynthia
+  Hardy}, {and} \bibinfo{person}{Steve Maguire}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Institutional {Entrepreneurship} as {Embedded}
+  {Agency}: {An} {Introduction} to the {Special} {Issue}}.
+\newblock \bibinfo{journal}{\emph{Organization Studies}} \bibinfo{volume}{28},
+  \bibinfo{number}{7} (\bibinfo{year}{2007}), \bibinfo{pages}{957--969}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/0170840607078958}
+\showDOI{\tempurl}
+
+
+\bibitem[Greene et~al\mbox{.}(2019)]%
+        {greene_better_2019}
+\bibfield{author}{\bibinfo{person}{Daniel Greene}, \bibinfo{person}{Anna~Lauren
+  Hoffmann}, {and} \bibinfo{person}{Luke Stark}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Better, nicer, clearer, fairer: {A} critical
+  assessment of the movement for ethical artificial intelligence and machine
+  learning}. In \bibinfo{booktitle}{\emph{Proceedings of the 52nd {Hawaii}
+  {International} {Conference} on {System} {Sciences}}}.
+\newblock
+\urldef\tempurl%
+\url{https://aisel.aisnet.org/hicss-52/dsm/critical_and_ethical_studies/2/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Greenwood and Suddaby(2006)]%
+        {greenwood_institutional_2006}
+\bibfield{author}{\bibinfo{person}{Royston Greenwood} {and}
+  \bibinfo{person}{Roy Suddaby}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Institutional entrepreneurship in mature fields:
+  The big five accounting firms}.
+\newblock \bibinfo{journal}{\emph{Academy of Management Journal}}
+  \bibinfo{volume}{49}, \bibinfo{number}{1} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{27--48}.
+\newblock
+\urldef\tempurl%
+\url{http://www.jstor.org/stable/20159744}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Greenwood et~al\mbox{.}(2002)]%
+        {greenwood_theorizing_2002}
+\bibfield{author}{\bibinfo{person}{Royston Greenwood}, \bibinfo{person}{Roy
+  Suddaby}, {and} \bibinfo{person}{CR Hinings}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Theorizing change: {The} role of professional
+  associations in the transformation of institutionalized fields}.
+\newblock \bibinfo{journal}{\emph{Academy of management journal}}
+  \bibinfo{volume}{45}, \bibinfo{number}{1} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{58--80}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.2307/3069285}
+\showDOI{\tempurl}
+
+
+\bibitem[Haney and Lutters(2018)]%
+        {haney_cybersecurity_2018}
+\bibfield{author}{\bibinfo{person}{Julie~M. Haney} {and}
+  \bibinfo{person}{Wayne~G. Lutters}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{"It{\textquoteright}s
+  {Scary{\textellipsis}It{\textquoteright}s}
+  {Confusing{\textellipsis}It{\textquoteright}s} Dull": How Cybersecurity
+  Advocates Overcome Negative Perceptions of Security}. In
+  \bibinfo{booktitle}{\emph{Fourteenth Symposium on Usable Privacy and Security
+  (SOUPS 2018)}}. \bibinfo{publisher}{USENIX Association},
+  \bibinfo{address}{Baltimore, MD}, \bibinfo{pages}{411--425}.
+\newblock
+\showISBNx{978-1-939133-10-6}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/soups2018/presentation/haney-perceptions}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Heckscher(2011)]%
+        {heckscher_defining_2011}
+\bibfield{author}{\bibinfo{person}{Charles Heckscher}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Defining the post-bureaucratic type}.
+\newblock \bibinfo{journal}{\emph{Sociology of Organizations. Structures and
+  Relationships}} (\bibinfo{year}{2011}), \bibinfo{pages}{98--106}.
+\newblock
+
+
+\bibitem[Holstein et~al\mbox{.}(2019)]%
+        {holstein_improving_2019}
+\bibfield{author}{\bibinfo{person}{Kenneth Holstein}, \bibinfo{person}{Jennifer
+  Wortman~Vaughan}, \bibinfo{person}{Hal Daum{\textbackslash}’e~III},
+  \bibinfo{person}{Miro Dud{\textbackslash}’ik}, {and} \bibinfo{person}{Hanna
+  Wallach}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Improving fairness in machine learning systems:
+  {What} do industry practitioners need?}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 {CHI} {Conference} on
+  {Human} {Factors} in {Computing} {Systems}}}. \bibinfo{pages}{1--16}.
+\newblock
+\urldef\tempurl%
+\url{https://dl.acm.org/doi/abs/10.1145/3290605.3300830}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Johnson(2019)]%
+        {johnson_how_2019}
+\bibfield{author}{\bibinfo{person}{Khari Johnson}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{How {AI} companies can avoid ethics washing}.
+\newblock \bibinfo{journal}{\emph{VentureBeat}} (\bibinfo{date}{July}
+  \bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{https://venturebeat.com/ai/how-ai-companies-can-avoid-ethics-washing/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Kramer(2021)]%
+        {kramer_tech_2021}
+\bibfield{author}{\bibinfo{person}{Anna Kramer}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{This was the year tech workers found their power}.
+\newblock \bibinfo{journal}{\emph{Protocol}} (\bibinfo{date}{December}
+  \bibinfo{year}{2021}).
+\newblock
+\urldef\tempurl%
+\url{https://www.protocol.com/workplace/2021-year-workers-found-power}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Menczer and Hills(2020)]%
+        {menczer_information_2020}
+\bibfield{author}{\bibinfo{person}{Filippo Menczer} {and}
+  \bibinfo{person}{Thomas Hills}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Information {Overload} {Helps} {Fake} {News}
+  {Spread}, and {Social} {Media} {Knows} {It}}.
+\newblock \bibinfo{journal}{\emph{Scientific American}} (\bibinfo{date}{Dec.}
+  \bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://www.scientificamerican.com/article/information-overload-helps-fake-news-spread-and-social-media-knows-it/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Metcalf et~al\mbox{.}(2019)]%
+        {metcalf_owning_2019}
+\bibfield{author}{\bibinfo{person}{Jacob Metcalf}, \bibinfo{person}{Emanuel
+  Moss}, {and} \bibinfo{person}{danah boyd}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Owning ethics: {Corporate} logics, {Silicon}
+  {Valley}, and the institutionalization of ethics}.
+\newblock \bibinfo{journal}{\emph{Social Research: An International Quarterly}}
+  \bibinfo{volume}{86}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{449--476}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1353/sor.2019.0022}
+\showDOI{\tempurl}
+
+
+\bibitem[Meyer(1982)]%
+        {meyer_adapting_1982}
+\bibfield{author}{\bibinfo{person}{Alan~D. Meyer}.}
+  \bibinfo{year}{1982}\natexlab{}.
+\newblock \showarticletitle{Adapting to environmental jolts}.
+\newblock \bibinfo{journal}{\emph{Administrative science quarterly}}
+  \bibinfo{volume}{27}, \bibinfo{number}{4} (\bibinfo{year}{1982}),
+  \bibinfo{pages}{515--537}.
+\newblock
+\urldef\tempurl%
+\url{https://www.jstor.org/stable/2392528}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Meyer and Rowan(1977)]%
+        {meyer_institutionalized_1977}
+\bibfield{author}{\bibinfo{person}{John~W. Meyer} {and} \bibinfo{person}{Brian
+  Rowan}.} \bibinfo{year}{1977}\natexlab{}.
+\newblock \showarticletitle{Institutionalized {Organizations}: {Formal}
+  {Structure} as {Myth} and {Ceremony}}.
+\newblock \bibinfo{journal}{\emph{Amer. J. Sociology}} \bibinfo{volume}{83},
+  \bibinfo{number}{2} (\bibinfo{year}{1977}), \bibinfo{pages}{340--363}.
+\newblock
+\urldef\tempurl%
+\url{https://www.jstor.org/stable/2778293}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Mittelstadt(2019)]%
+        {mittelstadt_principles_2019}
+\bibfield{author}{\bibinfo{person}{Brent Mittelstadt}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Principles alone cannot guarantee ethical {AI}}.
+\newblock \bibinfo{journal}{\emph{Nature: Machine Intelligence}}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{501--507}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1038/s42256-019-0114-4}
+\showDOI{\tempurl}
+
+
+\bibitem[Munn(2022)]%
+        {munn_uselessness_2022}
+\bibfield{author}{\bibinfo{person}{Luke Munn}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{The uselessness of {AI} ethics}.
+\newblock \bibinfo{journal}{\emph{AI and Ethics}} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{1--9}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s43681-022-00209-w}
+\showDOI{\tempurl}
+
+
+\bibitem[Neff and Stark(2004)]%
+        {neff_permanently_2004}
+\bibfield{author}{\bibinfo{person}{Gina Neff} {and} \bibinfo{person}{David
+  Stark}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Permanently beta}.
+\newblock \bibinfo{journal}{\emph{Society online: The Internet in context}}
+  \bibinfo{volume}{173} (\bibinfo{year}{2004}), \bibinfo{pages}{188}.
+\newblock
+
+
+\bibitem[Phan et~al\mbox{.}(2022)]%
+        {phan_economies_2022}
+\bibfield{editor}{\bibinfo{person}{Thao Phan}, \bibinfo{person}{Jake
+  Goldenfein}, \bibinfo{person}{Declan Kuch}, {and} \bibinfo{person}{Monique
+  Mann}} (Eds.). \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Economies of virtue: {The} circulation of
+  ethics in {AI}}}.
+\newblock \bibinfo{publisher}{Institute of Network Cultures}.
+\newblock
+
+
+\bibitem[Phan et~al\mbox{.}(2021)]%
+        {phan_economies_2021}
+\bibfield{author}{\bibinfo{person}{Thao Phan}, \bibinfo{person}{Jake
+  Goldenfein}, \bibinfo{person}{Monique Mann}, {and} \bibinfo{person}{Declan
+  Kuch}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Economies of virtue: {The} circulation of
+  ‘{Ethics}.’ {Big} {Tech}, {Science} as {Culture}}.
+\newblock \bibinfo{journal}{\emph{Science as Culture}} \bibinfo{volume}{31},
+  \bibinfo{number}{1} (\bibinfo{year}{2021}), \bibinfo{pages}{121--135}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1080/09505431.2021.1990875}
+\showDOI{\tempurl}
+
+
+\bibitem[Polonski(2018)]%
+        {polonski_hard_2018}
+\bibfield{author}{\bibinfo{person}{Vyacheslav Polonski}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{The hard problem of AI ethics—Three guidelines for
+  building morality into machines}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.oecd-forum.org/posts/30743-the-hard-problem-of-ai-ethics-three-guidelines-for-building-morality-into-machines}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Posner(2022)]%
+        {posner_agile_2022}
+\bibfield{author}{\bibinfo{person}{Miriam Posner}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Agile and the long crisis of software}.
+\newblock \bibinfo{journal}{\emph{Logic Magazine}} (\bibinfo{year}{2022}).
+\newblock
+\urldef\tempurl%
+\url{https://logicmag.io/clouds/agile-and-the-long-crisis-of-software/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Powell(2001)]%
+        {powell_capitalist_2001}
+\bibfield{author}{\bibinfo{person}{Walter~W Powell}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{The capitalist firm in the 21st century: emerging
+  patterns}.
+\newblock \bibinfo{journal}{\emph{The 21st Century Firm: Changing Economic
+  Organization in International Perspective}} (\bibinfo{year}{2001}),
+  \bibinfo{pages}{33--68}.
+\newblock
+
+
+\bibitem[Romm(2020)]%
+        {romm_amazon_2020}
+\bibfield{author}{\bibinfo{person}{Tony Romm}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Amazon, {Apple}, {Facebook} and {Google} grilled on
+  {Capitol} {Hill} over their market power}.
+\newblock \bibinfo{journal}{\emph{The Washington Post}} (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://www.washingtonpost.com/technology/2020/07/29/apple-google-facebook-amazon-congress-hearing/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Saxenian(2006)]%
+        {saxenian_new_2006}
+\bibfield{author}{\bibinfo{person}{AnnaLee Saxenian}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The new argonauts: Regional advantage in a
+  global economy}}.
+\newblock \bibinfo{publisher}{Harvard University Press}.
+\newblock
+
+
+\bibitem[Tahaei et~al\mbox{.}(2021)]%
+        {tahaei_privacy_2021}
+\bibfield{author}{\bibinfo{person}{Mohammad Tahaei}, \bibinfo{person}{Alisa
+  Frik}, {and} \bibinfo{person}{Kami Vaniea}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Privacy Champions in Software Teams: Understanding
+  Their Motivations, Strategies, and Challenges}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 CHI Conference on Human
+  Factors in Computing Systems}} (Yokohama, Japan) \emph{(\bibinfo{series}{CHI
+  '21})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, Article \bibinfo{articleno}{693},
+  \bibinfo{numpages}{15}~pages.
+\newblock
+\showISBNx{9781450380966}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3411764.3445768}
+\showDOI{\tempurl}
+
+
+\bibitem[Tavory and Timmermans(2014)]%
+        {tavory_abductive_2014}
+\bibfield{author}{\bibinfo{person}{Iddo Tavory} {and} \bibinfo{person}{Stefan
+  Timmermans}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Abductive analysis: {Theorizing}
+  qualitative research}}.
+\newblock \bibinfo{publisher}{University of Chicago Press}.
+\newblock
+
+
+\bibitem[Tondel et~al\mbox{.}(2020)]%
+        {tondel_security_2020}
+\bibfield{author}{\bibinfo{person}{Inger~Anne Tondel}, \bibinfo{person}{Martin
+  Gilje~Jaatun}, {and} \bibinfo{person}{Daniela Soares~Cruzes}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{IT Security Is From Mars, Software Security Is From
+  Venus}.
+\newblock \bibinfo{journal}{\emph{IEEE Security \& Privacy}}
+  \bibinfo{volume}{18}, \bibinfo{number}{4} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{48--54}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/MSEC.2020.2969064}
+\showDOI{\tempurl}
+
+
+\bibitem[Vo et~al\mbox{.}(2016)]%
+        {vo_microfoundations_2016}
+\bibfield{author}{\bibinfo{person}{Linh-Chi Vo}, \bibinfo{person}{Jean-Denis
+  Culié}, {and} \bibinfo{person}{Eleonore Mounoud}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Microfoundations of decoupling: from the
+  perspective of coping theory}. In \bibinfo{booktitle}{\emph{Academy of
+  {Management} {Proceedings}}}, Vol.~\bibinfo{volume}{19}.
+  \bibinfo{pages}{248--276}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.3917/mana.194.0248}
+\showDOI{\tempurl}
+\newblock
+\shownote{Issue: 1}.
+
+
+\bibitem[West(2021)]%
+        {west_techlash_2021}
+\bibfield{author}{\bibinfo{person}{Darrell~M. West}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Techlash continues to batter technology sector}.
+\newblock \bibinfo{journal}{\emph{Brookings Tech Tank}} (\bibinfo{date}{April}
+  \bibinfo{year}{2021}).
+\newblock
+\urldef\tempurl%
+\url{https://www.brookings.edu/blog/techtank/2021/04/02/techlash-continues-to-batter-technology-sector/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wong(2020)]%
+        {wong_more_2020}
+\bibfield{author}{\bibinfo{person}{Julie~Carrie Wong}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{More than 12,000 Google workers condemn firing of
+  AI scientist Timnit Gebru}.
+\newblock \bibinfo{journal}{\emph{The Guardian}} (\bibinfo{date}{Dec.}
+  \bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://www.theguardian.com/technology/2020/dec/04/timnit-gebru-google-ai-fired-diversity-ethics}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wong(2021)]%
+        {wong_UX_2021}
+\bibfield{author}{\bibinfo{person}{Richmond~Y. Wong}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Tactics of Soft Resistance in User Experience
+  Professionals' Values Work}.
+\newblock \bibinfo{journal}{\emph{Proc. ACM Hum.-Comput. Interact.}}
+  \bibinfo{volume}{5}, \bibinfo{number}{CSCW2}, Article
+  \bibinfo{articleno}{355} (\bibinfo{date}{oct} \bibinfo{year}{2021}),
+  \bibinfo{numpages}{28}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3479499}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}

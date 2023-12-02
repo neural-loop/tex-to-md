@@ -1,0 +1,13 @@
+---
+title: "What does it mean to be a responsible AI practitioner: An ontology of roles and skills"
+title_slug: "what-does-it-mean-to-be-responsible-ai-practitioner-ontology-of-roles-and-skills"
+license: "cc-by"
+published: "2022-05-08 20:25:13+00:00"
+entry_id: "http://arxiv.org/abs/2205.03946v2"
+author: "Shalaleh Rismani, AJung Moon"
+pdf: "what-does-it-mean-to-be-a-responsible-ai-practitioner-an-ontology-of-roles-and-skills.pdf"
+primary_category: "cs.CY"
+get_short_id: "2205.03946v2"
+image: img.png
+section: "Papers"
+---

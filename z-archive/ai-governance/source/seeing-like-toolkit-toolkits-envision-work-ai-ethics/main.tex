@@ -1,0 +1,853 @@
+%%
+%% This is file `sample-manuscript.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `manuscript')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-manuscript.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%% The first command in your LaTeX source must be the \documentclass command.
+%%%% Small single column format, used for CIE, CSUR, DTRAP, JACM, JDIQ, JEA, JERIC, JETC, PACMCGIT, TAAS, TACCESS, TACO, TALG, TALLIP (formerly TALIP), TCPS, TDSCI, TEAC, TECS, TELO, THRI, TIIS, TIOT, TISSEC, TIST, TKDD, TMIS, TOCE, TOCHI, TOCL, TOCS, TOCT, TODAES, TODS, TOIS, TOIT, TOMACS, TOMM (formerly TOMCCAP), TOMPECS, TOMS, TOPC, TOPLAS, TOPS, TOS, TOSEM, TOSN, TQC, TRETS, TSAS, TSC, TSLP, TWEB.
+% \documentclass[acmsmall]{acmart}
+
+%%%% Large single column format, used for IMWUT, JOCCH, PACMPL, POMACS, TAP, PACMHCI
+% \documentclass[acmlarge,screen]{acmart}
+
+%%%% Large double column format, used for TOG
+% \documentclass[acmtog, authorversion]{acmart}
+
+%%%% Generic manuscript mode, required for submission
+%%%% and peer review
+%\documentclass[manuscript,screen]{acmart}
+%\documentclass[authorversion, review=false, timestamp=false, screen]{acmart}
+\documentclass[acmsmall]{acmart}
+%\usepackage{todonotes}
+\usepackage{longtable}
+\usepackage{enumitem}
+%\usepackage{soul}
+
+%\newcommand{\richmond}[1]{\textcolor{magenta}{[#1 -RW]}}
+%\newcommand{\michael}[1]{\textcolor{blue}{[#1 -MM]}}
+%\newcommand{\nick}[1]{\textcolor{teal}{[#1 -NM]}}
+%\newcommand{\TODOcite}{\textcolor{red}{(CITE)}}
+%\newcommand{\placeholder}[1]{\textcolor{gray}{(#1)}}
+%\newcommand{\edits}[1]{\textcolor{red}{#1}}
+%\newcommand{\delete}[1]{\textcolor{red}{\st{#1}}}
+
+%% versions of edit and delete functions for clean version
+% \newcommand{\edits}[1]{#1}
+% \newcommand{\delete}[1]{}
+
+%% Fonts used in the template cannot be substituted; margin 
+%% adjustments are not allowed.
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{rightsretained}
+\acmJournal{PACMHCI}
+\acmYear{2023} \acmVolume{7} \acmNumber{CSCW1} \acmArticle{145} \acmMonth{4} \acmPrice{}\acmDOI{10.1145/3579621}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+%\acmConference[]{}{}{}
+%\acmBooktitle{}
+%\acmPrice{15.00}
+%\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{Seeing Like a Toolkit: How Toolkits Envision the Work of AI Ethics}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+% \author{Anonymized for review}
+
+
+\author{Richmond Y. Wong}
+\email{rwong34@gatech.edu}
+\orcid{0000-0001-8613-0380}
+\affiliation{%
+ \institution{Georgia Institute of Technology}
+ \streetaddress{Digital Media}
+ \city{Atlanta}
+ \state{Georgia}
+ \country{USA}
+ \postcode{30308}
+}
+
+\author{Michael A. Madaio}
+\email{michael.madaio@gmail.com}
+\orcid{0000-0001-5772-0488}
+\affiliation{%
+ \institution{Microsoft Research}
+ \city{New York City}
+ \state{New York}
+ \country{USA}
+ \postcode{10012}
+}
+
+\author{Nick Merrill}
+\email{ffff@berkeley.edu}
+\orcid{0000-0003-3669-1387}
+\affiliation{%
+ \institution{University of California, Berkeley}
+ \streetaddress{Center for Long-Term Cybersecurity}
+ \city{Berkeley}
+ \state{California}
+ \country{USA}
+ \postcode{94720}
+}
+
+
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Wong, Madaio \& Merrill}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+    Numerous toolkits have been developed to support ethical AI development. However, toolkits, like all tools, encode assumptions in their design about what work should be done and how. In this paper, we conduct a qualitative analysis of 27 AI ethics toolkits to critically examine how the work of ethics is imagined and how it is supported by these toolkits. Specifically, we examine the discourses toolkits rely on when talking about ethical issues, who they imagine should do the work of ethics, and how they envision the work practices involved in addressing ethics. Among the toolkits, we identify a mismatch between the imagined work of ethics and the support the toolkits provide for doing that work. In particular, we identify a lack of guidance around how to navigate labor, organizational, and institutional power dynamics as they relate to performing ethical work. We use these omissions to chart future work for researchers and designers of AI ethics toolkits.
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10003456.10003457.10003580.10003543</concept_id>
+<concept_desc>Social and professional topics~Codes of ethics</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003456.10003457.10003580.10003583</concept_id>
+<concept_desc>Social and professional topics~Computing occupations</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003456.10003457.10003580.10003584</concept_id>
+<concept_desc>Social and professional topics~Computing organizations</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Social and professional topics~Codes of ethics}
+\ccsdesc[500]{Social and professional topics~Computing occupations}
+\ccsdesc[300]{Social and professional topics~Computing organizations}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{fairness, ethics, toolkits, work, labor}
+
+% %% A "teaser" image appears between the author and affiliation
+% %% information and the body of the document, and typically spans the
+% %% page.
+% \begin{teaserfigure}
+%   \includegraphics[width=\textwidth]{sampleteaser}
+%   \caption{Seattle Mariners at Spring Training, 2010.}
+%   \Description{Enjoying the baseball game from the third-base
+%   seats. Ichiro Suzuki preparing to bat.}
+%   \label{fig:teaser}
+% \end{teaserfigure}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+%\input{sections/01-intro}
+%\input{sections/02-background}
+%\input{sections/03-methods}
+%\input{sections/04-findings}
+%\input{sections/05-discussion}
+%\input{sections/06-conclusion}
+\section{Introduction}
+\label{sec:intro}
+Technology developers, researchers, policymakers, and others have identified the design and development process of artificial intelligence (AI) systems as a site for interventions to promote more ethical and just ends for AI systems \cite{Holstein:2019fr,madaio2020co,rakova2021responsible,schiff2020principles,madaio2022assessing}.
+Recognizing this opportunity, researchers, practitioners, and activists have created a plethora of tools, resources, guides, and kits---of which the dominant paradigm is a ``toolkit'' \cite{lee2021landscape,richardson2021towards}---to promote ethics in AI design and development. Toolkits help technology practitioners and other stakeholders surface, discuss, or address ethical issues in their work. However, as the field appears to coalesce around this paradigm, it is critical to consider how these toolkits help to define and shape that work. Technologies that create standards (such as widely adopted toolkits), shape how people understand and interact with the world \cite{bowker1999sorting}
+%\looseness=-1  
+
+% \richmond{(Rough text, but broadly something like this): CSCW research and adjacent fields has contributed understandings of the work required to conduct and enact AI ethics \cite{}, and the politics involved in this work \cite{} [Cite michael's paper and others]. Research in CSCW and adjacent fields also investigates the politics of tools/toolkits/other artifacts related to pursuing values and ethics, such as security, etc \cite{pierce2018differential}. 
+Prior research in CSCW and related fields has advanced our understanding of the work required to implement AI ethics principles in practice \cite[e.g.,][]{rakova2021responsible, madaio2020co,Holstein:2019fr,passi2019problem,madaio2022assessing}. %, as well as the politics implicated in this work \cite{?}.
+In addition, prior work in CSCW has also examined the politics of tools and other artifacts designed to support the work of pursuing values and ethics \cite{Shilton2014HowToSeeValues,wong2020beyondchecklists}, such as security \cite{pierce2018differential}, privacy \cite{shilton2020rolepplaying,luger2015playing}, and UX design \cite[e.g.,][]{chivukula2021surveying}. 
+% \richmond{This paper contributes to a discussion about the nature, role, and value of toolkits in AI ethics.}
+Previous reviews of AI ethics and fairness toolkits have primarily focused on their usability and functionality \cite[e.g.,][]{lee2021landscape, richardson2021towards,deng2022exploring} or evaluating their efficacy in addressing ethical issues \cite[e.g.,][]{boyd2021datasheets}. In this paper, we contribute to these bodies of research by taking a more critical approach to understand how AI ethics toolkits, like all tools, enact values and assumptions about what it means to do the work of ethics. We start from the basis that simply creating toolkits will not be sufficient to address ethical issues. They must be adopted and used in practice within specific organizational contexts, but, as prior research has identified, adopting AI ethics tools and processes within organizational contexts presents challenges beyond usability and functionality  \cite[e.g.,][]{madaio2020co,rakova2021responsible,deng2022exploring,madaio2022assessing}. Therefore, by understanding how toolkits envision the work of AI ethics---particularly how those work practices may align (or not) with the organizational contexts in which they may be used---we may better identify opportunities to improve the design of toolkits and identify instances where additional processes or artifacts beyond toolkits may be useful. To investigate this, we ask: 
+%\placeholder{People---many kinds of people---must believe that the practices described and supported by the toolkits are \textit{worth} adopting, particularly if they require time or financial resources, or otherwise impact the profitability of AI product development \cite[cf.][]{madaio2020co}.} %\michael{Not sure how this sentence relates to the next - consider cutting?}
+%%
+% The ability for toolkits to be adopted and used can be affected by the ways they embed ideas or assumptions about the context of where and how ethics work is done. \michael{This graf may need a sentence or two from the related work below on how tools shape professional vision, and maybe something about toolkits as a genre that structures that vision? (or maybe from the start of 5.2?} In this paper, we thus seek to understand how toolkits may shape the the work of ethics in AI. 
+% Tolkits inscribe,
+% explicitly or implicitly, a user and a set of practices that will help work towards more ethical ends. 
+% This research is motivated by prior research showing that the work practices of addressing ethical issues in AI systems requires navigating social, political, and organizational factors, such as translating concerns across disciplinary boundaries or getting buy-in from organizational decision-makers \cite{Holstein:2019fr,madaio2020co,rakova2020responsible}. 
+% Given this context, we are interested in understanding how toolkits embed particular ideas about ``ethics work''---the practices done in the name of addressing ethical issues---and how this compares to empirical research about on-the-ground accounts of technology practitioners conducting ethics work. \michael{Richmond, do you want to connect to prior work of ethical practices in UX (e.g., your prior work, Colin Gray, Chivukula, etc?)} This is important, as choices made in the design of toolkits---and the conceptual frame of the toolkit itself---open up or foreclose the types of practices that make it possible to address ethical issues. 
+%Previous reviews of ethics and fairness toolkits focus on usability and functionality \cite{lee2021landscape, richardson2021towards}; here, we take a more critical approach to understand how toolkits, like all tools, encode assumptions about what it means to do the work of ethics. 
+%In other words, \textit{how do toolkits envision the work of AI ethics?}   Specifically, we ask:\looseness=-1
+
+\begin{enumerate}[label=(RQ\arabic*)]
+    \item What are the discourses of ethics that ethical AI toolkits draw on to legitimize their use? %How do toolkits make themselves legible within sites of professional practice? % discourses of ethics
+    \item Who do the toolkits imagine as doing the work of addressing ethics in AI? % \michael{removed "being responsible for" since we're not talking about responsibility per se}
+    \item What do toolkits imagine to be the specific work practices of addressing ethics in AI?
+\end{enumerate}
+% \richmond{do we want to have explicit RQs here? I usually don't, but I could see that being useful for some people in this audience. Also "ethics work" or "values work" is something I've been trying to coin, but I'm happy to use something like "the work of ethics" instead}
+
+% To investigate how toolkits imagine the work of ethics, we conducted a qualitative analysis of 27 AI ethics toolkits, examining: the language and discourses that the toolkits use to discuss ethical issues;  who they imagine as doing the work of addressing ethics; and how they envision that work to be situated within practitioners' organizational contexts. \michael{This seems repetitive with our RQs}
+% We are particularly interested in the diversity of perspectives embedded in toolkits. \michael{What does this mean?}
+To do this, we compiled and qualitatively coded a corpus of 27 AI ethics toolkits (broadly construed) to identify the discourses about ethics, the imagined users of the toolkits, and the work practices the toolkits envision and support. We found that AI ethics toolkits largely frame the work of AI ethics as technical work for individual technical practitioners, even as those same toolkits call for engaging broader sets of stakeholders to grapple with social aspects of AI ethics. In addition, we find that toolkits do not contend with the organizational, labor, and political implications of AI ethics work in practice.  In general, we found gaps between the types of stakeholders and work practices the toolkits call for and the support they provide. Despite framing ethics and fairness as sociotechnical issues that require diverse stakeholder involvement and engagement, many of the toolkits focused on technical approaches for individual technical practitioners to undertake. With few exceptions, toolkits lacked guidance on how to involve more diverse stakeholders or how to navigate organizational power dynamics when addressing AI ethics.\looseness=-1 %  \michael{do we want 1 sentence on our contributions here?} % e.g., "This paper contributes a critical analysis of how toolkits XX"? That may be more common in CHI than FAccT though.}
+
+% We find that much of the work of ethics as imagined by the toolkits focuses on technical
+% work with ML models, in particular workflows and tooling suites, despite claims
+% that fairness is sociotechnical. Many toolkits call for engagement with
+% stakeholders external to technical development teams, but methodological detail
+% on how to do so is scant, let alone acknowledgements of power differentials
+% between workers and executives, or workers and external stakeholders.
+
+We provide recommendations for designers of AI ethics toolkits---both future and existing---to (1) embrace the non-technical
+dimensions of AI ethics work; (2) support the work of engaging with
+stakeholders\footnote{Here, we use the term ``stakeholder'' expansively, to include both potential users of the toolkits, others who may be part of the AI design, development, and deployment process, as well as other direct and indirect stakeholders who may be impacted by AI systems. We take this expansive approach following Lucy Suchman's work complicating the notion of the user \cite{suchman2002located} as well as Forlizzi and Zimmerman's work calling for more attention to stakeholders outside of the end users\cite{forlizzi2013promoting}. In cases where we specifically mean the users of the toolkit, we use the term ``user.''} from non-technical backgrounds; and (3) structure the work of AI
+ethics as a problem for collective action. We end with a discussion of how we, as a research community, can foster the design of toolkits that achieve these goals, and we grapple with how we might
+create metaphors and formats beyond toolkits that resist the %decontextualization and
+solutionism\footnote{Although we provide suggestions for how to improve the design of AI ethics toolkits, we are wary of wholesale endorsing this form, as it may lead towards a technosolutionist approach. Nonetheless, this is the dominant paradigm for resources to support AI ethics in practice. As they are widely used, we believe there is value in exploring how the toolkit may be improved following the "practical turn" of values in design research \cite{flanagan2014values}, while simultaneously grappling with its limitations \cite[cf.][]{shilton2018values}.} prevalent in today's resources. 
+
+% \michael{I tried to reckon with that tension in a footnote, but please feel free to revise and/or add a citation}
+% \richmond{(Some text from the rebuttal if it's useful): Something about navigating this tension between the limits of toolkits, but also ways to improve them.  In fact, we intend for this paper to be a contribution to this discussion  The goal of the paper is to critically examine the limits and assumptions underlying many AI ethics toolkits. We do not think toolkits can solve all ethical issues, but we also do not want to discard toolkits altogether. while we think toolkits can play a useful role (and we provide suggestions in 5.1 for how they can be improved), we don’t think they should be seen as the solution to all ethical issues. Toolkits represent just one (currently popular) phenomena that shapes how technical work is done, but that there are others that might be more effective for other forms of change.}
+
+% In the following sections, we provide background on the concept of toolkits and AI ethics as a part of organizational practice. We then detail our methods for the selection and analysis of toolkits. This is followed by findings of how the toolkits in the corpus frame the work of addressing ethics. In the discussion, we reflect on future opportunities for the design of ethics toolkits, and new directions for researchers studying the work of addressing AI ethics. \michael{Open to putting it back in if people feel otherwise, but I generally prefer not to have a section overview for conference papers}
+
+\section{Background}
+
+\subsection{Toolkits}
+% \michael{If we wanted, we could say more here about the social history of toolkits, but I don't think it's necessary in this paper. Also not sure if we should speak to any CHI/HCI work on toolkits: e.g., Ledo et al., 2018; Meissner et al., 2018. I... don't think it's very thoughtful in ways that are conceptually useful to us here.}
+
+\subsubsection{As a genre}
+What sort of thing is a toolkit? At their core, \textit{toolkits are curated collections of tools and materials}. Examples abound: do-it-yourself construction toolkits; first aid kits; traveling salesman kits; and research toolkits for (e.g.,) conducting participatory development efforts in rural communities \cite{mattern_2021, kelty_2018}, among many other examples. If we view them as a genre of communication \cite[cf.][]{yates1992genres}, we can see how their design choices structure their users' actions and interactions by conveying expectations for how they might be used. As Mattern has argued, toolkits make particular claims about the world through their design---they construct an imagined user, make an implicit argument about what forms of knowledge matter, and suggest visions for the way the world should be \cite{mattern_2021}. 
+As a genre of communication, toolkits suggest a set of practices in a commonly recognized form; they formalize complex processes, but in so doing, they may flatten nuance and suggest that the tools to solve complex problems lie within the confines of the kit \cite{mattern_2021, kelty_2018}. Although artifacts can make certain practices legible, understandable, and knowable across different contexts, they can also abstract away from locally situated practices \cite{Scott1998seeing}. Moreover, toolkits work to configure what Goodwin calls professional vision: ``socially organized ways of seeing and understanding events that are answerable to the distinctive interests of a particular social group'' \cite[p606]{goodwin2015professional}.
+This professional vision has political implications: in Goodwin's analysis, U.S. policing creates ``suspects'' to whom ``use of force'' can be applied \cite[p616]{goodwin2015professional}; it is thus critical to examine how toolkits may configure the professional vision of AI practitioners working on ethics.\looseness=-1
+
+% Toolkits' roles in configuring that professional vision is a site of bias and harm,
+% as are all part of the AI ``pipeline'' of labor and use.\nick{find something good to cite - how bias can come from any part of the AI pipeline.} \michael{Ken and my papers touch on this point \cite{madaio2020co, Holstein:2019fr}}
+
+% \richmond{I like this! At some point (either in related work, or perhaps in methods as I think you alluded to), we'll need to provide some definition/operationalization of how we identify and bound "toolkits" in our corpus}
+
+\subsubsection{In AI ethics}
+
+In light of AI practitioners' needs for support in addressing the ethical dimensions of AI \cite{Holstein:2019fr}, technology companies, researchers at CSCW, FAccT, CHI, and other venues, as well as other groups have developed numerous tools and resources to support that work, with many such resources taking the form of toolkits \cite[e.g.,][]{lee2021landscape,richardson2021towards,morley2021initial,10.1145/3442188.3445938,shen2021valuecards,gebru2021datasheets,mitchell2019model,deng2022exploring, shen2022model}. %\nick{TODO - add more examples? Datasheets, Model Cards, etc. Crawl through proceedings...}
+Several papers have performed systemic meta-reviews and empirical analyses of AI ethics toolkits \cite{lee2021landscape,morley2021initial,richardson2021towards,ayling2021putting,deng2022exploring}. For instance, one line of research performs descriptive analyses of AI ethics toolkits, including \citet{ayling2021putting}'s work identifying stakeholder types common across toolkits, and stages in the organizational lifecycle at which various toolkits are applied, as well as \citet{morley2021initial}'s work proposing a typology of AI ethics approaches synthesized from a variety of toolkits, and \citet{Crockett2021BuildingTrustworthy}'s analysis of 77 AI ethics toolkits, finding that many lack instructions or training to facilitate adoption. %They focus on the toolkits' dominant principles, product lifecycle stages, and measure how well they may be adopted by small and medium enterprises.  %along the way
+% also critiquing toolkits' lack of usability and their focus on individuals rather than social groups.
+In addition, others have conducted more empirical examination of toolkits, including \citet{lee2021landscape}'s normative evaluation of six open source fairness toolkits, using surveys and interviews with practitioners to understand the strengths and weaknesses of these tools, as well as \citet{richardson2021towards}'s work conducting simulated ethics scenarios with ML practitioners, observing their experience using various ethics toolkits to inform recommendations for their design, and \citet{deng2022exploring}'s work exploring how practitioners use toolkits in their AI ethics work in practice. 
+% \label{tab:metareview}
+% \begin{table}[hbt!]
+% \begin{tabular}{|c | c c c|} 
+%  \hline
+%  Paper & Use & Design & Labor \\ [0.5ex] 
+%  \hline\hline
+%   \citet{lee2021landscape} & 6 & 87837 & 787 \\ 
+%  \hline
+%   \citet{morley2021initial} & 7 & 78 & 5415 \\
+%  \hline
+%  \citet{richardson2021towards} & 545 & 778 & 7507 \\
+%  \hline
+%  \citet{ayling2021putting} & 545 & 18744 & 7560 \\
+%  \hline
+% \end{tabular}
+% \caption{A review of meta-reviews of AI ethics toolkits.}
+% \end{table}
+
+In technology fields other than AI ethics, others have studied how design toolkits shape work practices.
+% And, due to the aforementioned role these artifacts play in shaping work practices, toolkits have found their place as an object of critical analysis.
+For instance, \citet{chivukula2021surveying} identify how toolkits operationalize ethics, identify their audience, and embody specific theories of change. 
+%\michael{We should be clear about how and what we contribute w/r/t Chivukula et al.} 
+\citet{pierce2018differential}'s analysis of cybersecurity toolkits reveals a complex set of ``differentially'' vulnerable persons, all attempting to achieve security for their socially situated needs. Building on prior empirical work evaluating the functionality and usability of AI ethics toolkits, we take a critical approach to understand the \textit{work practices} that toolkits envision for their imagined users, and how those work practices might be enacted in particular sites of technology production.
+%\michael{Thats' true for Lee, Richardson, etc, but not true of Chivukula et al., right? They also took a critical approach, IIRC} 
+In other words, we focus our analysis on how toolkits help configure the \textit{organizational practice} of AI ethics. %, a concept on which we expand below.
+
+
+% Although all of these work provide critical insights into the gaps and shortcomings of existing toolkits, our work takes aim at a different facet of these toolkits that existing work has not yet covered in depth: what particular work it would take to enact toolkits' recommendations. 
+
+\subsection{AI Ethics in Organizational Practice}
+As the field of AI ethics has moved from developing high-level principles \cite{Jobin:2019bw} to operationalizing those principles in particular sets of practices \cite{Mittelstadt:2019ve, schiff2020principles}, prior research has identified the crucial role that social and organizational dynamics play in whether and how those practices are enacted in the organizational contexts where AI systems are developed \cite{Metcalf2019OwningEthics, madaio2020co, rakova2021responsible}. Substantial prior work has identified the crucial role of organizational dynamics (e.g., workplace politics, institutional norms, organizational culture)  in shaping technology design practices more broadly \cite{suchman2002located, wong2021tactics, shilton2013values, neff2020bad}. Prior ethnographic research on the work practices of data scientists has identified how technical decisions are never just technical---that they are often contested and negotiated by multiple actors (e.g., data scientists, business team members, user researchers) within their situated contexts of work \cite{passi2019problem,passi2018trust}. \citet{passi2020making} discuss how such negotiations were shaped by the organizations' business priorities, and how the culture and structure of those organizations legitimized technical knowledge over other types of knowledge and expertise, in ways that shaped how negotiations for technical design decisions were resolved. These dynamics are found across a range of technology practitioners, including user experience professionals \cite{wong2021tactics, Chivukula2020DimensionsUX}, technical researchers \cite{shilton2013values}, or privacy professionals \cite{Bamberger2015PrivacyGround}.
+%\michael{Add work from Richmond, Gray and Chivukula, Katie Shilton, Lucy Suchman, maybe Bamberger and Mulligan etc?} 
+
+% \richmond{I feel like there might be some Passi and Jackson (or someone and Steve Jackson) who discuss the data scientists' work too)} \michael{Added \cite{passi2018trust}, if that's what you were referring to?}
+
+Prior research on AI ethics work practices has similarly identified how the organizational contexts of AI development shape practitioners' practices for addressing ethical concerns. Metcalf et al., explored the recent institutionalization of ethics in tech companies by tracing the roles and responsibilities of so-called ``ethics owners'' \cite{Metcalf2019OwningEthics}. In contrast with ethics owners who may have responsibility over ethical implications of AI, \citet{madaio2020co} identified how the social pressures on AI practitioners (e.g., data scientists, ML engineers, AI product managers) to ship products on rapid timelines disincentivized them to raise concerns about potential ethical issues. Taking a wider view, \citet{rakova2021responsible} discussed how AI development suffers from misaligned incentives and a lack of organizational accountability structures to support proactive anticipation of and work to address ethical AI issues. However, as resources to support AI ethics work have proliferated---including AI ethics toolkits---it is not clear to what extent the designers of those resources have learned the lessons of this research on how organizational dynamics may shape AI ethics work in practice.
+
+\section{Methods}
+\subsection{Researchers' positionality}
+% \richmond{I adapted text from our old reflexive statements: \url{https://docs.google.com/document/d/1rsGFeoDzzXDrkQVUsIhtId9Qe_RWjarSCxQxgPv0Lfk/edit}}
+
+The three authors share an interest in issues related to fairness and ethics in AI and ML systems, and have formal training in human-computer interaction and information studies, but also draw on interdisciplinary research fields studying the intersections of technology and society. All three authors are male, and live and work for academic and industry research institutions in the United States.
+%\richmond{[is there a "but" here? or good way to acknowledge limitations, either of our own blinders, or for how that might bias the analysis and the sampling?]} 
+% \michael{+1 - although I think that should come at the end of this section, since our approach will also be shaped by our research experiences/perspectives too (e.g., that I'm at MSR, and worked on a checklist and Fairlearn, etc)} 
+% All three authors are interested in potential gaps and disconnects between the rhetoric of ethical toolkits and what is known about on the ground practices of addressing ethical issues in organizational contexts. All three authors are also interested in understanding how the toolkits imagine (implicitly or explicitly) who their target audience users are, and what their work context is like. \michael{Not sure what this graf adds beyond what's in the intro already - feel free to add back in if you feel differently!}
+% However each author has different expertise and experiences that they bring to this project.
+One author's %[Richmond] 
+prior research is situated in values in design, studying the practices used by user experience and other technology professionals to address ethical issues in their work, including the organizational power dynamics involved in these practices. %Prior findings suggest that addressing ethical issues require embodied and tacit knowledge, which may or may not be reflected in the toolkits. Another author's %[Michael] 
+Another author's prior work has focused on how AI practitioners conceptualize fairness and address it in their work practices. He has conducted fairness research with AI practitioners, has contributed to %the design of 
+multiple resources for fairness in AI, and has worked on fairness in AI at large technology companies.
+% co-created one process for prompting team conversations about fairness within the AI design lifecycle, and in that process realized the enormous disincentives AI teams have to carefully design and evaluate the fairness of their systems, and to involve non-technical team members (e.g., UX) and stakeholders (e.g., impacted community members) in that process. He is also one of the maintainers of an open-source toolkit on fairness, where he helps community members contribute educational resources about sociotechnical aspects of fairness. 
+The third author %[Nick] 
+has built course materials to teach undergraduate and graduate students how to identify and ameliorate bias in machine learning algorithms and has reflected on the %. During this process, he has become aware of 
+ways that students do not get exposed to fairness in technical detail during their coursework. %When they encounter fairness in the workplace, competing commercial incentives sap time and energy away from their ability to learn how to identify bias---let alone from their ability to actually do the work on the algorithms they build. \michael{This feels further from the positionality than the rest of this}
+\looseness=-1 
+
+The corpus we developed may have been shaped by our positionality as researchers in academia and industry living in the U.S. and conducting the search in English. Our prior research with technology practitioners led us to focus on the artifact of the ``toolkit,'' which we have encountered in our prior work, although we recognize that this focus may obscure other artifacts and forms of action that are currently in use but that did not fit our conception of a toolkit. Furthermore, our familiarity with gaps between the corporate rhetoric of ethical action and actual practices related to ethical action (e.g., \cite{Hoffmann2020terms}) led us to focus our research questions and analysis to highlight potential gaps between the rhetoric or imaginaries embedded in toolkits and the practices or tensions we are familiar with from our prior work and experiences with practitioners. This framing is one particular lens with which to understand these artifacts, although there may be other lenses that may provide additional insights.
+
+\subsection{Corpus development}
+We conducted a review of existing ethics toolkits, curated to explore the breadth of ways that ethical issues are portrayed in relation to developing AI systems. We began by conducting a broad search for such artifacts in May-June 2021. We searched in two ways. First, we looked at references from recent research papers from CSCW, FAccT, and CHI that survey ethical toolkits \cite[e.g.,][]{lee2021landscape,richardson2021towards}. Second, following the approach in \citet{lee2021landscape}, we emulated the position of a practitioner looking for ethical toolkits and conducted a range of Google searches for artifacts using the terms: ``AI ethics toolkit,'' ``AI values toolkit,'' ``AI fairness toolkit,'' ``ethics design toolkit,'' ``values design toolkit.'' Several search results provided artifacts such as blog posts or lists of other toolkits, and many toolkits appeared in results from multiple search terms.\footnote{Although not all toolkits specifically focused on AI (some focused on ``algorithms'' or ``design''), their content and their inclusion in search results made it reasonably likely that a practitioner would consult with the resource in deciding how to enact AI ethics.}
+We shared and discussed these resources with each other to discuss what might (not) be considered a toolkit (for instance, we decided to exclude ethical oaths or compilations of tools).\footnote{Note that the term \textit{toolkit} is used in this paper is an analytical category chosen by the researchers to search for and describe the artifacts being studied. Not all the artifacts we analyzed explicitly described themselves using the term toolkit. See the Appendix for more details about the toolkits.}
+%\michael{or something like this -- maybe in the introduction?} \richmond{right, I think we need to provide some clear definitions somewhere about operationalizing toolkits and make sure we're consistent}
+Although we broadly view toolkits as curated collections of tools and materials, we largely take an inductive approach to understanding what toolkits purport to be.
+From these search processes, we initially identified 57 unique candidate toolkits for analysis.
+
+Our goal was to identify a subset of toolkits for deeper qualitative analysis in order to sample a variety of types of toolkits (rather than attempt to create an exhaustive or statistically representative sample). After reading through the toolkits, we discussed potential dimensions of variation, including: the source(s) of the toolkit (e.g., academia, industry, etc), the intended audience or user, form factor(s) of the toolkit and any guidance it provided (e.g., code, research papers, documentation, case studies, activity instructions, etc.), and its stated goal(s) or purpose(s).
+%, and any references to when in the ML pipeline it should be used. \richmond{I'm not sure how impactful the pipline aspect ended up being; we can keep or get rid of it later if needed} 
+%We used these dimensions to identify potential salient differences among the toolkits. 
+ % Criteria:
+ % * Looking at these from persepctive of a practitioner or stakeholder's positionality - and sometimes we made judgement calls about it. One author is also close to practitioners!
+ % * Some things were not actionable or relevant (lists of toolkits - which we used to find, but not the list itself) Is there enough content in the artifact itself to warrant thematic analysis? Some things that were educational or research papers weren't used. 
+ % * +1 on the "indication of use by practitioners"
+ % 
+ We also used the following criteria to narrow the corpus for deeper qualitative analysis: 
+ \begin{itemize}
+     \item \textit{The toolkit's audience should be a stakeholder related to the design, deployment, or use of AI systems.} This led us to exclude toolkits such as Shen et al.'s value cards \cite{shen2021valuecards}, designed primarily for use in a student or educational setting, but \textit{not} to exclude toolkits such as \citet{10.1145/3442188.3445938}, intended to be used by community advocates. 
+        We excluded five artifacts that focused on non-AI systems, and four designed to be used in classroom settings.
+        \looseness=-1 
+     \item \textit{The toolkit should provide specific guidance or actionable items to its audience}, which could be technical, organizational, or social actions. Artifacts that provided lists of other toolkits or only provided informational materials were excluded (e.g., a blog post advocating for greater use of value-sensitive design \cite{Shonhiwa2020humanValuesMedium}). 
+        We excluded five artifacts that were primarily informational or advocacy materials, four where we could not access enough information, such as paywalled services, and two that focused on professional education activities.
+     \item \textit{Given our focus on practice, the toolkit should have some indication of use} (by stakeolders either internal or external to companies). Although we are unable to validate the extent to which each toolkit has been adopted, %by practitioners, 
+     we used a set of proxies to estimate which toolkits are likely to have been used by practitioners, including whether it appeared in practitioner-created lists of resources, its search results rankings, or (for open source code toolkits) indications of community use or contributions. One author also works in an industry institution, and was able to provide further insight into toolkit usage by industry teams. This excluded some toolkits that were created as part of academic papers, and which did not seem to be more broadly used by practitioners at the time of sampling, such as FairSight \cite{ahn2020fairsight}.  %However, this approach may have erroneously excluded some toolkits, which we discuss further in \ref{limitations}.
+        We excluded seven artifacts that seemed to have low use, and two artifacts that were primarily academic research papers.
+    \item In addition, due to the authors' language limitations, we excluded one toolkit not in English.
+ \end{itemize}
+ 
+We independently reviewed the toolkits for inclusion, exclusion, or discussion. As a group, we discussed toolkits that we either marked for discussion or that we rated differently. To resolve disagreements, we decided to aim for variation along multiple dimensions (a toolkit that overlapped a lot with an already included toolkit was less likely to be included). From the 57 candidates, 30 total were excluded.
+The final corpus includes 27 toolkits, which are summarized in Section \ref{section:corpus-description} and fully listed in Appendix \ref{section:toolkit-list}. 
+
+\subsection{Corpus Analysis}
+In the first round of our analysis, we conducted an initial coding %closed-ended analysis \michael{Is this the best term for what we did?} 
+of the 27 toolkits based on the following dimensions: the source(s) of the toolkit (e.g., academia or industry), the intended audience or user, its stated goal(s), and references to the ML pipeline.\footnote{Although many of these were explicitly stated in the toolkits' documentation, some required some interpretative coding. We resolved all disagreements through discussion amongst all three authors.} We used the results of this initial coding to inform our discussions of which toolkits to include in the corpus, as well as to inform our second round of analysis. We then began a second round of more open-ended inductive qualitative analysis based on our research questions (following \cite{braun2006using}). From reading through the toolkits, the authors discussed potential emerging themes. 
+These initial themes included: what work do toolkits imagine is needed to address AI ethics; who do toolkits describe as doing the work of AI ethics; how does that compare to prior research about enacting AI ethics work in practice; what types of guidance are provided in toolkits; how do toolkits refer to the organizational contexts where they may be used; how do toolkits conceptualize social values (such as fairness or inclusion); when in or beyond the design process do the toolkits suggest they should be used; the toolkits' different form factors; what social or technical background knowledge might be required to understand or use the toolkit; and whether toolkits describe any risks or limitations associated with their use. Our open-ended exploration of these themes helped us refine our research questions (to those presented in Section \ref{sec:intro}).
+
+Based on these themes, we decided to ask the following questions of each of the toolkits to further our analysis:
+\begin{itemize}
+    \item What language does the toolkit use to describe values and ethics?
+    \item What does the toolkit say about the users and other stakeholders of the AI systems to whom the toolkit aims its attention?
+    \item What type of work is needed to enact the toolkit's guidance in practice?
+    \item What does the toolkit say about the organizational context in which workers must apply the toolkit?
+\end{itemize}
+
+Each author read closely through one third of the toolkits, found textual examples that addressed each of these questions, and posted those examples onto sticky notes in an online whiteboard. Collectively, all the authors conducted thematic analysis and affinity diagramming on the online whiteboard, inductively clustering examples into higher-level themes, which we report on in the findings section. 
+
+\subsection{Corpus Description}
+\label{section:corpus-description}
+% \richmond{The reference numbers we used throughout are actually off a bit - we missed a number and had a duplicate, so even though we've been using T1-T29, there's only 27. Let's use our current numbers now, but before submitting we'll have to renumber some of the toolkits - hopefully we can use some LaTeX features to help out though}
+
+%\richmond{I think that makes sense just to include the authors, form, and audience. I think it'll be difficult to summarize the explicitly states goals and uses...and there's a lot of guesswork in the references to ML pipline stages, so I would argue that we don't need those.}
+
+We briefly describe our corpus of 27 toolkits based on our first round of analysis.\footnote{Multiple codes could be assigned to each toolkit, so the counts may sum to more than 27.}
+A full listing of toolkits is in Appendix \ref{section:toolkit-list}, including details of our coding results in Table \ref{tab:toolkits-analysis}. %Although we conducted a closed-ended analysis, the categories listed are still interpretive, particularly when considering how to describe the toolkits' form factors and audiences. Disagreements in the codes were resolved through group discussion among the authors. \michael{Moved that earlier to corpus analysis}
+%We present numerical counts here to help readers understand the variety of our corpus, but we caution that due to the interpretive nature of the categories, these counts should not be taken as statistically significant. 
+% \nick{We can save space if we cut this graf (but leave the next one). This information could all be in the big table in the Appendix. I recommend making that table landscape rather than portrait orientation to fit more columns.} \michael{I like this in-text, since many readers might not read the appendix. We can probably remove all N=1 from the in-text though and just have those in the appendix.}
+The \textbf{toolkit authors} include: technology companies (16 toolkits), university centers and academic researchers (6), non-profit organizations or institutes (6), open source communities (2), design agencies (2), a government agency (1), and an individual tech worker (1). 
+
+The toolkits' \textbf{form factors} vary greatly as well. Many are technical in nature, such as open-source code (11 toolkits), proprietary code (1), documentation (12), tutorials (2), a software product (1), or a web-based tool (1). Other common forms include exercise or activity instructions (7), worksheets (5), guides or manuals (5), frameworks or guidelines (2), checklists (2), or cards (2). Several include informational websites or reading materials (4). 
+
+%Many toolkits (both technical and non-technical) included examples of their tools and activities. 
+Considering the toolkits' \textbf{audiences}, most are targeted towards technical audiences such as developers (6 toolkits), data scientists (6), designers (5), technology professionals or builders (3), implementation or product teams (3), analysts (2), or UX teams (1). Some are aimed at different levels within organizations, including: managers or product/project managers (2), executive leadership (1), internal stakeholders (1), team members (1), or organizations broadly (1). Some toolkits' audiences include people outside of technology companies, including: policymakers or government leaders (3), advocates (3), software clients or customers (1), vendors (1), civil society organizations (1), community groups (1), and users (1). We elaborate more on the toolkits' intended audiences in Section \ref{stakeholders}.\looseness=-1
+%The toolkit authors include: technology companies (16 toolkits); university centers and researchers (6), non-profit organizations or institutes (6), open source communities (2), design agencies (2), a government agency (1), and an individual tech worker (1).  The toolkits' form factors vary greatly as well. Many toolkits were technical in nature, such as open source code (11), proprietary code (1), accompanying documentation (12), accompanying tutorials (2), a software product (1), or a web-based tool (1). Other common forms included exercise or activity instructions (7), worksheets (5), guides or manuals (5), frameworks or guidelines (2), checklists (2), or cards (2). Several toolkits included informational websites or reading materials (4). Many toolkits (both technical and non-technical) included examples of their tools and activities (11). Most of the toolkits are targeted towards technical audiences such as developers (6 toolkits), data scientists (6), designers (5), technology professionals or builders (3), implementation or product teams (3) analysts (2), UX (1). Some toolkits are aimed at different levels of organizations, including: managers or PMs (2), executive leadership (1), internal stakeholders (1), team members (1), or organizations broadly (1). Some toolkits' audiences include people outside of technology companies, including: policymakers or government leaders (3), advocates (3), software clients or customers (1), vendors (1), civil society organizations (1), community groups (1), and users (1). We elaborate more on the themes we identified about the imagined audiences for the toolkits in section \ref{stakeholders}.  %\richmond{I wonder if it's better just to describe without numbers, as there's some interpretation going on here...}
+%We now turn to describing our findings and analysis based on the content of the toolkits. 
+% Numbers can be useful for the overview of the landscape -- but note these categories are interpretive
+
+\section{Findings}
+
+We begin our findings with a description of the language toolkits use to describe and frame the work of AI ethics (RQ1). We then discuss the audiences envisioned to use the toolkits (RQ2); and close with what the toolkits envision to be the work of AI ethics (RQ3). %The following sections detail each topic in turn.
+
+
+\subsection{Language, framing, and discourses of ethics (RQ1)}
+\label{discourses}
+
+% This section asks, how specifically do they speak to them?
+
+% We first look at the language used by the toolkits in order to understand the discursive work they are doing to frame ethics. ``Discourse,'' in the Foucauldian sense \TODOcite{}, signifies that language intersects with practice to create forms of legitimate knowledge. The language and framings used by the toolkits thus construct particular ways to see, understand, and address ethical issues \cite[cf.][]{yates1992genres,mattern_2021,kelty_2018}. \michael{We're already making a Scott/Goodwin argument about professional vision - are we adding too much into the mix by gesturing at Foucault without deeply engaging with his ideas about discourse?}
+
+\subsubsection{Motivating Ethics: Harms, Risks, Opportunities, and Scale}
+We first look at how the toolkits motivate their use. Often, they articulate a problem that the toolkit will help address.
+%often by articulating a type of problem or opportunity that the toolkit will help address. 
+One way of articulating a problem is identifying how AI systems can \textbf{have effects that harm people.} %While the toolkits vary on whether people are directly or indirectly affected (and whether these harms are intentional or unintentional), this group of 
+In such cases, toolkits motivate ethical problems by highlighting harms to people outside the design and development process---a group that Pfaffenberger terms the ``impact constituency,'' the ``individuals, groups, and institutions who lose as a technology diffuses throughout society'' \cite[p297]{Pfaffenberger1992}. 
+For instance, Fairlearn describes unfairness ``in terms of its impact on people — i.e., in terms of harms — and not in terms of specific causes, such as societal biases, or in terms of intent, such as prejudice'' [\ref{itm:T5-Fairlearn}]. Other toolkits gesture towards the ``impact'' [\ref{itm:T2-ModelCards}] or ``unintended consequences'' [\ref{itm:T9-AIEthicsCards}] of systems. 
+%Similarly, Model Cards frame their usefulness as “encouraging developers to consider their impact on a diverse range of people” [T2 Model Cards]. And the IDEO AI Ethics cards prompt users to consider how “unintended consequences will affect people” [T9 IDEO AI Ethics cards]. 
+% The Harms Modeling toolkit builds on this rhetorical approach by providing detail for how to think through different types of harms, including: harms that relate to denial of consequential services, harms that relate to infringement on human rights, and harms that relate to the erosion of social and democratic structures) [\ref{itm:T28-HarmsModeling}]. These toolkits suggest that AI ethics interventions can help avoid these negative harms, impacts, and effects on different individuals, groups, and institutions in the impact constituency. 
+
+Conversely, other toolkits frame problems by articulating how AI systems can \textbf{present risks to the organizations developing or deploying them}. They highlight potential business, financial, or reputational risks, or by relating AI ethics to issues of corporate risk management more broadly. The Ethics \& Algorithms toolkit, aimed at governments and organizations who are procuring and deploying AI systems describes itself as ``A risk management framework for governments (and other people too!) to approach ethical issues.'' [\ref{itm:T7-EthicsAndAlgorithms}]. Other toolkits suggest that they can help manage business risks, in part by generating governance and compliance reports.  
+%Amazon SageMaker writes that it can help “generate model governance reports targeting risk and compliance teams,” [22 Amazon SageMaker] and Weights and Balances writes that its platform can “track all your organization's machine learning models, from experimentation to production” for risk and compliance processes related to access controls and auditing \michael{Is this explicit in that documentation?} [26 Weights and Balances].  
+% Many of these toolkits are targeted towards organizational leaders and decision-makers. The integrate.ai Responsible AI guide 
+% frames issues in terms of legal and reputational risk, writing that “Executive leadership is ultimately responsible for striking the right balance between business risk (both legal or reputational) and opportunity” [\ref{itm:T16-ResponsibleAI}]. 
+In contrast with the language of harms, which focuses on people who are affected by AI systems (often by acknowledging historical harms that different groups have experienced), the language of risk is more forward facing, focusing on the potential for something to go wrong and how it might affect the organization developing or deploying the AI system---leading the organization to try to find ways to prepare contingencies for the possible negative futures it can foresee for itself. 
+
+Not all toolkits frame AI ethics as avoiding negative outcomes, however. The integrate.ai guide uses the term ``opportunity,'' framing AI ethics in terms of \textbf{pursuing positive opportunities or outcomes}. The guide argues that AI ethics can be part of initiatives ``incentivizing risk professionals to act for quick business wins and showing business leaders why fairness and transparency are good for business'' [\ref{itm:T16-ResponsibleAI}]. The IDEO AI Ethics cards (which in some sections also frames AI ethics in terms of harms to people) also discusses capturing positive potential, writing: ``In order to have a truly positive impact, AI-powered technologies must be grounded in human needs and work to extend and enhance our capabilities, not replace them'' [\ref{itm:T9-AIEthicsCards}]. 
+In these examples, AI ethics is framed as a way for businesses or the impact constituency to capture ``upside'' benefits of technology through design, development, use, and business practices. 
+%Similarly, the Design Ethically Toolkit argues that there are positive benefits to designing ethically, which will help “empower users and ensure for trustworthy products." [T13 Design Ethically Toolkit] The integrate.ai guide to business and organizations argues that AI ethics can be a part of “sustainable innovation,” which means 
+%\michael{Should we connect to the responsible innovation discourse here?} \richmond{edited to get rid of the sustainble innovation one}
+%\michael{May be worth explicitly calling back to the focus on businesses (vs. impacted people)}  \richmond{done!}
+
+Some toolkits imagine that the positive or negative impacts of AI technologies will occur at a \textbf{global scale}. This is evidenced by statements such as: ``your [technology builders'] work is global. Designing AI to be trustworthy requires creating solutions that reflect ethical principles deeply rooted in important and timeless values.''  [\ref{itm:T28-HarmsModeling}]; or ``Data systems and algorithms can be deployed at unprecedented scale and speed—and unintended consequences will affect people with that same scale and speed'' [\ref{itm:T9-AIEthicsCards}].
+%When thinking about ethics as positive impact, the Ethics Kit writes that "ethical design means making sure that the changes you choose to make have a positive impact on all aspects of society" [1. Ethics Kit], and AI Fairness 360 argues that its use will help “make the world more equitable for all” [3. AIF360]. Other toolkits argue that because AI creates global effects, both positive and negative effects will occur at scale. 
+Framing ethics globally perhaps draws attention to potential non-obvious harms or risks that might occur, prompting toolkit users to consider broader and more diverse populations who interact with AI systems. At the same time, the language of AI ethics operating at a global scale---and thus addressable at a global scale---also suggests a shared universal definition of social values, or suggests that social values have universally shared or similar impacts. This view of values as a stable, universal phenomenon has been critiqued by a range of scholars who discuss how social values are experienced in different ways, and are situated in local contexts and practices \cite{LeDantec2009Values,Houston2016Values,JafariNaimi2015ValuesHypotheses,Shilton2014HowToSeeValues,sambasivan2021reimagining,madaio2022assessing}.
+%The Microsoft Harms Modeling tool, speaking to technology builders, asserts that “your work is global. Designing AI to be trustworthy requires creating solutions that reflect ethical principles deeply rooted in important and timeless values. […] it is essential to evaluate not only ideal outcomes, but possible negative ones as well"  [\ref{itm:T28-HarmsModeling}] Similarly, the IDEO AI Ethics cards write that "Data systems and algorithms can be deployed at unprecedented scale and speed—and unintended consequences will affect people with that same scale and speed” [\ref{itm:T9-AIEthicsCards}]
+% or as Houston et al. describe, “a more fluid and emergent model that treats value as an active and ongoing process” [Houston et al, Values in Repair, CHI 2016]
+
+\subsubsection{Sources of Legitimacy for Ethical Action} %Drawing on Framings and Authority from Existing Discourses}
+Toolkits' use of language also claims authority from existing discourses about what constitutes an ethical problem and how problems should be addressed. These claims help connect the toolkits’ practices to a broader set of practices or frameworks that may be more widely accepted or understood, helping to legitimize the toolkits’ perspectives and practices, and
+%The choice of how a toolkit motivates the problem of ethics or where it draws its authority from can 
+providing a useful tactical alignment between the toolkit and existing organizational practices and resources.
+
+Perhaps surprisingly, almost none of the toolkits provide an explicit discussion of philosophical ethical frameworks. (Although toolkits may \textit{implicitly} draw on different ethical theories, our focus in this analysis is on the explicit theories, discourses, and frameworks that are referred to in the text of the toolkits and their supporting documentation). One exception to this is the Design Ethically toolkit, which provides a brief overview of deontological ethics and consequentialism, calling them ``duty-based'' and ``results-based'' [\ref{itm:T1-EthicsKit}]. %In the absence of explicit reference to ethical theories, how do the toolkits justify their actions or processes as being right or wrong? Many focused broadly on risk or harm avoidance, although some also referred to other specific discourses or sources of authority to provide moral legitimacy.}
+% While many corporate-led technology ethics initiatives have been critiqued as using feel-good language that does not address real harms or even re-inscribing the harms they seek to address \cite{Greene2019betterNicer,Hoffmann2020terms}, initiatives like human rights or responsible innovation nevertheless have organizational resources and power behind them at many companies. Appeals to these initiatives as forms of authority may help get the toolkit adopted in practice as part of these organizational processes and resources. If the goal of a toolkit is to get it deployed in organizational practice, then this may be a tactically useful strategy. 
+%\michael{Love this - I wish it came sooner. maybe at the beginning of this subsubsection?}
+
+% These notions of responsible innovation, responsible technology, or responsible AI appears in many toolkits. 
+Several toolkits adopt the language of \textbf{``responsible innovation.''}
+The Consequence Scanning toolkit was developed in the U.K. and calls itself ``an Agile event for Responsible Innovators'' [\ref{itm:T8-ConsequenceScanning}]. The integrate.ai toolkit is titled ``Responsible AI in Consumer Enterprise'' [\ref{itm:T16-ResponsibleAI}]. Fairlearn notes that its community consists of ``responsible AI enthusiasts'' [\ref{itm:T5-Fairlearn}]. Several toolkits in our corpus are listed as part of Microsoft’s ``responsible AI'' resources [\ref{T24-HAX}, \ref{itm:T27-CommunityJury}, \ref{itm:T28-HarmsModeling}]. There seems to be rhetorical power in aligning these toolkits with practices of responsible innovation, although questions about what people or groups the companies or toolkit users are responsible \textit{to} are not explicitly discussed. More broadly, what it means to align toolkits with responsible innovation is itself an open question.\footnote{With origins in the rise of science and technology as a vector of political power in the 20th century \cite{STILGOE20131568}, ``responsible innovation'' frames free enterprise as the agents of ethics, implicitly removing from frame policymakers, regulation, and other forms of popular governance or oversight. Future work should investigate more deeply what discursive work ``responsible innovation'' does in the context of AI ethics more broadly, particularly as it concerns private enterprise.}
+
+Other toolkits look to external \textbf{laws and standards} as a legitimate basis for action; ethics is thus conceptualized as complying and acting in accordance with the law. Audit-AI, a tool that measures discriminatory patterns in data and machine learning predictions, explicitly cites U.S. labor regulations set by the Equal Employment Opportunity Commission (EEOC), writing that ``According to the Uniform Guidelines on Employee Selection Procedures (UGESP; EEOC et al., 1978), all assessment tools should comply to fair standard of treatment for all protected groups'' [\ref{itm:T19-AuditAI}]. Audit-AI similarly draws on EEOC practices when choosing a \textit{p}-value for statistical significance and choosing other metrics to define bias. This aligns the toolkit with a regulatory authority’s practices as the basis for ethics; however, it does not explicitly question whether this particular definition of fairness is applicable in contexts beyond the cultural and legal U.S. employment context \cite[cf.][]{watkins2022four}.\looseness=-1 
+% At the same time, the EEOC’s measurements are situated in the context of preventing discriminatory hiring and employment practices in the U.S.; whereas audit-ai presumably tries to generalize its concept of fairness and bias beyond that social context, providing examples of bias in a German credit  data set and student performance data set 
+% \richmond{maybe an unfair critique, like these are popular open data sets I think. And I don't want to be overly harsh on individual tools. But the disconnect is interesting.}. 
+% It is not clear whether the concepts of fairness and bias from the employment-related authority that the toolkit cites are necessarily applicable to these other contexts. 
+
+Several toolkits frame ethics as upholding \textbf{human rights principles}, drawing on the UN Declaration of Human Rights. In our dataset, this occurred most prominently in Microsoft’s Harms Modeling Toolkit: ``As a part of our company's dedication to the protection of human rights, Microsoft forged a partnership with important stakeholders outside of our industry, including the United Nations (UN)'' [\ref{itm:T28-HarmsModeling}].
+% \begin{quote}
+%     ``As a part of our company's dedication to the protection of human rights, Microsoft forged a partnership with important stakeholders outside of our industry, including the United Nations (UN).. [...] Additionally, Microsoft is one of 4,700 corporate signatories to the UN Global Compact, an international business initiative designed to promote responsible corporate citizenship.''  
+% \end{quote}
+Supported by the UN's Guiding Principles on Business and Human Rights \cite{UnitedNationsHumanRights2011}, many large technology companies have made commitments to upholding and promoting human rights.\footnote{It has been argued that involving businesses in the human rights agenda can provide legitimacy and disseminate human rights norms in broader ways than nation states could alone \cite{Ruggie2017SocialConstructionUN}. However, more recent research and commentary has been critical of technology companies' commitments to human rights \cite{Greene2019betterNicer}, with a 2019 UN report stating that big technology companies ``operate in an almost human rights-free zone.'' \cite{Alston2019UNReportPoverty}} 
+% By framing itself as part of a human rights agenda, this toolkit pragmatically helps align its guidance with a set of organizational practices, corporate initiatives, and shared governance programs that extends beyond the company. 
+This corresponds with prior research that shows how human rights discourses provide one source of values for AI ethics guidelines more broadly \cite{Jobin:2019bw}.  Many companies have existing resources or practices around human rights, such as human rights impact assessments \cite{metcalf2021algorithmicImpactAssessments, kemp2013humanRights}. Framing AI ethics as a human rights issue may help tactically align the toolkit with these pre-existing initiatives and practices.\looseness=-1 
+
+
+% In general, the language deployed in the toolkits set the boundaries for the space of what constitutes a problem or a solution to an ethical problem. The choice of aligning a toolkit with a particular discourse or rhetorical framing has implications for who should be responsible for AI ethics, what types of practices or expertise are central, and what theories of change are proposed. We explore these aspects more deeply in the following sections. 
+
+
+
+
+\subsection{The envisioned users and other stakeholders for toolkits (RQ2)}
+\label{stakeholders}
+
+% Where the prior section describes what work toolkits imagine to be done
+This section asks, \textit{who is to do the work of AI ethics?} The design and supporting documentation of toolkits presupposes a particular audience---or, as \citet{mattern_2021} describes it, they ``summon'' particular users through the types of shared understanding, background knowledge, and expertise they draw on and presume their users to have.
+The toolkits in our corpus mention several specific job categories \textit{internal} to the organizations in question: software engineers; data scientists; members of cross-functional or cross-disciplinary teams; risk or internal governance teams; C-level executives; board members. To a lesser extent, they mention designers. All of these categories of stakeholders pre-configure specific logics of labor and power in technology design. Toolkits that mention engineering and data science roles focus on ethics as the practical, humdrum work of creating engineering specifications and then meeting those specifications. (One toolkit, Deon, is a command-line utility for generating ``ethics checklists'') [\ref{itm:T12-Deon}]. %Meanwhile, toolkits that invoke risk management and governance focus on ethics as business risk. 
+For C-level executives and board members, toolkits frame ethics as both a business risk and a strategic differentiator in a crowded market. As the integrate.ai Responsible AI guide states,
+``Sustainable innovation means incentivizing risk professionals to act for quick business wins and showing business leaders why fairness and transparency are good for business.'' [\ref{itm:T16-ResponsibleAI}]
+
+
+Of course, stakeholders involved in AI design and development always already have their roles pre-configured by their job titles and organizational positionality; roles that the toolkits invoke and summon in their description of potential toolkit users and other relevant stakeholders. They (for example, ``business leaders'') are sensitized toward particular facets of ethics, which are made relevant to them through legible terms (for example, ``risk'').
+As such, the nature of these internal (i.e., internal to the institutions developing AI) stakeholders' participation in the work of ethics is bound to vary. On what terms do these internal stakeholders get to participate? Borrowing from \citet{Hoffmann2020terms} who in turn channels \citet{ahmed2012being}, what are the ``terms of inclusion'' for each of these internal stakeholders? 
+
+% In the case of so-called ``business leaders,'' C-suite executives and the like, the terms of interaction between this group and the presumed reader of the toolkit are vague.
+% No toolkit mentions what specific direction should be or can be given to people at this level. We, the researchers, are left to wonder whether the intervention is as simple as placing an item on the agenda, perhaps to get resources or political cover for performing work at lower-levels. On one hand, perhaps those who must ask what form these interventions take should know better than to attempt them: boards and C-level executives are famously idiosyncratic, and specific guidance may be counterproductive. On the other, requests to intervene at this level shift responsibility to already-empowered authorities, those whose incentives toward financial return famously tend not to align with ethical considerations \TODOcite.
+
+Technically-oriented tooling (like Google's What If tool [\ref{itm:T10-WhatIf}]) envisions technical staff who contribute directly to production codebases. Although toolkits rarely address the organizational positioning of engineers (and their concerns) directly, they are specific about the mechanism of action and means of participation for these technical tools. One runs statistical tests, provides assurances around edge cases, and keeps track of statistical markers like disparate impact or the \textit{p\%} rule.\looseness=-1 %Amazon's SageMaker, for example, asks its users to ``Measure biases that can occur during each stage of the ML lifecycle (data collection, model training and tuning, and monitoring of ML models deployed for inference)'' [\ref{itm:T22-SageMaker}]. (How particular biases are identified as relevant or meaningful in the first place is not mentioned).
+
+For social and human-centered practices, the terms of participation are less clear. The rhetoric of these toolkits \textit{is} one of participation---between cross-functional teams (comprised of different roles), between C-suite executives and tech labor, and between stakeholders both internal and external to the organization. But no toolkit quite specifies how this engagement should be enacted. Methodological detail is scant, let alone acknowledgements of power differentials between workers and executives, or tech workers and external stakeholders. Even those rare toolkits that do acknowledge power as a factor---for example, what the Ethics \& Algorithms toolkit lists as its ``mitigation \#1''---under-specify how this power should be dealt with.
+
+\begin{quote}
+    ``Mitigation 1. Effective community engagement is people-centered, partnerships-driven, and power-aware. Engagement with the community should be social (using existing social networks and connections), technical (skills, tools, and digital spaces), physical (commons), and on equal terms (aware of and accounting for power).''
+    [\ref{itm:T1-EthicsKit}]
+\end{quote}
+
+Although this ``mitigation'' refers specifically to the need to be aware of power, to account for power, it offers no specific strategies to become aware, to do such ``accounting.'' Who does that work, and how? 
+
+
+This question brings us to the second broad category of stakeholders invoked by toolkits---stakeholders \textit{external} to companies, described as ``the community'' above. This group variously includes
+clients, vendors, customers, users, civil society groups, journalists, advocacy groups, community members, and others impacted by AI systems. These stakeholders are imagined as outside the organization in question,
+sometimes by several degrees (although some, such as customers, clients, and vendors, may be variously entangled with the organization's operations \cite[cf.][]{gray2019ghost}). For example, the Harms Modeling toolkit lists ``non-customer stakeholders; direct and indirect stakeholders; marginalized populations'' [\ref{itm:T28-HarmsModeling}].
+The Community Jury mentions ``direct and indirect stakeholders impacted by the technology, representative of the diverse community in which the technology will be deployed'' [\ref{itm:T27-CommunityJury}].
+Google's Model Cards describes its artifacts as being for ``everyone... experts and non-experts alike'' [\ref{itm:T2-ModelCards}].
+None of those toolkits, however, provide guidance on how to identify specific stakeholders \cite[cf.][]{madaio2022assessing}, or how to engage with them once they have been identified.
+Indeed, the work these external stakeholders are imagined to \emph{do} in these circumstances is under-specified. Their specific roles are under-imagined, relegated to the vague ``raising concerns'' or ``providing input'' from ``on-the-ground perspectives.'' We return to this point in the following section.
+
+\subsection{Work practices envisioned by toolkits (RQ3)}
+% \michael{TODO: emphasize the toolkits that are exceptions here - with different sites of intervention, other stakeholders, other steps than just the narrow focus on the ML development lifecycle}
+
+Much of the work of ethics as imagined by the toolkits focuses on technical work with ML models, in specific workflows and tooling suites, despite claims that fairness is sociotechnical (e.g., [\ref{itm:T5-Fairlearn}]). Many toolkits aimed at design and development teams call for engagement with stakeholders external to the team or company---and for such stakeholders to inform the team about potential ethical impacts, or for the AI design team to inform and communicate about ethical risks to stakeholders. %These stakeholders may be situated within or beyond the same company as the development team. 
+However, there is little guidance provided by the tools on how to do this; these imagined roles for stakeholders beyond the development team are framed as informants or as recipients of information (without the ability to shape systems’ designs) \cite[cf.][]{delgado2021stakeholder,sloane2020participation}. Moreover, the technical orientation of many toolkits may preclude meaningful participation by non-technical stakeholders. As framed by the toolkits, the work of ethics is often imagined to be done by individual data scientists or ML teams, both of whom are imagined to have the power to influence key design decisions, without considering how organizational power dynamics may shape those processes \cite[cf.][]{madaio2020co,rakova2021responsible}. The imagined work of ethics here is largely individual self-reflection, or team discussions, but without a theory of change for how self-reflection or discussions might lead to meaningful organizational shifts. 
+% The toolkits explicitly emphasize the importance of processes for ethics, while implicitly de-politicizing the work of ethics. 
+
+\subsubsection{Emphasis on technical work}
+Much of the work of ethics as imagined by the toolkits (and their designers) is focused on technical work with ML models, ML workflows, and ML tooling suites---with few exceptions, i.e., the Algorithmic Equity Toolkit [\ref{itm:T17-AEKit}] and others [\ref{itm:T8-ConsequenceScanning}, \ref{itm:T27-CommunityJury}] (the forms of non-technical work that these few toolkits suggest is an area for further exploration, which we discuss in Section \ref{section:recommendations-design}). This is in spite of the claims from some toolkits that ``fairness is a sociotechnical problem'' [\ref{itm:T5-Fairlearn}, \ref{itm:T27-CommunityJury}]. In practice, this means that tools’ imagined (and suggested) uses are oriented around the ML lifecycle, often integrated into specific ML tool pipelines. For instance, Amazon’s SageMaker describes how it provides the ability to ``measure biases that can occur during each stage of the ML lifecycle (data collection, model training and tuning, and monitoring of ML models deployed for inference)'' [\ref{itm:T22-SageMaker}]. Other toolkits go further, and are specifically designed to be implemented into particular ML programming tooling suites, such as Scala or Spark [\ref{itm:T18-LiFT}], TensorFlow, or Google Cloud AI platform [\ref{itm:T10-WhatIf}, \ref{itm:T20-TensorFlow}]. Some toolkits, albeit substantially fewer, provide recommendations for how toolkit users might make different choices about how to use the tool depending on where they are in their ML lifecycle [\ref{itm:T3-AIF360}]. 
+
+However, this emphasis on technical functionality offered by the toolkits, as well as the fact that many are designed to fit into ML modeling workflows and tooling suites suggests that non-technical stakeholders (whether they are non-technical workers involved in the design of AI systems, or stakeholders external to technology companies) may have difficulty using these toolkits to contribute to the work of ethical AI. At the very least, it implies that the intended users must have sufficient technical knowledge to understand how they would use the toolkit in their work---and further reinforces that the work of AI ethics is technical in nature, despite claims to the contrary [\ref{itm:T5-Fairlearn}, \ref{itm:T27-CommunityJury}]. In this envisioned work, what role is there for designers and user researchers, for domain experts, or for people impacted by AI systems, in doing the work of AI ethics?
+
+\subsubsection{Calls to engage stakeholders, but little guidance on how}
+% \michael{TODO: could draw on other spectrums of participation (e.g., Arnstein, etc) from imagining you're the stakeholder to consulting to empowering}
+One of the key elements of AI ethics work suggested by toolkits involves engaging stakeholders external to the development team or their company (as discussed in Sec. \ref{stakeholders}). However, many toolkits lacked specific resources or approaches for how to do this engagement work. Toolkits often advocated for working with diverse groups of stakeholders to inform the development team about potential impacts of their systems, or to ``seek more information from stakeholders that you identified as potentially experiencing harm'' [\ref{itm:T28-HarmsModeling}]. For some toolkits, this was envisioned to take the form of user research, recommending that teams ``bring on a neutral user researcher to ensure everyone is heard'' [\ref{itm:T27-CommunityJury}] (what it means for a researcher to be ``neutral'' is left to the imagination), or to ``help teams think through how people may interact with a design'' [\ref{itm:T9-AIEthicsCards}]. Others envisioned this information gathering as workshop sessions or discussions, as in the consequence scanning guide [\ref{itm:T8-ConsequenceScanning}] or community jury approach [\ref{itm:T27-CommunityJury}].\looseness=-1
+
+Although some toolkits called for AI development teams to learn about the impacts of their systems from external stakeholders, a smaller subset were designed to support external stakeholders or groups in better understanding the impacts of AI. For instance, the Algorithmic Equity Toolkit was designed to help citizens and community groups ``find out more about a specific automated decision system'' by providing a set of questions for people to ask to policymakers and technology vendors [\ref{itm:T17-AEKit}]. In addition, some developer-facing tools such as Model Cards were designed to provide information to ``help advocacy groups better understand the impact of AI on their communities'' [\ref{itm:T2-ModelCards}]. 
+
+%However, despite many toolkits calling for AI development teams to engage with external stakeholders, toolkits offer little guidance or support for precisely how to engage them.
+Despite these calls for engagement, toolkits lack concrete resources for precisely how to engage external stakeholders in either understanding the ethical impact of AI systems or involving them in the process of their design to support more ethical outcomes. Some toolkits explicitly name particular activities that would benefit from involving a wide range of stakeholders, such as the Harms Modeling toolkit: ``You can complete this ideation activity individually, but ideally it is conducted as collaboration between developers, data scientists, designers, user researcher, business decision-makers, and other disciplines that are involved in building the technology'' [\ref{itm:T28-HarmsModeling}].
+The stakeholders named by the Harms Modeling toolkit, however, are still ``disciplines involved in building the technology'' [\ref{itm:T28-HarmsModeling}] and not, for instance, people who are harmed or otherwise impacted by the system outside of the company. Others, such as the Ethics \& Algorithms toolkit, broaden the scope, recommending that ``you will almost certainly need additional people to help - whether they are stakeholders, data analysts, information technology professionals, or representatives from a vendor that you are working with'' [\ref{itm:T7-EthicsAndAlgorithms}]. However, despite framing the activity as a ``collaboration'' [\ref{itm:T28-HarmsModeling}] or ``help'' [\ref{itm:T7-EthicsAndAlgorithms}] such toolkits provide little guidance for how to navigate the power dynamics or organizational politics involved in convening a diverse group to use the toolkit. %'s ideation activity. 
+
+\subsubsection{Theories of change}
+Ethical AI toolkits present different theories of change for how practitioners using the toolkits may effect change in the design, development, or deployment of AI/ML systems. 
+% This is important because different theories of change imply the use of different types of tools, implicate different stakeholders that might be involved in the process, and locate responsibility in the hands of different stakeholders in different ways. 
+For many toolkits, individuals within the organization %stakeholders within the organization developing the tools 
+are envisioned to be the catalysts for change
+%. In such cases, the work of ethics is imagined to be done by individuals, 
+via oaths [\ref{itm:T13-DesignEthically}] or ``an individual exercise'' [\ref{itm:T1-EthicsKit}] where individuals are prompted to ``facilitat[e] your own reflective process'' [\ref{itm:T1-EthicsKit}]. This approach is aligned with what  Boyd and others have referred to as developing ethical sensitivity \cite{boyd2020ethical,weaver2008ethical}. Some toolkits explicitly articulated the belief that individual practitioners who are aware of possible ethical issues may be able to change the direction of the design process. For instance, ``The goal of Deon is to push that conversation forward and provide concrete, actionable reminders to the developers that have influence over how data science gets done'' [\ref{itm:T12-Deon}]. However, this belief that individual data scientists ``have influence over how data science gets done'' may be at odds with the reality of organizational power structures that may lead to changes in AI design \cite[cf.][]{rakova2021responsible}.  
+ 
+In other cases, the implicit theory of change involves product and development teams having conversations, which are then thought to lead to changes in design decisions towards more ethical design processes or outcomes. Some toolkits propose activities designed to ``elicit conversation and encourage risk evaluation as a team'' [\ref{itm:T7-EthicsAndAlgorithms}]. Others start with individual ethical sensitivity, then move to team-level discussions, suggesting that the toolkit should ``provoke discussion among good-faith actors who take their ethical responsibilities seriously'' [\ref{itm:T12-Deon}]. Such group-level activities rely on having discussions with ``good-faith actors,'' presumably those who have developed some level of individual sensitivity to ethical issues. As one toolkit suggests for these group-level conversations, ``There is a good chance someone else is having similar thoughts and these conversations will help align the team'' [\ref{itm:T9-AIEthicsCards}]. In this framing, the work of ethics involves finding like-minded individuals and getting to alignment within the team. However, this approach relies on the \textit{possibility} of reaching alignment. As such, it may not provide sufficient support for individuals whose ethical views about AI may differ from their team. Individuals may feel social pressure from others on their team to stay silent, or not appear to be contrarian in the face of consensus from the rest of their team \cite[cf.][]{madaio2020co}.
+
+In fact, despite many toolkits' claims to empower individual practitioners to raise issues, toolkits largely appeared not to address fundamental questions of worker power and collective action. For instance, the IDEO AI Ethics Cards state that ``all team members should be empowered to trust their instincts and raise this Pause flag… at any point if a concept or feature does not feel human-centered'' [\ref{itm:T9-AIEthicsCards}], and similarly the Design Ethically Toolkit advises that ``Having a variety of different thinkers who are all empowered to speak in the brainstorm session makes a world of a difference'' [\ref{itm:T13-DesignEthically}]. However, the Design Ethically toolkit was the only example in our corpus that provided resources to support workplace organizing to meaningfully secure power for tech workers in driving change within their organizations. 
+
+Finally, other toolkits pose theories of change that suggest that pressure from external sources (i.e., media, public pressure or advocacy, or other civil society actors or organizations) may lead to changes in AI design and deployment (usually implied to be within corporate or government contexts). The Algorithmic Equity Kit in particular, is explicitly designed to provide resources for ``community groups involved in advocacy campaigns'' [\ref{itm:T17-AEKit}] to help support that advocacy work. Other toolkits, such as the Ethics \& Algorithms Toolkit, focus on government agencies using AI that are ``facing increasing pressure from the public, the media, and academic institutions to be more transparent and accountable about their use'' [\ref{itm:T7-EthicsAndAlgorithms}]. As such, the toolkit offers resources for government agencies to respond to such pressure and provide more transparency and accountability in their algorithmic systems.
+ 
+More generally, many toolkits enact some form of solutionism---the belief that ethical issues that may arise in AI design can be solved with the right tool or process (typically the approach they propose). 
+Some tools [e.g., \ref{itm:T2-ModelCards}, \ref{itm:T3-AIF360}, \ref{itm:T10-WhatIf}, \ref{itm:T20-TensorFlow}] suggest that ethical values such as fairness can be achieved via technical tools alone:
+``If all fairness metrics are fair, The Bias Report will evaluate the current model as fair.'' [\ref{itm:T6-Aequitas}].
+Some toolkits (albeit fewer) do note the limitations of purely technical solutions to fundamentally sociotechnical problems [\ref{itm:T3-AIF360}, \ref{itm:T5-Fairlearn}, \ref{itm:T10-WhatIf}], as in AIF360’s documentation, which states that ``the metrics and algorithms in AIF360… clearly do not capture the full scope of fairness in all situations'' [\ref{itm:T3-AIF360}]. As the What-If tool documentation states, ``There is no one right [definition of fairness], but we probably can agree that humans, not computers, are the ones who should answer this question'' [\ref{itm:T10-WhatIf}]. 
+However, even with these acknowledgements, the documentation goes on to note the important role that the toolkit plays in enabling humans to answer that question, as ``What-If lets us play `what if' with theories of fairness, see the trade-offs, and make the difficult decisions that only humans can make'' [\ref{itm:T10-WhatIf}].
+ 
+These general framings suggest a particular flavor of solutionism, in which the work 
+of ethics in AI design involves following a particular process (i.e., the one proposed by the toolkit). 
+% As the Ethics \& Algorithms toolkit states,
+% ``The toolkit is really a process. It walks you through a series of questions to help you 1) understand the ethical risks posed by your use of an algorithm and then 2) identify what you can do to minimize those ethical risks.'' (\ref{itm:T7-EthicsAndAlgorithms})
+Toolkits propose ethical work practices that fit into existing development processes [e.g., \ref{itm:T12-Deon}], in ways that suggest that all that is needed is the addition of an activity or discussion prompt and not, for instance, fundamental changes to the corporate values systems or business models that may lead to harms from AI systems. Some toolkits were explicit that ethical AI work should not significantly disrupt existing corporate priorities, saying, ``Business goals and ethics checks should guide technical choices; technical feasibility should influence scope and priorities; executives should set the right incentives and arbitrate stalemates'' [\ref{itm:T16-ResponsibleAI}].\looseness=-1 
+% This focus on processes and tools over more fundamental changes to the organizational structure or business priorities evokes a modernist logic of technology production \cite[cf.][]{metcalf2019owning}. 
+
+
+
+
+\section{Discussion}
+
+% \subsection{\placeholder{Cross-cutting themes}}
+Throughout these toolkits, we observed a mismatch between the imagined roles and work practices for ethics in AI and the support the toolkits provided for achieving those roles and practices. Specifically, despite rhetoric from the documentation of many toolkits that the work of ethics is \textit{socio}technical, involving contributions from a variety of stakeholders, the actual design and functionality of the majority of toolkits involved \textit{technical} work for primarily developers and data scientists. Toolkits suggested multi-stakeholder approaches to addressing ethical issues in sociotechnical ways, but most toolkits provided little scaffolding for the social dimensions of ethics or for engaging stakeholders from multiple (non-technical) backgrounds. These technosolutionist approaches to AI ethics suggest that AI ethics toolkits may act as a ``technology of de-politicization'' \cite[cf.][]{hitzig2020normative}, sublimating sociopolitical considerations in favor of technical fixes. With few exceptions [e.g., \ref{itm:T17-AEKit}], the toolkits took a decontextualized approach to ethics, largely divorced from the sociopolitical nuance of what ethics might mean in the contexts in which AI systems may be deployed, or how ethical work practices might be enacted within the organizational contexts of the sites of AI production (e.g., technology companies). In such a decontextualized view of ethics, toolkit designers envision individual users who have the agency to make decisions about their design of AI systems, and who are not beholden to the role of power dynamics within the workplace: organizational hierarchies, misaligned priorities, and incentives for ethical work practices---key considerations for the use of AI ethics toolkits, given the reality of business priorities and profit motives.\looseness=-1 
+
+When toolkits \textit{did} attend to how ethical work might fit within business processes, many of them leveraged discourses of business risk and responsible innovation to help motivate adoption of ethics tools and processes. These discourses may function tactically \cite[cf.][]{wong2021tactics} as a way to allow toolkits to tap into existing institutional processes and resources they may not otherwise have access to (for example, mechanisms for managing legal liability). However, in so doing, companies may sidestep questions of how logics of capital accumulation themselves shape the capacity for AI systems to exert harms and shape the sociotechnical imaginaries \cite[cf.][]{jasanoff2015dreamscapes} for what ethics might mean---or foreclose alternative ways of conceptualizing ethics. As a result, ethical concerns may be sublimated to the interests of capital. In the following sections, we unpack implications of our findings for AI ethics toolkit researchers and designers.\looseness=-1
+
+
+\subsection{Reflections and Implications for Research} 
+As the prior sections suggest, the content and guidance provided by toolkits, as well as the metaphor and format of ``toolkits'' as a predominant way to address AI ethics, constructs particular ways of seeing the world---what constitutes an ethical problem, who should be responsible for addressing those problems, and what are the legitimate practices for addressing them. We underscore this point by using the metaphor of ``seeing like a toolkit,'' to draw attention to two ideas. 
+
+First, although toolkits provide a useful format for sharing information and practices across boundaries and contexts, an over-reliance on toolkits may risk decontextualizing or abstracting away from the social and political contexts where AI systems are deployed and governed, and from the organizational contexts in which those toolkits may be used. Toolkits, by design, are intended to be portable objects usable across a variety of contexts \cite{mattern_2021, kelty_2018}---but as a result, ethical AI toolkits may act as a ``device for decontextualizing'' \cite{kelty_2018}. This portability may allow toolkits to be more generalizable or scalable by ``mediating between the local and the universal'' \cite{mattern_2021} in order to support their adoption and use across multiple contexts. However, the flattening of local distinctiveness in order to be more easily transportable across contexts \cite{redfield2013life} brings with it particular risks for ethical AI. As Selbst et al., have written, efforts for fairness in AI run the risk of what they have referred to as ``abstraction traps,'' or abstracting away crucial elements of the social context in which AI systems are deployed and within which fairness and ethical considerations must be understood \cite{selbst2019fairness}. As a result, toolkits that are explicitly designed to be decontextualized---both from the social context where AI systems will be deployed (and within which ethics must be understood \cite{sambasivan2021reimagining}) and from the organizational context in which those toolkits may be used \cite{suchman2002located}---may inadvertently suggest to their users that either the context does not matter for the work of ethics, or that it is up to the toolkit user to do the work of \textit{re}contextualizing, or translating its methods for their context of use and deployment (cf. \cite{morley2021initial}). However, this is quite a burden for the toolkits to place on their users, particularly as the imagined users of many ethical AI toolkits appear to be largely technical practitioners who may not have the training or background to do such contextualization and translation work.
+
+This pattern of decontextualization of toolkits mirrors Scott's concepts of legibility and simplification in statecraft.\footnote{whose book \textit{Seeing Like a State} informs the title of this paper} In order to govern, the state employs techniques such as standardized measurement or systems of private property ownership to make local heterogeneous practices legible, but this also serves to simplify and standardize understandings of social practices which may not equate with local experiences \cite{Scott1998seeing}. Similarly, for toolkits to be legible among communities of practice and organizational structures that seek to build systems at scale, toolkits make ethical practices legible in ways that are often simplified and do not account for the hetereogeneity of contextual experiences and on the ground practices of doing AI ethics, requiring users who can do this difficult translation work.
+
+Second, these toolkits represent a form of ``professional vision'' that may inadvertently promote a solutionist orientation to AI ethics. As Goodwin has argued, ``professional vision'' is how the discursive practices of professional cultures shape how we see the world in socially situated and historically constituted ways \cite{goodwin2015professional}. Similarly, in Silbey's work on industrial safety culture, she argues that disasters that are not spectacular or sudden---such as slow-acting oil leaks---are often ignored, ``existing physically, but not in any organizationally cognizable form'' \cite{silbey2009taming}. For ethics in AI, the discursive practices instantiated in our tools shape how the field sees the ethical terrain for action---what are the objects of concern, how might they be made legible or amenable to action, what resources might be marshalled to address them, and by whom. Likewise, problems left outside of toolkits' purview may risk not being seen as legitimate ethical issues by practitioners.
+
+The tools curated within a toolkit are intended to solve particular problems (here, problems related to the ethics of AI), but the metaphor of the toolkit itself may reinforce a solutionist framing, suggesting to their users that ethical problems can in fact, be \textit{solved} by using the tools or processes therein---for instance, that AI systems can be ``de-biased,'' which they cannot be \cite{blodgett2020language,hoffmann2019wherefairness}---rather than mitigating their potential for harm. This solutionist orientation is not limited to toolkits; indeed, Selbst et al. have written about the solutionist trap for fairness in sociotechnical systems more generally \cite{selbst2019fairness}, but the genre of the toolkit may inadvertently reinforce the idea of ethics as a managerial exercise \cite{kelty_2018}, or a technical solution to fundamentally contextual and contested challenges (cf. \cite{selbst2019fairness, stark2021critical}). As a result, this framing may inhibit investment (of time, attention, resources) into alternative approaches that do not fit within the confines of the solutionist orientation of a toolkit, or foreclose alternative theories of change (such as a focus on the political economy of AI development \cite{stark2021critical}). This may also lead to false expectations (from practitioners using the toolkit as well as stakeholders and communities impacted by AI), potentially leading to frustration, resentment, and further harm when those expectations for solved problems are not met. Others have discussed how corporate dicourse of ``solving'' ethical issues are often rooted in public relations goals or economic self-interest \cite{mcmillan2019againstethical,bietti2020ethicswashing}. 
+
+This is a broader issue for the field. Metcalf and Moss discuss how ethics in Silicon Valley is in part framed through the lenses of technological solutionism and market fundamentalism---that an optimal set of tools, procedures, or criteria will lead to an ethical outcome, and that ethical solutions should be pursued within the boundaries of what the market finds profitable \cite{Metcalf2019OwningEthics}. These lenses miss out on the value of non-technical expertise and practices, as well as a broader array of potential ethical (if less profitable) alternatives. What do we lose when we fail to grapple with capital as a force in shaping the ethical considerations of AI? We note that these critiques are not a call to abandon toolkits altogether, but rather an interrogation of what politics we might (unintentionally) embed when framing an AI ethics intervention as a ``toolkit.'' What are the political choices one makes when one creates a toolkit, and how can we make those choices more intentional? Although we find that AI ethics toolkits tend to focus on technical practices in ways that may be decontextualized from the wider social and political context, we are inspired by toolkits in other domains that explicitly engage in questions of politics and power, for example toolkits that serve as methods of participatory engagement to purposefully include broader communities to consider issues of justice \cite[e.g.,][]{mattern_2021,bray2022radical}.  
+
+
+% Meanwhile, the toolkits in our sample allowed the reader to believe that ethics is an endpoint at which one can arrive. But ethics is an ongoing process of deliberation and contestation. These omissions both reflect and shape tech companies' unwillingness to engage in the messy details of multistakeholderism, and gesture toward the structural challenges of 'doing' ethics in private industry.
+
+% They framed ethics as a value-add---something that's not only the right thing to do, but---can you believe it?---it's good for business, too. All ethics is politics. 
+
+
+We also consider the politics of the choice of deciding to make a ``toolkit'' versus making something else. We thus ask what ways of ``seeing'' AI ethics do \textit{all} toolkits miss? What are new ways of seeing that can produce new, practical interventions? New approaches might move beyond toolkits and look to other theories of change, such as political economy \cite{stark2021critical}.  %These are questions these three authors may be ill-posed to solve.
+However, we as authors note that our situatedness in particular debates in the West may occlude our sensitivity to alternative ethical frameworks. 
+Indigenous notions of ``making kin'' \cite{lewis2018making} could reveal radical new possibilities for what AI ethics could be, and by what processes it may be enacted.
+How can we, as a research community, make space for such alternatives?
+Following from this problem-posing orientation, we do not offer solutions here, but instead pose these as questions for researchers, practitioners, and communities to address through developing alternatives to the dominant paradigm of the toolkit. Some promising examples include the People's Guide to AI zine \cite{Onuoha2018PeoplesGuideAI}; %\footnote{https://store.alliedmedia.org/products/a-peoples-guide-to-ai}; 
+J. Khadijah Abdurahman's and We Be Imagining's call for lighting ``alternate beacons'' to help ``organize for different futures'' for technology development \cite{Abdurahman2021Body}; %\footnote{https://logicmag.io/beacons/} 
+and the AI Now Institute's series on a new lexicon to offer narratives beyond those from the Global North to critically study AI  \cite{Raval2021NewAILexicon}, among others \cite[e.g.,][]{bray2022radical}. %\footnote{https://medium.com/a-new-ai-lexicon/a-new-ai-lexicon-responses-and-challenges-to-the-critical-ai-discourse-f2275989fa62}
+We call on the CSCW community and others (e.g., FAccT, CHI) to amplify and expand these efforts.\looseness=-1 
+
+\subsection{Recommendations for Toolkit Design}
+\label{section:recommendations-design}
+Practitioners will continue to require support in enacting ethics in AI, and toolkits are one potential approach to provide such support, as evidenced by their ongoing popularity. Although much of this paper has focused on a critical analysis of toolkits, we offer suggestions for toolkit design following the ``practical turn'' in values in design research \cite[pg9]{flanagan2014values}---i.e., if we accept that toolkits can embody and promote particular social values, we might consider an additional (or alternative) set of values in the design of toolkits. We acknowledge that toolkits alone will not solve all the problems of addressing AI ethics, but they can nevertheless be improved to better consider the social and organizational contexts where they might be deployed. 
+
+Our findings suggest three concrete recommendations for improving toolkits' potential to support the work of AI ethics. Toolkits should: (1) provide support for the non-technical dimensions of AI ethics work; (2) support the work of engaging with stakeholders from non-technical backgrounds; (3) structure the work of AI ethics as a problem for collective action. %The remainder of this section explores each of these recommendations. %We hope new toolkits will take these recommendations into account, and hope existing toolkits will integrate them into their methods, tools, and practice.
+
+% Provide resources for 
+% -  social dimensions of ethics from qual research / HCI 
+% -  bridging disciplinary divisions for ethical work (should add something about supporting stakeholders outside of technology companies doing ethics work (e.g., crowd audits \cite{devos2021everyday}) and bridging internal/external (as Rakova et al., 2021 call for). [\michael{rethink the implied positionality of internal/external... to what}
+% -  collective action for ethics - both organizationally within tech companies, communities of professional practice within the field, and participatory approaches that support engagement of impacted communities \michael{should we split these apart? The current version doesn't touch on participatory approaches, but maybe that's ok for it to focus on professional action? And maybe something about ~PD in the previous?}
+
+% \richmond{Note - I think I want to add a cite to the CSCW workshop paper by Spitzberg et al \cite{Spitzberg2020} on design justice, where practitioners wanted tools for meso (team/project) and macro (institutional) change, ratehr than micro (individual) ones. Will read through and see if there's a good spot!}
+
+\subsubsection{Embrace the non-technical dimensions of ethics work}
+% \richmond{I wonder if we're talking about "social"or "theoretical"/"Conceptual" here. I know most things that are not technical get classified as social, but I think there's a useful distinction here between (1) social as in understanding the concepts and theories of ethical issues in non-technical ways, and (2) social as in how to do this work with other practitioners.} 
+Despite emerging awareness that fairness is \textit{socio}technical, the majority of toolkits provided resources to support technical work practices (although some toolkits called for their users to engage in other forms of work [e.g., \ref{itm:T5-Fairlearn}]). This might entail resources to support understanding the theories and concepts of ethics in non-technical ways,\footnote{Note that Fairlearn [\ref{itm:T5-Fairlearn}] has---since we conducted the data analysis for this paper---published resources in its user guide for understanding social science concepts such as construct validity for concepts such as fairness \cite{jacobs2021measurement} and explanations of sociotechnical abstraction traps \cite{selbst2019fairness}.} as well as resources drawing from the social sciences for understanding stakeholders' situated experiences and perceptions of AI systems and their impacts. %For instance, toolkits might include resources to support engaging with stakeholders to understand how they are impacted by AI systems. 
+For instance, toolkit designers might incorporate methods from qualitative research, user research, or value-sensitive design (e.g., \cite{friedman2002value}), as some existing tools suggest (e.g., [\ref{itm:T27-CommunityJury}]). Although some AI ethics education tools are beginning to be designed with these perspectives (e.g., value cards \cite{shen2021valuecards}), fewer practitioner-oriented toolkits utilize them. As a precursor to this, practitioners may need support in identifying the stakeholders for their systems and use cases \cite[cf.][]{madaio2022assessing}, in the contexts in which those systems are (or will be) deployed, including community members, data subjects, or others beyond the users, paying customers, or operators of a given AI system. Approaches such as stakeholder mapping from fields like Human-Computer Interaction \cite[e.g.,][]{yoo2018stakeholder} may be useful here, and such resources may be incorporated into AI ethics toolkits.
+
+\subsubsection{Support for engaging with stakeholders from non-technical backgrounds}
+Although many toolkits call for engaging stakeholders from different backgrounds and with different forms of expertise (internal stakeholders such as designers or business leaders; external stakeholders such as advocacy groups and policymakers), the toolkits themselves offer little support for how their users might bridge such disciplinary divides, further contributing to the mismatch between the rhetorical promise of toolkits and their current design. 
+Toolkits should thus support this translational work.\footnote{Some emerging work is exploring the role of ``boundary objects'' \cite[cf.][]{star1989structure} to help practitioners align on key concepts and develop a shared language, e.g., \hyperlink{https://events.withgoogle.com/pair-symposium-2020/}{PAIR Symposium 2020}, although this work has not focused on ethics of AI specifically.}
+This might entail, for instance, asking what fairness means to the various stakeholders implicated in ethical AI, or communicating the output of algorithmic impact assessments (e.g., various fairness metrics) in ways that non-technical stakeholders can understand and work with \cite{cheng2021soliciting, shen2020designing}. The Algorithmic Equity Toolkit (whose design process is discussed in \cite{10.1145/3442188.3445938}) tackles this challenge from the perspective of community members and groups, providing resources to these external stakeholders to support their advocacy work [\ref{itm:T17-AEKit}]. Meanwhile, recent research has explored how to engage non-technical stakeholders in discussions about tradeoffs in model performance \cite[e.g.,][]{cheng2021soliciting, shen2020designing, shen2021valuecards}, or in participatory AI design processes more generally \cite{delgado2021stakeholder,sloane2020participation}, although such approaches have largely not been incorporated into toolkits (with few recent exceptions \cite[e.g.,][]{shen2022model}). Moreover, approaches that involve stakeholders impacted by AI conducting ``crowd audits'' of algorithmic harms \cite[e.g.,][]{shen2021everyday} have not yet made their way into the toolkits we analyzed, where the results of such crowd audits might be used to shape AI practitioners' development practices.\looseness=-1 
+
+\subsubsection{Structure the work of AI ethics as a problem for collective action}
+One question we found palpably missing in the toolkits we analyzed was, \textit{how do toolkits support stakeholders in grappling with organizational dynamics involved in doing the work of ethics?} Silbey has written about the ``safety culture'' promoted in other high-stakes industries (e.g., fossil fuel extraction), where the responsibility to avoid catastrophe is too often located in the behaviors and attitudes of individual actors---typically those with the least power in the organization---rather than systemic processes or organizational oversight \cite{silbey2009taming}. To address this gap, toolkits could provide support for helping practitioners communicate to organizational leadership and advocate for the need to engage in ethical AI work practices, or advocate for additional time or resources to do this work. One form this might take is providing support for strategic alignment of ethics discourses with business priorities and discourses (e.g., business risk, responsible innovation, corporate social responsibility, etc). However, these discourses bring risks: the aims and values of ethical AI could be subverted by business priorities. For instance, \citet{madaio2022assessing} discuss how business priorities for AI deployment across market tiers may subvert practitioners' goals for fairness work.
+Given the risk that such an approach might smuggle in business logics that subvert ethical aims (see Sec. \ref{discourses}), toolkit designers might instead consider how to support the users of their toolkits in becoming aware of the organizational power dynamics that may impact the work of ethics (e.g., power mapping exercises \cite{LittleSis2017MapThePower}), 
+%\footnote{https://littlesis.org/toolkit})
+including identifying institutional levers they can pull to shape organizational norms and practices from the bottom up. In addition, toolkits should structure ethical AI as a problem for collective action for multiple groups of stakeholders, rather than work for individual practitioners. This may involve supporting collective action by workers within tech companies, or fostering communities of practice of professionals working on ethical AI across institutions (to share knowledge and best practices, as well as shift professional norms and standards), or supporting collective efforts for ethical AI across industry professionals designing AI and communities impacted by AI. This might also involve providing support for organizing collective action in the workplaces, such as unions, tactical walkouts, or other uses of labor power based on their role in technology production \cite{Khovanskaya2019dataRhetoric,wong2021tactics,stark2021critical, Ozoma2021TechWorkerHandbook}. Prior research found that technology professionals pursuing design justice sought project- and institutional-level tools and interventions rather than individual-level ones \cite{Spitzberg2020}. However, few toolkits we saw (with the Data Ethically toolkit as a notable exception [\ref{itm:T13-DesignEthically}]) provide resources to inform and support practitioners about the role of collective action in ethical AI.\looseness=-1 
+
+
+
+\subsection{Limitations and Future Work}
+\label{limitations}
+
+We examined a small subset of toolkits which may not be representative of all AI ethics toolkits. Most of the toolkits we examined were from tech companies and academia, and we may thus have missed out on toolkits developed by nonprofits, civil society, or government agencies. Furthermore, the toolkits we examined largely skewed towards industry practitioners as the envisioned users (with some exceptions; e.g., [\ref{itm:T17-AEKit}]), and were largely intended to fit into AI development processes (as suggested by the large proportion of toolkits that were open source code). As such, future work should explicitly target toolkits intended to be used by policymakers, civil society, or community stakeholders more generally. Recognizing that creating technical tools can re-inscirbe the harms they seek to address (e.g., \cite{green2021datascience,hoffmann2019wherefairness}) in addition to re-designing the politics of toolkits, future work should also investigate other forms of political action that consider and address the social and institutional aspects of technology development. 
+
+In addition, our corpus was built from search queries; as such, searching for toolkits using terms we did not include here may result in identifying toolkits that we did not include in our corpus. More broadly, our positionality has shaped how we approach our research, including the research questions we chose, the toolkits we identified, and how we coded and interpreted our data. As Sambasivan et al. \cite{sambasivan2021reimagining} (among others, such as \citet{ding2018deciphering}) have pointed out, AI ethics may mean different things in different cultural contexts, including %. Debates in Mandarin, for example, 
+relying on different legal frameworks, and aiming towards fundamentally different outcomes. Our corpus is necessarily partial and reflective of our positionality and cultural context.\looseness=-1 %It should not be the last word in the international research community on AI ethics toolkits. 
+%---one in which AI's role as a tool for enacting politics will only increase in importance, scale, and impact.
+
+% In an increasingly multipolar political order, we can anticipate the AI ethics debate to continue to fragment along political, social, and cultural lines.
+% understanding \textit{descriptively} how ethics are meant to operate will likely be an ongoing concern as governance worldwide increasingly fragments into political "blocs" (weber) around digital issues like AI governance. 
+
+% making broad and inclusive methods for doing the work of AI ethics particularly important. 
+
+% In addition, in this work we examined only a small subset of toolkits, which may not be representative of all ethical AI toolkits. Most of the toolkits we examined were from tech companies and academia, and we may thus miss out on toolkits developed by nonprofits, civil society, or government agencies. Furthermore, the toolkits we examined largely skewed towards industry practitioners as the envisioned users (with some exceptions; e.g., \ref{itm:T17-AEKit}), and were largely intended to fit into AI development processes (as suggested by the large proportion of toolkits that were open source code). As such, future work should explore toolkits intended to be used by policymakers, civil society, or community stakeholders more generally. Finally, our search approach may have missed out on many resources that do not use the term "toolkit" or "ethical AI," but still fit within this design paradigm given their design and intended uses. 
+
+
+
+% We looked at a small set of toolkits, not meant to be representative, etc
+% - The toolkits themselves are largely from tech companies, academia, and nonprofits
+% - Most are open source code
+
+% I think our toolkits skew toward industry practitioners as toolkit users. We did try to be somewhat diverse - there's a couple things in there for management, policy folks, and local communities. But I think our selection criteria of toolkits is that they have to seem like they're a part of the development/deployment process of AI systems (if we don't state that in methods, we should, or something similar!), so most of them are (technical) practitioner oriented. (This is maybe part of bullet point 1)
+
+% Search terms:
+% - Might have missed many that are or consider themselves to be toolkits, but didn’t show up in the search
+% - Or don’t use the terms “ethical AI” but are relevant
+
+
+
+\section{Conclusion}
+% This paper investigates how AI ethics toolkits frame and embed particular visions for what it means to do \textit{the work of addressing ethics}. Through our analysis, we found gaps between the types of approaches imagined by the toolkits and the guidance provided. While framing ethics and fairness as socio-technical issues that require diverse stakeholder involvement and engagement, many of the toolkits focused on technical approaches for individual developers and technical practitioners to undertake. With some exceptions, toolkits lacked guidance on how to involve more diverse stakeholders or how to navigate organizational power dynamics when addressing AI ethics. The ideas about work embedded in toolkits is important, because they serve to legitimize particular (often technical) stakeholders' expertise and practice as being the "proper" way for addressing ethical issues, while skills in understanding social components of ethics and fairness or skills in navigating the social dynamics of organization are discounted. In practice, all of these approaches are required to fully address ethical and fairness issues in AI systems.
+
+This paper investigates how AI ethics toolkits frame and embed particular visions for what it means to do \textit{the work of addressing ethics}. Based on our findings, we recommend that designers of AI ethics toolkits should better support the social dimensions of ethics work, provide support for engaging with diverse stakeholders, and frame AI ethics as a problem for collective action rather than individual practice. Toolkit development should be tied more closely to empirical research that studies the social, organizational, and technical work required to surface and address ethical issues. Creating tools or resources in a format that challenges the notions of the ``toolkit'' \textit{per se} may open up the design space to foster new approaches to AI ethics. Although no single artifact alone will solve all AI ethics problems, intentionally diversifying the forms of work that such artifacts envision and support may enable more effective ethical interventions in the work practices adopted by developers, designers, researchers, policymakers, and other stakeholders. 
+
+%%
+%% The acknowledgments section is defined using the "acks" environment
+%% (and NOT an unnumbered section). This ensures the proper
+%% identification of the section in the article metadata, and the
+%% consistent spelling of the heading.
+\begin{acks}
+Thank you to Emma Lurie, Zoe Kahn, Ken Holstein, our colleagues at the UC Berkeley Center for Long-Term Cybersecurity and Microsoft Research, and the anonymous reviewers for their comments and feedback on this work.
+\end{acks}
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bibliography}
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+
+\section{Toolkit Listing and Analysis}
+\label{section:toolkit-list}
+
+\begin{enumerate}[label=T\arabic*]
+    \item \label{itm:T1-EthicsKit}Ethics Kit, \url{http://ethicskit.org/tools.html}
+    \item \label{itm:T2-ModelCards}Model Cards, \url{https://modelcards.withgoogle.com/about}
+    \item \label{itm:T3-AIF360} AI Fairness 360, \url{https://aif360.mybluemix.net/}
+    \item \label{itm:T4-InterpretML} InterpretML, \url{https://github.com/interpretml/interpret}
+    \item \label{itm:T5-Fairlearn} Fairlearn,	\url{https://fairlearn.github.io/}
+    \item \label{itm:T6-Aequitas} Aequitas,	\url{http://aequitas.dssg.io/}
+    \item \label{itm:T7-EthicsAndAlgorithms}\label{itm:T15-EthicsAndAlgorithms} Ethics \& Algorithms Toolkit \url{https://ethicstoolkit.ai/}
+    % ^ This one was in our sample twice, so 2 labels
+    \item \label{itm:T8-ConsequenceScanning} Consequence Scanning Kit,	\url{https://www.doteveryone.org.uk/project/consequence-scanning/}
+    \item \label{itm:T9-AIEthicsCards} AI Ethics Cards, \url{https://www.ideo.com/post/ai-ethics-collaborative-activities-for-designers}
+    \item \label{itm:T10-WhatIf} What If Tool, \url{https://pair-code.github.io/what-if-tool/}
+    \item \label{itm:T11-DigitalImpactToolkit} Digital Impact Toolkit, \url{https://digitalimpact.io/toolkit/}
+    \item \label{itm:T12-Deon}	Deon Ethics Checklist, \url{http://deon.drivendata.org/}
+    \item \label{itm:T13-DesignEthically} Design Ethically Toolkit, \url{https://www.designethically.com/toolkit}
+    \item \label{itm:T14-Lime} Lime, \url{https://github.com/marcotcr/lime}
+    \item \label{itm:T26-WeightsBalances} Weights and Biases, \url{https://wandb.ai/site}
+    % ^ Giving this a new number because we're missing a 15. Using the old number in the label
+    \item \label{itm:T16-ResponsibleAI}	Responsible AI in Consumer Enterprise,	\url{https://static1.squarespace.com/static/5d387c126be524000116bbdb/t/5d77e37092c6df3a5151c866/1568138185862/Ethics-of-artificial-intelligence.pdf}
+    \item \label{itm:T17-AEKit}	Algorithmic Equity Toolkit (AEKit),	\url{https://www.aclu-wa.org/AEKit}
+    \item \label{itm:T18-LiFT} LinkedIn Fairness Toolkit (LiFT), 	\url{https://github.com/linkedin/LiFT}, \url{https://engineering.linkedin.com/blog/2020/lift-addressing-bias-in-large-scale-ai-applications}
+    \item \label{itm:T19-AuditAI}	Audit AI, \url{https://github.com/pymetrics/audit-ai}
+    \item \label{itm:T20-TensorFlow} TensorFlow Fairness Indicators,	\url{https://github.com/tensorflow/fairness-indicators}
+    \item \label{itm:T21-JudgmentCall} Judgment Call,	\url{https://docs.microsoft.com/en-us/azure/architecture/guide/responsible-innovation/judgmentcall}
+    \item \label{itm:T22-SageMaker} SageMaker Clarify, \url{https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_processing/fairness_and_explainability/fairness_and_explainability.html}
+    \item \label{itm:T23-NLPChecklist}	NLP CheckList, 	\url{https://github.com/marcotcr/checklist}
+    \item \label{T24-HAX} HAX Workbook and Playbook, 	\url{https://www.microsoft.com/en-us/haxtoolkit/workbook/}
+    \item \label{itm:T27-CommunityJury}	Community Jury, \url{https://docs.microsoft.com/en-us/azure/architecture/guide/responsible-innovation/community-jury/}
+    % Re-numbered item due to doubles earlier. Ref is still T27
+    \item \label{itm:T28-HarmsModeling}	Harms Modeling,	\url{https://docs.microsoft.com/en-us/azure/architecture/guide/responsible-innovation/harms-modeling/}
+    % Re-numbered item due to doubles earlier. Ref is still T28
+    \item \label{itm:T29-AlgorithmicAccountabilityPolicy}	Algorithmic Accountability Policy Toolkit,	\url{https://ainowinstitute.org/aap-toolkit.pdf}
+    % Re-numbered item due to doubles earlier. Ref is still T29
+
+\end{enumerate}
+
+
+%\begin{longtable}{p{0.04\textwidth}p{0.1\textwidth}p{0.22\textwidth}p{0.12\textwidth}p{0.22\textwidth}p{0.2\textwidth}}
+%\caption{Analyzed Dimensions of Toolkits}
+%\label{table:toolkits-analysis}
+%\toprule
+%\textbf{ID} & \textbf{Toolkit Name} & \textbf{Toolkit Author(s)} & \textbf{Author Types} & \textbf{Audience(s)} & \textbf{Form Factor} \\
+%\midrule
+%\endfirsthead
+
+\begin{table*}[]
+\small
+\caption{Analyzed Dimensions of Toolkits}
+\label{tab:toolkits-analysis}
+\begin{tabular}{p{0.04\textwidth}p{0.1\textwidth}p{0.2\textwidth}p{0.10\textwidth}p{0.2\textwidth}p{0.2\textwidth}}
+
+
+
+\toprule
+\textbf{ID} & \textbf{Toolkit Name} & \textbf{Toolkit Author(s)} & \textbf{Author Types} & \textbf{Audience(s)} & \textbf{Form Factor} \\
+\midrule
+%\endhead
+\ref{itm:T1-EthicsKit} & Ethics Kit & Open Data Institute, Common Good, Co-op Digital, Hyper Island, Plot & Non-Profit, Design Agency & Designers & Design Exercises, Worksheets \\
+\midrule
+\ref{itm:T2-ModelCards} & Model Cards & Google & Technology Company & Developers, Policymakers, Analysts, Advocates, Users & Examples,  Webpage \\
+\midrule
+\ref{itm:T3-AIF360} & AI Fairness 360 & IBM & Technology Company & Data Scientists & Open Source Code, Documentation, Code Examples, Tutorials \\
+\midrule
+\ref{itm:T4-InterpretML} & InterpretML & Microsoft & Technology Company & Data Scientists & Open Source Code, Documentation, Code Examples \\
+\midrule
+\ref{itm:T5-Fairlearn} & Fairlearn & Miro Dudik (Microsoft Research), Microsoft Research, Open Source Community & Technology Company; Open Source Community & Data Scientists & Open Source Code, Documentaiton, User Guide, Code Examples \\
+\midrule
+\ref{itm:T6-Aequitas} & Aequitas & University of Chicago Center for Data Science and Public Policy & University & ML Developers, Analysts, Policymakers & Open Source Code, Web Audit Tool, Example, Documentation \\
+\midrule
+\ref{itm:T7-EthicsAndAlgorithms} & Ethics \& Algorithms Toolkit & Johns Hopkins Center for Government Excellence (GovEx), City and County of San Francisco, Harvard DataSmart, Data Community DC & University, Government Agency, Non-Profit & Government Leaders, Stakeholders, Data Analysts, Information Technology Professionals, Vendor Representatives & Guide, Worksheets \\
+\midrule
+\ref{itm:T8-ConsequenceScanning} & Consequence Scanning Kit & Dot Everyone & Non-Profit & Team Members, User Advocates, Tech and Business Specialists, Business or External Stakeholders & Manual, Exercises \\
+\midrule
+\ref{itm:T9-AIEthicsCards} & AI Ethics Cards & IDEO & Design Agency & Designers & Cards \\
+\midrule
+\ref{itm:T10-WhatIf} & What If Tool & People + AI Research Team (Google) & Technology Company & Data scientists & Open Source Code, Tutorials, Documentation, Examples \\
+\midrule
+\ref{itm:T11-DigitalImpactToolkit} & Digital Impact Toolkit & Stanford Digital Civil Society Lab & University & Civil Society Organizations & Checklists, Worksheets, Reading Materials \\
+\midrule
+
+
+
+%\end{longtable}
+\end{tabular}
+\end{table*}
+
+
+
+\begin{table*}[]
+\small
+\begin{tabular}{p{0.04\textwidth}p{0.1\textwidth}p{0.2\textwidth}p{0.10\textwidth}p{0.2\textwidth}p{0.2\textwidth}}
+
+\toprule
+\textbf{ID} & \textbf{Toolkit Name} & \textbf{Toolkit Author(s)} & \textbf{Author Types} & \textbf{Audience(s)} & \textbf{Form Factor} \\
+\midrule
+\ref{itm:T12-Deon} & Deon Ethics Checklist & DrivenData & Non-Profit & Developers & Checklist, Open Source Code, Documentation \\
+\midrule
+\ref{itm:T13-DesignEthically} & Design Ethically Toolkit & Kat Zhou & Tech Worker & Designers & Exercises, Worksheets \\
+\midrule
+\ref{itm:T14-Lime} & Lime & Macro Ribeiro, Sameer Singh, Carlos Guestrin (University of Washington); Open Source Community & University; Open Source Community & Data Scientists & Open Source Code, Documentation \\
+\midrule
+\ref{itm:T26-WeightsBalances} & Weights and Biases & Weights and Biases & Technology Company & Developers & SaaS product, Articles \\ 
+\midrule
+\ref{itm:T16-ResponsibleAI} & Responsible AI in Consumer Enterprise & integrate.ai & Technology Company & Organizations, Executive Leadership, Implementation teams & Guide, Framework \\ 
+\midrule
+\ref{itm:T17-AEKit} & Algorithmic Equity Toolkit (AEKit) & ACLU of Washington, Critical Platform Studies Group, Tech Fairness Coalition & University; Non-Profit & Community Groups & Activities \\
+\midrule
+\ref{itm:T18-LiFT} & LinkedIn Fairness Toolkit (LiFT) & LinkedIn & Technology Company & Machine Learning Developers & Open Source Code, Documentation, Blog \\
+\midrule
+\ref{itm:T19-AuditAI} & Audit AI & Pymetrics & Technology Company & Data Scientists & Open Source Code, Documentation, Examples \\
+\midrule
+\ref{itm:T20-TensorFlow} & TensorFlow Fairness Indicators & Google & Technology Company & "Teams" & Open Source Code, Documentation, Examples \\
+\midrule
+\ref{itm:T21-JudgmentCall} & Judgment Call & Microsoft Research & Technology Company & Technology builders, managers, designers & Cards, Activities \\
+\midrule
+\ref{itm:T22-SageMaker} & SageMaker Clarify & Amazon & Technology Company & "AWS customers" & Proprietary Code, Documentation, Example \\
+\midrule
+\ref{itm:T23-NLPChecklist} & NLP CheckList & Marco Tulio Ribeiro (Microsoft Research), Tongshuang Wu (University of Washington), Carlos Guestrin (University of Washington), Smaeer Singh (UC Irvine) & University; Technology Company & Team & Open Source Code, Documentation, Examples \\
+\midrule
+
+
+\end{tabular}
+\end{table*}
+
+\begin{table*}[]
+\small
+\begin{tabular}{p{0.04\textwidth}p{0.1\textwidth}p{0.2\textwidth}p{0.10\textwidth}p{0.2\textwidth}p{0.2\textwidth}}
+
+\toprule
+\textbf{ID} & \textbf{Toolkit Name} & \textbf{Toolkit Author(s)} & \textbf{Author Types} & \textbf{Audience(s)} & \textbf{Form Factor} \\
+\midrule
+\ref{T24-HAX} & HAX Workbook and Playbook & Microsoft Research & Technology Company & UX, AI, project management, and engineering teams & Guide, Workbook/Worksheets, Examples, Guidelines \\
+\midrule
+\ref{itm:T27-CommunityJury} & Community Jury & Microsoft & Technology Company & Product Team & Activity \\
+\midrule
+\ref{itm:T28-HarmsModeling} & Harms Modeling & Microsoft & Technology Company & Technology Builders & Activity \\
+\midrule
+\ref{itm:T29-AlgorithmicAccountabilityPolicy} & Algorithmic Accountability Policy Toolkit & AI Now & Non-Profit & Legal and Policy Advocates & PDF Guide \\
+\midrule
+
+\end{tabular}
+\end{table*}
+
+\received{July 2022}
+\received[revised]{October 2022}
+\received[accepted]{January 2023}
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-authordraft.tex'.

@@ -1,0 +1,13 @@
+% \FloatBarrier
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{ccccc}\toprule
+         &  $EM$ & $EM_{msp}\textcolor{gray}{[\Delta \%]}$&  $EM_{fmt} \textcolor{gray}{[\Delta \%]}$ & $EM_{ctst}\textcolor{gray}{[\Delta \%]}$\\\midrule
+       ChatGPT  & 0.949 & 0.949 \text{\textcolor{gray}{[-0.0\%]}} & 0.949 \textcolor{gray}{[-0.0\%]}& 0.942 \textcolor{gray}{[-0.7\%]}\\
+       InstructGPT & 0.898 & 0.881 \textcolor{gray}{[-1.9\%]}& 0.888 \textcolor{gray}{[-1.1\%]}& 0.873 \textcolor{gray}{[-2.8\%]}\\
+       GLM & 0.795 & 0.792 \textcolor{gray}{[-0.4\%]}& 0.790 \textcolor{gray}{[-0.6\%]}& 0.685 \textcolor{gray}{[-13.9\%]}\\\bottomrule
+    \end{tabular}
+    \caption{Evaluation results of semantic perturbations on BoolQ. We compare ChatGPT with 5-shot InstructGPT (davinci-v2) and 5-shot GLM (130b).}
+    \label{tab:boolqa}
+\end{table}
+% \FloatBarrier

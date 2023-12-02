@@ -1,0 +1,13 @@
+---
+title: "Walking the Walk of AI Ethics: Organizational Challenges and the Individualization of Risk among Ethics Entrepreneurs"
+title_slug: "walking-walk-of-ai-ethics-organizational-challenges-and-individualization-of-risk-among-ethics-entrepreneurs"
+license: "cc-by"
+published: "2023-05-16 16:11:24+00:00"
+entry_id: "http://arxiv.org/abs/2305.09573v1"
+author: "Sanna J. Ali, Angèle Christin, Andrew Smart, Riitta Katila"
+pdf: "walking-the-walk-of-ai-ethics-organizational-challenges-and-the-individualization-of-risk-among-ethics-entrepreneurs.pdf"
+primary_category: "cs.CY"
+get_short_id: "2305.09573v1"
+image: img.png
+section: "Papers"
+---

@@ -1,0 +1,13 @@
+---
+title: "Expose Uncertainty, Instill Distrust, Avoid Explanations: Towards Ethical Guidelines for AI"
+title_slug: "expose-uncertainty-instill-distrust-avoid-explanations-towards-ethical-guidelines-for-ai"
+license: "cc-by"
+published: "2021-11-29 14:53:35+00:00"
+entry_id: "http://arxiv.org/abs/2112.01281v1"
+author: "Claudio S. Pinhanez"
+pdf: "expose-uncertainty-instill-distrust-avoid-explanations-towards-ethical-guidelines-for-ai.pdf"
+primary_category: "cs.CY"
+get_short_id: "2112.01281v1"
+image: img.png
+section: "Papers"
+---

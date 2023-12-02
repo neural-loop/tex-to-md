@@ -1,0 +1,13 @@
+---
+title: "U.S. Public Opinion on the Governance of Artificial Intelligence"
+title_slug: "u-s-public-opinion-on-governance-of-artificial-intelligence"
+license: "cc-by"
+published: "2019-12-30 07:38:38+00:00"
+entry_id: "http://arxiv.org/abs/1912.12835v1"
+author: "Baobao Zhang, Allan Dafoe"
+pdf: "u-s-public-opinion-on-the-governance-of-artificial-intelligence.pdf"
+primary_category: "cs.CY"
+get_short_id: "1912.12835v1"
+image: img.png
+section: "Papers"
+---

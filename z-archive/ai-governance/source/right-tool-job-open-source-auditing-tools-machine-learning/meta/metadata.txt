@@ -1,0 +1,13 @@
+---
+title: "The Right Tool for the Job: Open-Source Auditing Tools in Machine Learning"
+title_slug: "right-tool-for-job-open-source-auditing-tools-in-machine-learning"
+license: "cc-by"
+published: "2022-06-20 15:20:26+00:00"
+entry_id: "http://arxiv.org/abs/2206.10613v1"
+author: "Cherie M Poland"
+pdf: "the-right-tool-for-the-job-open-source-auditing-tools-in-machine-learning.pdf"
+primary_category: "cs.LG"
+get_short_id: "2206.10613v1"
+image: img.png
+section: "Papers"
+---

@@ -1,0 +1,13 @@
+---
+title: "The Fallacy of AI Functionality"
+title_slug: "fallacy-of-ai-functionality"
+license: "cc-by"
+published: "2022-06-20 00:11:48+00:00"
+entry_id: "http://arxiv.org/abs/2206.09511v2"
+author: "Inioluwa Deborah Raji, I. Elizabeth Kumar, Aaron Horowitz, Andrew D. Selbst"
+pdf: "the-fallacy-of-ai-functionality.pdf"
+primary_category: "cs.LG"
+get_short_id: "2206.09511v2"
+image: img.png
+section: "Papers"
+---

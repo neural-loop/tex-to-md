@@ -1,0 +1,13 @@
+---
+title: "To Be Forgotten or To Be Fair: Unveiling Fairness Implications of Machine Unlearning Methods"
+title_slug: "to-be-forgotten-or-to-be-fair-unveiling-fairness-implications-of-machine-unlearning-methods"
+license: "cc-by"
+published: "2023-02-07 09:48:29+00:00"
+entry_id: "http://arxiv.org/abs/2302.03350v1"
+author: "Dawen Zhang, Shidong Pan, Thong Hoang, Zhenchang Xing, Mark Staples, Xiwei Xu, Lina Yao, Qinghua Lu, Liming Zhu"
+pdf: "to-be-forgotten-or-to-be-fair-unveiling-fairness-implications-of-machine-unlearning-methods.pdf"
+primary_category: "cs.SE"
+get_short_id: "2302.03350v1"
+image: img.png
+section: "Papers"
+---

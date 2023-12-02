@@ -1,0 +1,369 @@
+\begin{thebibliography}{47}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{AIAAIC}(2016)]{aiaaic_incident_2016}
+{AIAAIC}.
+\newblock Incident 53: {Biased} {Google} {Image} {Results}.
+\newblock \emph{AI Incident Database}, 2016.
+\newblock URL \url{https://incidentdatabase.ai/cite/53}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[{Andrea Brennen} and {Ryan Ashley}(2022)]{andrea_brennen_ai_2022}
+{Andrea Brennen} and {Ryan Ashley}.
+\newblock {AI} {Assurance}: {What} happened when we audited a deepfake
+  detection tool called {FakeFinder}, January 2022.
+\newblock URL
+  \url{https://www.iqt.org/ai-assurance-what-happened-when-we-audited-a-deepfake-detection-tool-called-fakefinder/}.
+
+\bibitem[{Anonymous}(2015)]{anonymous_incident_2015}
+{Anonymous}.
+\newblock Incident 16: {Images} of {Black} {People} {Labeled} as {Gorillas}.
+\newblock \emph{AI Incident Database}, 2015.
+\newblock URL \url{https://incidentdatabase.ai/cite/16}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[{Anonymous}(2016)]{anonymous_incident_2016}
+{Anonymous}.
+\newblock Incident 37: {Female} {Applicants} {Down}-{Ranked} by {Amazon}
+  {Recruiting} {Tool}.
+\newblock \emph{AI Incident Database}, 2016.
+\newblock URL \url{https://incidentdatabase.ai/cite/37}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[{Anonymous}(2020)]{anonymous_incident_2020}
+{Anonymous}.
+\newblock Incident 102: {Personal} voice assistants struggle with black voices,
+  new study shows.
+\newblock \emph{AI Incident Database}, 2020.
+\newblock URL \url{https://incidentdatabase.ai/cite/102}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[{Anonymous}(2021{\natexlab{a}})]{anonymous_incident_2021}
+{Anonymous}.
+\newblock Incident 160: {Alexa} {Recommended} {Dangerous} {TikTok} {Challenge}
+  to {Ten}-{Year}-{Old} {Girl}.
+\newblock \emph{AI Incident Database}, 2021{\natexlab{a}}.
+\newblock URL \url{https://incidentdatabase.ai/cite/160}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[{Anonymous}(2021{\natexlab{b}})]{anonymous_incident_2021-1}
+{Anonymous}.
+\newblock Incident 149: {Zillow} {Shut} {Down} {Zillow} {Offers} {Division}
+  {Allegedly} {Due} to {Predictive} {Pricing} {Tool}'s {Insufficient}
+  {Accuracy}.
+\newblock \emph{AI Incident Database}, 2021{\natexlab{b}}.
+\newblock URL \url{https://incidentdatabase.ai/cite/149}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[{Appen}(2022)]{appen_launch_2022}
+{Appen}.
+\newblock Launch {World}-{Class} {AI} and {ML} {Projects} with {Confidence},
+  November 2022.
+\newblock URL \url{https://s40188.p1443.sites.pressdns.com/platform-5/}.
+
+\bibitem[Blum and Hardt(2015)]{blum_ladder_2015}
+Avrim Blum and Moritz Hardt.
+\newblock The ladder: {A} reliable leaderboard for machine learning
+  competitions.
+\newblock In \emph{International {Conference} on {Machine} {Learning}}, pages
+  1006--1014. PMLR, 2015.
+
+\bibitem[Colmer(2018)]{colmer_incident_2018}
+Devon Colmer.
+\newblock Incident 361: {Amazon} {Echo} {Mistakenly} {Recorded} and {Sent}
+  {Private} {Conversation} to {Random} {Contact}.
+\newblock \emph{AI Incident Database}, 2018.
+\newblock URL \url{https://incidentdatabase.ai/cite/361}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[Czakon(2021)]{czakon_best_2021}
+Jakub Czakon.
+\newblock Best {Tools} to {Do} {ML} {Model} {Monitoring}, March 2021.
+\newblock URL \url{https://neptune.ai/blog/ml-model-monitoring-best-tools}.
+
+\bibitem[D'Amour et~al.(2020)D'Amour, Heller, Moldovan, Adlam, Alipanahi,
+  Beutel, Chen, Deaton, Eisenstein, Hoffman, and
+  {others}]{damour_underspecification_2020}
+Alexander D'Amour, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi,
+  Alex Beutel, Christina Chen, Jonathan Deaton, Jacob Eisenstein, Matthew~D
+  Hoffman, and {others}.
+\newblock Underspecification presents challenges for credibility in modern
+  machine learning.
+\newblock \emph{arXiv preprint arXiv:2011.03395}, 2020.
+
+\bibitem[Deng et~al.(2009)Deng, Dong, Socher, Li, Li, and
+  Fei-Fei]{deng_imagenet_2009}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
+\newblock {ImageNet}: {A} {Large}-{Scale} {Hierarchical} {Image} {Database}.
+\newblock \emph{IEEE Conference on Computer Vision and Pattern Recognition},
+  page~8, 2009.
+
+\bibitem[Dietterich and Guyer(2022)]{dietterich_familiarity_2022}
+Thomas~G. Dietterich and Alex Guyer.
+\newblock The familiarity hypothesis: {Explaining} the behavior of deep open
+  set methods.
+\newblock \emph{Pattern Recognition}, 132:\penalty0 108931, 2022.
+\newblock Publisher: Elsevier.
+
+\bibitem[Dolhansky et~al.(2019)Dolhansky, Bitton, Pflaum, Lu, Howes, Wang, and
+  Ferrer]{dolhansky_deepfake_2019}
+B.~Dolhansky, J.~Bitton, B.~Pflaum, J.~Lu, R.~Howes, M.~Wang, and C.~Canton
+  Ferrer.
+\newblock The {DeepFake} {Detection} {Challenge} ({DFDC}) {Dataset}.
+\newblock \emph{arXiv e-prints}, 2019.
+
+\bibitem[{Erin Mulvaney}(2021)]{erin_mulvaney_nyc_2021}
+{Erin Mulvaney}.
+\newblock {NYC} {Targets} {Artificial} {Intelligence} {Bias} in {Hiring}
+  {Under} {New} {Law}, December 2021.
+\newblock URL
+  \url{https://news.bloomberglaw.com/daily-labor-report/nyc-targets-artificial-intelligence-bias-in-hiring-under-new-law}.
+
+\bibitem[{European Union}(2021)]{european_union_ai_2021}
+{European Union}.
+\newblock The {AI} {Act}, February 2021.
+\newblock URL \url{https://artificialintelligenceact.eu/the-act/}.
+
+\bibitem[{Gartner}(2018)]{gartner_predicts_2018}
+{Gartner}.
+\newblock Predicts 2019: {Artificial} {Intelligence} {Core} {Technologies}.
+\newblock Technical report, Gartner, November 2018.
+\newblock URL \url{https://www.gartner.com/en/documents/3894131}.
+
+\bibitem[{GitLab}(2022)]{gitlab_cicd_2022}
+{GitLab}.
+\newblock {CI}/{CD} concepts {\textbar} {GitLab}, November 2022.
+\newblock URL \url{https://docs.gitlab.com/ee/ci/introduction/}.
+
+\bibitem[{Google}(2022)]{google_building_2022}
+{Google}.
+\newblock Building responsible {AI} for everyone, November 2022.
+\newblock URL \url{https://ai.google/responsibilities/}.
+
+\bibitem[Hall(2020)]{hall_incident_2020}
+Patrick Hall.
+\newblock Incident 134: {Robot} in {Chinese} {Shopping} {Mall} {Fell} off the
+  {Escalator}, {Knocking} down {Passengers}.
+\newblock \emph{AI Incident Database}, 2020.
+\newblock URL \url{https://incidentdatabase.ai/cite/134}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[Hosseini et~al.(2017)Hosseini, Kannan, Zhang, and
+  Poovendran]{hosseini_deceiving_2017}
+Hossein Hosseini, Sreeram Kannan, Baosen Zhang, and Radha Poovendran.
+\newblock Deceiving {Google}'s {Perspective} {API} {Built} for {Detecting}
+  {Toxic} {Comments}, February 2017.
+\newblock URL \url{http://arxiv.org/abs/1702.08138}.
+\newblock arXiv:1702.08138 [cs].
+
+\bibitem[{Hugging
+  Face}(2022)]{hugging_face_distilbert-base-uncased-finetuned-sst-2-english_2022}
+{Hugging Face}.
+\newblock distilbert-base-uncased-finetuned-sst-2-english · {Hugging} {Face},
+  November 2022.
+\newblock URL
+  \url{https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english}.
+
+\bibitem[{IBM}(2022)]{ibm_ai_2022}
+{IBM}.
+\newblock {AI} {Ethics}, November 2022.
+\newblock URL \url{https://www.ibm.com/artificial-intelligence/ethics}.
+
+\bibitem[{Information Commisioner's
+  Office}(2022)]{information_commisioners_office_guidance_2022}
+{Information Commisioner's Office}.
+\newblock Guidance on the {AI} auditing framework {Draft} guidance for
+  consultation.
+\newblock Technical Report 20200214, Information Commisioner's Office, November
+  2022.
+\newblock URL
+  \url{https://ico.org.uk/media/2617219/guidance-on-the-ai-auditing-framework-draft-for-consultation.pdf}.
+
+\bibitem[{Jared Dunnmon} et~al.(2021){Jared Dunnmon}, {Bryce Goodman}, {Peter
+  Kirechu}, {Carol Smith}, and {Alexandrea Van
+  Deusen}]{jared_dunnmon_responsible_2021}
+{Jared Dunnmon}, {Bryce Goodman}, {Peter Kirechu}, {Carol Smith}, and
+  {Alexandrea Van Deusen}.
+\newblock Responsible {AI} {Guidelines} in {Practice}.
+\newblock Technical report, Defense Innovation Unit, March 2021.
+\newblock URL
+  \url{https://assets.ctfassets.net/3nanhbfkr0pc/acoo1Fj5uungnGNPJ3QWy/6ec382b3b5a20ec7de6defdb33b04dcd/2021_RAI_Report.pdf}.
+
+\bibitem[Knauss et~al.(2012)Knauss, Damian, Poo-Caamaño, and
+  Cleland-Huang]{knauss_detecting_2012}
+Eric Knauss, Daniela Damian, Germán Poo-Caamaño, and Jane Cleland-Huang.
+\newblock \emph{Detecting and {Classifying} {Patterns} of {Requirements}
+  {Clarifications}}.
+\newblock 20th IEEE International Requirements Engineering Conference,
+  September 2012.
+\newblock \doi{10.1109/RE.2012.6345811}.
+\newblock Journal Abbreviation: 2012 20th IEEE International Requirements
+  Engineering Conference, RE 2012 - Proceedings Publication Title: 2012 20th
+  IEEE International Requirements Engineering Conference, RE 2012 -
+  Proceedings.
+
+\bibitem[Leibowicz et~al.(2021)Leibowicz, McGregor, and
+  Ovadya]{leibowicz_deepfake_2021}
+Claire Leibowicz, Sean McGregor, and Aviv Ovadya.
+\newblock The {Deepfake} {Detection} {Dilemma}: {A} {Multistakeholder}
+  {Exploration} of {Adversarial} {Dynamics} in {Synthetic} {Media}, February
+  2021.
+\newblock URL \url{http://arxiv.org/abs/2102.06109}.
+\newblock arXiv:2102.06109 [cs].
+
+\bibitem[Manheim and Garrabrant(2019)]{manheim_categorizing_2019}
+David Manheim and Scott Garrabrant.
+\newblock Categorizing {Variants} of {Goodhart}'s {Law}, February 2019.
+\newblock URL \url{http://arxiv.org/abs/1803.04585}.
+\newblock arXiv:1803.04585 [cs, q-fin, stat].
+
+\bibitem[Mazumder et~al.(2022)Mazumder, Banbury, Yao, Karlaš, Rojas, Diamos,
+  Diamos, He, Kiela, Jurado, Kanter, Mosquera, Ciro, Aroyo, Acun, Eyuboglu,
+  Ghorbani, Goodman, Kane, Kirkpatrick, Kuo, Mueller, Thrush, Vanschoren,
+  Warren, Williams, Yeung, Ardalani, Paritosh, Zhang, Zou, Wu, Coleman, Ng,
+  Mattson, and Reddi]{mazumder_dataperf_2022}
+Mark Mazumder, Colby Banbury, Xiaozhe Yao, Bojan Karlaš, William~Gaviria
+  Rojas, Sudnya Diamos, Greg Diamos, Lynn He, Douwe Kiela, David Jurado, David
+  Kanter, Rafael Mosquera, Juan Ciro, Lora Aroyo, Bilge Acun, Sabri Eyuboglu,
+  Amirata Ghorbani, Emmett Goodman, Tariq Kane, Christine~R. Kirkpatrick,
+  Tzu-Sheng Kuo, Jonas Mueller, Tristan Thrush, Joaquin Vanschoren, Margaret
+  Warren, Adina Williams, Serena Yeung, Newsha Ardalani, Praveen Paritosh,
+  Ce~Zhang, James Zou, Carole-Jean Wu, Cody Coleman, Andrew Ng, Peter Mattson,
+  and Vijay~Janapa Reddi.
+\newblock {DataPerf}: {Benchmarks} for {Data}-{Centric} {AI} {Development},
+  July 2022.
+\newblock URL \url{http://arxiv.org/abs/2207.10062}.
+\newblock arXiv:2207.10062 [cs].
+
+\bibitem[McGregor(2021)]{mcgregor_preventing_2021}
+Sean McGregor.
+\newblock Preventing repeated real world {AI} failures by cataloging incidents:
+  {The} {AI} {Incident} {Database}.
+\newblock In \emph{{AAAI} {Conference} on {Artificial} {Intelligence}},
+  volume~35, pages 15458--15463, 2021.
+\newblock Issue: 17.
+
+\bibitem[McGregor et~al.(2022)McGregor, Paeth, and Lam]{mcgregor_indexing_2022}
+Sean McGregor, Kevin Paeth, and Khoa Lam.
+\newblock Indexing {AI} {Risks} with {Incidents}, {Issues}, and {Variants}.
+\newblock In \emph{{NeurIPS} {Workshop} on {Human}-{Centered} {AI}}. arXiv,
+  November 2022.
+\newblock URL \url{http://arxiv.org/abs/2211.10384}.
+\newblock arXiv:2211.10384 [cs].
+
+\bibitem[{ML Commons}(2022)]{ml_commons_mlcommons_2022}
+{ML Commons}.
+\newblock {MLCommons}, November 2022.
+\newblock URL \url{https://mlcommons.org/}.
+
+\bibitem[{Munich Re}(2022)]{munich_re_insure_2022}
+{Munich Re}.
+\newblock Insure {AI} – {Guarantee} the performance of your {Artificial}
+  {Intelligence} systems, November 2022.
+\newblock URL
+  \url{https://www.munichre.com/en/solutions/for-industry-clients/insure-ai.html}.
+
+\bibitem[Munroe(2014)]{munroe_tasks_2014}
+Randall Munroe.
+\newblock Tasks, September 2014.
+\newblock URL \url{https://xkcd.com/1425/}.
+
+\bibitem[Mökander and Floridi(2022)]{mokander_operationalising_2022}
+Jakob Mökander and Luciano Floridi.
+\newblock Operationalising {AI} governance through ethics-based auditing: an
+  industry case study.
+\newblock \emph{AI and Ethics}, May 2022.
+\newblock ISSN 2730-5953, 2730-5961.
+\newblock \doi{10.1007/s43681-022-00171-7}.
+\newblock URL \url{https://link.springer.com/10.1007/s43681-022-00171-7}.
+
+\bibitem[{National Institute of Standards and
+  Technology}(2022)]{national_institute_of_standards_and_technology_what_2022}
+{National Institute of Standards and Technology}.
+\newblock What is {Dioptra}? — {Dioptra} 0.0.0 documentation, November 2022.
+\newblock URL \url{https://pages.nist.gov/dioptra/}.
+
+\bibitem[{Office of the Director of National
+  Intelligence}(2022)]{office_of_the_director_of_national_intelligence_artificial_2022}
+{Office of the Director of National Intelligence}.
+\newblock Artificial {Intelligence} {Ethics} {Framework} for the {Intelligence}
+  {Community}, November 2022.
+\newblock URL
+  \url{https://www.intelligence.gov/images/AI/AI_Ethics_Framework_for_the_Intelligence_Community_1.0.pdf}.
+
+\bibitem[Olsson(2017)]{olsson_incident_2017}
+Catherine Olsson.
+\newblock Incident 22: {Waze} {Navigates} {Motorists} into {Wildfires}.
+\newblock \emph{AI Incident Database}, 2017.
+\newblock URL \url{https://incidentdatabase.ai/cite/22}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[{Robert Stojnic} et~al.(2022){Robert Stojnic}, {Taylor, Ross},
+  {Kardas, Marcin}, and {Scialom, Scialom}]{robert_stojnic_papers_2022}
+{Robert Stojnic}, {Taylor, Ross}, {Kardas, Marcin}, and {Scialom, Scialom}.
+\newblock Papers with {Code} - {ImageNet} {Benchmark} ({Image}
+  {Classification}), October 2022.
+\newblock URL
+  \url{https://paperswithcode.com/sota/image-classification-on-imagenet}.
+
+\bibitem[{Seldon Core}(2022)]{seldon_core_seldon_2022}
+{Seldon Core}.
+\newblock Seldon {Core}, November 2022.
+\newblock URL \url{https://www.seldon.io/solutions/open-source-projects/core}.
+
+\bibitem[Simonite(2015)]{simonite_why_2015}
+Tom Simonite.
+\newblock Why and {How} {Baidu} {Cheated} an {Artificial} {Intelligence}
+  {Test}, June 2015.
+\newblock URL
+  \url{https://www.technologyreview.com/2015/06/04/72951/why-and-how-baidu-cheated-an-artificial-intelligence-test/}.
+
+\bibitem[Strathern(1997)]{strathern_improving_1997}
+Marilyn Strathern.
+\newblock ‘{Improving} ratings’: {Audit} in the {British} {University}
+  system.
+\newblock \emph{European Review}, 5\penalty0 (3):\penalty0 305--321, July 1997.
+\newblock ISSN 1474-0575, 1062-7987.
+\newblock \doi{10.1002/(SICI)1234-981X(199707)5:3<305::AID-EURO184>3.0.CO;2-4}.
+\newblock URL
+  \url{https://archive.org/details/ImprovingRatingsAuditInTheBritishUniversitySystem/mode/2up}.
+\newblock Publisher: Cambridge University Press.
+
+\bibitem[{Stuart Russell} and {Peter
+  Norvig}(2009)]{stuart_russell_artificial_2009}
+{Stuart Russell} and {Peter Norvig}.
+\newblock \emph{Artificial {Intelligence}: {A} {Modern} {Approach}, 3rd {US}
+  ed.}
+\newblock Prentice Hall, 2009.
+\newblock ISBN 0-13-604259-7.
+\newblock URL \url{http://aima.cs.berkeley.edu/}.
+
+\bibitem[Van~Looveren et~al.(2022)Van~Looveren, Klaise, Vacanti, Cobb,
+  Scillitoe, Samoilescu, and Athorne]{van_looveren_alibi_2022}
+Arnaud Van~Looveren, Janis Klaise, Giovanni Vacanti, Oliver Cobb, Ashley
+  Scillitoe, Robert Samoilescu, and Alex Athorne.
+\newblock Alibi {Detect}: {Algorithms} for outlier, adversarial and drift
+  detection, October 2022.
+\newblock URL \url{https://github.com/SeldonIO/alibi-detect}.
+
+\bibitem[Yampolskiy(2015)]{yampolskiy_incident_2015}
+Roman Yampolskiy.
+\newblock Incident 34: {Amazon} {Alexa} {Responding} to {Environmental}
+  {Inputs}.
+\newblock \emph{AI Incident Database}, 2015.
+\newblock URL \url{https://incidentdatabase.ai/cite/34}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\bibitem[Yampolskiy(2016)]{yampolskiy_incident_2016}
+Roman Yampolskiy.
+\newblock Incident 55: {Alexa} {Plays} {Pornography} {Instead} of {Kids}
+  {Song}.
+\newblock \emph{AI Incident Database}, 2016.
+\newblock URL \url{https://incidentdatabase.ai/cite/55}.
+\newblock Publisher: Responsible AI Collaborative.
+
+\end{thebibliography}

@@ -1,0 +1,16 @@
+\section{ANALYSIS}
+\label{sec:analysis}
+
+For each technology $tech$ and question $i$, we computed the average rating when $tech$ is deployed onsite, and the average rating when it is deployed remotely:
+
+\begin{align*}
+    & \textit{$onsite(tech)_{i}$} = \textit{$tech$'s average onsite rating}, \nonumber \\
+    & \textit{$remote(tech)_{i}$} = \textit{$tech$'s average remote rating}, \nonumber
+\end{align*}
+
+To then ease comparability, we $z$-scored these two values:
+\begin{align*}
+    & z_{onsite}(tech)_i  =  \frac{onsite(tech)_i - \mu_{onsite}(tech)_i}{\sigma_{onsite}(tech)_i},  \nonumber \\
+    & z_{remote}(tech)_i  =  \frac{remote(tech)_i - \mu_{remote}(tech)_i}{\sigma_{remote}(tech)_i} \nonumber
+\end{align*}
+where $i$ is one of the three questions (hard to adopt, intrusive, harmful), $\mu_{onsite}(tech)$ and $\sigma_{onsite}(tech)$ are the average and standard deviation of the ratings for all technologies deployed onsite, and $\mu_{remote}(tech)$ and $\sigma_{remote}(tech)$ are the average and standard deviation of the ratings for all technologies deployed remotely.

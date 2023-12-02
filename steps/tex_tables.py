@@ -24,24 +24,15 @@ def tex_tables(path):
         # Find the caption of the table
         caption_match = re.search(r'\\caption\{((?:[^{}]|{[^{}]*})*)\}', table)
         if caption_match:
-            caption = caption_match.group(1).replace('\n','').strip()
+            caption = caption_match.group(1).replace('"','\'').replace('\n','').strip()
+            caption = re.sub(r'\\label\{(.*?)\}', '', caption)
         else:
             caption = ""
 
-        # Only include the caption in the blockquote if it is not an empty string
-        if caption:
-            caption_text = f'\n> Table Caption: {caption}<br>'
-        else:
-            caption_text = ""
 
-        # Only include the div anchor tag if the label is not an empty string
-        if slugified_label:
-            div_tag = f'<div id="{slugified_label}"></div>\n'
-        else:
-            div_tag = ""
 
-        blockquote = f'{div_tag}{caption_text}\n> View table in PDF\n'
-
+        # blockquote = div_tag + caption_text + "\{\{" + "< pdf \""+ caption + "\">" + "\}\}\n"
+        blockquote = '\{\{< pdf caption="' + caption + '" id="' + slugified_label + '" >\}\}\n'
         # Replace the table with the blockquote
         main_tex_content = main_tex_content.replace(table, blockquote)
 

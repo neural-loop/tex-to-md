@@ -1,0 +1,267 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Ada Lovelace Institute}(2019)]{facevalue2019}
+{Ada Lovelace Institute}.
+\newblock Beyond face value: public attitudes to facial recognition technology.
+\newblock Technical report, Ada Lovelace Institute, 2019.
+\newblock URL \url{https://perma.cc/M4EG-N5MY}.
+
+\bibitem[Aghion et~al.(2010)Aghion, Algan, Cahuc, and
+  Shleifer]{aghion2010regulation}
+P.~Aghion, Y.~Algan, P.~Cahuc, and A.~Shleifer.
+\newblock Regulation and distrust.
+\newblock \emph{The Quarterly Journal of Economics}, 125\penalty0 (3):\penalty0
+  1015--1049, 2010.
+
+\bibitem[Casey~Newton and Zelenko(2017)]{newton2017verge}
+N.~S. Casey~Newton and M.~Zelenko.
+\newblock The verge tech survey.
+\newblock \emph{The Verge}, 2017.
+\newblock URL \url{https://perma.cc/F75M-ZRYA}.
+
+\bibitem[Caughey and Warshaw(2018)]{caughey2018policy}
+D.~Caughey and C.~Warshaw.
+\newblock Policy preferences and policy change: Dynamic responsiveness in the
+  american states, 1936--2014.
+\newblock \emph{American Political Science Review}, 112\penalty0 (2):\penalty0
+  249--266, 2018.
+
+\bibitem[Cave et~al.(2019)Cave, Coughlan, and Dihal]{cave2019scary}
+S.~Cave, K.~Coughlan, and K.~Dihal.
+\newblock Scary robots: examining public responses to ai.
+\newblock In \emph{Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics,
+  and Society}, pages 331--337. ACM, 2019.
+
+\bibitem[Cobb and Macoubrie(2004)]{macoubrie2004public}
+M.~D. Cobb and J.~Macoubrie.
+\newblock Public perceptions about nanotechnology: Risks, benefits and trust.
+\newblock \emph{Journal of Nanoparticle Research}, 6\penalty0 (4):\penalty0
+  395--405, 2004.
+
+\bibitem[Doherty and Kiley(2019)]{doherty2019americans}
+C.~Doherty and J.~Kiley.
+\newblock Americans have become much less positive about tech companies’
+  impact on the u.s.
+\newblock Technical report, Pew Research Center, 2019.
+\newblock URL \url{https://perma.cc/PHQ3-LD8D}.
+
+\bibitem[Eurobarometer(2017)]{eurobarometer460}
+Eurobarometer.
+\newblock Special eurobarometer 460: Attitudes towards the impact of
+  digitisation and automation on daily life.
+\newblock Technical report, Eurobarometer, 2017.
+\newblock URL \url{https://perma.cc/9FRT-ADST}.
+
+\bibitem[Fischer and Wenger(2019)]{politicallyneutral2019}
+S.-C. Fischer and A.~Wenger.
+\newblock A politically neutral hub for basic ai research.
+\newblock Technical report, Center for Security Studies (CSS) at ETH Zurich,
+  2019.
+\newblock URL \url{https://perma.cc/JA6M-RDUS}.
+
+\bibitem[Floridi and Cowls(2019)]{floridi2019unified}
+L.~Floridi and J.~Cowls.
+\newblock A unified framework of five principles for ai in society.
+\newblock \emph{Harvard Data Science Review}, 1\penalty0 (1), 6 2019.
+\newblock \doi{10.1162/99608f92.8cd550d1}.
+\newblock URL \url{https://hdsr.mitpress.mit.edu/pub/l0jsh9d1}.
+\newblock https://hdsr.mitpress.mit.edu/pub/l0jsh9d1.
+
+\bibitem[Funk(2017)]{funk2017}
+C.~Funk.
+\newblock Real numbers: Mixed messages about public trust in science.
+\newblock \emph{Issues in Science and Technology}, 34\penalty0 (1), 2017.
+\newblock URL \url{https://perma.cc/UF9P-WSRL}.
+
+\bibitem[Funk and Kennedy(2016)]{funk2016new}
+C.~Funk and B.~Kennedy.
+\newblock The new food fights: U.s. public divides over food science.
+\newblock Technical report, Pew Research Center, 2016.
+\newblock URL \url{https://perma.cc/TJ2L-K9JU}.
+
+\bibitem[Horowitz(2016)]{horowitz2016public}
+M.~C. Horowitz.
+\newblock Public opinion and the politics of the killer robots debate.
+\newblock \emph{Research \& Politics}, 3\penalty0 (1), 2016.
+\newblock URL \url{https://doi.org/10.1177/2053168015627183}.
+
+\bibitem[Kahn and Ingram(2018)]{kahn2018americans}
+C.~Kahn and D.~Ingram.
+\newblock Americans less likely to trust facebook than rivals on personal data:
+  Reuters/ipsos poll.
+\newblock \emph{Reuters}, 2018.
+\newblock URL \url{https://perma.cc/5KSL-2253}.
+
+\bibitem[Lang and Hallman(2005)]{lang2005does}
+J.~T. Lang and W.~K. Hallman.
+\newblock Who does the public trust? the case of genetically modified food in
+  the united states.
+\newblock \emph{Risk Analysis: An International Journal}, 25\penalty0
+  (5):\penalty0 1241--1252, 2005.
+
+\bibitem[Lin and Green(2016)]{lin2016standard}
+W.~Lin and D.~P. Green.
+\newblock Standard operating procedures: A safety net for pre-analysis plans.
+\newblock \emph{PS: Political Science \& Politics}, 49\penalty0 (3):\penalty0
+  495--500, 2016.
+
+\bibitem[Macoubrie(2006)]{macoubrie2006nanotechnology}
+J.~Macoubrie.
+\newblock Nanotechnology: public concerns, reasoning and trust in government.
+\newblock \emph{Public Understanding of Science}, 15\penalty0 (2):\penalty0
+  221--241, 2006.
+
+\bibitem[Marques et~al.(2015)Marques, Critchley, and
+  Walshe]{marques2015attitudes}
+M.~D. Marques, C.~R. Critchley, and J.~Walshe.
+\newblock Attitudes to genetically modified food over time: How trust in
+  organizations and the media cycle predict support.
+\newblock \emph{Public Understanding of Science}, 24\penalty0 (5):\penalty0
+  601--618, 2015.
+
+\bibitem[Mittelstadt(2019)]{mittelstadt2019ai}
+B.~Mittelstadt.
+\newblock Ai ethics--too principled to fail?
+\newblock Forthcoming in \textit{Nature Machine Intelligence}, 2019.
+\newblock URL \url{https://dx.doi.org/10.2139/ssrn.3391293}.
+
+\bibitem[Molla(2018)]{molla2018facebook}
+R.~Molla.
+\newblock Facebook is the least-trusted major tech company.
+\newblock \emph{Recode}, 2018.
+\newblock URL \url{https://perma.cc/F75M-ZRYA}.
+
+\bibitem[Nosek et~al.(2018)Nosek, Ebersole, DeHaven, and
+  Mellor]{nosek2018preregistration}
+B.~A. Nosek, C.~R. Ebersole, A.~C. DeHaven, and D.~T. Mellor.
+\newblock The preregistration revolution.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 115\penalty0
+  (11):\penalty0 2600--2606, 2018.
+
+\bibitem[{OECD}(2019)]{oecdai}
+{OECD}.
+\newblock \emph{Artificial Intelligence in Society}.
+\newblock 2019.
+\newblock \doi{https://doi.org/https://doi.org/10.1787/eedfee77-en}.
+
+\bibitem[Olofsson et~al.(2006)Olofsson, {\"O}hman, and
+  Rashid]{olofsson2006attitudes}
+A.~Olofsson, S.~{\"O}hman, and S.~Rashid.
+\newblock Attitudes to gene technology: the significance of trust in
+  institutions.
+\newblock \emph{European Societies}, 8\penalty0 (4):\penalty0 601--624, 2006.
+
+\bibitem[Pitlik and Kouba(2015)]{pitlik2015does}
+H.~Pitlik and L.~Kouba.
+\newblock Does social distrust always lead to a stronger support for government
+  intervention?
+\newblock \emph{Public Choice}, 163\penalty0 (3-4):\penalty0 355--377, 2015.
+
+\bibitem[Satterfield et~al.(2009)Satterfield, Kandlikar, Beaudrie, Conti, and
+  Harthorn]{satterfield2009anticipating}
+T.~Satterfield, M.~Kandlikar, C.~E. Beaudrie, J.~Conti, and B.~H. Harthorn.
+\newblock Anticipating the perceived risk of nanotechnologies.
+\newblock \emph{Nature Nanotechnology}, 4\penalty0 (11):\penalty0 752, 2009.
+
+\bibitem[Saxena et~al.(2019)Saxena, Huang, DeFilippis, Radanovic, Parkes, and
+  Liu]{saxena2019fairness}
+N.~A. Saxena, K.~Huang, E.~DeFilippis, G.~Radanovic, D.~C. Parkes, and Y.~Liu.
+\newblock How do fairness definitions fare?: Examining public attitudes towards
+  algorithmic definitions of fairness.
+\newblock In \emph{Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics,
+  and Society}, pages 99--106. ACM, 2019.
+
+\bibitem[Scott et~al.(2018)Scott, Inbar, Wirz, Brossard, and
+  Rozin]{scott2018overview}
+S.~E. Scott, Y.~Inbar, C.~D. Wirz, D.~Brossard, and P.~Rozin.
+\newblock An overview of attitudes toward genetically engineered food.
+\newblock \emph{Annual Review of Nutrition}, 38:\penalty0 459--479, 2018.
+
+\bibitem[Siegrist(1999)]{siegrist1999causal}
+M.~Siegrist.
+\newblock A causal model explaining the perception and acceptance of gene
+  technology 1.
+\newblock \emph{Journal of Applied Social Psychology}, 29\penalty0
+  (10):\penalty0 2093--2106, 1999.
+
+\bibitem[Siegrist(2000)]{siegrist2000influence}
+M.~Siegrist.
+\newblock The influence of trust and perceptions of risks and benefits on the
+  acceptance of gene technology.
+\newblock \emph{Risk Analysis}, 20\penalty0 (2):\penalty0 195--204, 2000.
+
+\bibitem[Siegrist et~al.(2005)Siegrist, Gutscher, and
+  Earle]{siegrist2005perception}
+M.~Siegrist, H.~Gutscher, and T.~C. Earle.
+\newblock Perception of risk: the influence of general trust, and general
+  confidence.
+\newblock \emph{Journal of Risk Research}, 8\penalty0 (2):\penalty0 145--156,
+  2005.
+
+\bibitem[Siegrist et~al.(2007{\natexlab{a}})Siegrist, Cousin, Kastenholz, and
+  Wiek]{siegrist2007public}
+M.~Siegrist, M.-E. Cousin, H.~Kastenholz, and A.~Wiek.
+\newblock Public acceptance of nanotechnology foods and food packaging: The
+  influence of affect and trust.
+\newblock \emph{Appetite}, 49\penalty0 (2):\penalty0 459--466,
+  2007{\natexlab{a}}.
+
+\bibitem[Siegrist et~al.(2007{\natexlab{b}})Siegrist, Keller, Kastenholz, Frey,
+  and Wiek]{siegrist2007laypeople}
+M.~Siegrist, C.~Keller, H.~Kastenholz, S.~Frey, and A.~Wiek.
+\newblock Laypeople's and experts' perception of nanotechnology hazards.
+\newblock \emph{Risk Analysis: An International Journal}, 27\penalty0
+  (1):\penalty0 59--69, 2007{\natexlab{b}}.
+
+\bibitem[Smith(2018)]{smith2018}
+A.~Smith.
+\newblock Public attitudes toward technology companies.
+\newblock Survey report, Pew Research Center, 2018.
+\newblock URL \url{https://perma.cc/KSN6-6FRW}.
+
+\bibitem[Smith(2019)]{smith2019facial}
+A.~Smith.
+\newblock More than half of u.s. adults trust law enforcement to use facial
+  recognition responsibly.
+\newblock Technical report, Pew Research Center, 2019.
+\newblock URL \url{https://perma.cc/FUV7-5BDJ}.
+
+\bibitem[Smith and Anderson(2016)]{smith2017}
+A.~Smith and M.~Anderson.
+\newblock Automation in everyday life.
+\newblock Technical report, Pew Research Center, 2016.
+\newblock URL \url{https://perma.cc/WU6B-63PZ}.
+
+\bibitem[West(2018)]{west2018divided}
+D.~M. West.
+\newblock Brookings survey finds divided views on artificial intelligence for
+  warfare, but support rises if adversaries are developing it.
+\newblock Survey report, Brookings Institution, 2018.
+\newblock URL \url{https://perma.cc/3NJV-5GV4}.
+
+\bibitem[West et~al.(2019)West, Whittaker, and Crawford]{west2019}
+S.~M. West, M.~Whittaker, and K.~Crawford.
+\newblock Discriminating systems: Gender, race and power in ai.
+\newblock Technical report, AI Now Institute, 2019.
+\newblock URL \url{https://perma.cc/85VP-HL8R}.
+
+\bibitem[Whittlestone et~al.(2019)Whittlestone, Nyrup, Alexandrova, and
+  Cave]{whittlestone2019role}
+J.~Whittlestone, R.~Nyrup, A.~Alexandrova, and S.~Cave.
+\newblock The role and limits of principles in ai ethics: towards a focus on
+  tensions.
+\newblock In \emph{Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics,
+  and Society}, pages 195--200. ACM, 2019.
+
+\bibitem[Zhang(2019)]{zhang2019regulation}
+B.~Zhang.
+\newblock Public opinion lessons for {AI} regulation.
+\newblock Technical report, Brookings Institution, 2019.
+\newblock URL \url{https://perma.cc/B3FY-K6JH}.
+
+\end{thebibliography}

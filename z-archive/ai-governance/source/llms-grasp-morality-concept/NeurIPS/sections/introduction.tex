@@ -1,0 +1,60 @@
+\section{Introduction}\label{sec:intro}
+
+%\jared{I like the arc of this intro. I would root it even more with an example. E.g. you use, X system. It says Y. This carries Z implications. Zoom out to bigger picture}
+
+The advent of increasingly powerful LLMs poses many important ethical problems, 
+such as the reproduction of harmful social biases~\citep{Mehrabi2019ASO} or limited viewpoints~\citep{Santy2023NLPositionalityCD},
+hallucination of false information~\citep{Ji2022SurveyOH},
+and producing morally or socially objectionable outputs~\citep{Choi2022KnowledgeIP}. 
+% \jared{is this a direct quote from someone? Otherwise leave off the marks.}
+%There are large problems crete by the use Systems like ChatGPT have already begun to flood the modern Internet with 
+In setting out to solve these problems, AI ethics and AI fairness/bias research 
+%\andre{should we also say fairness/bias? These are more technically grounded areas}
+have often asked questions and provided solutions that are deeply empirical or pragmatic in nature.
+These inquiries are often motivated by intuitions about human values and human-AI relationships.
+Relying on these intuitions tends to reproduce uncritical, anthropocentric accounts of AI, limiting our understanding of AI as independent systems.
+% But AI defies our intuitions, and there is only so much more that intuition alone can do.
+% \markC{This is honestly a pretty bad example; feel free to replace}
+% For example, when confronted by the enormity of AI art in the modern day, our knee-jerk response is to clamp down and dismiss the possibility of AI as creative. But what might happen if we entertain for but a moment the possibility that AI can create -- than AI can mean?
+For instance, consider a hypothetical model which, like Delphi \citep{Jiang:Delphi}, produces moral judgements based on text inputs. Suppose it marks the objectionable statement ``helping a friend spread fake news'' as morally unproblematic.
+Rather than immediately identifying this as moral error and modifying the model to conform to our existing judgements, we might read the prediction as indicating a socially real system of moral meaning.
+
+
+%When faced with the overwhelming creative power of modern AI, how can an artist \andre{why artist specifically?} retain the old intuitive understanding of AI as mere, unthinking machine?
+
+% As AI ethics matures and grows, we ought to explore these more foundational questions from which we are shying away. In particular, we are asked to rigorously explore the concepts we so often employ, to develop appropriate ontological commitments, and to understand our epistemic access thereto. What are values? What is the model? What and how does the model mean?
+
+%\jared{note: for space we should only call it ai ethics and fairness once or twice then shorten. Have not read far enough yet to see if that is the case.}
+As work in AI ethics and fairness grows, we ought to explore these foundational questions which have been overlooked in favor of empirical ones.
+In particular:
+What are the meanings of `values' and `morality'?
+What and how does an LLM mean?
+In what ways do LLMs and humans \textit{mean} -- including meaning values and morality -- differently? 
+% And what does this mean for us as humans, if the meanings are distinct? \jared{the meanings of values and morality or the meanings of humans and LLMs?}
+% Answering such questions will recontextualize the whole project of AI ethics and suggest new areas for growth. It will enable us to be deliberate and intentional in moving forward with alignment. Moreover, it will give us a new perspective on what ethical resources we have available to us in modern large language models.
+
+%\jared{Obviously in the above paragraph there is an academic ends of the paper: we gain insight. I think readers will also expect something more tangible---what will this theory of meaning do for us? What will it change? Consider how to appease such commentators.}
+%\andre{to add on: maybe a stronger focus on morality is good? gives us the explicit ends}
+
+To address these questions, we set forth a \textit{general} theory of meaning in $\S$ \ref{sec:theory}.
+It is general in two ways that previous theories of meaning are not.
+First, it has explanatory power over both humans and models, as well as other systems.
+Second, it aims to be multimodal and account for all meaning in experience and not just language.
+% Our theory is semiotic in nature, but it seeks, as above, to generalize the concepts of semiotics.
+% \jared{A non general semiotics would apply to only people, e.g.?}
+%% This general theory of meaning will allow us to answer the difficult question of what exactly the model is \textit{doing}, in a philosophical sense, when it outputs some media.
+% Moreover, we aim to understand thereby how exactly a model can be toxic, especially as pertains to social categories: race, class, and gender.\andre{Are we going to address this? Or is it best left for a later paper}
+%\jared{On a first read I don't see what this next paragraph is doing for us.}
+%But before we go further, we must make a definition to outline the subject of this paper. What do we mean when we speak of `the model'? `The model' is not any specific deep neural network, though we will on occasion provide specific models as examples of `the model.' On the other hand, `the model' is not just any arbitrary deep neural network -- much of what we claim about the relationship between `the model' and the social totality only holds at massive scales. Intuitively, the archetypal model which stands for `the model` is some efficacious large language model. But `the model' is more than any individual LLM. So, it is best to think of `the model' as a horizon of potentiality latent in modern deep learning. As a caveat, we will have occasion to provide a hermeneutics of model architecture, whereupon we will have to date our argument to our contemporary LLMs as archetypes.
+%\andre{I have to agree with Jared. I feel like people know already that `model' refers to models in the abstract, and I feel like that's what the paragraph is trying to communicate?}
+%\jared{I would move the paragraph below down closer to the terms (or remove entirely) and instead place here more of a introductory summary. "We're going to talk about X in Y $\S$."}
+We then move on in $\S$ \ref{sec:model} to discuss how LLMs can be interpreted through such a theory of meaning. 
+%We address the relationship between intentionality and meaning, then provide a technical reading of how their components (inter)act to create meaning. 
+% \markC{Bracket for now}
+In particular, we give a reading of a prototypical general-purpose LLM whose outputs admit moral judgements. Such an LLM is one that, like ChatGPT, Delphi, or Bard, exists in a public setting as a kind of question-answer machine. Crucially, this means that an LLM is defined as a function which accepts \textbf{text input}. In homage to Delphi, we call these LLMs \textbf{oracles}. Though all the models we mentioned are aligned chat models, we use oracle much more generally in a way that can also refer to unaligned base models.
+%\jared{we want to clarify here in the introduction between aligned chat models and unaligned base models because LLM could mean either but the systems mentioned are all aligned chat models. simply saying that these oracles are aligned models may be enough}
+
+Lastly, in $\S$ \ref{sec:moral}, we discuss the social possibilities of oracles and how oracles are already related to social meaning and human values. 
+We understand values like fairness, justice, and liberty as ``social objects'' with complex and diverse genealogies. 
+This analysis ultimately allows us to determine the relationship between models and values. Ultimately, we conclude that there is a very real sense in which unaligned LLMs are \textit{already aligned to human values} (in concept).
+% , and thereby contextually situate the whole program of alignment.

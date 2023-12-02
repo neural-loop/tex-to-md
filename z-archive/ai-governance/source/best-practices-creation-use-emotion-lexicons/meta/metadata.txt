@@ -1,0 +1,13 @@
+---
+title: "Best Practices in the Creation and Use of Emotion Lexicons"
+title_slug: "best-practices-in-creation-and-use-of-emotion-lexicons"
+license: "cc-by-nc-sa"
+published: "2022-10-13 17:31:09+00:00"
+entry_id: "http://arxiv.org/abs/2210.07206v2"
+author: "Saif M. Mohammad"
+pdf: "best-practices-in-the-creation-and-use-of-emotion-lexicons.pdf"
+primary_category: "cs.CL"
+get_short_id: "2210.07206v2"
+image: img.png
+section: "Papers"
+---

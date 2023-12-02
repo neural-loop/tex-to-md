@@ -1,0 +1,13 @@
+---
+title: "Good Intentions, Bad Inventions: How Employees Judge Pervasive Technologies in the Workplace"
+title_slug: "good-intentions-bad-inventions-how-employees-judge-pervasive-technologies-in-workplace"
+license: "cc-by"
+published: "2022-10-12 16:33:46+00:00"
+entry_id: "http://arxiv.org/abs/2210.06381v2"
+author: "Marios Constantinides, Daniele Quercia"
+pdf: "good-intentions-bad-inventions-how-employees-judge-pervasive-technologies-in-the-workplace.pdf"
+primary_category: "cs.HC"
+get_short_id: "2210.06381v2"
+image: img.png
+section: "Papers"
+---

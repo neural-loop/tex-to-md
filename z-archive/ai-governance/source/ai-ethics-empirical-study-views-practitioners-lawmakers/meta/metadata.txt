@@ -1,0 +1,13 @@
+---
+title: "AI Ethics: An Empirical Study on the Views of Practitioners and Lawmakers"
+title_slug: "ai-ethics-empirical-study-on-views-of-practitioners-and-lawmakers"
+license: "cc-by"
+published: "2022-06-30 17:24:29+00:00"
+entry_id: "http://arxiv.org/abs/2207.01493v2"
+author: "Arif Ali Khan, Muhammad Azeem Akbar, Mahdi Fahmideh, Peng Liang, Muhammad Waseem, Aakash Ahmad, Mahmood Niazi, Pekka Abrahamsson"
+pdf: "ai-ethics-an-empirical-study-on-the-views-of-practitioners-and-lawmakers.pdf"
+primary_category: "cs.CY"
+get_short_id: "2207.01493v2"
+image: img.png
+section: "Papers"
+---

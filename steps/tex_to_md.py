@@ -46,7 +46,8 @@ l2t_context_db.add_context_category(
 def custom_latex_to_text(input_latex):
     lw_obj = latexwalker.LatexWalker(input_latex, latex_context=lw_context_db)
     nodelist, pos, length = lw_obj.get_latex_nodes()
-    l2t_obj = latex2text.LatexNodes2Text(latex_context=l2t_context_db, math_mode='with-delimiters')
+    l2t_obj = latex2text.LatexNodes2Text(latex_context=l2t_context_db, math_mode='remove')
+    # l2t_obj = latex2text.LatexNodes2Text(latex_context=l2t_context_db, math_mode='with-delimiters')
     return l2t_obj.nodelist_to_text(nodelist)
 
 

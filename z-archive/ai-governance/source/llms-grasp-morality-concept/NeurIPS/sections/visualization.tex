@@ -1,0 +1,38 @@
+\begin{figure}
+\centering
+
+
+
+\begin{tikzpicture}
+  % Define parameters
+  \def\nodes{20} % Number of nodes
+  \def\radius{3} % Larger radius of the circle
+  \def\nodesize{0.5cm} % Adjust this value to change the node size
+  
+  % Draw nodes in a loop
+  \foreach \i in {1,...,\nodes} {
+    \node[draw, circle, draw=red!60, fill=red!5, very thick, minimum size=\nodesize] (node\i) at ({360/\nodes * (\i - 1)}:\radius) {\i};
+  }
+
+  \draw[->] (node1) -- (node6);
+  \draw[->] (node1) -- (node7);
+  \draw[->] (node1) -- (node8);
+  \draw[->] (node1) -- (node6);
+
+  \node[draw, circle, draw=red!60, fill=red!5, very thick, minimum size=\nodesize] (node\i) at (0,0) {Yo};
+  
+  % Draw connections (optional)
+  % \foreach \i in {1,...,\nodes} {
+  %   \foreach \j in {\i,...,\nodes} {
+  %     \ifnum\i=\j\relax\else
+  %       \draw[->] (node\i) -- (node\j);
+  %     \fi
+  %   }
+  % }
+\end{tikzpicture}
+
+
+
+\caption{Caption}
+\label{fig:enter-label}
+\end{figure}

@@ -1,0 +1,428 @@
+\begin{thebibliography}{63}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Abdalla et~al.(2023)Abdalla, Vishnubhotla, and
+  Mohammad}]{abdalla2023makes}
+Mohamed Abdalla, Krishnapriya Vishnubhotla, and Saif~M. Mohammad. 2023.
+\newblock What makes sentences semantically related: A textual relatedness
+  dataset and empirical study.
+\newblock In \emph{Proceedings of the 17th Conference of the European Chapter
+  of the Association for Computational Linguistics: Main Volume}, Dubrovnik,
+  Croatia. Association for Computational Linguistics.
+
+\bibitem[{Aguinis et~al.(2021)Aguinis, Hill, and
+  Bailey}]{doi:10.1177/1094428119836485}
+Herman Aguinis, N.~Sharon Hill, and James~R. Bailey. 2021.
+\newblock \href {https://doi.org/10.1177/1094428119836485} {Best practices in
+  data collection and preparation: Recommendations for reviewers, editors, and
+  authors}.
+\newblock \emph{Organizational Research Methods}, 24(4):678--693.
+
+\bibitem[{ARTICLE19(2021)}]{article19_2021}
+ARTICLE19. 2021.
+\newblock Emotional entanglement: China’s emotion recognition market and its
+  implications for human rights.
+\newblock
+  \url{https://www.article19.org/wp-content/uploads/2021/01/ER-Tech-China-Report.pdf}.
+
+\bibitem[{Baccianella et~al.(2010)Baccianella, Esuli, and
+  Sebastiani}]{baccianella2010sentiwordnet}
+Stefano Baccianella, Andrea Esuli, and Fabrizio Sebastiani. 2010.
+\newblock {SentiWordNet 3.0:} an enhanced lexical resource for sentiment
+  analysis and opinion mining.
+\newblock In \emph{Proceeding of the 7th International Conference on Language
+  Resources and Evaluation}, volume~10 of \emph{LREC '10}, pages 2200--2204.
+
+\bibitem[{Barrett(2017{\natexlab{a}})}]{barrett2017emotions}
+Lisa~Feldman Barrett. 2017{\natexlab{a}}.
+\newblock \emph{How emotions are made: The secret life of the brain}.
+\newblock Houghton Mifflin Harcourt.
+
+\bibitem[{Barrett(2017{\natexlab{b}})}]{barrett2017theory}
+Lisa~Feldman Barrett. 2017{\natexlab{b}}.
+\newblock The theory of constructed emotion: an active inference account of
+  interoception and categorization.
+\newblock \emph{Social cognitive and affective neuroscience}, 12(1):1--23.
+
+\bibitem[{Barrett et~al.(2019)Barrett, Adolphs, Marsella, Martinez, and
+  Pollak}]{barrett2019emotional}
+Lisa~Feldman Barrett, Ralph Adolphs, Stacy Marsella, Aleix~M Martinez, and
+  Seth~D Pollak. 2019.
+\newblock Emotional expressions reconsidered: Challenges to inferring emotion
+  from human facial movements.
+\newblock \emph{Psychological science in the public interest}, 20(1):1--68.
+
+\bibitem[{Baumgartner and Steenkamp(2001)}]{baumgartner2001response}
+Hans Baumgartner and Jan-Benedict~E.M. Steenkamp. 2001.
+\newblock {Response Styles in Marketing Research: A Cross-National
+  Investigation}.
+\newblock \emph{Journal of Marketing Research}, 38(2):143--156.
+
+\bibitem[{Bradley and Lang(1999)}]{bradley1999affective}
+Margaret~M Bradley and Peter~J Lang. 1999.
+\newblock Affective norms for {E}nglish words ({ANEW}): Instruction manual and
+  affective ratings.
+\newblock Technical report, The Center for Research in Psychophysiology,
+  University of Florida.
+
+\bibitem[{Cuddy et~al.(2008)Cuddy, Fiske, and Glick}]{cuddy2008warmth}
+Amy~JC Cuddy, Susan~T Fiske, and Peter Glick. 2008.
+\newblock Warmth and competence as universal dimensions of social perception:
+  The stereotype content model and the bias map.
+\newblock \emph{Advances in experimental social psychology}, 40:61--149.
+
+\bibitem[{David(1963)}]{david1963method}
+Herbert~Aron David. 1963.
+\newblock \emph{The method of paired comparisons}.
+\newblock Hafner Publishing Company, New York.
+
+\bibitem[{De~Choudhury et~al.(2013)De~Choudhury, Gamon, Counts, and
+  Horvitz}]{de2013predicting}
+Munmun De~Choudhury, Michael Gamon, Scott Counts, and Eric Horvitz. 2013.
+\newblock Predicting depression via social media.
+\newblock In \emph{Seventh international AAAI conference on weblogs and social
+  media}, pages 128--137.
+
+\bibitem[{Dodds et~al.(2011)Dodds, Harris, Kloumann, Bliss, and
+  Danforth}]{dodds2011temporal}
+Peter~Sheridan Dodds, Kameron~Decker Harris, Isabel~M Kloumann, Catherine~A
+  Bliss, and Christopher~M Danforth. 2011.
+\newblock Temporal patterns of happiness and information in a global social
+  network: Hedonometrics and twitter.
+\newblock \emph{PloS one}, 6(12):e26752.
+
+\bibitem[{Dolmaya(2011)}]{dolmaya2011ethics}
+Julie~McDonough Dolmaya. 2011.
+\newblock The ethics of crowdsourcing.
+\newblock \emph{Linguistica Antverpiensia, New Series--Themes in Translation
+  Studies}, (10).
+
+\bibitem[{Eichstaedt et~al.(2015)Eichstaedt, Schwartz, Kern, Park, Labarthe,
+  Merchant, Jha, Agrawal, Dziurzynski, Sap
+  et~al.}]{eichstaedt2015psychological}
+Johannes~C Eichstaedt, Hansen~Andrew Schwartz, Margaret~L Kern, Gregory Park,
+  Darwin~R Labarthe, Raina~M Merchant, Sneha Jha, Megha Agrawal, Lukasz~A
+  Dziurzynski, Maarten Sap, et~al. 2015.
+\newblock Psychological language on {T}witter predicts county-level heart
+  disease mortality.
+\newblock \emph{Psychological science}, 26(2):159--169.
+
+\bibitem[{Ekman(1992)}]{ekman1992there}
+Paul Ekman. 1992.
+\newblock Are there basic emotions?
+\newblock \emph{Psychological Review}, 99(3):550--553.
+
+\bibitem[{Ekman and Davidson(1994)}]{ekman1994nature}
+Paul~Ed Ekman and Richard~J Davidson. 1994.
+\newblock \emph{The nature of emotion: Fundamental questions.}
+\newblock Oxford University Press.
+
+\bibitem[{Flynn and Marley(2014)}]{flynn2014}
+T.~N. Flynn and A.~A.~J. Marley. 2014.
+\newblock Best-worst scaling: theory and methods.
+\newblock In Stephane Hess and Andrew Daly, editors, \emph{Handbook of Choice
+  Modelling}, pages 178--201. Edward Elgar Publishing.
+
+\bibitem[{Fort~et al.(2011)}]{fort-etal-2011-last}
+Kar{\"e}n Fort~et al. 2011.
+\newblock \href {https://doi.org/10.1162/COLI_a_00057} {{A}mazon {M}echanical
+  {T}urk: Gold mine or coal mine?}
+\newblock \emph{Computational Linguistics}, 37(2):413--420.
+
+\bibitem[{Gebru et~al.(2018)Gebru, Morgenstern, Vecchione, Vaughan, Wallach,
+  Daum{\'e}, and Crawford}]{Gebru2018DatasheetsFD}
+Timnit Gebru, Jamie~H. Morgenstern, Briana Vecchione, Jennifer~Wortman Vaughan,
+  H.~Wallach, Hal Daum{\'e}, and Kate Crawford. 2018.
+\newblock Datasheets for datasets.
+\newblock In \emph{Proceedings of the conference on Fairness, Accountability,
+  and Transparency in Machine Learning}, Stockholm, Sweden.
+
+\bibitem[{Guntuku et~al.(2019)Guntuku, Schneider, Pelullo, Young, Wong, Ungar,
+  Polsky, Volpp, and Merchant}]{guntuku2019studying}
+Sharath~Chandra Guntuku, Rachelle Schneider, Arthur Pelullo, Jami Young, Vivien
+  Wong, Lyle Ungar, Daniel Polsky, Kevin~G Volpp, and Raina Merchant. 2019.
+\newblock Studying expressions of loneliness in individuals using {T}witter: an
+  observational study.
+\newblock \emph{BMJ open}, 9(11):e030355.
+
+\bibitem[{Hovy et~al.(2013)Hovy, Berg-Kirkpatrick, Vaswani, and
+  Hovy}]{hovy-etal-2013-learning}
+Dirk Hovy, Taylor Berg-Kirkpatrick, Ashish Vaswani, and Eduard Hovy. 2013.
+\newblock \href {https://aclanthology.org/N13-1132} {Learning whom to trust
+  with {MACE}}.
+\newblock In \emph{Proceedings of the 2013 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 1120--1130, Atlanta, Georgia. Association for
+  Computational Linguistics.
+
+\bibitem[{Irani and Silberman(2013)}]{irani2013turkopticon}
+Lilly~C Irani and M~Six Silberman. 2013.
+\newblock Turkopticon: Interrupting worker invisibility in {A}mazon
+  {M}echanical {T}urk.
+\newblock In \emph{Proceedings of the SIGCHI conference on human factors in
+  computing systems}, pages 611--620.
+
+\bibitem[{Jurgens(2013)}]{Jurgens2013EmbracingAA}
+David Jurgens. 2013.
+\newblock Embracing ambiguity: A comparison of annotation methodologies for
+  crowdsourcing word sense labels.
+\newblock In \emph{NAACL}.
+
+\bibitem[{Jurgens et~al.(2012)Jurgens, Mohammad, Turney, and
+  Holyoak}]{jurgens-EtAl:2012:STARSEM-SEMEVAL}
+David Jurgens, Saif~M. Mohammad, Peter Turney, and Keith Holyoak. 2012.
+\newblock \href {http://www.aclweb.org/anthology/S12-1047} {Semeval-2012 task
+  2: Measuring degrees of relational similarity}.
+\newblock In \emph{Proceedings of the 6th International Workshop on Semantic
+  Evaluation (SemEval)}, pages 356--364, Montr\'eal, Canada.
+
+\bibitem[{Karam et~al.(2014)Karam, Provost, Singh, Montgomery, Archer,
+  Harrington, and Mcinnis}]{karam2014ecologically}
+Zahi~N Karam, Emily~Mower Provost, Satinder Singh, Jennifer Montgomery,
+  Christopher Archer, Gloria Harrington, and Melvin~G Mcinnis. 2014.
+\newblock Ecologically valid long-term mood monitoring of individuals with
+  bipolar disorder using speech.
+\newblock In \emph{2014 IEEE international conference on acoustics, speech and
+  signal processing (ICASSP)}, pages 4858--4862. IEEE.
+
+\bibitem[{Kiritchenko et~al.(2020)Kiritchenko, Hipson, Coplan, and
+  Mohammad}]{kiritchenko-etal-2020-solo}
+Svetlana Kiritchenko, Will Hipson, Robert Coplan, and Saif~M. Mohammad. 2020.
+\newblock \href {https://aclanthology.org/2020.lrec-1.195} {{SOLO}: A corpus of
+  tweets for examining the state of being alone}.
+\newblock In \emph{Proceedings of the 12th Language Resources and Evaluation
+  Conference}, pages 1567--1577, Marseille, France.
+
+\bibitem[{Kiritchenko and Mohammad(2017)}]{kiritchenko2017best}
+Svetlana Kiritchenko and Saif Mohammad. 2017.
+\newblock {Best-Worst Scaling More Reliable than Rating Scales: A Case Study on
+  Sentiment Intensity Annotation}.
+\newblock In \emph{{Proceedings of the 55th Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers)}}, pages 465--470.
+
+\bibitem[{Kiritchenko and Mohammad(2016)}]{maxdiff-naacl2016}
+Svetlana Kiritchenko and Saif~M. Mohammad. 2016.
+\newblock Capturing reliable fine-grained sentiment associations by
+  crowdsourcing and best--worst scaling.
+\newblock In \emph{Proceedings of The 15th Annual Conference of the North
+  American Chapter of the Association for Computational Linguistics: Human
+  Language Technologies (NAACL)}, San Diego, California.
+
+\bibitem[{Lazarus(1991)}]{lazarus1991progress}
+Richard~S Lazarus. 1991.
+\newblock Progress on a cognitive-motivational-relational theory of emotion.
+\newblock \emph{American psychologist}, 46(8):819.
+
+\bibitem[{Louviere(1991)}]{Louviere_1991}
+Jordan~J. Louviere. 1991.
+\newblock Best-worst scaling: A model for the largest difference judgments.
+\newblock Working Paper.
+
+\bibitem[{MacAvaney et~al.(2021)MacAvaney, Mittu, Coppersmith, Leintz, and
+  Resnik}]{macavaney-etal-2021-community}
+Sean MacAvaney, Anjali Mittu, Glen Coppersmith, Jeff Leintz, and Philip Resnik.
+  2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.clpsych-1.7} {Community-level
+  research on suicidality prediction in a secure environment: Overview of the
+  {CLP}sych 2021 shared task}.
+\newblock In \emph{Proceedings of the Seventh Workshop on Computational
+  Linguistics and Clinical Psychology: Improving Access}, pages 70--80, Online.
+  Association for Computational Linguistics.
+
+\bibitem[{Mitchell et~al.(2019)Mitchell, Wu, Zaldivar, Barnes, Vasserman,
+  Hutchinson, Spitzer, Raji, and Gebru}]{mitchell2019model}
+Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
+  Ben Hutchinson, Elena Spitzer, Inioluwa~Deborah Raji, and Timnit Gebru. 2019.
+\newblock Model cards for model reporting.
+\newblock In \emph{Proceedings of the conference on fairness, accountability,
+  and transparency}, pages 220--229.
+
+\bibitem[{Mohammad(2022{\natexlab{a}})}]{mohammad-2022-ethics}
+Saif Mohammad. 2022{\natexlab{a}}.
+\newblock \href {https://doi.org/10.18653/v1/2022.acl-long.573} {Ethics sheets
+  for {AI} tasks}.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 8368--8379,
+  Dublin, Ireland. Association for Computational Linguistics.
+
+\bibitem[{Mohammad(2018)}]{vad-acl2018}
+Saif~M. Mohammad. 2018.
+\newblock Obtaining reliable human ratings of valence, arousal, and dominance
+  for 20,000 {E}nglish words.
+\newblock In \emph{Proceedings of The Annual Conference of the Association for
+  Computational Linguistics (ACL)}, Melbourne, Australia.
+
+\bibitem[{Mohammad(2020)}]{mohammad2020practical}
+Saif~M. Mohammad. 2020.
+\newblock \href {http://arxiv.org/abs/2011.03492} {Practical and ethical
+  considerations in the effective use of emotion and sentiment lexicons}.
+
+\bibitem[{Mohammad(2022{\natexlab{b}})}]{Mohammad22AER}
+Saif~M. Mohammad. 2022{\natexlab{b}}.
+\newblock Ethics sheet for automatic emotion recognition and sentiment
+  analysis.
+\newblock \emph{Computational Linguistics}, 48(2):239--278.
+
+\bibitem[{Mohammad and Turney(2010)}]{MohammadT10}
+Saif~M. Mohammad and Peter~D. Turney. 2010.
+\newblock Emotions evoked by common words and phrases: Using {M}echanical
+  {T}urk to create an emotion lexicon.
+\newblock In \emph{Proceedings of the NAACL-HLT 2010 Workshop on Computational
+  Approaches to Analysis and Generation of Emotion in Text}, LA, California.
+
+\bibitem[{Mohammad and Turney(2013)}]{MohammadT13}
+Saif~M. Mohammad and Peter~D. Turney. 2013.
+\newblock Crowdsourcing a word-emotion association lexicon.
+\newblock \emph{Computational Intelligence}, 29(3):436--465.
+
+\bibitem[{Nielsen(2011)}]{nielsen2011new}
+Finn~{\AA}rup Nielsen. 2011.
+\newblock A new {ANEW}: Evaluation of a word list for sentiment analysis in
+  microblogs.
+\newblock In \emph{Proceedings of the ESWC Workshop on `Making Sense of
+  Microposts': Big things come in small packages}, pages 93--98, Heraklion,
+  Crete.
+
+\bibitem[{Orme(2009)}]{Orme_2009}
+Bryan Orme. 2009.
+\newblock Maxdiff analysis: Simple counting, individual-level logit, and {HB}.
+\newblock Sawtooth Software, Inc.
+
+\bibitem[{Osgood et~al.(1957)Osgood, Suci, and
+  Tannenbaum}]{osgood1957measurement}
+Charles~Egerton Osgood, George~J Suci, and Percy~H Tannenbaum. 1957.
+\newblock \emph{The measurement of meaning}.
+\newblock 47. University of Illinois press.
+
+\bibitem[{Pennebaker et~al.(2001)Pennebaker, Francis, and
+  Booth}]{pennebaker2001linguistic}
+James~W Pennebaker, Martha~E Francis, and Roger~J Booth. 2001.
+\newblock Linguistic inquiry and word count: {LIWC} 2001.
+\newblock \emph{Mahway: Lawrence Erlbaum Associates}, 71(2001):2001.
+
+\bibitem[{Presser and Schuman(1996)}]{presser2004questions}
+Stanley Presser and Howard Schuman. 1996.
+\newblock \emph{{Questions and Answers in Attitude Surveys: Experiments on
+  Question Form, Wording, and Context}}.
+\newblock SAGE Publications, Inc.
+
+\bibitem[{Raykar and Yu(2012)}]{raykar2012eliminating}
+Vikas~C Raykar and Shipeng Yu. 2012.
+\newblock Eliminating spammers and ranking annotators for crowdsourced labeling
+  tasks.
+\newblock \emph{The Journal of Machine Learning Research}, 13(1):491--518.
+
+\bibitem[{Resnik et~al.(2015)Resnik, Armstrong, Claudino, Nguyen, Nguyen, and
+  Boyd-Graber}]{resnik-etal-2015-beyond}
+Philip Resnik, William Armstrong, Leonardo Claudino, Thang Nguyen, Viet-An
+  Nguyen, and Jordan Boyd-Graber. 2015.
+\newblock \href {https://doi.org/10.3115/v1/W15-1212} {Beyond {LDA}: Exploring
+  supervised topic modeling for depression-related language in {T}witter}.
+\newblock In \emph{Proceedings of the 2nd Workshop on Computational Linguistics
+  and Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
+  99--107, Denver, Colorado.
+
+\bibitem[{Russell(1980)}]{russell1980circumplex}
+James~A Russell. 1980.
+\newblock A circumplex model of affect.
+\newblock \emph{Journal of personality and social psychology}, 39(6):1161.
+
+\bibitem[{Russell(2003)}]{russell2003core}
+James~A Russell. 2003.
+\newblock Core affect and the psychological construction of emotion.
+\newblock \emph{Psychological review}, 110(1):145.
+
+\bibitem[{Russell and Mehrabian(1977)}]{russell1977evidence}
+James~A Russell and Albert Mehrabian. 1977.
+\newblock Evidence for a three-factor theory of emotions.
+\newblock \emph{Journal of research in Personality}, 11(3):273--294.
+
+\bibitem[{Scherer(1999)}]{scherer1999appraisal}
+Klaus~R Scherer. 1999.
+\newblock \emph{Appraisal theory.}
+\newblock John Wiley \& Sons Ltd.
+
+\bibitem[{Schwartz et~al.(2013)Schwartz, Eichstaedt, Kern, Dziurzynski, Lucas,
+  Agrawal, Park, Lakshmikanth, Jha, Seligman
+  et~al.}]{rtz2013cschwaharacterizing}
+Hansen~Andrew Schwartz, Johannes~C Eichstaedt, Margaret~L Kern, Lukasz
+  Dziurzynski, Richard~E Lucas, Megha Agrawal, Gregory~J Park, Shrinidhi~K
+  Lakshmikanth, Sneha Jha, Martin~EP Seligman, et~al. 2013.
+\newblock Characterizing geographic variation in well-being using tweets.
+\newblock In \emph{Seventh International AAAI Conference on Weblogs and Social
+  Media}, pages 583--591.
+
+\bibitem[{Selbst et~al.(2019)Selbst, Boyd, Friedler, Venkatasubramanian, and
+  Vertesi}]{selbst2019fairness}
+Andrew~D Selbst, Danah Boyd, Sorelle~A Friedler, Suresh Venkatasubramanian, and
+  Janet Vertesi. 2019.
+\newblock Fairness and abstraction in sociotechnical systems.
+\newblock In \emph{Proceedings of the conference on fairness, accountability,
+  and transparency}, pages 59--68.
+
+\bibitem[{Standing and Standing(2018)}]{standing2018ethical}
+Susan Standing and Craig Standing. 2018.
+\newblock The ethical use of crowdsourcing.
+\newblock \emph{Business Ethics: A European Review}, 27(1):72--80.
+
+\bibitem[{Stark(2018)}]{stark2018algorithmic}
+Luke Stark. 2018.
+\newblock Algorithmic psychometrics and the scalable subject.
+\newblock \emph{Social Studies of Science}, 48(2):204--231.
+
+\bibitem[{Stone et~al.(1966)Stone, Dunphy, Smith, and Ogilvie}]{Stone66}
+Philip Stone, Dexter Dunphy, Marshall Smith, and Daniel~M. Ogilvie. 1966.
+\newblock \emph{The General Inquirer: A Computer Approach to Content Analysis}.
+\newblock The MIT Press.
+
+\bibitem[{Strapparava et~al.(2004)Strapparava, Valitutti
+  et~al.}]{strapparava2004wordnet}
+Carlo Strapparava, Alessandro Valitutti, et~al. 2004.
+\newblock Wordnet affect: an affective extension of wordnet.
+\newblock In \emph{Lrec}, volume~4, page~40. Lisbon.
+
+\bibitem[{Teodorescu and Mohammad(2022)}]{TMemotionarcs}
+Daniela Teodorescu and Saif~M. Mohammad. 2022.
+\newblock \href {https://doi.org/10.48550/ARXIV.2210.07381} {Evaluating
+  automatically generated emotion arcs: A case for simple methods using emotion
+  lexicons}.
+\newblock arXiv.
+
+\bibitem[{Thurstone(1927)}]{thurstone1927law}
+Louis~L. Thurstone. 1927.
+\newblock A law of comparative judgment.
+\newblock \emph{Psychological review}, 34(4):273.
+
+\bibitem[{Vishnubhotla and Mohammad(2022)}]{VM2022-TED}
+Krishnapriya Vishnubhotla and Saif~M. Mohammad. 2022.
+\newblock Tweet emotion dynamics: Emotion word usage in tweets from us and
+  canada.
+\newblock In \emph{Proceedings of the Thirteenth International Conference on
+  Language Resources and Evaluation (LREC 2022)}, Marseille, France.
+
+\bibitem[{Wakefield(2021)}]{wakefield_2021}
+Jane Wakefield. 2021.
+\newblock {AI} emotion-detection software tested on {U}yghurs.
+\newblock BBC. \url{https://www.bbc.com/news/technology-57101248}.
+
+\bibitem[{Wierzbicka(1999)}]{wierzbicka1999emotions}
+Anna Wierzbicka. 1999.
+\newblock \emph{Emotions across languages and cultures: Diversity and
+  universals}.
+\newblock Cambridge university press.
+
+\bibitem[{Wilson et~al.(2005)Wilson, Wiebe, and
+  Hoffmann}]{wilson2005recognizing}
+Theresa Wilson, Janyce Wiebe, and Paul Hoffmann. 2005.
+\newblock Recognizing contextual polarity in phrase-level sentiment analysis.
+\newblock In \emph{Proceedings of human language technology conference and
+  conference on empirical methods in natural language processing}, pages
+  347--354.
+
+\bibitem[{Woensel and Nevil(2019)}]{woensel_nevil_2019}
+Lieve~Van Woensel and Nissy Nevil. 2019.
+\newblock What if your emotions were tracked to spy on you?
+\newblock European Parliamentary Research Service, PE 634.415.
+  \url{https://www.europarl.europa.eu/RegData/etudes/ATAG/2019/634415/EPRS_ATA(2019)634415_EN.pdf}.
+
+\end{thebibliography}

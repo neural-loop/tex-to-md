@@ -1,0 +1,55 @@
+
+
+\section{Introduction}
+\label{sec:intro}
+
+
+Machine learning (ML) systems
+play an important role in high-stake domains. For example, ML is used to identify human faces in images and videos~\cite{singhal2022survey}, recommend products to customers~\cite{li2011design}, and recognize criminals accurately~\cite{rudin2018optimized}. ML has been called software 2.0 because its behaviours are not written explicitly by programmers, but instead are learned from large datasets~\cite{ratner2019role}.
+
+When ML software
+learns about individuals, it uses
+datasets collected about them. This data contains a broad range of information that may be used to identify individuals, such as personal emails, credit card numbers, and employee records. Governments or data
+subjects may sometimes ask ML service providers to remove sensitive information from their datasets for security or privacy purposes or for regulatory requirements. For example, Clearview AI\footnote{https://www.buzzfeednews.com/article/richardnieva/clearview-ordered-to-delete-in-france}, a facial recognition company owning more than 20 billion images, was requested by France’s Commission Nationale Informatique et Libertés to delete data due to a data protection law. In 2014, the Court of Justice of the European Union ordered Google, a multinational technology company, to remove links to sensitive personal data from its internet search results\footnote{https://www.reuters.com/article/us-eu-alphabet-privacy-idUSKBN1W90R5}. Later on, Europol\footnote{https://www.bleepingcomputer.com/news/security/europol-ordered-to-erase-data-on-those-not-linked-to-crime/}, the European Union Agency for Law Enforcement Cooperation, was asked to delete individuals' data having no criminal activity. Such types of demands are expected to grow in the future as regulation and privacy awareness increases.
+
+The \textit{``right to be forgotten''} (RTBF) is covered 
+in legislation in different regions, such as the General Data Protection Regulation (GDPR) in the European Union~\cite{gdpr}, the California Consumer Privacy Act (CCPA) in the United States~\cite{ccpa}, and the Personal Information Protection and Electronic Documents Act (PIPEDA) in Canada~\cite{PIPEDA}. These have given the data subject, i.e., service users, the right to request the deletion of their personal data and somehow get rid of their past~\cite{rtbf}. When ML service providers
+receive such requests, they have to remove the personal data from the training set as well as update ML models to satisfy legislative purposes. Moreover, the data deletion is supposed to be deep and permanent due to the prime purpose of this right, exposing a key research challenge in various ML
+applications~\cite{responsible-data-management}. 
+
+Researchers have proposed \textit{machine unlearning} approaches to enable the RTBF to be efficiently implemented when constructing ML models. Specifically, machine unlearning is the problem of making a trained ML model forget the impact of
+one or multiple data points in the training data. As ML models 
+capture the knowledge learned from data, 
+it is necessary to
+erase what they have learned from the deleted data to fulfill the RTBF requirements. A na\"ive strategy is to retrain ML models from scratch by excluding the deleted data from the training data. However, this process may incur significant computational costs and may be practically infeasible~\cite{thompson2020computational}. Machine unlearning aims to avoid the large computational cost of fully retraining ML models from scratch and attempts to update ML models to enable the RTBF. 
+
+
+In recent years, machine unlearning has been extensively investigated to
+address these problems~\cite{towards-unlearning, baumhauer2022machine, sisa, golatkar2020forgetting, lifelong, amnesiac}. There are two main types of machine unlearning approaches: \textit{exact machine unlearning}, and \textit{approximate machine unlearning}. While the exact machine unlearning approach ensures that the data deletion has no impact on the updated ML model by totally excluding it from the training set, and the approximate machine unlearning approach attempts to update the trained ML model weights to remove the deleted data's contribution from the trained ML model. 
+
+Current machine unlearning research focuses on efficiency and the RTBF satisfaction, but overlooks many other critical AI properties, such as AI fairness.
+\textit{AI fairness} is a non-functional property of ML software. It concerns algorithmic bias in ML models and whether they are biased toward any protected attribute classes, such as race, gender, or familial status. There is a rich literature about AI fairness~\cite{fairness-re, RE-AI, fairness-survey, fairness-testing, zhang2021ignorance, biswas2020machine, dwork2012fairness, chakraborty2020fairway}. For example, Biswas and Rajan~\cite{biswas2020machine} conducted an empirical study, employing 40 models collected from Kaggle, to evaluate the fairness of ML models. The results help AI practitioners to accelerate fairness in building ML software applications. Zhang and Harman~\cite{zhang2021ignorance} later presented another empirical study on the influence of feature size and training data size on the fairness of ML models. It suggests that when the feature size is insufficient, the ML models trained on a large training dataset have more unfairness than those trained on a small training dataset. This work also assists us to ensure ML models' fairness in practice. 
+
+To the best of our knowledge, there is no prior work studying the fairness implications of machine unlearning methods.
+However, ignoring fairness in the construction process of machine unlearning systems will adversely affect the benefit of people in  protected attribute groups such as race, gender, or familial status. For this reason, ML
+systems built based on these machine unlearning methods, may violate anti-discrimination legislation, such as the Civil Rights Act~\cite{murakawa2014first}. In this paper, we conduct an empirical study to evaluate the fairness of machine unlearning models to help AI practitioners understand how to build the fairness ML systems satisfying the RTBF requirements. We aim to answer the following research questions.  
+
+\noindent \textbf{RQ1: (Initial training)} What are the impacts of machine unlearning methods on fairness before the ``\textit{right to be forgotten}'' requests arrive?
+
+\noindent \textbf{RQ2: (Uniform distribution)} What are the impacts of machine unlearning methods on fairness when the deleted data has uniform distribution?
+
+\noindent \textbf{RQ3: (Non-uniform distribution)} What are the impacts of machine unlearning methods on fairness when the deleted data has non-uniform distribution?
+
+To conduct the empirical study, we employ two popular machine unlearning methods, i.e., SISA and AmnesiacML on three AI fairness datasets.
+\textbf{SISA} (Sharded, Isolated, Sliced, and Aggregated)~\cite{sisa} and \textbf{AmnesiacML}~\cite{amnesiac} are an exact machine unlearning method and an approximate machine unlearning method, respectively.
+The three datasets, such as Adult, Bank, and COMPAS, have been widely used to evaluate the fairness of machine learning systems on different tasks, i.e., income prediction, customer churn prediction, and criminal detection. We use four different evaluation metrics, i.e., disparate impact, statistical parity difference, average odds difference, and equal opportunity difference, to measure the fairness of machine unlearning methods. We then analyze the results to answer the research questions. 
+
+
+The main contributions of our paper are as follows:
+\begin{itemize}
+    \item We designed and conducted an empirical study to evaluate the impacts of machine unlearning on fairness. Specifically, we employed two well-recognized machine unlearning methods on three AI fairness datasets and adopted four evaluation metrics to measure the fairness on machine unlearning systems. 
+    
+    \item Our results show that adopting machine unlearning methods does not necessarily affect the fairness during initial training. When the data deletion is uniform, the fairness of the resulting model is hardly affected. When the data deletion is non-uniform, SISA leads to better fairness than other methods. Through these findings, we shed light on fairness implications of machine unlearning, and provide knowledge for software engineers about the potential trade-offs when selecting solutions for RTBF.
+    
+\end{itemize}
+

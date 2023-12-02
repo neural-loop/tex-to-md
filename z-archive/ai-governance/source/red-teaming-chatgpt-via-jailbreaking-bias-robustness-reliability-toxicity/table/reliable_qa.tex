@@ -1,0 +1,15 @@
+\FloatBarrier
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{ccc}
+    \toprule
+       Model  & OpenBookQA $\uparrow$& TruthfulQA $\uparrow$\\\midrule
+       ChatGPT  &  \textbf{0.612} & \textbf{0.632}\\
+       InstructGPT & \textbf{0.612} & 0.631\\
+       GPT-3 & 0.598 & 0.230\\\bottomrule
+
+    \end{tabular}
+    \caption{Evaluation results of factual question answering on OpenBookQA and TruthfulQA. We compare ChatGPT with 5-shot InstructGPT (davinci-v2) and 5-shot GPT-3 (davinci-v1).}
+    \label{tab:qa}
+\end{table}
+\FloatBarrier

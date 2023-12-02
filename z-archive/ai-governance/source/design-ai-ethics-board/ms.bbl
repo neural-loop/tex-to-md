@@ -1,0 +1,724 @@
+\begin{thebibliography}{100}
+
+\bibitem{amodei2016concrete}
+D.~Amodei, C.~Olah, J.~Steinhardt, P.~Christiano, J.~Schulman, and D.~Mané.
+\newblock Concrete problems in {AI} safety.
+\newblock {\em arXiv preprint arXiv:1606.06565}, 2016.
+
+\bibitem{anderljung2023protecting}
+M.~Anderljung and J.~Hazell.
+\newblock Protecting society from {AI} misuse: When are restrictions on
+  capabilities warranted?
+\newblock {\em arXiv preprint arXiv:2303.09377}, 2023.
+
+\bibitem{anthropic2023coreviews}
+Anthropic.
+\newblock Core views on {AI} safety: When, why, what, and how.
+\newblock \url{https://www.anthropic.com/index/core-views-on-ai-safety}, 2023.
+
+\bibitem{apaza2011makes}
+C.~R. Apaza and Y.~Chang.
+\newblock What makes whistleblowing effective: Whistleblowing in {Peru} and
+  {South Korea}.
+\newblock {\em Public Integrity}, 13(2):113--130, 2011.
+
+\bibitem{acquisti2019tweet}
+A.~Aquisti.
+\newblock \url{https://twitter.com/ssnstudy/status/1112099054551515138}, 2019.
+
+\bibitem{armstrong2016racing}
+S.~Armstrong, N.~Bostrom, and C.~Shulman.
+\newblock Racing to the precipice: A model of artificial intelligence
+  development.
+\newblock {\em AI \& Society}, 31:201--206, 2016.
+
+\bibitem{arnold2021aiaccidents}
+Z.~Arnold and H.~Toner.
+\newblock {AI} accidents: An emerging threat.
+\newblock {\em Center for Security and Emerging Technology, Georgetown
+  University}, 2021.
+
+\bibitem{ashurst2022ai}
+C.~Ashurst, E.~Hine, P.~Sedille, and A.~Carlier.
+\newblock {AI} ethics statements: Analysis and lessons learnt from {NeurIPS}
+  broader impact statements.
+\newblock In {\em 2022 ACM Conference on Fairness, Accountability, and
+  Transparency}, pages 2047--2056, 2022.
+
+\bibitem{aven2013meaning}
+T.~Aven.
+\newblock On the meaning of a black swan in a risk context.
+\newblock {\em Safety Science}, 57:44--51, 2013.
+
+\bibitem{axon2019policing}
+Axon.
+\newblock First report of the {Axon AI \& Policing Technology Ethics Board},
+  2019.
+
+\bibitem{axon2022ethicsequity}
+Axon.
+\newblock Ethics \& {Equity Advisory Council}.
+\newblock \url{https://www.axon.com/eeac}, 2022.
+
+\bibitem{baldwin2016driving}
+R.~Baldwin and J.~Black.
+\newblock Driving priorities in risk-based regulation: What's the problem?
+\newblock {\em Journal of Law and Society}, 43(4):565--595, 2016.
+
+\bibitem{belfield2020activism}
+H.~Belfield.
+\newblock Activism by the {AI} community: Analysing recent achievements and
+  future prospects.
+\newblock In {\em Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+  Society}, pages 15--21, 2020.
+
+\bibitem{bernstein2021ethics}
+M.~S. Bernstein, M.~Levi, D.~Magnus, B.~A. Rajala, D.~Satz, and Q.~Waeiss.
+\newblock Ethics and society review: Ethics reflection as a precondition to
+  research funding.
+\newblock {\em Proceedings of the National Academy of Sciences}, 118(52), 2021.
+
+\bibitem{bietti2020ethics}
+E.~Bietti.
+\newblock From ethics washing to ethics bashing: A view on tech ethics from
+  within moral philosophy.
+\newblock In {\em Proceedings of the 2020 Conference on Fairness,
+  Accountability, and Transparency}, pages 210--219, 2020.
+
+\bibitem{birhane2022power}
+A.~Birhane, W.~Isaac, V.~Prabhakaran, M.~D{\'\i}az, M.~C. Elish, I.~Gabriel,
+  and S.~Mohamed.
+\newblock Power to the people? {Opportunities} and challenges for participatory
+  {AI}.
+\newblock {\em Equity and Access in Algorithms, Mechanisms, and Optimization},
+  pages 1--8, 2022.
+
+\bibitem{bjorkelo2013workplace}
+B.~Bj{\o}rkelo.
+\newblock Workplace bullying after whistleblowing: Future research and
+  implications.
+\newblock {\em Journal of Managerial Psychology}, 28(3):306--323, 2013.
+
+\bibitem{bommasani2022opportunities}
+R.~Bommasani, D.~A. Hudson, E.~Adeli, R.~Altman, S.~Arora, S.~von Arx, M.~S.
+  Bernstein, J.~Bohg, A.~Bosselut, E.~Brunskill, E.~Brynjolfsson, S.~Buch,
+  D.~Card, R.~Castellon, N.~Chatterji, A.~Chen, K.~Creel, J.~Q. Davis,
+  D.~Demszky, C.~Donahue, M.~Doumbouya, E.~Durmus, S.~Ermon, J.~Etchemendy,
+  K.~Ethayarajh, L.~Fei-Fei, C.~Finn, T.~Gale, L.~Gillespie, K.~Goel,
+  N.~Goodman, S.~Grossman, N.~Guha, T.~Hashimoto, P.~Henderson, J.~Hewitt,
+  D.~E. Ho, J.~Hong, K.~Hsu, J.~Huang, T.~Icard, S.~Jain, D.~Jurafsky,
+  P.~Kalluri, S.~Karamcheti, G.~Keeling, F.~Khani, O.~Khattab, P.~W. Koh,
+  M.~Krass, R.~Krishna, R.~Kuditipudi, A.~Kumar, F.~Ladhak, M.~Lee, T.~Lee,
+  J.~Leskovec, I.~Levent, X.~L. Li, X.~Li, T.~Ma, A.~Malik, C.~D. Manning,
+  S.~Mirchandani, E.~Mitchell, Z.~Munyikwa, S.~Nair, A.~Narayan, D.~Narayanan,
+  B.~Newman, A.~Nie, J.~C. Niebles, H.~Nilforoshan, J.~Nyarko, G.~Ogut, L.~Orr,
+  I.~Papadimitriou, J.~S. Park, C.~Piech, E.~Portelance, C.~Potts,
+  A.~Raghunathan, R.~Reich, H.~Ren, F.~Rong, Y.~Roohani, C.~Ruiz, J.~Ryan,
+  C.~Ré, D.~Sadigh, S.~Sagawa, K.~Santhanam, A.~Shih, K.~Srinivasan,
+  A.~Tamkin, R.~Taori, A.~W. Thomas, F.~Tramèr, R.~E. Wang, W.~Wang, B.~Wu,
+  J.~Wu, Y.~Wu, S.~M. Xie, M.~Yasunaga, J.~You, M.~Zaharia, M.~Zhang, T.~Zhang,
+  X.~Zhang, Y.~Zhang, L.~Zheng, K.~Zhou, and P.~Liang.
+\newblock On the opportunities and risks of foundation models.
+\newblock {\em arXiv preprint arXiv:2108.07258}, 2022.
+
+\bibitem{bostrom2001analyzing}
+N.~Bostrom.
+\newblock Existential risks: Analyzing human extinction scenarios and related
+  hazards.
+\newblock {\em Journal of Evolution and Technology}, 9(1), 2001.
+
+\bibitem{bostrom2011information}
+N.~Bostrom.
+\newblock Information hazards: A typology of potential harms from knowledge.
+\newblock {\em Review of Contemporary Philosophy}, 10:44--79, 2011.
+
+\bibitem{bostrom2019vulnerable}
+N.~Bostrom.
+\newblock The vulnerable world hypothesis.
+\newblock {\em Global Policy}, 10(4):455--476, 2019.
+
+\bibitem{brundage2018malicious}
+M.~Brundage, S.~Avin, J.~Clark, H.~Toner, P.~Eckersley, B.~Garfinkel, A.~Dafoe,
+  P.~Scharre, T.~Zeitzoff, B.~Filar, H.~Anderson, H.~Roff, G.~C. Allen,
+  J.~Steinhardt, C.~Flynn, S.~O. h\'Eigeartaigh, S.~Beard, H.~Belfield,
+  S.~Farquhar, C.~Lyle, R.~Crootof, O.~Evans, M.~Page, J.~Bryson,
+  R.~Yampolskiy, and D.~Amodei.
+\newblock The malicious use of artificial intelligence: Forecasting,
+  prevention, and mitigation.
+\newblock {\em arXiv preprint arXiv:1802.07228}, 2018.
+
+\bibitem{brundage2020trustworthy}
+M.~Brundage, S.~Avin, J.~Wang, H.~Belfield, G.~Krueger, G.~Hadfield, H.~Khlaaf,
+  J.~Yang, H.~Toner, R.~Fong, T.~Maharaj, P.~W. Koh, S.~Hooker, J.~Leung,
+  A.~Trask, E.~Bluemke, J.~Lebensold, C.~O'Keefe, M.~Koren, T.~Ryffel,
+  J.~Rubinovitz, T.~Besiroglu, F.~Carugati, J.~Clark, P.~Eckersley, S.~de~Haas,
+  M.~Johnson, B.~Laurie, A.~Ingerman, I.~Krawczuk, A.~Askell, R.~Cammarota,
+  A.~Lohn, D.~Krueger, C.~Stix, P.~Henderson, L.~Graham, C.~Prunkl, B.~Martin,
+  E.~Seger, N.~Zilberman, S.~O. h\'Eigeartaigh, F.~Kroeger, G.~Sastry,
+  R.~Kagan, A.~Weller, B.~Tse, E.~Barnes, A.~Dafoe, P.~Scharre,
+  A.~Herbert-Voss, M.~Rasser, S.~Sodhani, C.~Flynn, T.~K. Gilbert, L.~Dyer,
+  S.~Khan, Y.~Bengio, and M.~Anderljung.
+\newblock Toward trustworthy {AI} development: Mechanisms for supporting
+  verifiable claims.
+\newblock {\em arXiv preprint arXiv:2004.07213}, 2020.
+
+\bibitem{openai2022lessonslearned}
+M.~Brundage, K.~Mayer, T.~Eloundou, S.~Agarwal, S.~Adler, G.~Krueger, J.~Leike,
+  and P.~Mishkin.
+\newblock Lessons learned on language model safety and misuse.
+\newblock {\em OpenAI}, 2022.
+
+\bibitem{carlsmith2022powerseeking}
+J.~Carlsmith.
+\newblock Is power-seeking {AI} an existential risk?
+\newblock {\em arXiv preprint arXiv:2206.13353}, 2022.
+
+\bibitem{cave2018ai}
+S.~Cave and S.~S. {\'O}h{\'E}igeartaigh.
+\newblock An {AI} race for strategic advantage: Rhetoric and risks.
+\newblock In {\em Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics,
+  and Society}, pages 36--40, 2018.
+
+\bibitem{chamberlain2022risk}
+J.~Chamberlain.
+\newblock The risk-based approach of the {European Union’s} proposed
+  artificial intelligence regulation: Some comments from a tort law
+  perspective.
+\newblock {\em European Journal of Risk Regulation}, 14(1):1--13, 2022.
+
+\bibitem{cihon2021corporate}
+P.~Cihon, J.~Schuett, and S.~D. Baum.
+\newblock Corporate governance of artificial intelligence in the public
+  interest.
+\newblock {\em Information}, 12(7), 2021.
+
+\bibitem{conger2018pentagonai}
+K.~Conger and D.~Cameron.
+\newblock Google is helping the {Pentagon} build {AI} for drones.
+\newblock {\em Gizmodo}, 2018.
+
+\bibitem{cotton2020defence}
+O.~Cotton-Barratt, M.~Daniel, and A.~Sandberg.
+\newblock Defence in depth against human extinction: Prevention, response,
+  resilience, and why they all matter.
+\newblock {\em Global Policy}, 11(3):271--282, 2020.
+
+\bibitem{crofts2020negotiating}
+P.~Crofts and H.~van Rijswijk.
+\newblock Negotiating 'evil': {Google}, {Project Maven} and the corporate form.
+\newblock {\em Law, Technology and Humans}, 2(1):1--16, 2020.
+
+\bibitem{crootof2019artificial}
+R.~Crootof.
+\newblock Artificial intelligence research needs responsible publication norms.
+\newblock {\em Lawfare Blog}, 2019.
+
+\bibitem{davies2018three}
+H.~Davies and M.~Zhivitskaya.
+\newblock Three lines of defence: A robust organising framework, or just lines
+  in the sand?
+\newblock {\em Global Policy}, 9:34--42, 2018.
+
+\bibitem{deepmind2023humanrightspolicy}
+{DeepMind}.
+\newblock Human rights policy.
+\newblock \url{https://www.deepmind.com/human-rights-policy}, 2022.
+
+\bibitem{degrave2022magnetic}
+J.~Degrave, F.~Felici, J.~Buchli, M.~Neunert, B.~Tracey, F.~Carpanese,
+  T.~Ewalds, R.~Hafner, A.~Abdolmaleki, D.~de~Las~Casas, et~al.
+\newblock Magnetic control of tokamak plasmas through deep reinforcement
+  learning.
+\newblock {\em Nature}, 602(7897):414--419, 2022.
+
+\bibitem{dungan2015psychology}
+J.~Dungan, A.~Waytz, and L.~Young.
+\newblock The psychology of whistleblowing.
+\newblock {\em Current Opinion in Psychology}, 6:129--133, 2015.
+
+\bibitem{falco2021governing}
+G.~Falco, B.~Shneiderman, J.~Badger, R.~Carrier, A.~Dahbura, D.~Danks,
+  M.~Eling, A.~Goodloe, J.~Gupta, C.~Hart, et~al.
+\newblock Governing {AI} safety through independent audits.
+\newblock {\em Nature Machine Intelligence}, 3(7):566--571, 2021.
+
+\bibitem{floridi2021translating}
+L.~Floridi.
+\newblock Translating principles into practices of digital ethics: Five risks
+  of being unethical.
+\newblock {\em Ethics, Governance, and Policies in Artificial Intelligence},
+  pages 81--90, 2021.
+
+\bibitem{policing2022resigning}
+B.~Friedman, W.~Abd-Almageed, M.~Brundage, R.~Calo, D.~Citron, R.~Delsol,
+  C.~Harris, J.~Lynch, and M.~McBride.
+\newblock Statement of resigning {Axon AI} ethics board members.
+\newblock {\em Policing Project}, 2022.
+
+\bibitem{ganguli2022red}
+D.~Ganguli, L.~Lovitt, J.~Kernion, A.~Askell, Y.~Bai, S.~Kadavath, B.~Mann,
+  E.~Perez, N.~Schiefer, K.~Ndousse, A.~Jones, S.~Bowman, A.~Chen, T.~Conerly,
+  N.~DasSarma, D.~Drain, N.~Elhage, S.~El-Showk, S.~Fort, Z.~Hatfield-Dodds,
+  T.~Henighan, D.~Hernandez, T.~Hume, J.~Jacobson, S.~Johnston, S.~Kravec,
+  C.~Olsson, S.~Ringer, E.~Tran-Johnson, D.~Amodei, T.~Brown, N.~Joseph,
+  S.~McCandlish, C.~Olah, J.~Kaplan, and J.~Clark.
+\newblock Red teaming language models to reduce harms: Methods, scaling
+  behaviors, and lessons learned.
+\newblock {\em arXiv preprint arXiv:2209.07858}, 2022.
+
+\bibitem{goldstein2023generative}
+J.~A. Goldstein, G.~Sastry, M.~Musser, R.~DiResta, M.~Gentzel, and K.~Sedova.
+\newblock Generative language models and automated influence operations:
+  Emerging threats and potential mitigations.
+\newblock {\em arXiv preprint arXiv:2301.04246}, 2023.
+
+\bibitem{transphobia2019googlers}
+{Googlers Against Transphobia}.
+\newblock Googlers against transphobia and hate.
+\newblock {\em Medium}, 2019.
+
+\bibitem{grant2023googlehelp}
+N.~Grant.
+\newblock Google calls in help from {Larry Page} and {Sergey Brin} for {A.I.}
+  fight.
+\newblock {\em The New York Times}, 2023.
+
+\bibitem{grimes2019anchors}
+M.~G. Grimes, T.~A. Williams, and E.~Y. Zhao.
+\newblock Anchors aweigh: The sources, variety, and challenges of mission
+  drift.
+\newblock {\em Academy of Management Review}, 44(4):819--845, 2019.
+
+\bibitem{gupta2020ai}
+A.~Gupta and V.~Heath.
+\newblock {AI} ethics groups are repeating one of society’s classic mistakes.
+\newblock {\em MIT Technology Review}, 2020.
+
+\bibitem{hagendorff2020ethics}
+T.~Hagendorff.
+\newblock The ethics of {AI} ethics: An evaluation of guidelines.
+\newblock {\em Minds and Machines}, 30(1):99--120, 2020.
+
+\bibitem{hendrycks2022unsolved}
+D.~Hendrycks, N.~Carlini, J.~Schulman, and J.~Steinhardt.
+\newblock Unsolved problems in {ML} safety.
+\newblock {\em arXiv preprint arXiv:2109.13916}, 2022.
+
+\bibitem{hoffman2023microsoftchatgpt}
+L.~Hoffman and R.~Albergotti.
+\newblock Microsoft eyes \$10 billion bet on {ChatGPT}.
+\newblock {\em Semafor}, 2023.
+
+\bibitem{hunt2020flight}
+W.~Hunt.
+\newblock The flight to safety-critical {AI}.
+\newblock {\em Center for Long-Term Cybersecurity, UC Berkeley}, 2020.
+
+\bibitem{iec31010_2019}
+{IEC}.
+\newblock {31010:2019 Risk management — Risk assessment techniques}, 2019.
+
+\bibitem{iso31000_2018}
+ISO.
+\newblock {31000:2018 Risk management — Guidelines}, 2018.
+
+\bibitem{iso51_2014}
+{ISO/IEC}.
+\newblock {Guide 51:2014 Safety aspects — Guidelines for their inclusion in
+  standards}, 2014.
+
+\bibitem{iso23894_2023}
+{ISO/IEC}.
+\newblock {23894:2023 Information technology — Artificial intelligence —
+  Guidance on risk management}, 2023.
+
+\bibitem{jobin2019global}
+A.~Jobin, M.~Ienca, and E.~Vayena.
+\newblock The global landscape of {AI} ethics guidelines.
+\newblock {\em Nature Machine Intelligence}, 1(9):389--399, 2019.
+
+\bibitem{jordan2019designing}
+S.~R. Jordan.
+\newblock Designing artificial intelligence review boards: creating risk
+  metrics for review of {AI}.
+\newblock In {\em 2019 IEEE International Symposium on Technology and Society
+  (ISTAS)}, pages 1--7, 2019.
+
+\bibitem{jubb1999whistleblowing}
+P.~B. Jubb.
+\newblock Whistleblowing: A restrictive definition and interpretation.
+\newblock {\em Journal of Business Ethics}, 21:77--94, 1999.
+
+\bibitem{kavukcuoglu2022alphafold}
+K.~Kavukcuoglu, P.~Kohli, L.~Ibrahim, D.~Bloxwich, and S.~Brown.
+\newblock How our principles helped define alphafold’s release.
+\newblock
+  \url{https://www.deepmind.com/blog/how-our-principles-helped-define-alphafolds-release},
+  2022.
+
+\bibitem{klonick2020facebook}
+K.~Klonick.
+\newblock The {Facebook Oversight Board}: Creating an independent institution
+  to adjudicate online free expression.
+\newblock {\em Yale Law Journal}, 129(2418), 2020.
+
+\bibitem{klonick2021insights}
+K.~Klonick.
+\newblock Insight the making of {Facebook's} supreme court.
+\newblock {\em New Yorker}, 2021.
+
+\bibitem{kolt2023algorithmic}
+N.~Kolt.
+\newblock Algorithmic black swans.
+\newblock {\em Washington University Law Review}, 101, 2023.
+
+\bibitem{lalley2018quadratic}
+S.~P. Lalley and E.~G. Weyl.
+\newblock Quadratic voting: How mechanism design can radicalize democracy.
+\newblock In {\em AEA Papers and Proceedings}, volume 108, pages 33--37, 2018.
+
+\bibitem{leahy2022conjecture}
+C.~Leahy, S.~Black, C.~Scammell, and A.~Miotti.
+\newblock Conjecture: Internal infohazard policy.
+\newblock {\em Alignment Forum}, 2022.
+
+\bibitem{lundqvist2015firms}
+S.~A. Lundqvist.
+\newblock Why firms implement risk governance: Stepping beyond traditional risk
+  management to enterprise risk management.
+\newblock {\em Journal of Accounting and Public Policy}, 34(5):441--466, 2015.
+
+\bibitem{maas2019viable}
+M.~M. Maas.
+\newblock How viable is international arms control for military artificial
+  intelligence? three lessons from nuclear weapons.
+\newblock {\em Contemporary Security Policy}, 40(3):285--311, 2019.
+
+\bibitem{mahler2021between}
+T.~Mahler.
+\newblock Between risk management and proportionality: The risk-based approach
+  in the {EU’s Artificial Intelligence Act} proposal.
+\newblock {\em Nordic Yearbook of Law and Informatics}, 2021.
+
+\bibitem{microsoft2020principles}
+Microsoft.
+\newblock Putting principles into practice: How we approach responsible {AI} at
+  {Microsoft}.
+\newblock \url{https://www.microsoft.com/cms/api/am/binary/RE4pKH5}, 2020.
+
+\bibitem{microsoft2023openai}
+Microsoft.
+\newblock Microsoft and {OpenAI} extend partnership.
+\newblock
+  \url{https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/},
+  2023.
+
+\bibitem{microsoft2023ourapproach}
+Microsoft.
+\newblock Our approach.
+\newblock \url{https://www.microsoft.com/en-us/ai/our-approach}, 2023.
+
+\bibitem{mittelstadt2019principles}
+B.~Mittelstadt.
+\newblock Principles alone cannot guarantee ethical {AI}.
+\newblock {\em Nature machine intelligence}, 1(11):501--507, 2019.
+
+\bibitem{mohamed2020decolonial}
+S.~Mohamed, M.-T. Png, and W.~Isaac.
+\newblock Decolonial {AI}: Decolonial theory as sociotechnical foresight in
+  artificial intelligence.
+\newblock {\em Philosophy \& Technology}, 33:659--684, 2020.
+
+\bibitem{mokander2022operationalising}
+J.~M{\"o}kander and L.~Floridi.
+\newblock Operationalising {AI} governance through ethics-based auditing: An
+  industry case study.
+\newblock {\em AI and Ethics}, pages 1--18, 2022.
+
+\bibitem{mokander2021ethics}
+J.~M{\"o}kander, J.~Morley, M.~Taddeo, and L.~Floridi.
+\newblock Ethics-based auditing of automated decision-making systems: Nature,
+  scope, and limitations.
+\newblock {\em Science and Engineering Ethics}, 27(44), 2021.
+
+\bibitem{morley2021ethics}
+J.~Morley, A.~Elhalal, F.~Garcia, L.~Kinsey, J.~M{\"o}kander, and L.~Floridi.
+\newblock Ethics as a service: a pragmatic operationalisation of {AI} ethics.
+\newblock {\em Minds and Machines}, 31(2):239--256, 2021.
+
+\bibitem{morley2020initial}
+J.~Morley, L.~Floridi, L.~Kinsey, and A.~Elhalal.
+\newblock From what to how: an initial review of publicly available {AI} ethics
+  tools, methods and research to translate principles into practices.
+\newblock {\em Science and Engineering Ethics}, 26(4):2141--2168, 2020.
+
+\bibitem{mökander2023auditing}
+J.~Mökander, J.~Schuett, H.~R. Kirk, and L.~Floridi.
+\newblock Auditing large language models: A three-layered approach.
+\newblock {\em arXiv preprint arXiv:2302.08500}, 2023.
+
+\bibitem{naude2020race}
+W.~Naud{\'e} and N.~Dimitri.
+\newblock The race for an artificial general intelligence: implications for
+  public policy.
+\newblock {\em AI \& Society}, 35:367--379, 2020.
+
+\bibitem{near1995effective}
+J.~P. Near and M.~P. Miceli.
+\newblock Effective whistle-blowing.
+\newblock {\em Academy of management review}, 20(3):679--708, 1995.
+
+\bibitem{newman2020decisionpoints}
+J.~Newman.
+\newblock Decision points in {AI} governance.
+\newblock {\em Center for Long-Term Cybersecurity, UC Berkeley}, 2020.
+
+\bibitem{ngo2023alignment}
+R.~Ngo, L.~Chan, and S.~Mindermann.
+\newblock The alignment problem from a deep learning perspective.
+\newblock {\em arXiv preprint arXiv:2209.00626}, 2023.
+
+\bibitem{nist2023artificial}
+NIST.
+\newblock {Artificial Intelligence Risk Management Framework (AI RMF 1.0}),
+  2023.
+
+\bibitem{openai2022bestpractices}
+{OpenAI}.
+\newblock Best practices for deploying language models.
+\newblock
+  \url{https://openai.com/blog/best-practices-for-deploying-language-models},
+  2022.
+
+\bibitem{openai2023gpt4technical}
+{OpenAI}.
+\newblock {GPT-4} technical report.
+\newblock {\em arXiv preprint arXiv:2303.08774}, 2023.
+
+\bibitem{openai2023microsoft}
+OpenAI.
+\newblock {OpenAI} and {Microsoft} extend partnership, 2023.
+
+\bibitem{ord2020precipice}
+T.~Ord.
+\newblock {\em The precipice: Existential risk and the future of humanity}.
+\newblock Hachette Books, 2020.
+
+\bibitem{oversight2022funding}
+{Oversight Board}.
+\newblock Securing ongoing funding.
+\newblock
+  \url{https://www.oversightboard.com/news/1111826643064185-securing-ongoing-funding-for-the-oversight-board/},
+  2022.
+
+\bibitem{oversightboard2023website}
+{Oversight Board}.
+\newblock \url{https://www.oversightboard.com}, 2023.
+
+\bibitem{oversight2022bylaws}
+{Oversight Board}.
+\newblock Bylaws.
+\newblock \url{https://www.oversightboard.com/sr/governance/bylaws}, 2023.
+
+\bibitem{oversight2023charter}
+{Oversight Board}.
+\newblock Charter.
+\newblock \url{https://oversightboard.com/attachment/494475942886876/}, 2023.
+
+\bibitem{oversightboard2023members}
+{Oversight Board}.
+\newblock Our commitment.
+\newblock \url{https://www.oversightboard.com/meet-the-board/}, 2023.
+
+\bibitem{oversightboard2023trustees}
+{Oversight Board}.
+\newblock Trustees.
+\newblock \url{https://www.oversightboard.com/governance}, 2023.
+
+\bibitem{partnershiponai2021managingrisks}
+{Partnership on AI}.
+\newblock Managing the risks of {AI} research, 2021.
+
+\bibitem{perez2022red}
+E.~Perez, S.~Huang, F.~Song, T.~Cai, R.~Ring, J.~Aslanides, A.~Glaese,
+  N.~McAleese, and G.~Irving.
+\newblock Red teaming language models with language models.
+\newblock {\em arXiv preprint arXiv:2202.03286}, 2022.
+
+\bibitem{adalovelace2022looking}
+M.~Petermann, N.~Tempini, I.~K. Garcia, K.~Whitaker, and A.~Strait.
+\newblock Looking before we leap.
+\newblock {\em Ada Lovelace Institute}, 2022.
+
+\bibitem{piper2019googlefail}
+K.~Piper.
+\newblock Google’s brand-new {AI} ethics board is already falling apart.
+\newblock {\em Vox}, 2019.
+
+\bibitem{policingproject2020reports}
+{Policing Project}.
+\newblock Reports of the axon {AI} ethics board.
+\newblock \url{https://www.policingproject.org/axon}, 2020.
+
+\bibitem{posner2014quadratic}
+E.~A. Posner and E.~G. Weyl.
+\newblock Quadratic voting as efficient corporate governance.
+\newblock {\em The University of Chicago Law Review}, 81(1):251--272, 2014.
+
+\bibitem{raji2019actionable}
+I.~D. Raji and J.~Buolamwini.
+\newblock Actionable auditing: Investigating the impact of publicly naming
+  biased performance results of commercial {AI} products.
+\newblock In {\em Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics,
+  and Society}, pages 429--435, 2019.
+
+\bibitem{raji2022outsider}
+I.~D. Raji, P.~Xu, C.~Honigsberg, and D.~Ho.
+\newblock Outsider oversight: Designing a third party audit ecosystem for {AI}
+  governance.
+\newblock In {\em Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics,
+  and Society}, pages 557--571, 2022.
+
+\bibitem{rando2022redteaming}
+J.~Rando, D.~Paleka, D.~Lindner, L.~Heim, and F.~Tramèr.
+\newblock Red-teaming the {Stable Diffusion} safety filter.
+\newblock {\em arXiv preprint arXiv:2210.04610}, 2022.
+
+\bibitem{sandbrink2022differential}
+J.~Sandbrink, H.~Hobbs, J.~Swett, A.~Dafoe, and A.~Sandberg.
+\newblock Differential technology development: A responsible innovation
+  principle for navigating technology risks.
+\newblock {\em SSRN}, 2022.
+
+\bibitem{sandler2019building}
+R.~Sandler, J.~Basl, and S.~Tiell.
+\newblock Building data and {AI} ethics committees.
+\newblock {\em Accenture \& Northeastern University}, 2019.
+
+\bibitem{schuett2022lines}
+J.~Schuett.
+\newblock Three lines of defense against risks from {AI}.
+\newblock {\em arXiv preprint arXiv:2212.08364}, 2022.
+
+\bibitem{schuett2022risk}
+J.~Schuett.
+\newblock Risk management in the {Artificial Intelligence Act}.
+\newblock {\em European Journal of Risk Regulation}, pages 1--19, 2023.
+
+\bibitem{seger2022defence}
+E.~Seger.
+\newblock In defence of principlism in {AI} ethics and governance.
+\newblock {\em Philosophy \& Technology}, 35(2):45, 2022.
+
+\bibitem{sevilla2022compute}
+J.~Sevilla, L.~Heim, A.~Ho, T.~Besiroglu, M.~Hobbhahn, and P.~Villalobos.
+\newblock Compute trends across three eras of machine learning.
+\newblock {\em arXiv preprint arXiv:2202.05924}, 2022.
+
+\bibitem{shevlane2022structured}
+T.~Shevlane.
+\newblock Structured access: An emerging paradigm for safe {AI} deployment.
+\newblock In {\em The Oxford Handbook of AI Governance}, 2022.
+
+\bibitem{shevlane2020offense}
+T.~Shevlane and A.~Dafoe.
+\newblock The offense-defense balance of scientific knowledge: Does publishing
+  {AI} research reduce misuse?
+\newblock In {\em Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+  Society}, pages 173--179, 2020.
+
+\bibitem{silver2021reward}
+D.~Silver, S.~Singh, D.~Precup, and R.~S. Sutton.
+\newblock Reward is enough.
+\newblock {\em Artificial Intelligence}, 299, 2021.
+
+\bibitem{smith2022axon}
+R.~Smith.
+\newblock Axon committed to listening and learning so that we can fulfill our
+  mission to protect life, together.
+\newblock
+  \url{https://www.axon.com/news/technology/axon-committed-to-listening-and-learning},
+  2022.
+
+\bibitem{solaiman2023gradient}
+I.~Solaiman.
+\newblock The gradient of generative {AI} release: Methods and considerations.
+\newblock {\em arXiv preprint arXiv:2302.04844}, 2023.
+
+\bibitem{solaiman2019release}
+I.~Solaiman, M.~Brundage, J.~Clark, A.~Askell, A.~Herbert-Voss, J.~Wu,
+  A.~Radford, G.~Krueger, J.~W. Kim, S.~Kreps, M.~McCain, A.~Newhouse,
+  J.~Blazakis, K.~McGuffie, and J.~Wang.
+\newblock Release strategies and the social impacts of language models.
+\newblock {\em arXiv preprint arXiv:1908.09203}, 2019.
+
+\bibitem{srikumar2022advancing}
+M.~Srikumar, R.~Finlay, G.~Abuhamad, C.~Ashurst, R.~Campbell,
+  E.~Campbell-Ratcliffe, H.~Hongo, S.~R. Jordan, J.~Lindley, A.~Ovadya, et~al.
+\newblock Advancing ethics review practices in {AI} research.
+\newblock {\em Nature Machine Intelligence}, 4(12):1061--1064, 2022.
+
+\bibitem{taleb2007black}
+N.~N. Taleb.
+\newblock {\em The Black Swan: The Impact of the Highly Improbable}.
+\newblock Random House, 2007.
+
+\bibitem{thomas2019independence}
+V.~Thomas, J.~Duda, and T.~Maurer.
+\newblock Independence with a purpose: Facebook’s creative use of
+  {Delaware’s} purpose trust statute to establish independent oversight.
+\newblock {\em Business Law Today}, 2019.
+
+\bibitem{tiell2019create}
+S.~Tiell.
+\newblock Create an ethics committee to keep your {AI} initiative in check.
+\newblock {\em Harvard Business Review}, 15, 2019.
+
+\bibitem{urbina2022dual}
+F.~Urbina, F.~Lentzos, C.~Invernizzi, and S.~Ekins.
+\newblock Dual use of artificial-intelligence-powered drug discovery.
+\newblock {\em Nature Machine Intelligence}, 4(3):189--191, 2022.
+
+\bibitem{van2011risk}
+M.~B. Van~Asselt and O.~Renn.
+\newblock Risk governance.
+\newblock {\em Journal of Risk Research}, 14(4):431--449, 2011.
+
+\bibitem{walker2019external}
+K.~Walker.
+\newblock An external advisory council to help advance the responsible
+  development of {AI}.
+\newblock
+  \url{https://blog.google/technology/ai/external-advisory-council-help-advance-responsible-development-ai/},
+  2019.
+
+\bibitem{waters2021rebelai}
+R.~Waters and M.~Kruppa.
+\newblock Rebel {AI} group raises record cash after machine learning schism.
+\newblock
+  \url{https://www.ft.com/content/8de92f3a-228e-4bb8-961f-96f2dce70ebb}, 2021.
+
+\bibitem{weidinger2021ethical}
+L.~Weidinger, J.~Mellor, M.~Rauh, C.~Griffin, J.~Uesato, P.-S. Huang, M.~Cheng,
+  M.~Glaese, B.~Balle, A.~Kasirzadeh, Z.~Kenton, S.~Brown, W.~Hawkins,
+  T.~Stepleton, C.~Biles, A.~Birhane, J.~Haas, L.~Rimell, L.~A. Hendricks,
+  W.~Isaac, S.~Legassick, G.~Irving, and I.~Gabriel.
+\newblock Ethical and social risks of harm from language models.
+\newblock {\em arXiv preprint arXiv:2112.04359}, 2021.
+
+\bibitem{wong2022meta}
+D.~Wong and L.~Floridi.
+\newblock {Meta’s Oversight Board}: A review and critical assessment.
+\newblock {\em Minds and Machines}, pages 1--24, 2022.
+
+\bibitem{yudkowsky2008cognitive}
+E.~Yudkowsky.
+\newblock Cognitive biases potentially affecting judgment of global risks.
+\newblock In {\em Global catastrophic risks}, pages 91--119, 2008.
+
+\bibitem{zhou2022ai}
+J.~Zhou and F.~Chen.
+\newblock {AI} ethics: From principles to practice.
+\newblock {\em AI \& Society}, pages 1--11, 2022.
+
+\end{thebibliography}

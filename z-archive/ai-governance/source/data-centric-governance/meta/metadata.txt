@@ -1,0 +1,13 @@
+---
+title: "Data-Centric Governance"
+title_slug: "data-centric-governance"
+license: "cc-by-sa"
+published: "2023-02-14 07:22:32+00:00"
+entry_id: "http://arxiv.org/abs/2302.07872v1"
+author: "Sean McGregor, Jesse Hostetler"
+pdf: "data-centric-governance.pdf"
+primary_category: "cs.CY"
+get_short_id: "2302.07872v1"
+image: img.png
+section: "Papers"
+---

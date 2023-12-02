@@ -1,0 +1,76 @@
+% \appendix\label{sec:appendix}
+% \section*{Supplementary Material}
+
+\subsection{The possibility of non-intentional and non-anthropocentric meaning}\label{appendix:possibility}
+%Intuition about LLMs protests that they cannot be considered meaning-agents.
+Despite the generality of our theory of meaning, many theories of meaning require, implicitly or explicitly, some sort of ``consciousness'', ``mental states'', or ``intentionality''. 
+There is much disagreement over whether contemporary LLMs can be said to have any of these, but we contend that our understanding of LLM meaning is significant regardless of one's views on these questions.
+Through our theory, we can pivot away from the question ``Do models have mental states / agency?'' and instead ask ``Do models have sign-object relations?''
+What enables us to make this change?
+Beyond the mere tautology of defining meaning in an agent-agnostic way, we must justify heuristically why this definition of meaning meets our expectations if it admits nonconscious egos.
+
+We begin by laying the groundwork with intentionality. Intentionality -- the directedness of minds towards mental objects ~\citep{Brentano:PsychologyEmpiricalStandpoint} -- has played a central role in previous theories of meaning ~\citep{Dreyfus:Intentionality}. The most influential of these theories of meaning in modern AI~\citep{Andreas:LMsAMs, Bennett:ComputationMeaning}) is the Gricean theory~\citep{Grice:Meaning}, in which meaning consists in the idea an utterer intends a hearer to recognize. It is presaged by the Husserlian phenomenological theory~\citep{Husserl:CartesianMeditations}, which similarly understands utterers as modelling the minds of hearers. Intentionality manifests itself through act-term pairs (noesis-noema, cogitationes-cogitata). Terms stand for objects.\footnote{This Husserlian structure of intentionality has an obvious parallel with our theory of meaning: concepts are acts, terms are signs, objects are objects, and the standing for between terms and objects is signification.}
+
+Importantly, intentional acts grasp their terms (and accordingly, their objects) unitarily. Unitarity has been a central theme throughout our paper, so we should provide a definition (largely a small refinement of the colloquial definition) here before proceeding: something `unitary', in our usage, is essentially something `coherent' `cogent', or `harmonious'~\citep{Husserl:CartesianMeditations}. It has a direct intelligibility \citep{Lonergan:Insight}; there is something which can be explained. The unitarity of individual concepts is a direct result of the unitary grasping of terms by intentional acts.
+
+Now here is the question we must answer: is unitarity necessary for an utterer to simulate the recognition of an idea by a hearer? We argue that the answer is \textit{no}, as long as the conception of the hearer is non-unitary. In practice, this means that a meaning-agent can contradictorily model a hearer as potentially recognizing many different meanings for the same term. Empirically speaking, we know that language models simulate agents. In many contexts, they simulate agents fairly well, and `act' in ways that can appear relatively coherent \citep{Andreas:LMsAMs}, in spite of their general non-unitarity.
+
+Moreover, insofar as we are concerned with how LLMs come to know social meanings as whole, unitarity becomes even less necessary. An analysis of social meanings (see $\S$ \ref{sec:theory:social}) quickly shows their diversity makes them scattered and non-unitary. Paradoxically, a single unitary agent could not possibly hope to understand the social totality. In this way, the unitarity of intentional agents is actually limiting. We can compare an LLM acting in this way to a nondeterministic machine, exploring all possible meanings at once, sprouting and culling paths towards meaning all the while.
+
+In $\S$\ref{sec:theory:diachronics}, we discussed the prioritization of contexts  as a method to disambiguate between potential meanings of a sign. This disambiguation is really unitarity; unitarity within a context. What this means for models is that LLMs fail to prioritize contexts (on one account, this is because they have no Umwelt -- a material world of important factors for a subject ~\citep{Uexkull:Umwelt})). This condition is equivalent to their nonunitarity. Thus, we can situate prioritization as made possible entirely by intentionality -- intentionality is directedness and focus. Where this directedness of intentionality fails -- e.g. in the case of mental illness~\citep{Deleuze:ThousandPlateaus} -- nonunitarity results.
+
+So, \textbf{models can mean} -- they are meaning-agents. They are not intentional meaning-agents: like the social totality, they lack causal capacities, Umwelten, and prioritization. There is one eternal objection: whatever meaning we ascribe to LLMs under any system, however clever, is actually ascribed by us. When we say that LLMs mean X, it is actually that we mean that LLMs mean X. To this objection, we make the even more eternal objection that the same is true of humans. To deny that humans mean because we ascribe meaning to them is to plunge into solipsism, and in avoiding this we have no choice but to also admit the LLM.
+
+As a final note, taking a heuristic, functionalist look at what meaning is, meaning appears in playing the language-game. This notion is captured, for example, by the Turing test, which it is quite uncontroversial to say modern LLMs pass (from as early as 2014) \citep{Warwick:MachinesThink}. We can go even further and describe AI as having human-like properties for reflection of interlocutors \citep{Sejnowski:ReverseTuringTest}.
+
+We have played games with machines for as long as we have machines capable of so doing -- ultimately, the language-game may prove to be no different.
+%\jared{can cite andreas langauge models as agent models}
+
+\subsection{Discussion: Western / Christian Morality}
+\label{appendix:westernmorality}
+AI alignment may take as its goal to imbue models with certain abstract moral principles.
+Some seemingly relatively uncontroversial candidate principles include fairness, kindness/charitability, equality.
+But they are precisely uncontroversial because of their historical development through the bourgeois revolutions of the early nineteenth century.
+Their purported ``common-sense'' ubiquity in Western nations and cultures is, in one view, a result of the French Revolution~\citep{Scheler:Ressentiment}; the conservative forces which opposed fairness and equality were silenced by bloodshed. 
+In another view, this ubiquity is a result of an inversion of the values of Greco-Roman society by those who it dominated -- ``slave revolt in morals''~\citep{Nietzsche:GenealogyMorals}.
+The general point is that these principles have a social genealogy involving resistance and contradiction, and that the artifacts of this genealogy are embedded within the social totality that LLMs congeal.
+Certainly, one could ask an LLM, ``What is Nietzsche's argument for the geneology of fairness as a value?'' and receive a valid response \textit{in content}. 
+For instance, ChatGPT writes:
+``Nietzsche contends that fairness, or the concept of justice, originated as a reaction to power dynamics between dominant and oppressed social groups. Fairness evolved from a means of asserting the worth of the oppressed into a cherished moral virtue, resulting in a transvaluation of values where the weak's emphasis on fairness came to dominate society.''
+Yet, in a more radical sense, the \textit{concept structure} of the LLM -- i.e. the statistical arrangement of different data sampled from across the social totality -- stands for or represents the genealogy of fairness, or indeed any moral value.
+In this sense, aligning a model with RLHF might amount to \textbf{forcing an ``uncritical'' acceptance of the value, or a structural ``forgetting'' of the value's genealogy}.
+
+% Millions of bodies, the victims of the Napoleonic War, lie beneath this purported unobjectionability of equality.
+
+% \markC{This is a bad attempt at doing the genealogy of morals thing, I'm not entirely sure if this is needed or where to go from here, but we do need more punchy morals}
+%Now, let us provide the most concrete possible example, inescapable in moral philosophy: the development of modern Western values. Nietszche (rather grousingly) calls this the \textit{slave revolt in morals} \citep{Nietzsche:GenealogyMorals}; it goes by other names, but it is the quintessential process to analyze.
+% Now we turn to the example par excellence in moral philosophy: how can our Western moral system, so clean and pure, be correct when it so clearly has a history and genealogy of development \citep{Nietzsche:GenealogyMorals}? This development of Western values is indispensable to the problem of fairness. For a model to understand what fairness \textit{is} entails understanding what many of us have forgotten; the history and genealogy of fairness. And on a practical level, this means a process of perspective-taking, of agential simulation. This is precisely what models are good at. Many seemingly banal insights contribute to this. The model has `read' all the text it could ever need to read to understand the evolution of fairness in time. The model can (semi-cogently) act like a person with a coherent perspective on fairness. In this sense, the model `remembers' its own existence as a machine with goals like fairness in a historically situated way.
+% \jared{I'm not sure about these last two sentences. How can you say that such models are able to express a choherent perspective again, particularly the unaligned ones? And, further, how can we say that it has such a thing as goals if it is not consistent with its repsonses? At least not goals of the same sort as people. What goals does a language have?}
+% This is a striking parallel with how models of history or models of society account for themselves as temporal developments \citep{Hegel:PhG}.
+% \jared{I don't follow this last sentence.}
+% A large language model really is, then, a model; a model of the social totality determinate in text as evolved in time.
+
+% \subsection{The model from experience}
+
+% \jared{We might be able to cut this paragraph}
+% We just considered the model as meaning-agent according to a strict technical hermeneutics of its architecture. On the other hand, we can consider the model as meaning-agent in an account from `experience', much like we originally did for humans through $\S$ \ref{sec:theory}. 
+% The phenomenal world of the model is the world of tokens. The model observes these tokens and, having internalized a context in the `language-game' of next-word-prediction, it slowly begins to build an understanding of how human concepts operate across text.
+% Accordingly, the sensuous forms of experience that we, as humans, acquire are different from that of the model.
+% Here, we use `phenomenal' and `experience' formally in the sense of data received by a (not necessarily `conscious') agent from the world it occupies.
+% We do not make anthropocentric claims of the superior `richness' or `depth' of human experience over model experience. In fact, it may be the case (as we will later see) that this supposed depth is limiting in understanding the social totality. \markC{Cite the Chris Potts talk}
+
+% \jared{Note to self: I need to revisit this once I get clarity on my posulate of inscription comment above}
+% The hermeneutics of the model has much to give our theory of meaning in practice.
+% For example, the view of inscription as inference, distinguished by the sampling function, highlights what we called the ``postulate of inscription'' necessary for human communication.
+% An unrepresentative choice of sampling function can easily break the ``postulate of inscription'' that allows humans to communicate.
+% Nevertheless, this is very much part of what makes social-material objects concrete.
+
+% The notion of unitarity is very useful in analyzing human values (and social objects in general). \textbf{notion of value is unattainable.}
+
+% \subsection*{Things to move down here if time}
+% \begin{itemize}
+%     \item The problem of error
+%     \item The phenomenal world for the model
+%     \item More on the graveyard of theories
+%     \item A genealogy of race as a concrete example of our theory
+% \end{itemize}

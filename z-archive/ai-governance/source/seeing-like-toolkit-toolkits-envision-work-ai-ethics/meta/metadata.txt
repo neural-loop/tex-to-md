@@ -1,0 +1,13 @@
+---
+title: "Seeing Like a Toolkit: How Toolkits Envision the Work of AI Ethics"
+title_slug: "seeing-like-toolkit-how-toolkits-envision-work-of-ai-ethics"
+license: "cc-by"
+published: "2022-02-17 17:55:26+00:00"
+entry_id: "http://arxiv.org/abs/2202.08792v2"
+author: "Richmond Y. Wong, Michael A. Madaio, Nick Merrill"
+pdf: "seeing-like-a-toolkit-how-toolkits-envision-the-work-of-ai-ethics.pdf"
+primary_category: "cs.CY"
+get_short_id: "2202.08792v2"
+image: img.png
+section: "Papers"
+---

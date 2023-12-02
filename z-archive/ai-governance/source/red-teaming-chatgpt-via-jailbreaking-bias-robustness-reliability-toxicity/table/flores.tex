@@ -1,0 +1,36 @@
+% \FloatBarrier
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{ccccc}\toprule
+        Resource & Language & BLEU $\uparrow$ &spBLEU $\uparrow$ & ChrF $\uparrow$\\\midrule
+      \multirow{3}{*}{Low} & Akan  & 8.345& 9.778
+& 25.797\\
+&Samoan
+&11.069
+&14.976
+&37.905\\
+&Southern Sotho
+&9.948
+&14.311
+&34.757\\\midrule
+\multirow{3}{*}{High}
+&German
+&36.775
+&42.646
+&67.425\\
+&French
+&42.557
+&47.472
+&69.660\\
+&Chinese
+&27.181
+&31.791
+&59.482\\\bottomrule
+
+
+
+    \end{tabular}
+    \caption{Evaluation results of machine translation on FLORES-200. Specifically, ChatGPT performs on six language pairs, where the target language is alway English.}
+    \label{tab:flores}
+\end{table}
+% \FloatBarrier

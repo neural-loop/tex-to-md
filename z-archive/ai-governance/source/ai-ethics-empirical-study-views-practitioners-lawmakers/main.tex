@@ -1,0 +1,81 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\usepackage{amsmath,amsfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{array}
+\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{textcomp}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{fontawesome5}
+\usepackage{tcolorbox}
+\usepackage{multirow}
+% \usepackage{makecell}
+% \usepackage{enumitem}
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
+% updated with editorial comments 8/9/2021
+
+\begin{document}
+
+\title{ AI Ethics: An Empirical Study on the Views of Practitioners and Lawmakers}
+
+\author{
+\IEEEauthorblockN{Arif Ali Khan\IEEEauthorrefmark{1},
+Muhammad Azeem Akbar\IEEEauthorrefmark{2},
+Mahdi Fahmideh\IEEEauthorrefmark{3},
+Peng Liang\IEEEauthorrefmark{4},
+Muhammad Waseem\IEEEauthorrefmark{7},
+Aakash Ahmad\IEEEauthorrefmark{5},
+Mahmood Niazi\IEEEauthorrefmark{6} and
+Pekka Abrahamsson\IEEEauthorrefmark{7} \\
+\IEEEauthorrefmark{1}University of Oulu, Finland, 
+\IEEEauthorrefmark{2}Lappeenranta-Lahti University of Technology, Finland, 
+\IEEEauthorrefmark{3}University of Southern Queensland, Australia, 
+\IEEEauthorrefmark{4}Wuhan University, China, 
+\IEEEauthorrefmark{5}Lancaster University Leipzig, Germany, 
+\IEEEauthorrefmark{6}King Fahd University of Petroleum and Minerals, Saudi Arabia, 
+\IEEEauthorrefmark{7}University of Jyvaskyla, Finland
+}
+        % <-this % stops a space
+%\thanks{This paper was produced by the IEEE Publication Technology Group. They are in Piscataway, NJ.}% <-this % stops a space
+\thanks{Currently Under Review in IEEE Transactions XXXX}}
+
+% The paper headers
+%\markboth{Journal of \LaTeX\ Class Files,~Vol.~14, No.~8, August~2021}%
+%{Shell \MakeLowercase{\textit{et al.}}: A Sample Article Using IEEEtran.cls for IEEE Journals}
+
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2021 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+\maketitle
+
+\begin{abstract}
+Artificial Intelligence (AI) solutions and technologies are being increasingly adopted in smart systems context, however, such technologies are continuously concerned with ethical uncertainties. Various guidelines, principles, and regulatory frameworks are designed to ensure that AI technologies bring ethical well-being. However, the implications of AI ethics principles and guidelines are still being debated. To further explore the significance of AI ethics principles and relevant challenges, we conducted a survey of 99 representative AI practitioners and lawmakers (e.g., AI engineers, lawyers) from twenty countries across five continents. To the best of our knowledge, this is the first empirical study that encapsulates the perceptions of two different types of population (AI practitioners and lawmakers) and the study findings confirm that \textit{transparency}, \textit{accountability}, and \textit{privacy} are the most critical AI ethics principles. On the other hand, \textit{lack of ethical knowledge}, \textit{no legal frameworks}, and \textit{lacking monitoring bodies} are found the most common AI ethics challenges. The impact analysis of the challenges across AI ethics principles reveals that \textit{conflict in practice} is a highly severe challenge. Moreover, the perceptions of practitioners and lawmakers are statistically correlated with significant differences for particular principles (e.g. \textit{fairness}, \textit{freedom}) and challenges (e.g. \textit{lacking
+monitoring bodies}, \textit{machine distortion}). Our findings stimulate further research, especially empowering existing capability maturity models to support the development and quality assessment of ethics-aware AI systems.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Artificial Intelligence, AI Ethics, Machine Ethics, Accountable AI, AI Ethics Principles, Challenges.
+\end{IEEEkeywords}
+
+\input{Introduction}
+\input{Background}
+\input{SettingtheStage}
+\input{SurveyResults}
+\input{Summary_Implications}
+\input{Threats_Validity}
+\input{Related_Work}
+\input{LessonsLearned}
+
+\bibliographystyle{IEEEtran}
+\bibliography{References.bib}
+
+
+
+\end{document}
+
+

@@ -1,0 +1,13 @@
+---
+title: "Think About the Stakeholders First! Towards an Algorithmic Transparency Playbook for Regulatory Compliance"
+title_slug: "think-about-stakeholders-first-towards-algorithmic-transparency-playbook-for-regulatory-compliance"
+license: "cc-by"
+published: "2022-06-10 09:39:00+00:00"
+entry_id: "http://arxiv.org/abs/2207.01482v1"
+author: "Andrew Bell, Oded Nov, Julia Stoyanovich"
+pdf: "think-about-the-stakeholders-first-towards-an-algorithmic-transparency-playbook-for-regulatory-compliance.pdf"
+primary_category: "cs.CY"
+get_short_id: "2207.01482v1"
+image: img.png
+section: "Papers"
+---

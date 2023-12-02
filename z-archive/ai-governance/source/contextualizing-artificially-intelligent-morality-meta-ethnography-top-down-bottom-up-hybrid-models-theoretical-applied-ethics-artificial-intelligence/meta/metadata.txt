@@ -1,0 +1,13 @@
+---
+title: "Contextualizing Artificially Intelligent Morality: A Meta-Ethnography of Top-Down, Bottom-Up, and Hybrid Models for Theoretical and Applied Ethics in Artificial Intelligence"
+title_slug: "contextualizing-artificially-intelligent-morality-meta-ethnography-of-top-down-bottom-up-and-hybrid-models-for-theoretical-and-applied-ethics-in-artificial-intelligence"
+license: "cc-by-nc-sa"
+published: "2022-04-15 18:47:49+00:00"
+entry_id: "http://arxiv.org/abs/2204.07612v2"
+author: "Jennafer S. Roberts, Laura N. Montoya"
+pdf: "contextualizing-artificially-intelligent-morality-a-meta-ethnography-of-top-down-bottom-up-and-hybrid-models-for-theoretical-and-applied-ethics-in-artificial-intelligence.pdf"
+primary_category: "cs.AI"
+get_short_id: "2204.07612v2"
+image: img.png
+section: "Papers"
+---

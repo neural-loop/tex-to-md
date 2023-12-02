@@ -1,0 +1,13 @@
+---
+title: "Ethics Sheet for Automatic Emotion Recognition and Sentiment Analysis"
+title_slug: "ethics-sheet-for-automatic-emotion-recognition-and-sentiment-analysis"
+license: "cc-by"
+published: "2021-09-17 00:18:28+00:00"
+entry_id: "http://arxiv.org/abs/2109.08256v3"
+author: "Saif M. Mohammad"
+pdf: "ethics-sheet-for-automatic-emotion-recognition-and-sentiment-analysis.pdf"
+primary_category: "cs.CL"
+get_short_id: "2109.08256v3"
+image: img.png
+section: "Papers"
+---

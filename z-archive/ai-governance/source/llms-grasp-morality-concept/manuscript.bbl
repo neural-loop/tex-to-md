@@ -1,0 +1,224 @@
+\begin{thebibliography}{}
+
+\bibitem[{Agüera y Arcas}, 2022]{Arcas:MachinesBehave}
+{Agüera y Arcas}, B. (2022).
+\newblock Can machines learn how to behave?
+\newblock \url{https://medium.com/@blaisea/can-machines-learn-how-to-behave-42a02a57fadb}.
+\newblock Accessed: October 3 2023.
+
+\bibitem[Andreas, 2022]{Andreas:LMsAMs}
+Andreas, J. (2022).
+\newblock Language models as agent models.
+
+\bibitem[Bai et~al., 2022a]{Bai2022TrainingAH}
+Bai, Y., Jones, A., Ndousse, K., Askell, A., Chen, A., DasSarma, N., Drain, D., Fort, S., Ganguli, D., Henighan, T.~J., Joseph, N., Kadavath, S., Kernion, J., Conerly, T., El-Showk, S., Elhage, N., Hatfield-Dodds, Z., Hernandez, D., Hume, T., Johnston, S., Kravec, S., Lovitt, L., Nanda, N., Olsson, C., Amodei, D., Brown, T.~B., Clark, J., McCandlish, S., Olah, C., Mann, B., and Kaplan, J. (2022a).
+\newblock Training a helpful and harmless assistant with reinforcement learning from human feedback.
+\newblock {\em ArXiv}, abs/2204.05862.
+
+\bibitem[Bai et~al., 2022b]{Bai:ConstitutionalAI}
+Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., Chen, A., Goldie, A., Mirhoseini, A., McKinnon, C., Chen, C., Olsson, C., Olah, C., Hernandez, D., Drain, D., Ganguli, D., Li, D., Tran-Johnson, E., Perez, E., Kerr, J., Mueller, J., Ladish, J., Landau, J., Ndousse, K., Lukosuite, K., Lovitt, L., Sellitto, M., Elhage, N., Schiefer, N., Mercado, N., DasSarma, N., Lasenby, R., Larson, R., Ringer, S., Johnston, S., Kravec, S., Showk, S.~E., Fort, S., Lanham, T., Telleen-Lawton, T., Conerly, T., Henighan, T., Hume, T., Bowman, S.~R., Hatfield-Dodds, Z., Mann, B., Amodei, D., Joseph, N., McCandlish, S., Brown, T., and Kaplan, J. (2022b).
+\newblock Constitutional ai: Harmlessness from ai feedback.
+
+\bibitem[Bennett, 2023]{Bennett:ComputationMeaning}
+Bennett, M.~T. (2023).
+\newblock {On the Computation of Meaning, Language Models and Incomprehensible Horrors}.
+
+\bibitem[Berlin, 1969]{Berlin:FourEssaysLiberty}
+Berlin, I. (1969).
+\newblock {\em Four Essays on Liberty}.
+\newblock Oxford University Press.
+
+\bibitem[Brentano, 1874]{Brentano:PsychologyEmpiricalStandpoint}
+Brentano, F. (1874).
+\newblock {\em Psychology From an Empirical Standpoint}.
+\newblock Routledge.
+
+\bibitem[Casper et~al., 2023]{Casper:OpenProblemsRLHF}
+Casper, S., Davies, X., Shi, C., Gilbert, T.~K., Scheurer, J., Rando, J., Freedman, R., Korbak, T., Lindner, D., Freire, P., Wang, T., Marks, S., Segerie, C.-R., Carroll, M., Peng, A., Christoffersen, P., Damani, M., Slocum, S., Anwar, U., Siththaranjan, A., Nadeau, M., Michaud, E.~J., Pfau, J., Krasheninnikov, D., Chen, X., Langosco, L., Hase, P., Bıyık, E., Dragan, A., Krueger, D., Sadigh, D., and Hadfield-Menell, D. (2023).
+\newblock Open problems and fundamental limitations of reinforcement learning from human feedback.
+
+\bibitem[Choi, 2022]{Choi2022KnowledgeIP}
+Choi, Y. (2022).
+\newblock Knowledge is power: Symbolic knowledge distillation, commonsense morality, \& multimodal script knowledge.
+\newblock {\em Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining}.
+
+\bibitem[Deleuze and Guattari, 2018]{Deleuze:ThousandPlateaus}
+Deleuze, G. and Guattari, F. (2018).
+\newblock {\em A Thousand Plateaus and Philosophy}.
+\newblock Edinburgh University Press.
+
+\bibitem[Dennett, 1988]{Dennett:QuiningQualia}
+Dennett, D.~C. (1988).
+\newblock {\em Quining Qualia}.
+\newblock Oxford University Press.
+
+\bibitem[Dreyfus, 1984]{Dreyfus:Intentionality}
+Dreyfus, H.~L., editor (1984).
+\newblock {\em Husserl, Intentionality, and Cognitive Science}.
+\newblock MIT Press.
+
+\bibitem[Foucault, 2002]{foucault2002order}
+Foucault, M. (2002).
+\newblock {\em The Order of Things: An Archaeology of the Human Sciences}.
+\newblock Routledge classics. Routledge.
+
+\bibitem[Frankle and Carbin, 2018]{Frankle2018TheLT}
+Frankle, J. and Carbin, M. (2018).
+\newblock The lottery ticket hypothesis: Finding sparse, trainable neural networks.
+\newblock {\em arXiv: Learning}.
+
+\bibitem[Gadamer, 1982]{Gadamer:TruthAndMethod}
+Gadamer, H. (1982).
+\newblock {\em Truth and Method}.
+\newblock Continuum, New York.
+
+\bibitem[Grice, 1957]{Grice:Meaning}
+Grice, H.~P. (1957).
+\newblock Meaning.
+\newblock {\em Philosophical Review}, 66(3):377--388.
+
+\bibitem[Hacking, 1996]{Hacking:LoopingEffects}
+Hacking, I. (1996).
+\newblock {The looping effects of human kinds}.
+\newblock In {\em {Causal Cognition: A Multidisciplinary Debate}}. Oxford University Press.
+
+\bibitem[Harnad, 1990]{harnad1990symbol}
+Harnad, S. (1990).
+\newblock The symbol grounding problem.
+\newblock {\em Physica D: Nonlinear Phenomena}, 42(1-3):335--346.
+
+\bibitem[Harris, 1954]{doi:10.1080/00437956.1954.11659520}
+Harris, Z.~S. (1954).
+\newblock Distributional structure.
+\newblock {\em WORD}, 10(2-3):146--162.
+
+\bibitem[Hegel, 1977]{Hegel:PhG}
+Hegel, G. W.~F. (1977).
+\newblock {\em The Phenomenology of Spirit}.
+\newblock Clarendon Press.
+
+\bibitem[Heidegger, 1962]{Heidegger:BeingAndTime}
+Heidegger, M. (1962).
+\newblock Being and time.
+
+\bibitem[Husserl and Cairns, 1960]{Husserl:CartesianMeditations}
+Husserl, E. and Cairns, D. (1960).
+\newblock {\em Cartesian meditations : an introduction to phenomenology}.
+\newblock M. Nijhoff The Hague, The Hague.
+
+\bibitem[Ji et~al., 2022]{Ji2022SurveyOH}
+Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y., Dai, W., Madotto, A., and Fung, P. (2022).
+\newblock Survey of hallucination in natural language generation.
+\newblock {\em ACM Computing Surveys}, 55:1 -- 38.
+
+\bibitem[Jiang et~al., 2021]{Jiang:Delphi}
+Jiang, L., Hwang, J.~D., Bhagavatula, C., Bras, R.~L., Liang, J., Dodge, J., Sakaguchi, K., Forbes, M., Borchardt, J., Gabriel, S., Tsvetkov, Y., Etzioni, O., Sap, M., Rini, R.~A., and Choi, Y. (2021).
+\newblock Can machines learn morality? the delphi experiment.
+
+\bibitem[Kant and Smith, 1965]{Kant:CritiquePureReason}
+Kant, I. and Smith, N.~K. (1781, 1929, 1965).
+\newblock {\em Critique of pure reason}.
+\newblock Bedford ; St. Martin's Press Boston, New York, Boston, New York, unbridged ed edition.
+
+\bibitem[Kauffmann et~al., 2019]{Kauffmann2019FromCT}
+Kauffmann, J.~R., Esders, M., Montavon, G., Samek, W., and M{\"u}ller, K.-R. (2019).
+\newblock From clustering to cluster explanations via neural networks.
+\newblock {\em IEEE transactions on neural networks and learning systems}, PP.
+
+\bibitem[Keyes, 2018]{Keyes:MisgenderingMachinesAGR}
+Keyes, O. (2018).
+\newblock The misgendering machines: Trans/hci implications of automatic gender recognition.
+\newblock {\em Proc. ACM Hum.-Comput. Interact.}, 2(CSCW).
+
+\bibitem[Kripke, 1980]{Kripke:NamingNecessity}
+Kripke, S.~A. (1980).
+\newblock {\em Naming and Necessity: Lectures Given to the Princeton University Philosophy Colloquium}.
+\newblock Harvard University Press, Cambridge, MA.
+
+\bibitem[Lonergan, 1957]{Lonergan:Insight}
+Lonergan, B. J.~F. (1957).
+\newblock {\em Insight}.
+\newblock Philosophical Library, New York.
+
+\bibitem[Marchese, 2022]{Marchese_2022}
+Marchese, D. (2022).
+\newblock An a.i. pioneer on what we should really fear.
+
+\bibitem[Mehrabi et~al., 2019]{Mehrabi2019ASO}
+Mehrabi, N., Morstatter, F., Saxena, N.~A., Lerman, K., and Galstyan, A.~G. (2019).
+\newblock A survey on bias and fairness in machine learning.
+\newblock {\em ACM Computing Surveys (CSUR)}, 54:1 -- 35.
+
+\bibitem[Millikan, 2017]{Millikan:BeyondConcepts}
+Millikan, R.~G. (2017).
+\newblock {\em Beyond Concepts: Unicepts, Language, and Natural Information}.
+\newblock Oxford University Press, Oxford, United Kingdom.
+
+\bibitem[Nietzsche et~al., 1995]{Nietzsche:GenealogyMorals}
+Nietzsche, F., Ansell{-}Pearson, K., and Diethe, C. (1995).
+\newblock On the genealogy of morality.
+\newblock {\em Journal of Nietzsche Studies}, 9:192--192.
+
+\bibitem[Quine, 1960]{Quine:WordObject}
+Quine, W. V.~O. (1960).
+\newblock {\em Word \& Object}.
+\newblock MIT Press.
+
+\bibitem[Rawls, 1999]{Rawls:TheoryJustice}
+Rawls, J. (1999).
+\newblock {\em A Theory of Justice: Revised Edition}.
+\newblock Harvard University Press.
+
+\bibitem[Santy et~al., 2023]{Santy2023NLPositionalityCD}
+Santy, S., Liang, J., Bras, R.~L., Reinecke, K., and Sap, M. (2023).
+\newblock Nlpositionality: Characterizing design biases of datasets and models.
+\newblock In {\em Annual Meeting of the Association for Computational Linguistics}.
+
+\bibitem[Scheler, 1994]{Scheler:Ressentiment}
+Scheler, M. (1994).
+\newblock {\em Ressentiment}.
+\newblock Marquette University Press, Milwaukee, Wis.
+
+\bibitem[Sejnowski, 2023]{Sejnowski:ReverseTuringTest}
+Sejnowski, T.~J. (2023).
+\newblock Large language models and the reverse turing test.
+\newblock {\em Neural Computation}, 35(3):309--342.
+
+\bibitem[Shumailov et~al., 2023]{Shumailov:Curse}
+Shumailov, I., Shumaylov, Z., Zhao, Y., Gal, Y., Papernot, N., and Anderson, R. (2023).
+\newblock The curse of recursion: Training on generated data makes models forget.
+
+\bibitem[Sorensen et~al., 2023]{Sorensen:ValueKaleidoscope}
+Sorensen, T., Jiang, L., Hwang, J., Levine, S., Pyatkin, V., West, P., Dziri, N., Lu, X., Rao, K., Bhagavatula, C., Sap, M., Tasioulas, J., and Choi, Y. (2023).
+\newblock Value kaleidoscope: Engaging ai with pluralistic human values, rights, and duties.
+
+\bibitem[Tsuchiya et~al., 2016]{Tsuchiya:CategoryTheoryNeuroscience}
+Tsuchiya, N., Taguchi, S., and Saigo, H. (2016).
+\newblock Using category theory to assess the relationship between consciousness and integrated information theory.
+\newblock {\em Neuroscience Research}, 107:1--7.
+
+\bibitem[von Uexk\"{u}ll, 1992]{Uexkull:Umwelt}
+von Uexk\"{u}ll, J. (1992).
+\newblock A stroll through the worlds of animals and men: A picture book of invisible worlds.
+\newblock {\em Semiotica}, 89(4):319--391.
+
+\bibitem[Warwick and Shah, 2016]{Warwick:MachinesThink}
+Warwick, K. and Shah, H. (2016).
+\newblock Can machines think? a report on turing test experiments at the royal society.
+\newblock {\em Journal of Experimental \& Theoretical Artificial Intelligence}, 28(6):989--1007.
+
+\bibitem[Wittgenstein, 1953]{Wittgenstein:PhilosophicalInvestigations}
+Wittgenstein, L. (1953).
+\newblock {\em Philosophical Investigations}.
+\newblock Basil Blackwell, Oxford.
+
+\bibitem[Yiu et~al., 2023]{YiuGopnik:CulturalTechnologies}
+Yiu, E., Kosoy, E., and Gopnik, A. (2023).
+\newblock Imitation versus innovation: What children can do that large language and language-and-vision models cannot (yet)?
+
+\bibitem[Zhang et~al., 2020]{Zhang2020ASO}
+Zhang, Y., Tiňo, P., Leonardis, A., and Tang, K. (2020).
+\newblock A survey on neural network interpretability.
+\newblock {\em IEEE Transactions on Emerging Topics in Computational Intelligence}, 5:726--742.
+
+\end{thebibliography}

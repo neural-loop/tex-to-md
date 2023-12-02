@@ -1,0 +1,867 @@
+\begin{thebibliography}{131}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Agrawal, Batra, and Parikh(2016)}]{agrawal2016analyzing}
+Agrawal, Aishwarya, Dhruv Batra, and Devi Parikh. 2016.
+\newblock Analyzing the behavior of visual question answering models.
+\newblock \emph{arXiv preprint arXiv:1606.07356}.
+
+\bibitem[{AI2(2019)}]{ai2_2019}
+AI2. 2019.
+\newblock Crowdsourcing: Pricing ethics and best practices.
+\newblock Medium.
+  \url{https://medium.com/ai2-blog/crowdsourcing-pricing-ethics-and-best-practices-8487fd5c9872}.
+
+\bibitem[{Arcas, Mitchell, and Todorov(2017)}]{physiognomy_2017}
+Arcas, Blaise, Margaret Mitchell, and Alexander Todorov. 2017.
+\newblock Physiognomy's new clothes.
+\newblock Medium.
+  \url{https://medium.com/@blaisea/physiognomys-new-clothes-f2d4b59fdd6a}.
+
+\bibitem[{Aroyo and Welty(2015)}]{aroyo2015truth}
+Aroyo, Lora and Chris Welty. 2015.
+\newblock Truth is a lie: Crowd truth and the seven myths of human annotation.
+\newblock \emph{AI Magazine}, 36(1):15--24.
+
+\bibitem[{ARTICLE19(2021)}]{article19_2021}
+ARTICLE19. 2021.
+\newblock Emotional entanglement: China’s emotion recognition market and its
+  implications for human rights.
+\newblock
+  \url{https://www.article19.org/wp-content/uploads/2021/01/ER-Tech-China-Report.pdf}.
+
+\bibitem[{Auxier and Anderson(2021)}]{auxier2021social}
+Auxier, Brooke and Monica Anderson. 2021.
+\newblock Social media use in 2021.
+\newblock \emph{Pew Research Center}.
+
+\bibitem[{Bagby, Parker, and Taylor(1994)}]{bagby1994twenty}
+Bagby, R~Michael, James~DA Parker, and Graeme~J Taylor. 1994.
+\newblock The twenty-item {T}oronto {A}lexithymia scale: I. item selection and
+  cross-validation of the factor structure.
+\newblock \emph{Journal of psychosomatic research}, 38(1):23--32.
+
+\bibitem[{Bamberg(1997)}]{bamberg1997language}
+Bamberg, Michael. 1997.
+\newblock Language, concepts and emotions: The role of language in the
+  construction of emotions.
+\newblock \emph{Language sciences}, 19(4):309--340.
+
+\bibitem[{Barrett(2017{\natexlab{a}})}]{barrett2017emotions}
+Barrett, Lisa~Feldman. 2017{\natexlab{a}}.
+\newblock \emph{How emotions are made: The secret life of the brain}.
+\newblock Houghton Mifflin Harcourt.
+
+\bibitem[{Barrett(2017{\natexlab{b}})}]{barrett2017theory}
+Barrett, Lisa~Feldman. 2017{\natexlab{b}}.
+\newblock The theory of constructed emotion: an active inference account of
+  interoception and categorization.
+\newblock \emph{Social cognitive and affective neuroscience}, 12(1):1--23.
+
+\bibitem[{Barrett et~al.(2019)Barrett, Adolphs, Marsella, Martinez, and
+  Pollak}]{barrett2019emotional}
+Barrett, Lisa~Feldman, Ralph Adolphs, Stacy Marsella, Aleix~M Martinez, and
+  Seth~D Pollak. 2019.
+\newblock Emotional expressions reconsidered: Challenges to inferring emotion
+  from human facial movements.
+\newblock \emph{Psychological science in the public interest}, 20(1):1--68.
+
+\bibitem[{Basile(2020)}]{basile2020s}
+Basile, Valerio. 2020.
+\newblock It’s the end of the gold standard as we know it. on the impact of
+  pre-aggregation on the evaluation of highly subjective tasks.
+\newblock In \emph{2020 AIxIA Discussion Papers Workshop, AIxIA 2020 DP},
+  volume 2776, pages 31--40, CEUR-WS.
+
+\bibitem[{Bauer et~al.(2017)Bauer, Braimoh, Scheim, and
+  Dharma}]{bauer2017transgender}
+Bauer, Greta~R, Jessica Braimoh, Ayden~I Scheim, and Christoffer Dharma. 2017.
+\newblock Transgender-inclusive measures of sex/gender for population surveys:
+  Mixed-methods evaluation and recommendations.
+\newblock \emph{PloS one}, 12(5):e0178043.
+
+\bibitem[{Bender et~al.(2021)Bender, Gebru, McMillan-Major, and
+  Shmitchell}]{bender2021dangers}
+Bender, Emily~M, Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+  Shmitchell. 2021.
+\newblock On the dangers of stochastic parrots: Can language models be too big?
+\newblock In \emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}, pages 610--623.
+
+\bibitem[{Bender and Koller(2020)}]{bender-koller-2020-climbing}
+Bender, Emily~M. and Alexander Koller. 2020.
+\newblock Climbing towards {NLU}: {On} meaning, form, and understanding in the
+  age of data.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 5185--5198, Association for
+  Computational Linguistics, Online.
+
+\bibitem[{Bertilsdotter~Rosqvist et~al.(2019)Bertilsdotter~Rosqvist, Kourti,
+  Jackson-Perry, Brownlow, Fletcher, Bendelman, and
+  O'Dell}]{bertilsdotter2019doing}
+Bertilsdotter~Rosqvist, Hanna, Marianthi Kourti, David Jackson-Perry, Charlotte
+  Brownlow, Kirsty Fletcher, Daniel Bendelman, and Lindsay O'Dell. 2019.
+\newblock Doing it differently: Emancipatory autism studies within a
+  neurodiverse academic space.
+\newblock \emph{Disability \& Society}, 34(7-8):1082--1101.
+
+\bibitem[{Bisk et~al.(2020)Bisk, Holtzman, Thomason, Andreas, Bengio, Chai,
+  Lapata, Lazaridou, May, Nisnevich, Pinto, and
+  Turian}]{bisk-etal-2020-experience}
+Bisk, Yonatan, Ari Holtzman, Jesse Thomason, Jacob Andreas, Yoshua Bengio,
+  Joyce Chai, Mirella Lapata, Angeliki Lazaridou, Jonathan May, Aleksandr
+  Nisnevich, Nicolas Pinto, and Joseph Turian. 2020.
+\newblock Experience grounds language.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 8718--8735, Association for
+  Computational Linguistics, Online.
+
+\bibitem[{Bissoto, Valle, and Avila(2020)}]{bissoto2020debiasing}
+Bissoto, Alceu, Eduardo Valle, and Sandra Avila. 2020.
+\newblock Debiasing skin lesion datasets and models? not so fast.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition Workshops}, pages 740--741.
+
+\bibitem[{Born et~al.(2021)Born, Morris, Diaz, and Anderson}]{Born21}
+Born, Georgina, Jeremy Morris, Fernando Diaz, and Ashton Anderson. 2021.
+\newblock Artificial {I}ntelligence, music recommensation, and the curation of
+  culture.
+\newblock Technical report.
+
+\bibitem[{Boyle(1995)}]{Boyle95}
+Boyle, Gregory~J. 1995.
+\newblock Myers--{B}riggs type indicator ({MBTI}): Some psychometric
+  limitations.
+\newblock \emph{Humanities \& Social Sciences papers}, 30.
+
+\bibitem[{Brosnan et~al.(2017)Brosnan, Holt, Yuill, Good, and
+  Parsons}]{brosnan2017beyond}
+Brosnan, Mark, Samantha Holt, Nicola Yuill, Judith Good, and Sarah Parsons.
+  2017.
+\newblock Beyond autism and technology: Lessons from neurodiverse populations.
+\newblock \emph{Journal of Enabling Technologies}.
+
+\bibitem[{Buolamwini and Gebru(2018)}]{buolamwini2018gender}
+Buolamwini, Joy and Timnit Gebru. 2018.
+\newblock Gender shades: Intersectional accuracy disparities in commercial
+  gender classification.
+\newblock In \emph{Conference on fairness, accountability and transparency},
+  pages 77--91, PMLR.
+
+\bibitem[{Cao and Daum{\'e}(2021)}]{cao2021toward}
+Cao, Yang~Trista and Hal Daum{\'e}. 2021.
+\newblock Toward gender-inclusive coreference resolution: An analysis of gender
+  and bias throughout the machine learning lifecyle.
+\newblock \emph{Computational Linguistics}, pages 1--47.
+
+\bibitem[{Chancellor et~al.(2019)Chancellor, Birnbaum, Caine, Silenzio, and
+  De~Choudhury}]{10.1145/3287560.3287587}
+Chancellor, Stevie, Michael~L. Birnbaum, Eric~D. Caine, Vincent M.~B. Silenzio,
+  and Munmun De~Choudhury. 2019.
+\newblock A taxonomy of ethical tensions in inferring mental health states from
+  social media.
+\newblock In \emph{Proceedings of the Conference on Fairness, Accountability,
+  and Transparency}, FAT* '19, page 79–88, Association for Computing
+  Machinery, New York, NY, USA.
+
+\bibitem[{Checco et~al.(2017)Checco, Roitero, Maddalena, Mizzaro, and
+  Demartini}]{checco2017let}
+Checco, Alessandro, Kevin Roitero, Eddy Maddalena, Stefano Mizzaro, and
+  Gianluca Demartini. 2017.
+\newblock Let's agree to disagree: Fixing agreement measures for crowdsourcing.
+\newblock In \emph{Proceedings of the Fifth AAAI Conference on Human
+  Computation and Crowdsourcing}, pages 11--20.
+
+\bibitem[{Chomsky(1975)}]{chomsky1975reflections}
+Chomsky, Noam. 1975.
+\newblock \emph{Reflections on language}.
+\newblock Pantheon.
+
+\bibitem[{Chomsky(2014)}]{chomsky2014aspects}
+Chomsky, Noam. 2014.
+\newblock \emph{Aspects of the Theory of Syntax}, volume~11.
+\newblock MIT press.
+
+\bibitem[{Cobb-Clark and Schurer(2012)}]{COBBCLARK201211}
+Cobb-Clark, Deborah~A. and Stefanie Schurer. 2012.
+\newblock The stability of big-five personality traits.
+\newblock \emph{Economics Letters}, 115(1):11--15.
+
+\bibitem[{De~Choudhury et~al.(2013)De~Choudhury, Gamon, Counts, and
+  Horvitz}]{de2013predicting}
+De~Choudhury, Munmun, Michael Gamon, Scott Counts, and Eric Horvitz. 2013.
+\newblock Predicting depression via social media.
+\newblock In \emph{Seventh international AAAI conference on weblogs and social
+  media}, pages 128--137.
+
+\bibitem[{De~Cicco, Palumbo et~al.(2020)}]{de2020should}
+De~Cicco, Roberta, Riccardo Palumbo, et~al. 2020.
+\newblock Should a chatbot disclose itself? {I}mplications for an online
+  conversational retailer.
+\newblock In \emph{International Workshop on Chatbot Research and Design},
+  pages 3--15, Springer.
+
+\bibitem[{Denton et~al.(2020)Denton, Hanna, Amironesei, Smart, Nicole, and
+  Scheuerman}]{denton2020bringing}
+Denton, Emily, Alex Hanna, Razvan Amironesei, Andrew Smart, Hilary Nicole, and
+  Morgan~Klaus Scheuerman. 2020.
+\newblock Bringing the people back in: Contesting benchmark machine learning
+  datasets.
+\newblock \emph{arXiv preprint arXiv:2007.07399}.
+
+\bibitem[{Dickson(2018)}]{dickson_2018}
+Dickson, Ben. 2018.
+\newblock Why {AI} must disclose that it's {AI}.
+\newblock PC Magazine.
+  \url{https://www.pcmag.com/opinions/why-ai-must-disclose-that-its-ai}.
+
+\bibitem[{Dolmaya(2011)}]{dolmaya2011ethics}
+Dolmaya, Julie~McDonough. 2011.
+\newblock The ethics of crowdsourcing.
+\newblock \emph{Linguistica Antverpiensia, New Series--Themes in Translation
+  Studies}, (10).
+
+\bibitem[{Dwibhasi et~al.(2015)Dwibhasi, Jami, Lanka, and
+  Chakraborty}]{dwibhasi2015analyzing}
+Dwibhasi, Sharat, Dheeraj Jami, Shivkanth Lanka, and Goutam Chakraborty. 2015.
+\newblock Analyzing and visualizing the sentiments of {E}bola outbreak via
+  tweets.
+\newblock In \emph{Proceedings of the SAS Global Forum, Dallas, TX, USA}, pages
+  26--29.
+
+\bibitem[{Eichstaedt et~al.(2015)Eichstaedt, Schwartz, Kern, Park, Labarthe,
+  Merchant, Jha, Agrawal, Dziurzynski, Sap
+  et~al.}]{eichstaedt2015psychological}
+Eichstaedt, Johannes~C, Hansen~Andrew Schwartz, Margaret~L Kern, Gregory Park,
+  Darwin~R Labarthe, Raina~M Merchant, Sneha Jha, Megha Agrawal, Lukasz~A
+  Dziurzynski, Maarten Sap, et~al. 2015.
+\newblock Psychological language on {T}witter predicts county-level heart
+  disease mortality.
+\newblock \emph{Psychological science}, 26(2):159--169.
+
+\bibitem[{Ekman(1992)}]{ekman1992there}
+Ekman, Paul. 1992.
+\newblock Are there basic emotions?
+\newblock \emph{Psychological Review}, 99(3):550--553.
+
+\bibitem[{Ekman and Davidson(1994)}]{ekman1994nature}
+Ekman, Paul~Ed and Richard~J Davidson. 1994.
+\newblock \emph{The nature of emotion: Fundamental questions.}
+\newblock Oxford University Press.
+
+\bibitem[{Ervin-Tripp(1973)}]{ervin1973some}
+Ervin-Tripp, Susan. 1973.
+\newblock Some strategies for the first two years.
+\newblock In \emph{Cognitive Development and Acquisition of Language}.
+  Elsevier, pages 261--286.
+
+\bibitem[{Fletcher-Watson et~al.(2019)Fletcher-Watson, Adams, Brook, Charman,
+  Crane, Cusack, Leekam, Milton, Parr, and Pellicano}]{fletcher2019making}
+Fletcher-Watson, Sue, Jon Adams, Kabie Brook, Tony Charman, Laura Crane, James
+  Cusack, Susan Leekam, Damian Milton, Jeremy~R Parr, and Elizabeth Pellicano.
+  2019.
+\newblock Making the future together: Shaping autism research through
+  meaningful participation.
+\newblock \emph{Autism}, 23(4):943--953.
+
+\bibitem[{Floridi(2014)}]{floridi2014open}
+Floridi, Luciano. 2014.
+\newblock Open data, data protection, and group privacy.
+\newblock \emph{Philosophy \& Technology}, 27(1):1--3.
+
+\bibitem[{Fort, Adda, and Cohen(2011)}]{fort-etal-2011-last}
+Fort, Kar{\"e}n, Gilles Adda, and K.~Bretonnel Cohen. 2011.
+\newblock Last words: {A}mazon {M}echanical {T}urk: Gold mine or coal mine?
+\newblock \emph{Computational Linguistics}, 37(2):413--420.
+
+\bibitem[{Fraser et~al.(2019)Fraser, Zeller, Smith, Mohammad, and
+  Rudzicz}]{fraser-etal-2019-feel}
+Fraser, Kathleen~C., Frauke Zeller, David~Harris Smith, Saif~M. Mohammad, and
+  Frank Rudzicz. 2019.
+\newblock How do we feel when a robot dies? emotions expressed on {T}witter
+  before and after hitch{BOT}{'}s destruction.
+\newblock In \emph{Proceedings of the Tenth Workshop on Computational
+  Approaches to Subjectivity, Sentiment and Social Media Analysis}, pages
+  62--71, Minneapolis, USA.
+
+\bibitem[{Gallagher et~al.(2021)Gallagher, Frank, Mitchell, Schwartz, Reagan,
+  Danforth, and Dodds}]{gallagher2021generalized}
+Gallagher, Ryan~J, Morgan~R Frank, Lewis Mitchell, Aaron~J Schwartz, Andrew~J
+  Reagan, Christopher~M Danforth, and Peter~Sheridan Dodds. 2021.
+\newblock Generalized word shift graphs: A method for visualizing and
+  explaining pairwise comparisons between texts.
+\newblock \emph{EPJ Data Science}, 10(1):4.
+
+\bibitem[{Gerras and Wong(2016)}]{gerras2016moving}
+Gerras, Stephen~J and Leonard Wong. 2016.
+\newblock Moving beyond the {MBTI}.
+\newblock \emph{Military review}.
+
+\bibitem[{Google(2018)}]{what_if_2018}
+Google. 2018.
+\newblock Google {AI} Blog.
+  \url{https://ai.googleblog.com/2018/09/the-what-if-tool-code-free-probing-of.html}.
+
+\bibitem[{Grant(2013)}]{grant_2013}
+Grant, Adam. 2013.
+\newblock Say goodbye to {MBTI}, the fad that won't die.
+\newblock Linkedin.
+  \url{https://www.linkedin.com/pulse/20130917155206-69244073-say-goodbye-to-mbti-the-fad-that-won-t-die}.
+
+\bibitem[{Guntuku et~al.(2019)Guntuku, Schneider, Pelullo, Young, Wong, Ungar,
+  Polsky, Volpp, and Merchant}]{guntuku2019studying}
+Guntuku, Sharath~Chandra, Rachelle Schneider, Arthur Pelullo, Jami Young,
+  Vivien Wong, Lyle Ungar, Daniel Polsky, Kevin~G Volpp, and Raina Merchant.
+  2019.
+\newblock Studying expressions of loneliness in individuals using {T}witter: an
+  observational study.
+\newblock \emph{BMJ open}, 9(11):e030355.
+
+\bibitem[{Gururangan et~al.(2018)Gururangan, Swayamdipta, Levy, Schwartz,
+  Bowman, and Smith}]{gururangan2018annotation}
+Gururangan, Suchin, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel~R
+  Bowman, and Noah~A Smith. 2018.
+\newblock Annotation artifacts in natural language inference data.
+\newblock \emph{arXiv preprint arXiv:1803.02324}.
+
+\bibitem[{Hall(2014)}]{hall2014not}
+Hall, Lisa. 2014.
+\newblock ‘{W}ith’not ‘about’: {E}merging paradigms for research in a
+  cross-cultural space.
+\newblock \emph{International Journal of Research \& Method in Education},
+  37(4):376--389.
+
+\bibitem[{Harris(1954)}]{harris1954distributional}
+Harris, Zellig~S. 1954.
+\newblock Distributional structure.
+\newblock \emph{Word}, 10(2-3):146--162.
+
+\bibitem[{Hertzmann(2020)}]{hertzmann2020computers}
+Hertzmann, Aaron. 2020.
+\newblock Computers do not make art, people do.
+\newblock \emph{Communications of the ACM}, 63(5):45--48.
+
+\bibitem[{Hipson and Mohammad(2021)}]{hipson2021emotion}
+Hipson, Will~E. and Saif~M. Mohammad. 2021.
+\newblock Emotion dynamics in movie dialogues.
+\newblock \emph{PLOS ONE}, 16:1--19.
+
+\bibitem[{Hollenstein(2015)}]{hollenstein2015time}
+Hollenstein, Tom. 2015.
+\newblock This time, it’s real: Affective flexibility, time scales, feedback
+  loops, and the regulation of emotion.
+\newblock \emph{Emotion Review}, 7(4):308--315.
+
+\bibitem[{Hovy and Yang(2021)}]{hovy-yang-2021-importance}
+Hovy, Dirk and Diyi Yang. 2021.
+\newblock The importance of modeling social factors of language: Theory and
+  practice.
+\newblock In \emph{Proceedings of the 2021 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 588--602, Association for Computational Linguistics,
+  Online.
+
+\bibitem[{Humphries, Mertens, and Truman(2020)}]{humphries2020arguments}
+Humphries, Beth, Donna~M Mertens, and Carole Truman. 2020.
+\newblock Arguments for an ‘emancipatory’research paradigm.
+\newblock In \emph{Research and inequality}. Routledge, pages 3--23.
+
+\bibitem[{Irani and Silberman(2013)}]{irani2013turkopticon}
+Irani, Lilly~C and M~Six Silberman. 2013.
+\newblock Turkopticon: Interrupting worker invisibility in {A}mazon
+  {M}echanical {T}urk.
+\newblock In \emph{Proceedings of the SIGCHI conference on human factors in
+  computing systems}, pages 611--620.
+
+\bibitem[{Johnson(2019)}]{johnson_2019}
+Johnson, Khari. 2019.
+\newblock How {AI} companies can avoid ethics washing.
+\newblock VentureBeat.
+  \url{https://venturebeat.com/2019/07/17/how-ai-companies-can-avoid-ethics-washing/}.
+
+\bibitem[{Kalluri(2020)}]{kalluri2020don}
+Kalluri, Pratyusha. 2020.
+\newblock Don't ask if {A}rtificial {I}ntelligence is good or fair, ask how it
+  shifts power.
+\newblock \emph{Nature}, 583(7815):169--169.
+
+\bibitem[{Karam et~al.(2014)Karam, Provost, Singh, Montgomery, Archer,
+  Harrington, and Mcinnis}]{karam2014ecologically}
+Karam, Zahi~N, Emily~Mower Provost, Satinder Singh, Jennifer Montgomery,
+  Christopher Archer, Gloria Harrington, and Melvin~G Mcinnis. 2014.
+\newblock Ecologically valid long-term mood monitoring of individuals with
+  bipolar disorder using speech.
+\newblock In \emph{2014 IEEE international conference on acoustics, speech and
+  signal processing (ICASSP)}, pages 4858--4862, IEEE.
+
+\bibitem[{Keyes(2019)}]{keyes_2019}
+Keyes, Os. 2019.
+\newblock Counting the countless.
+\newblock REAL LIFE. \url{https://reallifemag.com/counting-the-countless/}.
+
+\bibitem[{Kiritchenko et~al.(2020)Kiritchenko, Hipson, Coplan, and
+  Mohammad}]{kiritchenko-etal-2020-solo}
+Kiritchenko, Svetlana, Will Hipson, Robert Coplan, and Saif~M. Mohammad. 2020.
+\newblock {SOLO}: A corpus of tweets for examining the state of being alone.
+\newblock In \emph{Proceedings of the 12th Language Resources and Evaluation
+  Conference}, pages 1567--1577, Marseille, France.
+
+\bibitem[{Kiritchenko and Mohammad(2018)}]{kiritchenko-mohammad-2018-examining}
+Kiritchenko, Svetlana and Saif Mohammad. 2018.
+\newblock Examining gender and race bias in two hundred sentiment analysis
+  systems.
+\newblock In \emph{Proceedings of the Seventh Joint Conference on Lexical and
+  Computational Semantics}, pages 43--53, New Orleans, Louisiana.
+
+\bibitem[{Klenner et~al.(2020)Klenner, G{\"o}hring, Amsler, Ebling, Tuggener,
+  H{\"u}rlimann, and Volk}]{klenner2020harmonization}
+Klenner, Manfred, Anne G{\"o}hring, Michael Amsler, Sarah Ebling, Don Tuggener,
+  Manuela H{\"u}rlimann, and Martin Volk. 2020.
+\newblock Harmonization sometimes harms.
+\newblock In \emph{Proceedings of the 5th Swiss Text Analytics Conference
+  (SwissText) \& 16th Conference on Natural Language Processing (KONVENS)},
+  Winterthur.
+
+\bibitem[{Kucher, Paradis, and Kerren(2018)}]{kucher2018visual}
+Kucher, Kostiantyn, Carita Paradis, and Andreas Kerren. 2018.
+\newblock Visual analysis of sentiment and stance in social media texts.
+\newblock In \emph{EuroVis (Posters)}, pages 49--51.
+
+\bibitem[{Lakoff(2008)}]{lakoff2008women}
+Lakoff, George. 2008.
+\newblock \emph{Women, fire, and dangerous things: What categories reveal about
+  the mind}.
+\newblock University of Chicago press.
+
+\bibitem[{Lazarus(1991)}]{lazarus1991progress}
+Lazarus, Richard~S. 1991.
+\newblock Progress on a cognitive-motivational-relational theory of emotion.
+\newblock \emph{American psychologist}, 46(8):819.
+
+\bibitem[{Lindsey(2015)}]{lindsey2015sociology}
+Lindsey, Linda~L. 2015.
+\newblock The sociology of gender theoretical perspectives and feminist
+  frameworks.
+\newblock In \emph{Gender roles}. Routledge, pages 23--48.
+
+\bibitem[{Luo et~al.(2021)Luo, Ivison, Han, and Poon}]{luo2021local}
+Luo, Siwen, Hamish Ivison, Caren Han, and Josiah Poon. 2021.
+\newblock Local interpretations for explainable natural language processing: A
+  survey.
+\newblock \emph{arXiv preprint arXiv:2103.11072}.
+
+\bibitem[{Lysaght et~al.(2019)Lysaght, Lim, Xafis, and Ngiam}]{lysaght2019ai}
+Lysaght, Tamra, Hannah~Yeefen Lim, Vicki Xafis, and Kee~Yuan Ngiam. 2019.
+\newblock {AI}-assisted decision-making in healthcare.
+\newblock \emph{Asian Bioethics Review}, 11(3):299--314.
+
+\bibitem[{MacAvaney et~al.(2021)MacAvaney, Mittu, Coppersmith, Leintz, and
+  Resnik}]{macavaney-etal-2021-community}
+MacAvaney, Sean, Anjali Mittu, Glen Coppersmith, Jeff Leintz, and Philip
+  Resnik. 2021.
+\newblock Community-level research on suicidality prediction in a secure
+  environment: Overview of the {CLP}sych 2021 shared task.
+\newblock In \emph{Proceedings of the Seventh Workshop on Computational
+  Linguistics and Clinical Psychology: Improving Access}, pages 70--80,
+  Association for Computational Linguistics, Online.
+
+\bibitem[{McStay(2020)}]{mcstay2020emotional}
+McStay, Andrew. 2020.
+\newblock Emotional {AI}, soft biometrics and the surveillance of emotional
+  life: An unusual consensus on privacy.
+\newblock \emph{Big Data \& Society}, 7(1):2053951720904386.
+
+\bibitem[{Mitchell et~al.(2019)Mitchell, Wu, Zaldivar, Barnes, Vasserman,
+  Hutchinson, Spitzer, Raji, and Gebru}]{mitchell2019model}
+Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
+  Ben Hutchinson, Elena Spitzer, Inioluwa~Deborah Raji, and Timnit Gebru. 2019.
+\newblock Model cards for model reporting.
+\newblock In \emph{Proceedings of the conference on fairness, accountability,
+  and transparency}, pages 220--229.
+
+\bibitem[{Mohammad(2011)}]{mohammad-2011-upon}
+Mohammad, Saif. 2011.
+\newblock From once upon a time to happily ever after: Tracking emotions in
+  novels and fairy tales.
+\newblock In \emph{Proceedings of the 5th {ACL}-{HLT} Workshop on Language
+  Technology for Cultural Heritage, Social Sciences, and Humanities}, pages
+  105--114, Portland, OR, USA.
+
+\bibitem[{Mohammad(2012)}]{mohammad-2012-emotional}
+Mohammad, Saif. 2012.
+\newblock {\#E}motional tweets.
+\newblock In \emph{*{SEM} 2012: The First Joint Conference on Lexical and
+  Computational Semantics {--} Volume 1: Proceedings of the main conference and
+  the shared task, and Volume 2: Proceedings of the Sixth International
+  Workshop on Semantic Evaluation ({S}em{E}val 2012)}, pages 246--255,
+  Montr{\'e}al, Canada.
+
+\bibitem[{Mohammad et~al.(2018)Mohammad, Bravo-Marquez, Salameh, and
+  Kiritchenko}]{mohammad-etal-2018-semeval}
+Mohammad, Saif, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana
+  Kiritchenko. 2018.
+\newblock {S}em{E}val-2018 task 1: Affect in tweets.
+\newblock In \emph{Proceedings of The 12th International Workshop on Semantic
+  Evaluation}, pages 1--17, New Orleans, Louisiana.
+
+\bibitem[{Mohammad and
+  Kiritchenko(2018)}]{mohammad-kiritchenko-2018-understanding}
+Mohammad, Saif and Svetlana Kiritchenko. 2018.
+\newblock Understanding emotions: A dataset of tweets to study interactions
+  between affect categories.
+\newblock In \emph{Proceedings of the Eleventh International Conference on
+  Language Resources and Evaluation ({LREC} 2018)}, Miyazaki, Japan.
+
+\bibitem[{Mohammad(2018)}]{vad-acl2018}
+Mohammad, Saif~M. 2018.
+\newblock Obtaining reliable human ratings of valence, arousal, and dominance
+  for 20,000 {E}nglish words.
+\newblock In \emph{Proceedings of The Annual Conference of the Association for
+  Computational Linguistics (ACL)}, Melbourne, Australia.
+
+\bibitem[{Mohammad(2020)}]{mohammad2020practical}
+Mohammad, Saif~M. 2020.
+\newblock Practical and ethical considerations in the effective use of emotion
+  and sentiment lexicons.
+\newblock \emph{arXiv:2011.03492}.
+
+\bibitem[{Mohammad(2021{\natexlab{a}})}]{mohammad2021ethics}
+Mohammad, Saif~M. 2021{\natexlab{a}}.
+\newblock Ethics sheets for {AI} tasks.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics}, Dublin, Ireland.
+
+\bibitem[{Mohammad(2021{\natexlab{b}})}]{mohammad2020survey}
+Mohammad, Saif~M. 2021{\natexlab{b}}.
+\newblock Sentiment analysis: Automatically detecting valence, emotions, and
+  other affectual states from text.
+\newblock In Herbert~L. Meiselman, editor, \emph{Emotion Measurement (Second
+  Edition)}, second edition edition. Woodhead Publishing, pages 323--379.
+
+\bibitem[{Mohammad et~al.(2016)Mohammad, Kiritchenko, Sobhani, Zhu, and
+  Cherry}]{StanceSemEval2016}
+Mohammad, Saif~M., Svetlana Kiritchenko, Parinaz Sobhani, Xiaodan Zhu, and
+  Colin Cherry. 2016.
+\newblock Semeval-2016 task 6: Detecting stance in tweets.
+\newblock In \emph{Proceedings of the International Workshop on Semantic
+  Evaluation}, SemEval '16, San Diego, California.
+
+\bibitem[{Mohammad, Sobhani, and Kiritchenko(2017)}]{MohammadSK17}
+Mohammad, Saif~M., Parinaz Sobhani, and Svetlana Kiritchenko. 2017.
+\newblock Stance and sentiment in tweets.
+\newblock \emph{Special Section of the ACM Transactions on Internet Technology
+  on Argumentation in Social Media}, 17(3):1--23.
+
+\bibitem[{Mohammad and Turney(2013)}]{Mohammad13}
+Mohammad, Saif~M. and Peter~D. Turney. 2013.
+\newblock Crowdsourcing a word-emotion association lexicon.
+\newblock \emph{Computational Intelligence}, 29(3):436--465.
+
+\bibitem[{Monteiro(2019)}]{monteiro2019ruined}
+Monteiro, Mike. 2019.
+\newblock \emph{Ruined by design: How designers destroyed the world, and what
+  we can do to fix it}.
+\newblock Mule Design.
+
+\bibitem[{Motti and Evmenova(2020)}]{10.1007/978-3-030-25629-6_42}
+Motti, Vivian~Genaro and Anna Evmenova. 2020.
+\newblock Designing technologies for neurodiverse users: Considerations from
+  research practice.
+\newblock In \emph{Human Interaction and Emerging Technologies}, pages
+  268--274, Springer International Publishing, Cham.
+
+\bibitem[{Mozafari, Weiger, and Hammerschmidt(2020)}]{mozafari2020chatbot}
+Mozafari, Nika, Welf~H Weiger, and Maik Hammerschmidt. 2020.
+\newblock The chatbot disclosure dilemma: Desirable and undesirable effects of
+  disclosing the non-human identity of chatbots.
+\newblock In \emph{ICIS}, pages 1--18.
+
+\bibitem[{Mulligan, Kluttz, and Kohli(2019)}]{mulligan2019shaping}
+Mulligan, Deirdre~K, Daniel Kluttz, and Nitin Kohli. 2019.
+\newblock Shaping our tools: Contestability as a means to promote responsible
+  algorithmic decision making in the professions.
+\newblock \emph{Available at SSRN 3311894}.
+
+\bibitem[{Nielsen(2011)}]{nielsen2011new}
+Nielsen, Finn~{\AA}rup. 2011.
+\newblock A new {ANEW}: Evaluation of a word list for sentiment analysis in
+  microblogs.
+\newblock In \emph{Proceedings of the ESWC Workshop on `Making Sense of
+  Microposts': Big things come in small packages}, pages 93--98, Heraklion,
+  Crete.
+
+\bibitem[{Noel(2016)}]{noel2016promoting}
+Noel, Lesley-Ann. 2016.
+\newblock Promoting an emancipatory research paradigm in design education and
+  practice.
+\newblock In \emph{Proceedings of DRS2016 International Conference, Vol. 6:
+  Future–Focused Thinking}, pages 27--30, Brighton, United Kingdom.
+
+\bibitem[{Oliver(1997)}]{oliver1997emancipatory}
+Oliver, Michael. 1997.
+\newblock Emancipatory research: Realistic goal or impossible dream.
+\newblock \emph{Doing disability research}, 2:15--31.
+
+\bibitem[{Osgood, Suci, and Tannenbaum(1957)}]{osgood1957measurement}
+Osgood, Charles~Egerton, George~J Suci, and Percy~H Tannenbaum. 1957.
+\newblock \emph{The measurement of meaning}.
+\newblock 47. University of Illinois press.
+
+\bibitem[{Panesar(2019)}]{panesar2019machine}
+Panesar, Arjun. 2019.
+\newblock \emph{Machine learning and {AI} for healthcare}.
+\newblock Springer.
+
+\bibitem[{Pang, Lee, and Vaithyanathan(2002)}]{pang-etal-2002-thumbs}
+Pang, Bo, Lillian Lee, and Shivakumar Vaithyanathan. 2002.
+\newblock Thumbs up? sentiment classification using machine learning
+  techniques.
+\newblock In \emph{Proceedings of the 2002 Conference on Empirical Methods in
+  Natural Language Processing ({EMNLP} 2002)}, pages 79--86.
+
+\bibitem[{Paul and Dredze(2011)}]{paul2011you}
+Paul, Michael~J and Mark Dredze. 2011.
+\newblock You are what you tweet: Analyzing {T}witter for public health.
+\newblock \emph{Proceedings of the Fifth international AAAI conference on
+  weblogs and social media}, 5(1):265--272.
+
+\bibitem[{Perez(2019)}]{perez2019invisible}
+Perez, Caroline~Criado. 2019.
+\newblock \emph{Invisible women: Exposing data bias in a world designed for
+  men}.
+\newblock Random House.
+
+\bibitem[{Picard(2000)}]{picard2000affective}
+Picard, Rosalind~W. 2000.
+\newblock \emph{Affective computing}.
+\newblock MIT press.
+
+\bibitem[{Pinker(2007)}]{pinker2007stuff}
+Pinker, Steven. 2007.
+\newblock \emph{The stuff of thought: Language as a window into human nature}.
+\newblock Penguin.
+
+\bibitem[{Poliak et~al.(2018)Poliak, Naradowsky, Haldar, Rudinger, and
+  Van~Durme}]{poliak-etal-2018-hypothesis}
+Poliak, Adam, Jason Naradowsky, Aparajita Haldar, Rachel Rudinger, and Benjamin
+  Van~Durme. 2018.
+\newblock Hypothesis only baselines in natural language inference.
+\newblock In \emph{Proceedings of the Seventh Joint Conference on Lexical and
+  Computational Semantics}, pages 180--191, New Orleans, Louisiana.
+
+\bibitem[{Purdie-Vaughns and Eibach(2008)}]{purdie2008intersectional}
+Purdie-Vaughns, Valerie and Richard~P Eibach. 2008.
+\newblock Intersectional invisibility: The distinctive advantages and
+  disadvantages of multiple subordinate-group identities.
+\newblock \emph{Sex roles}, 59(5):377--391.
+
+\bibitem[{Purver and Battersby(2012)}]{purver2012experimenting}
+Purver, Matthew and Stuart Battersby. 2012.
+\newblock Experimenting with distant supervision for emotion classification.
+\newblock In \emph{Proceedings of the 13th Conference of the European Chapter
+  of the Association for Computational Linguistics}, pages 482--491.
+
+\bibitem[{Quercia et~al.(2012)Quercia, Ellis, Capra, and
+  Crowcroft}]{10.1145/2145204.2145347}
+Quercia, Daniele, Jonathan Ellis, Licia Capra, and Jon Crowcroft. 2012.
+\newblock Tracking "{G}ross community happiness" from tweets.
+\newblock In \emph{Proceedings of the ACM 2012 Conference on Computer Supported
+  Cooperative Work}, CSCW '12, page 965–968, Association for Computing
+  Machinery, New York, NY, USA.
+
+\bibitem[{Resnik et~al.(2015)Resnik, Armstrong, Claudino, Nguyen, Nguyen, and
+  Boyd-Graber}]{resnik-etal-2015-beyond}
+Resnik, Philip, William Armstrong, Leonardo Claudino, Thang Nguyen, Viet-An
+  Nguyen, and Jordan Boyd-Graber. 2015.
+\newblock Beyond {LDA}: Exploring supervised topic modeling for
+  depression-related language in {T}witter.
+\newblock In \emph{Proceedings of the 2nd Workshop on Computational Linguistics
+  and Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
+  99--107, Denver, Colorado.
+
+\bibitem[{Rosenthal et~al.(2015)Rosenthal, Nakov, Kiritchenko, Mohammad,
+  Ritter, and Stoyanov}]{rosenthal-etal-2015-semeval}
+Rosenthal, Sara, Preslav Nakov, Svetlana Kiritchenko, Saif Mohammad, Alan
+  Ritter, and Veselin Stoyanov. 2015.
+\newblock {S}em{E}val-2015 task 10: Sentiment analysis in {T}witter.
+\newblock In \emph{Proceedings of the 9th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2015)}, pages 451--463, Denver, Colorado.
+
+\bibitem[{Rosenthal et~al.(2014)Rosenthal, Ritter, Nakov, and
+  Stoyanov}]{rosenthal-etal-2014-semeval}
+Rosenthal, Sara, Alan Ritter, Preslav Nakov, and Veselin Stoyanov. 2014.
+\newblock {S}em{E}val-2014 task 9: Sentiment analysis in {T}witter.
+\newblock In \emph{Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 73--80, Association for Computational
+  Linguistics, Dublin, Ireland.
+
+\bibitem[{R{\"o}ttger et~al.(2020)R{\"o}ttger, Vidgen, Nguyen, Waseem,
+  Margetts, and Pierrehumbert}]{rottger2020hatecheck}
+R{\"o}ttger, Paul, Bertram Vidgen, Dong Nguyen, Zeerak Waseem, Helen Margetts,
+  and Janet Pierrehumbert. 2020.
+\newblock Hatecheck: Functional tests for hate speech detection models.
+\newblock \emph{arXiv preprint arXiv:2012.15606}.
+
+\bibitem[{Ruder(2020)}]{ruder_2020}
+Ruder, Sebastian Ruder~Sebastian. 2020.
+\newblock Why you should do nlp beyond {E}nglish.
+\newblock \url{https://ruder.io/nlp-beyond-english/index.html}.
+
+\bibitem[{Russell(1980)}]{russell1980circumplex}
+Russell, James~A. 1980.
+\newblock A circumplex model of affect.
+\newblock \emph{Journal of personality and social psychology}, 39(6):1161.
+
+\bibitem[{Russell(2003)}]{russell2003core}
+Russell, James~A. 2003.
+\newblock Core affect and the psychological construction of emotion.
+\newblock \emph{Psychological review}, 110(1):145.
+
+\bibitem[{Russell and Mehrabian(1977)}]{russell1977evidence}
+Russell, James~A and Albert Mehrabian. 1977.
+\newblock Evidence for a three-factor theory of emotions.
+\newblock \emph{Journal of research in Personality}, 11(3):273--294.
+
+\bibitem[{Schaar(2010)}]{schaar2010privacy}
+Schaar, Peter. 2010.
+\newblock Privacy by design.
+\newblock \emph{Identity in the Information Society}, 3(2):267--274.
+
+\bibitem[{Scherer(1999)}]{scherer1999appraisal}
+Scherer, Klaus~R. 1999.
+\newblock \emph{Appraisal theory.}
+\newblock John Wiley \& Sons Ltd.
+
+\bibitem[{Schwartz et~al.(2013)Schwartz, Eichstaedt, Kern, Dziurzynski, Lucas,
+  Agrawal, Park, Lakshmikanth, Jha, Seligman
+  et~al.}]{schwartz2013characterizing}
+Schwartz, Hansen~Andrew, Johannes~C Eichstaedt, Margaret~L Kern, Lukasz
+  Dziurzynski, Richard~E Lucas, Megha Agrawal, Gregory~J Park, Shrinidhi~K
+  Lakshmikanth, Sneha Jha, Martin~EP Seligman, et~al. 2013.
+\newblock Characterizing geographic variation in well-being using tweets.
+\newblock In \emph{Seventh International AAAI Conference on Weblogs and Social
+  Media}, pages 583--591.
+
+\bibitem[{Schwartz et~al.(2020)Schwartz, Dodge, Smith, and
+  Etzioni}]{schwartz2020green}
+Schwartz, Roy, Jesse Dodge, Noah~A Smith, and Oren Etzioni. 2020.
+\newblock Green {AI}.
+\newblock \emph{Communications of the ACM}, 63(12):54--63.
+
+\bibitem[{Seale et~al.(2015)Seale, Nind, Tilley, and
+  Chapman}]{seale2015negotiating}
+Seale, Jane, Melanie Nind, Liz Tilley, and Rohhss Chapman. 2015.
+\newblock Negotiating a third space for participatory research with people with
+  learning disabilities: An examination of boundaries and spatial practices.
+\newblock \emph{Innovation: The European Journal of Social Science Research},
+  28(4):483--497.
+
+\bibitem[{Shmueli et~al.(2021)Shmueli, Fell, Ray, and Ku}]{shmueli2021beyond}
+Shmueli, Boaz, Jan Fell, Soumya Ray, and Lun-Wei Ku. 2021.
+\newblock Beyond fair pay: Ethical implications of nlp crowdsourcing.
+\newblock \emph{arXiv preprint arXiv:2104.10097}.
+
+\bibitem[{Snow(2020)}]{snow_2020}
+Snow, Shane. 2020.
+\newblock That personality test may be discriminating people... and making your
+  company dumber.
+\newblock Linkedin.
+  \url{https://www.linkedin.com/pulse/personality-test-may-discriminating-people-making-your-shane-snow}.
+
+\bibitem[{Soleymani et~al.(2017)Soleymani, Garcia, Jou, Schuller, Chang, and
+  Pantic}]{soleymani2017survey}
+Soleymani, Mohammad, David Garcia, Brendan Jou, Bj{\"o}rn Schuller, Shih-Fu
+  Chang, and Maja Pantic. 2017.
+\newblock A survey of multimodal sentiment analysis.
+\newblock \emph{Image and Vision Computing}, 65:3--14.
+
+\bibitem[{Spinuzzi(2005)}]{spinuzzi2005methodology}
+Spinuzzi, Clay. 2005.
+\newblock The methodology of participatory design.
+\newblock \emph{Technical communication}, 52(2):163--174.
+
+\bibitem[{Standing and Standing(2018)}]{standing2018ethical}
+Standing, Susan and Craig Standing. 2018.
+\newblock The ethical use of crowdsourcing.
+\newblock \emph{Business Ethics: A European Review}, 27(1):72--80.
+
+\bibitem[{Stone and Priestley(1996)}]{stone1996parasites}
+Stone, Emma and Mark Priestley. 1996.
+\newblock Parasites, pawns and partners: Disability research and the role of
+  non-disabled researchers.
+\newblock \emph{British journal of sociology}, pages 699--716.
+
+\bibitem[{Strubell, Ganesh, and McCallum(2020)}]{Strubell_Ganesh_McCallum_2020}
+Strubell, Emma, Ananya Ganesh, and Andrew McCallum. 2020.
+\newblock Energy and policy considerations for modern deep learning research.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  34(09):13693--13696.
+
+\bibitem[{Tausczik and Pennebaker(2010)}]{tausczik2010psychological}
+Tausczik, Yla~R and James~W Pennebaker. 2010.
+\newblock The psychological meaning of words: {LIWC} and computerized text
+  analysis methods.
+\newblock \emph{Journal of language and social psychology}, 29(1):24--54.
+
+\bibitem[{Thaine and Penn(2021)}]{thaine-penn-2021-chinese}
+Thaine, Patricia and Gerald Penn. 2021.
+\newblock The {C}hinese remainder theorem for compact, task-precise, efficient
+  and secure word embeddings.
+\newblock In \emph{Proceedings of the 16th Conference of the European Chapter
+  of the Association for Computational Linguistics: Main Volume}, pages
+  3512--3521, Online.
+
+\bibitem[{Trewin et~al.(2019)Trewin, Basson, Muller, Branham, Treviranus,
+  Gruen, Hebert, Lyckowski, and Manser}]{trewin2019considerations}
+Trewin, Shari, Sara Basson, Michael Muller, Stacy Branham, Jutta Treviranus,
+  Daniel Gruen, Daniel Hebert, Natalia Lyckowski, and Erich Manser. 2019.
+\newblock Considerations for {AI} fairness for people with disabilities.
+\newblock \emph{AI Matters}, 5(3):40--63.
+
+\bibitem[{Turney(2002)}]{turney-2002-thumbs}
+Turney, Peter. 2002.
+\newblock Thumbs up or thumbs down? semantic orientation applied to
+  unsupervised classification of reviews.
+\newblock In \emph{Proceedings of the 40th Annual Meeting of the Association
+  for Computational Linguistics}, pages 417--424, Philadelphia, Pennsylvania,
+  USA.
+
+\bibitem[{Wakefield(2021)}]{wakefield_2021}
+Wakefield, Jane. 2021.
+\newblock {AI} emotion-detection software tested on {U}yghurs.
+\newblock BBC. \url{https://www.bbc.com/news/technology-57101248}.
+
+\bibitem[{Wiebe, Wilson, and Cardie(2005)}]{wiebe2005annotating}
+Wiebe, Janyce, Theresa Wilson, and Claire Cardie. 2005.
+\newblock Annotating expressions of opinions and emotions in language.
+\newblock \emph{Language resources and evaluation}, 39(2):165--210.
+
+\bibitem[{Winkler et~al.(2019)Winkler, Fink, Toberer, Enk, Deinlein,
+  Hofmann-Wellenhof, Thomas, Lallas, Blum, Stolz
+  et~al.}]{winkler2019association}
+Winkler, Julia~K, Christine Fink, Ferdinand Toberer, Alexander Enk, Teresa
+  Deinlein, Rainer Hofmann-Wellenhof, Luc Thomas, Aimilios Lallas, Andreas
+  Blum, Wilhelm Stolz, et~al. 2019.
+\newblock Association between surgical skin markings in dermoscopic images and
+  diagnostic performance of a deep learning convolutional neural network for
+  melanoma recognition.
+\newblock \emph{JAMA dermatology}, 155(10):1135--1141.
+
+\bibitem[{Woensel and Nevil(2019)}]{woensel_nevil_2019}
+Woensel, Lieve~Van and Nissy Nevil. 2019.
+\newblock What if your emotions were tracked to spy on you?
+\newblock European Parliamentary Research Service, PE 634.415.
+  \url{https://www.europarl.europa.eu/RegData/etudes/ATAG/2019/634415/EPRS_ATA(2019)634415_EN.pdf}.
+
+\bibitem[{Yu, Beam, and Kohane(2018)}]{yu2018artificial}
+Yu, Kun-Hsing, Andrew~L Beam, and Isaac~S Kohane. 2018.
+\newblock Artificial {I}ntelligence in healthcare.
+\newblock \emph{Nature biomedical engineering}, 2(10):719--731.
+
+\bibitem[{Zhang, Wang, and Liu(2018)}]{zhang2018deep}
+Zhang, Lei, Shuai Wang, and Bing Liu. 2018.
+\newblock Deep learning for sentiment analysis: A survey.
+\newblock \emph{Wiley Interdisciplinary Reviews: Data Mining and Knowledge
+  Discovery}, 8(4):e1253.
+
+\end{thebibliography}

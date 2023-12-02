@@ -1,0 +1,1142 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{86}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Agre}{Agre}{1994}]%
+        {agre1994surveillance}
+\bibfield{author}{\bibinfo{person}{Philip~E Agre}.}
+  \bibinfo{year}{1994}\natexlab{}.
+\newblock \showarticletitle{Surveillance and capture: Two models of privacy}.
+\newblock \bibinfo{journal}{\emph{The Information Society}}
+  \bibinfo{volume}{10}, \bibinfo{number}{2} (\bibinfo{year}{1994}),
+  \bibinfo{pages}{101--127}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ahmed}{Ahmed}{2007}]%
+        {ahmed2007phenomenology}
+\bibfield{author}{\bibinfo{person}{Sara Ahmed}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{A phenomenology of whiteness}.
+\newblock \bibinfo{journal}{\emph{Feminist theory}} \bibinfo{volume}{8},
+  \bibinfo{number}{2} (\bibinfo{year}{2007}), \bibinfo{pages}{149--168}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Alexander}{Alexander}{2010}]%
+        {alexanderjimcrow}
+\bibfield{author}{\bibinfo{person}{M. Alexander}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The new Jim Crow: Mass incarceration in the
+  age of colorblindness}}.
+\newblock \bibinfo{publisher}{New Press}, \bibinfo{address}{New York, NY, USA}.
+\newblock
+\urldef\tempurl%
+\url{https://search.library.wisc.edu/catalog/9910095136402121}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Includes bibliographical references (pages 249-279) and index.}
+
+
+\bibitem[\protect\citeauthoryear{Ali, Sapiezynski, Bogen, Korolova, Mislove,
+  and Rieke}{Ali et~al\mbox{.}}{2019}]%
+        {ali2019discrimination}
+\bibfield{author}{\bibinfo{person}{Muhammad Ali}, \bibinfo{person}{Piotr
+  Sapiezynski}, \bibinfo{person}{Miranda Bogen}, \bibinfo{person}{Aleksandra
+  Korolova}, \bibinfo{person}{Alan Mislove}, {and} \bibinfo{person}{Aaron
+  Rieke}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Discrimination through optimization: How Facebook's
+  Ad delivery can lead to biased outcomes}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{3}, \bibinfo{number}{CSCW}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{1--30}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ames and Hall}{Ames and Hall}{2003}]%
+        {ameshall2003}
+\bibfield{author}{\bibinfo{person}{Roger~T. Ames} {and}
+  \bibinfo{person}{David~L. Hall}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Dao De Jing—Making This Life
+  Significant—A Philosophical Translation}}.
+\newblock \bibinfo{publisher}{Ballantine Books}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Angwin, Larson, Mattu, and Kirchner}{Angwin
+  et~al\mbox{.}}{2016}]%
+        {angwin2016machine}
+\bibfield{author}{\bibinfo{person}{Julia Angwin}, \bibinfo{person}{Jeff
+  Larson}, \bibinfo{person}{Surya Mattu}, {and} \bibinfo{person}{Lauren
+  Kirchner}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Machine bias}.
+\newblock \bibinfo{journal}{\emph{ProPublica, May}}  \bibinfo{volume}{23}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{2016}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Benjamin}{Benjamin}{2019}]%
+        {benjamin2019race}
+\bibfield{author}{\bibinfo{person}{Ruha Benjamin}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Race after technology: Abolitionist tools
+  for the new jim code}}.
+\newblock \bibinfo{publisher}{John Wiley \& Sons}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Birhane}{Birhane}{2021}]%
+        {birhane2021algorithmic}
+\bibfield{author}{\bibinfo{person}{Abeba Birhane}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Algorithmic injustice: a relational ethics
+  approach}.
+\newblock \bibinfo{journal}{\emph{Patterns}} \bibinfo{volume}{2},
+  \bibinfo{number}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{100205}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Birhane and Prabhu}{Birhane and
+  Prabhu}{2021}]%
+        {birhane2021large}
+\bibfield{author}{\bibinfo{person}{Abeba Birhane} {and}
+  \bibinfo{person}{Vinay~Uday Prabhu}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Large image datasets: A pyrrhic win for computer
+  vision?}. In \bibinfo{booktitle}{\emph{2021 IEEE Winter Conference on
+  Applications of Computer Vision (WACV)}}. IEEE, \bibinfo{pages}{1536--1546}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bonilla-Silva}{Bonilla-Silva}{2015}]%
+        {bonilla2015structureracism}
+\bibfield{author}{\bibinfo{person}{E. Bonilla-Silva}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{The Structure of Racism in Color-Blind,
+  “Post-Racial” America}.
+\newblock \bibinfo{journal}{\emph{American Behavioral Scientist}}
+  \bibinfo{volume}{59}, \bibinfo{number}{11} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{1358--1376}.
+\newblock
+\showISSN{0002-7642}
+\urldef\tempurl%
+\url{https://doi.org/10.1177/0002764215586826}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Browne}{Browne}{2015}]%
+        {browne2015dark}
+\bibfield{author}{\bibinfo{person}{Simone Browne}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Dark matters: On the surveillance of
+  blackness}}.
+\newblock \bibinfo{publisher}{Duke University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Browning and Arrigo}{Browning and
+  Arrigo}{2020}]%
+        {browning2020stop}
+\bibfield{author}{\bibinfo{person}{Matthew Browning} {and}
+  \bibinfo{person}{Bruce Arrigo}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Stop and Risk: Policing, Data, and the Digital Age
+  of Discrimination}.
+\newblock \bibinfo{journal}{\emph{American Journal of Criminal Justice}}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{1--19}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Buolamwini and Gebru}{Buolamwini and
+  Gebru}{2018}]%
+        {buolamwini2018gender}
+\bibfield{author}{\bibinfo{person}{J. Buolamwini} {and} \bibinfo{person}{T.
+  Gebru}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Gender Shades: Intersectional Accuracy Disparities
+  in Commercial Gender Classification}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2018 Conference on Fairness,
+  Accountability and Transparency}}, Vol.~\bibinfo{volume}{81}.
+  \bibinfo{publisher}{PMLR}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{77--91}.
+\newblock
+\urldef\tempurl%
+\url{http://proceedings.mlr.press}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chouldechova, Benavides-Prado, Fialko, and
+  Vaithianathan}{Chouldechova et~al\mbox{.}}{2018}]%
+        {couldechova2018child}
+\bibfield{author}{\bibinfo{person}{Alexandra Chouldechova},
+  \bibinfo{person}{Diana Benavides-Prado}, \bibinfo{person}{Oleksandr Fialko},
+  {and} \bibinfo{person}{Rhema Vaithianathan}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A case study of algorithm-assisted decision making
+  in child maltreatment hotline screening decisions}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2018 Conference on Fairness,
+  Accountability and Transparency}}, Vol.~\bibinfo{volume}{81}.
+  \bibinfo{publisher}{PMLR}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{134--148}.
+\newblock
+\urldef\tempurl%
+\url{http://proceedings.mlr.press}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cohen}{Cohen}{1960}]%
+        {cohen1960coefficient}
+\bibfield{author}{\bibinfo{person}{Jacob Cohen}.}
+  \bibinfo{year}{1960}\natexlab{}.
+\newblock \showarticletitle{A coefficient of agreement for nominal scales}.
+\newblock \bibinfo{journal}{\emph{Educational and psychological measurement}}
+  \bibinfo{volume}{20}, \bibinfo{number}{1} (\bibinfo{year}{1960}),
+  \bibinfo{pages}{37--46}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Collins}{Collins}{2002}]%
+        {collins2002black}
+\bibfield{author}{\bibinfo{person}{Patricia~Hill Collins}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Black feminist thought: Knowledge,
+  consciousness, and the politics of empowerment}}.
+\newblock \bibinfo{publisher}{routledge}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Costanza-Chock}{Costanza-Chock}{2020}]%
+        {costanza2020design}
+\bibfield{author}{\bibinfo{person}{Sasha Costanza-Chock}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Design justice: Community-led practices to
+  build the worlds we need}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Crawford}{Crawford}{2021}]%
+        {crawford2021atlas}
+\bibfield{author}{\bibinfo{person}{Kate Crawford}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Atlas of AI: Power, Politics, and the
+  Planetary Costs of Artificial Intelligence}}.
+\newblock \bibinfo{publisher}{Yale University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dancy and Saucier}{Dancy and Saucier}{2022}]%
+        {dancy21blackness}
+\bibfield{author}{\bibinfo{person}{C.~L. Dancy} {and} \bibinfo{person}{P.~K.
+  Saucier}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{AI and Blackness: Towards moving beyond bias and
+  representation}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Technology and Society}}
+  \bibinfo{volume}{3}, \bibinfo{number}{1} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{31--40}.
+\newblock
+\showISSN{2637-6415}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TTS.2021.3125998}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Daston}{Daston}{2018}]%
+        {daston2018calculation}
+\bibfield{author}{\bibinfo{person}{Lorraine Daston}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Calculation and the division of labor, 1750-1950}.
+\newblock \bibinfo{journal}{\emph{Bulletin of the German Historical Institute}}
+   \bibinfo{volume}{62} (\bibinfo{year}{2018}), \bibinfo{pages}{9--30}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Jaegher}{De~Jaegher}{2019}]%
+        {de2019loving}
+\bibfield{author}{\bibinfo{person}{Hanne De~Jaegher}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Loving and knowing: Reflections for an engaged
+  epistemology}.
+\newblock \bibinfo{journal}{\emph{Phenomenology and the Cognitive Sciences}}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{1--24}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{D'ignazio and Klein}{D'ignazio and
+  Klein}{2020}]%
+        {d2020data}
+\bibfield{author}{\bibinfo{person}{Catherine D'ignazio} {and}
+  \bibinfo{person}{Lauren~F Klein}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Data feminism}}.
+\newblock \bibinfo{publisher}{MIT press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dreyfus}{Dreyfus}{1972}]%
+        {dreyfus1972computers}
+\bibfield{author}{\bibinfo{person}{Hubert Dreyfus}.}
+  \bibinfo{year}{1972}\natexlab{}.
+\newblock \showarticletitle{What computers can’t do: The limits of artificial
+  intelligence}.
+\newblock  (\bibinfo{year}{1972}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Engelmann, Chen, Fischer, Kao, and
+  Grossklags}{Engelmann et~al\mbox{.}}{2019}]%
+        {engelmann2019clear}
+\bibfield{author}{\bibinfo{person}{Severin Engelmann}, \bibinfo{person}{Mo
+  Chen}, \bibinfo{person}{Felix Fischer}, \bibinfo{person}{Ching-yu Kao}, {and}
+  \bibinfo{person}{Jens Grossklags}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Clear Sanctions, Vague Rewards: How China's Social
+  Credit System Currently Defines" Good" and" Bad" Behavior}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the conference on fairness,
+  accountability, and transparency}}. \bibinfo{pages}{69--78}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Eubanks}{Eubanks}{2018}]%
+        {eubanks2018automating}
+\bibfield{author}{\bibinfo{person}{Virginia Eubanks}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Automating inequality: How high-tech tools
+  profile, police, and punish the poor}}.
+\newblock \bibinfo{publisher}{St. Martin's Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fiesler, Garrett, and Beard}{Fiesler
+  et~al\mbox{.}}{2020}]%
+        {fiesler2020we}
+\bibfield{author}{\bibinfo{person}{Casey Fiesler}, \bibinfo{person}{Natalie
+  Garrett}, {and} \bibinfo{person}{Nathan Beard}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{What do We teach when We teach tech ethics? A
+  syllabi analysis}. In \bibinfo{booktitle}{\emph{Proceedings of the 51st ACM
+  Technical Symposium on Computer Science Education}}.
+  \bibinfo{pages}{289--295}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fogliato, Xiang, Lipton, Nagin, and
+  Chouldechova}{Fogliato et~al\mbox{.}}{2021}]%
+        {fogliato21compas}
+\bibfield{author}{\bibinfo{person}{R. Fogliato}, \bibinfo{person}{A. Xiang},
+  \bibinfo{person}{Z. Lipton}, \bibinfo{person}{D. Nagin}, {and}
+  \bibinfo{person}{A. Chouldechova}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{On the Validity of Arrest as a Proxy for Offense:
+  Race and the Likelihood of Arrest for Violent Crimes}. In
+  \bibinfo{booktitle}{\emph{2021 AAAI/ACM Conference on AI, Ethics, and
+  Society}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{pages}{100–111}.
+\newblock
+\showISBNx{9781450384735}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3461702.3462538}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Friedler, Scheidegger, and
+  Venkatasubramanian}{Friedler et~al\mbox{.}}{2016}]%
+        {friedler2016possibility}
+\bibfield{author}{\bibinfo{person}{Sorelle~A Friedler}, \bibinfo{person}{Carlos
+  Scheidegger}, {and} \bibinfo{person}{Suresh Venkatasubramanian}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{On the (im) possibility of fairness}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1609.07236}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gandy~Jr}{Gandy~Jr}{2021}]%
+        {gandy2021panoptic}
+\bibfield{author}{\bibinfo{person}{Oscar~H Gandy~Jr}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The panoptic sort: A political economy of
+  personal information}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gardiner}{Gardiner}{1996}]%
+        {gardiner1996alterity}
+\bibfield{author}{\bibinfo{person}{Michael Gardiner}.}
+  \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Alterity and ethics: A dialogical perspective}.
+\newblock \bibinfo{journal}{\emph{Theory, Culture \& Society}}
+  \bibinfo{volume}{13}, \bibinfo{number}{2} (\bibinfo{year}{1996}),
+  \bibinfo{pages}{121--143}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gilbert and Mintz}{Gilbert and Mintz}{2019}]%
+        {gilbert2019epistemic}
+\bibfield{author}{\bibinfo{person}{Thomas~Krendl Gilbert} {and}
+  \bibinfo{person}{Yonatan Mintz}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Epistemic Therapy for Bias in Automated
+  Decision-Making}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019
+  AAAI/ACM Conference on AI, Ethics, and Society}} (Honolulu, HI, USA)
+  \emph{(\bibinfo{series}{AIES '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{61–67}.
+\newblock
+\showISBNx{9781450363242}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3306618.3314294}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gilmore}{Gilmore}{2017}]%
+        {gilmore2017abolition}
+\bibfield{author}{\bibinfo{person}{R.~W. Gilmore}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Abolition geography and the problem of innocence}.
+\newblock In \bibinfo{booktitle}{\emph{Futures of Black Radicalism}},
+  \bibfield{editor}{\bibinfo{person}{G.~T. Johnson} {and}
+  \bibinfo{person}{A.~Lubin}} (Eds.). \bibinfo{publisher}{Verso},
+  \bibinfo{address}{Brooklyn, NY}, \bibinfo{pages}{225--240}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Goel, Yaghini, and Faltings}{Goel
+  et~al\mbox{.}}{2018}]%
+        {goel2018mlconvex}
+\bibfield{author}{\bibinfo{person}{Naman Goel}, \bibinfo{person}{Mohammad
+  Yaghini}, {and} \bibinfo{person}{Boi Faltings}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Non-Discriminatory Machine Learning through Convex
+  Fairness Criteria}. In \bibinfo{booktitle}{\emph{Proceedings of the 2018
+  AAAI/ACM Conference on AI, Ethics, and Society}} (New Orleans, LA, USA)
+  \emph{(\bibinfo{series}{AIES '18})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{116}.
+\newblock
+\showISBNx{9781450360128}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3278721.3278722}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gonen and Goldberg}{Gonen and
+  Goldberg}{2019}]%
+        {gonen2019lipstick}
+\bibfield{author}{\bibinfo{person}{Hila Gonen} {and} \bibinfo{person}{Yoav
+  Goldberg}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Lipstick on a Pig: Debiasing Methods Cover up
+  Systematic Gender Biases in Word Embeddings But do not Remove Them}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 Conference of the North
+  American Chapter of the Association for Computational Linguistics: Human
+  Language Technologies, Volume 1 (Long and Short Papers)}}.
+  \bibinfo{pages}{609--614}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hampton}{Hampton}{[n.d.]}]%
+        {hampton21blackfem}
+\bibfield{author}{\bibinfo{person}{L.~M. Hampton}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \showarticletitle{Black Feminist Musings on Algorithmic Oppression}.
+  In \bibinfo{booktitle}{\emph{2021 ACM Conference on Fairness, Accountability,
+  and Transparency}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{pages}{1}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445929}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{hooks}{hooks}{1984}]%
+        {h1984feminist}
+\bibfield{author}{\bibinfo{person}{bell hooks}.}
+  \bibinfo{year}{1984}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Feminist Theory: From Margin to Center}}.
+\newblock \bibinfo{publisher}{Routledge}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jefferson}{Jefferson}{2020}]%
+        {jefferson2020digitizepunish}
+\bibfield{author}{\bibinfo{person}{B. Jefferson}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Digitize and Punish: Racial criminalization in the
+  digital age}.
+\newblock \bibinfo{publisher}{University of Minnesota Press},
+  \bibinfo{address}{Minneapolis, MN, USA}, \bibinfo{pages}{171}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jobin, Ienca, and Vayena}{Jobin
+  et~al\mbox{.}}{2019}]%
+        {jobin2019global}
+\bibfield{author}{\bibinfo{person}{Anna Jobin}, \bibinfo{person}{Marcello
+  Ienca}, {and} \bibinfo{person}{Effy Vayena}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The global landscape of AI ethics guidelines}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{1}, \bibinfo{number}{9} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{389--399}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Juarrero}{Juarrero}{2000}]%
+        {juarrero2000dynamics}
+\bibfield{author}{\bibinfo{person}{Alicia Juarrero}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Dynamics in action: Intentional behavior as a
+  complex system}.
+\newblock \bibinfo{journal}{\emph{Emergence}} \bibinfo{volume}{2},
+  \bibinfo{number}{2} (\bibinfo{year}{2000}), \bibinfo{pages}{24--57}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kalluri}{Kalluri}{2020}]%
+        {kalluri2020don}
+\bibfield{author}{\bibinfo{person}{Pratyusha Kalluri}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Don't ask if artificial intelligence is good or
+  fair, ask how it shifts power.}
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{583},
+  \bibinfo{number}{7815} (\bibinfo{year}{2020}), \bibinfo{pages}{169--169}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kalyanakrishnan, Panicker, Natarajan, and
+  Rao}{Kalyanakrishnan et~al\mbox{.}}{2018}]%
+        {kalyanakrishnan2018aiindia}
+\bibfield{author}{\bibinfo{person}{Shivaram Kalyanakrishnan},
+  \bibinfo{person}{Rahul~Alex Panicker}, \bibinfo{person}{Sarayu Natarajan},
+  {and} \bibinfo{person}{Shreya Rao}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Opportunities and Challenges for Artificial
+  Intelligence in India}. In \bibinfo{booktitle}{\emph{Proceedings of the 2018
+  AAAI/ACM Conference on AI, Ethics, and Society}} (New Orleans, LA, USA)
+  \emph{(\bibinfo{series}{AIES '18})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{164–170}.
+\newblock
+\showISBNx{9781450360128}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3278721.3278738}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kannan, Roth, and Ziani}{Kannan
+  et~al\mbox{.}}{2019}]%
+        {kannan2019affirmativeaction}
+\bibfield{author}{\bibinfo{person}{Sampath Kannan}, \bibinfo{person}{Aaron
+  Roth}, {and} \bibinfo{person}{Juba Ziani}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Downstream Effects of Affirmative Action}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Conference on Fairness,
+  Accountability, and Transparency}} (Atlanta, GA, USA)
+  \emph{(\bibinfo{series}{FAT* '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{240–248}.
+\newblock
+\showISBNx{9781450361255}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3287560.3287578}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kim, Ghorbani, and Zou}{Kim
+  et~al\mbox{.}}{2019}]%
+        {kim2019multiaccuracy}
+\bibfield{author}{\bibinfo{person}{Michael~P. Kim}, \bibinfo{person}{Amirata
+  Ghorbani}, {and} \bibinfo{person}{James Zou}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Multiaccuracy: Black-Box Post-Processing for
+  Fairness in Classification}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  2019 AAAI/ACM Conference on AI, Ethics, and Society}} (Honolulu, HI, USA)
+  \emph{(\bibinfo{series}{AIES '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{247–254}.
+\newblock
+\showISBNx{9781450363242}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3306618.3314287}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{King~Jr.}{King~Jr.}{1968}]%
+        {mlk1968}
+\bibfield{author}{\bibinfo{person}{M.~L. King~Jr.}}
+  \bibinfo{year}{1968}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Where do we go from her: Chaos or
+  community?}}
+\newblock \bibinfo{publisher}{Beacon Press}, \bibinfo{address}{Boston, MA,
+  USA}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krafft, Young, Katell, Lee, Narayan, Epstein,
+  Dailey, Herman, Tam, Guetler, Bintz, Raz, Jobe, Putz, Robick, and
+  Barghouti}{Krafft et~al\mbox{.}}{2021}]%
+        {krafft21compas}
+\bibfield{author}{\bibinfo{person}{P.~M. Krafft}, \bibinfo{person}{Meg Young},
+  \bibinfo{person}{Michael Katell}, \bibinfo{person}{Jennifer~E. Lee},
+  \bibinfo{person}{Shankar Narayan}, \bibinfo{person}{Micah Epstein},
+  \bibinfo{person}{Dharma Dailey}, \bibinfo{person}{Bernease Herman},
+  \bibinfo{person}{Aaron Tam}, \bibinfo{person}{Vivian Guetler},
+  \bibinfo{person}{Corinne Bintz}, \bibinfo{person}{Daniella Raz},
+  \bibinfo{person}{Pa~Ousman Jobe}, \bibinfo{person}{Franziska Putz},
+  \bibinfo{person}{Brian Robick}, {and} \bibinfo{person}{Bissan Barghouti}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{An Action-Oriented AI Policy Toolkit for Technology
+  Audits by Community Advocates and Activists}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{pages}{772–781}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445938}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kuhn and Shen}{Kuhn and Shen}{2013}]%
+        {kuhn2013gender}
+\bibfield{author}{\bibinfo{person}{Peter Kuhn} {and} \bibinfo{person}{Kailing
+  Shen}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Gender discrimination in job ads: Evidence from
+  china}.
+\newblock \bibinfo{journal}{\emph{The Quarterly Journal of Economics}}
+  \bibinfo{volume}{128}, \bibinfo{number}{1} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{287--336}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Li}{Li}{1994}]%
+        {li1994}
+\bibfield{author}{\bibinfo{person}{Chenyang Li}.}
+  \bibinfo{year}{1994}\natexlab{}.
+\newblock \showarticletitle{The Confucian Concept of Jen and the Feminist Ethic
+  of Care: A Comparative Study}.
+\newblock \bibinfo{journal}{\emph{Hypatia: A Journal of Feminist Philosophy}}
+  \bibinfo{volume}{9}, \bibinfo{number}{1} (\bibinfo{year}{1994}),
+  \bibinfo{pages}{70–89}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lum and Isaac}{Lum and Isaac}{2016}]%
+        {lum2016predict}
+\bibfield{author}{\bibinfo{person}{Kristian Lum} {and} \bibinfo{person}{William
+  Isaac}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{To predict and serve?}
+\newblock \bibinfo{journal}{\emph{Significance}} \bibinfo{volume}{13},
+  \bibinfo{number}{5} (\bibinfo{year}{2016}), \bibinfo{pages}{14--19}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Markov{\'a}}{Markov{\'a}}{2016}]%
+        {markova2016dialogical}
+\bibfield{author}{\bibinfo{person}{Ivana Markov{\'a}}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The dialogical mind: Common sense and
+  ethics}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Matthews, Babaeianjelodar, Lorenz, Matthews,
+  Njie, Adams, Krane, Goldthwaite, and Hughes}{Matthews et~al\mbox{.}}{2019}]%
+        {matthews2019righconfront}
+\bibfield{author}{\bibinfo{person}{Jeanna Matthews}, \bibinfo{person}{Marzieh
+  Babaeianjelodar}, \bibinfo{person}{Stephen Lorenz}, \bibinfo{person}{Abigail
+  Matthews}, \bibinfo{person}{Mariama Njie}, \bibinfo{person}{Nathaniel Adams},
+  \bibinfo{person}{Dan Krane}, \bibinfo{person}{Jessica Goldthwaite}, {and}
+  \bibinfo{person}{Clinton Hughes}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The Right To Confront Your Accusers: Opening the
+  Black Box of Forensic DNA Software}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 2019 AAAI/ACM Conference on AI, Ethics, and Society}} (Honolulu, HI,
+  USA) \emph{(\bibinfo{series}{AIES '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{321–327}.
+\newblock
+\showISBNx{9781450363242}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3306618.3314279}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mbiti}{Mbiti}{1969}]%
+        {mbiti1969african}
+\bibfield{author}{\bibinfo{person}{John~S Mbiti}.}
+  \bibinfo{year}{1969}\natexlab{}.
+\newblock \bibinfo{title}{African Religions and Philosophy. New York: Frederick
+  A}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McIlwain}{McIlwain}{2019}]%
+        {mcilwain2019black}
+\bibfield{author}{\bibinfo{person}{Charlton~D McIlwain}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Black software: The internet and racial
+  justice, from the AfroNet to Black Lives Matter}}.
+\newblock \bibinfo{publisher}{Oxford University Press, USA}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McNamara}{McNamara}{2019}]%
+        {mcnamara2019equalized}
+\bibfield{author}{\bibinfo{person}{Daniel McNamara}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Equalized Odds Implies Partially Equalized Outcomes
+  Under Realistic Assumptions}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  2019 AAAI/ACM Conference on AI, Ethics, and Society}} (Honolulu, HI, USA)
+  \emph{(\bibinfo{series}{AIES '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{313–320}.
+\newblock
+\showISBNx{9781450363242}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3306618.3314290}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mhlambi}{Mhlambi}{2020}]%
+        {fromrationality2020}
+\bibfield{author}{\bibinfo{person}{Sabelo Mhlambi}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{From Rationality to Relationality: Ubuntu as an
+  Ethical and Human Rights Framework for Artificial Intelligence Governance}.
+\newblock \bibinfo{journal}{\emph{Carr Center for Human Rights Policy
+  Discussion Paper Series}} (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mishler}{Mishler}{2019}]%
+        {mishler2019modelingrisk}
+\bibfield{author}{\bibinfo{person}{Alan Mishler}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Modeling Risk and Achieving Algorithmic Fairness
+  Using Potential Outcomes}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  2019 AAAI/ACM Conference on AI, Ethics, and Society}} (Honolulu, HI, USA)
+  \emph{(\bibinfo{series}{AIES '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{555–556}.
+\newblock
+\showISBNx{9781450363242}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3306618.3314323}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mohamed, Png, and Isaac}{Mohamed
+  et~al\mbox{.}}{2020}]%
+        {mohamed2020decolonial}
+\bibfield{author}{\bibinfo{person}{Shakir Mohamed},
+  \bibinfo{person}{Marie-Therese Png}, {and} \bibinfo{person}{William Isaac}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Decolonial AI: Decolonial theory as sociotechnical
+  foresight in artificial intelligence}.
+\newblock \bibinfo{journal}{\emph{Philosophy \& Technology}}
+  \bibinfo{volume}{33}, \bibinfo{number}{4} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{659--684}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Muhammad}{Muhammad}{2010}]%
+        {muhammadblackness}
+\bibfield{author}{\bibinfo{person}{K.~G. Muhammad}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Condemnation of Blackness: Race, Crime,
+  and the Making of Modern Urban America}}.
+\newblock \bibinfo{publisher}{Harvard University Press},
+  \bibinfo{address}{Cambridge, MA}.
+\newblock
+\showISBNx{0674244338}
+
+
+\bibitem[\protect\citeauthoryear{Noble}{Noble}{2018}]%
+        {noble2018algorithms}
+\bibfield{author}{\bibinfo{person}{Safiya~Umoja Noble}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Algorithms of oppression: How search
+  engines reinforce racism}}.
+\newblock \bibinfo{publisher}{NYU Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Noddings}{Noddings}{2013}]%
+        {noddinge2013caring}
+\bibfield{author}{\bibinfo{person}{N Noddings}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Caring: A Relational Approach to Ethics and
+  Moral Education}}.
+\newblock \bibinfo{publisher}{University of California Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Obermeyer, Powers, Vogeli, and
+  Mullainathan}{Obermeyer et~al\mbox{.}}{2019}]%
+        {obermeyer2019dissecting}
+\bibfield{author}{\bibinfo{person}{Ziad Obermeyer}, \bibinfo{person}{Brian
+  Powers}, \bibinfo{person}{Christine Vogeli}, {and} \bibinfo{person}{Sendhil
+  Mullainathan}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Dissecting racial bias in an algorithm used to
+  manage the health of populations}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{366},
+  \bibinfo{number}{6464} (\bibinfo{year}{2019}), \bibinfo{pages}{447--453}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{O'Neil}{O'Neil}{2016}]%
+        {o2016weapons}
+\bibfield{author}{\bibinfo{person}{Cathy O'Neil}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Weapons of math destruction: How big data
+  increases inequality and threatens democracy}}.
+\newblock \bibinfo{publisher}{Broadway Books}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pasquale}{Pasquale}{2015}]%
+        {pasquale2015black}
+\bibfield{author}{\bibinfo{person}{Frank Pasquale}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The black box society}}.
+\newblock \bibinfo{publisher}{Harvard University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Powe}{Powe}{2020}]%
+        {powe2020black}
+\bibfield{author}{\bibinfo{person}{Neil~R Powe}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Black kidney function matters: use or misuse of
+  race?}
+\newblock \bibinfo{journal}{\emph{Jama}} \bibinfo{volume}{324},
+  \bibinfo{number}{8} (\bibinfo{year}{2020}), \bibinfo{pages}{737--738}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Quan}{Quan}{2017}]%
+        {quan2017demliving}
+\bibfield{author}{\bibinfo{person}{H.~L.~T. Quan}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{"It's hard to stop rebels that time travel":
+  Democratic living and the radical reimagining of old worlds}.
+\newblock In \bibinfo{booktitle}{\emph{Futures of Black Radicalism}},
+  \bibfield{editor}{\bibinfo{person}{G.~T. Johnson} {and}
+  \bibinfo{person}{A.~Lubin}} (Eds.). \bibinfo{publisher}{Verso},
+  \bibinfo{address}{Brooklyn, NY}, \bibinfo{pages}{173--193}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Raji}{Raji}{2020}]%
+        {raji2020discomfort}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The discomfort of death counts: Mourning through
+  the distorted lens of reported COVID-19 death data}.
+\newblock \bibinfo{journal}{\emph{Patterns}} \bibinfo{volume}{1},
+  \bibinfo{number}{4} (\bibinfo{year}{2020}), \bibinfo{pages}{100066}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rodolfa, Salomon, Haynes, Mendieta, Larson,
+  and Ghani}{Rodolfa et~al\mbox{.}}{[n.d.]}]%
+        {rodolfa20recidivism}
+\bibfield{author}{\bibinfo{person}{K.~T. Rodolfa}, \bibinfo{person}{E.
+  Salomon}, \bibinfo{person}{L. Haynes}, \bibinfo{person}{I.~H. Mendieta},
+  \bibinfo{person}{J. Larson}, {and} \bibinfo{person}{R. Ghani}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \showarticletitle{Case study: predictive fairness to reduce
+  misdemeanor recidivism through social service interventions}. In
+  \bibinfo{booktitle}{\emph{2020 Conference on Fairness, Accountability, and
+  Transparency}}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{pages}{142–153}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3351095.3372863}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Rothstein}{Rothstein}{2017}]%
+        {rothstein2017color}
+\bibfield{author}{\bibinfo{person}{Richard Rothstein}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The color of law: A forgotten history of
+  how our government segregated America}}.
+\newblock \bibinfo{publisher}{Liveright Publishing}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Scannell}{Scannell}{2019}]%
+        {scannell2019not}
+\bibfield{author}{\bibinfo{person}{R~Joshua Scannell}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{This is not Minority Report: Predictive policing
+  and population racism}.
+\newblock \bibinfo{journal}{\emph{Captivating technology: Race, carceral
+  technoscience, and liberatory imagination in everyday life}}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{107--129}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Selbst, Boyd, Friedler, Venkatasubramanian,
+  and Vertesi}{Selbst et~al\mbox{.}}{2019}]%
+        {selbst2019fairness}
+\bibfield{author}{\bibinfo{person}{Andrew~D Selbst}, \bibinfo{person}{Danah
+  Boyd}, \bibinfo{person}{Sorelle~A Friedler}, \bibinfo{person}{Suresh
+  Venkatasubramanian}, {and} \bibinfo{person}{Janet Vertesi}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Fairness and abstraction in sociotechnical
+  systems}. In \bibinfo{booktitle}{\emph{Proceedings of the Proceedings of the
+  2019 Conference on Fairness, Accountability, and Transparency}}.
+  \bibinfo{address}{Atlanta, GA, USA}, \bibinfo{pages}{59--68}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shotter}{Shotter}{2006}]%
+        {shotter2006vygotsky}
+\bibfield{author}{\bibinfo{person}{John Shotter}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Vygotsky, Bakhtin, Goethe: Consciousness and the
+  dynamics of voice}.
+\newblock  (\bibinfo{year}{2006}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Speicher, Ali, Venkatadri, Ribeiro,
+  Arvanitakis, Benevenuto, Gummadi, Loiseau, and Mislove}{Speicher
+  et~al\mbox{.}}{2018}]%
+        {speicher2018potential}
+\bibfield{author}{\bibinfo{person}{Till Speicher}, \bibinfo{person}{Muhammad
+  Ali}, \bibinfo{person}{Giridhari Venkatadri}, \bibinfo{person}{Filipe~Nunes
+  Ribeiro}, \bibinfo{person}{George Arvanitakis}, \bibinfo{person}{Fabrício
+  Benevenuto}, \bibinfo{person}{Krishna~P. Gummadi}, \bibinfo{person}{Patrick
+  Loiseau}, {and} \bibinfo{person}{Alan Mislove}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Potential for Discrimination in Online Targeted
+  Advertising}. In \bibinfo{booktitle}{\emph{Proceedings of the 2018 Conference
+  on Fairness, Accountability and Transparency}}, Vol.~\bibinfo{volume}{81}.
+  \bibinfo{publisher}{PMLR}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{5--19}.
+\newblock
+\urldef\tempurl%
+\url{http://proceedings.mlr.press/v81}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Srivastava and Rossi}{Srivastava and
+  Rossi}{2018}]%
+        {srivastava2018composablebias}
+\bibfield{author}{\bibinfo{person}{Biplav Srivastava} {and}
+  \bibinfo{person}{Francesca Rossi}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Towards Composable Bias Rating of AI Services}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2018 AAAI/ACM Conference on AI,
+  Ethics, and Society}} (New Orleans, LA, USA) \emph{(\bibinfo{series}{AIES
+  '18})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{284–289}.
+\newblock
+\showISBNx{9781450360128}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3278721.3278744}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Tamale}{Tamale}{2020}]%
+        {tamale2020decolonization}
+\bibfield{author}{\bibinfo{person}{Sylvia Tamale}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Decolonization and Afro-feminism}}.
+\newblock \bibinfo{publisher}{Daraja Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Taskesen, Blanchet, Kuhn, and Nguyen}{Taskesen
+  et~al\mbox{.}}{2021}]%
+        {taskesen21compas}
+\bibfield{author}{\bibinfo{person}{B. Taskesen}, \bibinfo{person}{J. Blanchet},
+  \bibinfo{person}{D. Kuhn}, {and} \bibinfo{person}{V.~A. Nguyen}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{A Statistical Test for Probabilistic Fairness}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{pages}{648–665}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445927}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Taylor}{Taylor}{2019}]%
+        {taylor2019race}
+\bibfield{author}{\bibinfo{person}{Keeanga-Yamahtta Taylor}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Race for profit: How banks and the real
+  estate industry undermined black homeownership}}.
+\newblock \bibinfo{publisher}{UNC Press Books}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vallor}{Vallor}{2016}]%
+        {vallor2016}
+\bibfield{author}{\bibinfo{person}{Shannon Vallor}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Technology and the Virtues: A Philosophical
+  Guide to a World Worth Wanting}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Van~Norden}{Van~Norden}{2017}]%
+        {v2017taking}
+\bibfield{author}{\bibinfo{person}{B Van~Norden}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Taking Back Philosophy: A Multicultural
+  Manifesto}}.
+\newblock \bibinfo{publisher}{Columbia University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vasconcelos, Cardonha, and
+  Gon\c{c}alves}{Vasconcelos et~al\mbox{.}}{2018}]%
+        {vasconcelos2019epistemological}
+\bibfield{author}{\bibinfo{person}{Marisa Vasconcelos}, \bibinfo{person}{Carlos
+  Cardonha}, {and} \bibinfo{person}{Bernardo Gon\c{c}alves}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Modeling Epistemological Principles for Bias
+  Mitigation in AI Systems: An Illustration in Hiring Decisions}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2018 AAAI/ACM Conference on AI,
+  Ethics, and Society}} (New Orleans, LA, USA) \emph{(\bibinfo{series}{AIES
+  '18})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{323–329}.
+\newblock
+\showISBNx{9781450360128}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3278721.3278751}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Von~Foerster and P{\"o}rksen}{Von~Foerster and
+  P{\"o}rksen}{2002}]%
+        {von2002understanding}
+\bibfield{author}{\bibinfo{person}{Heinz Von~Foerster} {and}
+  \bibinfo{person}{Bernhard P{\"o}rksen}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Understanding systems: Conversations on
+  epistemology and ethics}}.
+\newblock \bibinfo{publisher}{Kluwer Academic/Plenum Publishers New York}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vyas, Eisenstein, and Jones}{Vyas
+  et~al\mbox{.}}{2020}]%
+        {vyas2020hidden}
+\bibfield{author}{\bibinfo{person}{Darshali~A Vyas}, \bibinfo{person}{Leo~G
+  Eisenstein}, {and} \bibinfo{person}{David~S Jones}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Hidden in plain sight—reconsidering the use of race
+  correction in clinical algorithms}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Weheliye}{Weheliye}{2014}]%
+        {weheliye2014habeas}
+\bibfield{author}{\bibinfo{person}{Alexander~G Weheliye}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Law: Property}.
+\newblock In \bibinfo{booktitle}{\emph{Habeas viscus: Racializing assemblages,
+  biopolitics, and black feminist theories of the human}}.
+  \bibinfo{publisher}{Duke University Press}, \bibinfo{address}{Durham, NC},
+  \bibinfo{pages}{74--88}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Weizenbaum}{Weizenbaum}{1976}]%
+        {weizenbaum1976computer}
+\bibfield{author}{\bibinfo{person}{Joseph Weizenbaum}.}
+  \bibinfo{year}{1976}\natexlab{}.
+\newblock \showarticletitle{Computer power and human reason: From judgment to
+  calculation.}
+\newblock  (\bibinfo{year}{1976}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wells}{Wells}{1893}]%
+        {wells1893lynch}
+\bibfield{author}{\bibinfo{person}{Ida~B. Wells}.} \bibinfo{year}{1999
+  (1893)}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Lynch Law}}.
+\newblock \bibinfo{publisher}{University of Illinois Press},
+  \bibinfo{address}{Urbana}, Book section~4.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Winograd and Flores}{Winograd and
+  Flores}{1986}]%
+        {winograd1986understanding}
+\bibfield{author}{\bibinfo{person}{Terry Winograd} {and}
+  \bibinfo{person}{Fernando Flores}.} \bibinfo{year}{1986}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Understanding computers and cognition: A
+  new foundation for design}}.
+\newblock \bibinfo{publisher}{Intellect Books}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wynter}{Wynter}{2003}]%
+        {Wynter03}
+\bibfield{author}{\bibinfo{person}{S. Wynter}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Unsettling the Coloniality of
+  Being/Power/Truth/Freedom: Towards the Human, After Man, Its
+  Overrepresentation - An Argument}.
+\newblock \bibinfo{journal}{\emph{CR: The New Centennial Review}}
+  \bibinfo{volume}{3}, \bibinfo{number}{3} (\bibinfo{year}{2003}),
+  \bibinfo{pages}{257--337}.
+\newblock
+\showISSN{1532687X, 15396630}
+\urldef\tempurl%
+\url{http://www.jstor.org/stable/41949874}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zuboff}{Zuboff}{2019}]%
+        {zuboff2019age}
+\bibfield{author}{\bibinfo{person}{Shoshana Zuboff}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The age of surveillance capitalism: The
+  fight for a human future at the new frontier of power}}.
+\newblock \bibinfo{publisher}{Profile Books}.
+\newblock
+
+
+\end{thebibliography}

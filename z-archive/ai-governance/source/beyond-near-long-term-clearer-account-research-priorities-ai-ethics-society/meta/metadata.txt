@@ -1,0 +1,13 @@
+---
+title: "Beyond Near- and Long-Term: Towards a Clearer Account of Research Priorities in AI Ethics and Society"
+title_slug: "beyond-near-and-long-term-towards-clearer-account-of-research-priorities-in-ai-ethics-and-society"
+license: "cc-by"
+published: "2020-01-13 15:22:42+00:00"
+entry_id: "http://arxiv.org/abs/2001.04335v2"
+author: "Carina Prunkl, Jess Whittlestone"
+pdf: "beyond-near-and-long-term-towards-a-clearer-account-of-research-priorities-in-ai-ethics-and-society.pdf"
+primary_category: "cs.CY"
+get_short_id: "2001.04335v2"
+image: img.png
+section: "Papers"
+---

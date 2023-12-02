@@ -1,0 +1,2642 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{207}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{goo}{[n.d.]}]%
+        {google_nest_help}
+ \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Wave control - Google Nest Help}.
+\newblock
+  \bibinfo{howpublished}{\url{https://support.google.com/googlenest/answer/6294727?hl=en}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{Zha}{2013}]%
+        {Zhang}
+ \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{title}{\textup{Zhang v. Superior Ct., 304 P.3d 163 (2013)}}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{FB_}{2019}]%
+        {FB_consent_decree}
+ \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{\textup{Stipulated Order for Civil Penalty, Monetary
+  Judgment, and Injunctive Relief, No. 1:19-cv-2184, Docket 2-1 (D.D.C. July
+  24, 2019) (fining Facebook \$5 billion for violating a prior consent
+  decree)}}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{12 U.S.C. § 5511}{12 U.S.C. §
+  5511}{[n.d.]}]%
+        {CFPB_jx}
+12 U.S.C. § 5511 \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{ACLU}{ACLU}{2018}]%
+        {aclu_response_response_fr}
+\bibfield{author}{\bibinfo{person}{ACLU}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{{ACLU} Comment on New Amazon Statement Responding to
+  Face Recognition Technology Test}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.aclu.org/press-releases/aclu-comment-new-amazon-statement-responding-face-recognition-technology-test}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-12.}
+
+
+\bibitem[\protect\citeauthoryear{ACLU}{ACLU}{2021}]%
+        {aclu-comment-trust}
+\bibfield{author}{\bibinfo{person}{ACLU}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{{ACLU} Comment on {NIST's} Proposal for Managing Bias
+  in {AI}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.aclu.org/letter/aclu-comment-nists-proposal-managing-bias-ai}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-6.}
+
+
+\bibitem[\protect\citeauthoryear{Agrawal and Prabakaran}{Agrawal and
+  Prabakaran}{2020}]%
+        {Agrawal2020-rs}
+\bibfield{author}{\bibinfo{person}{Raag Agrawal} {and}
+  \bibinfo{person}{Sudhakaran Prabakaran}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Big data in digital healthcare: lessons learnt and
+  recommendations for general practice}.
+\newblock \bibinfo{journal}{\emph{Heredity}} \bibinfo{volume}{124},
+  \bibinfo{number}{4} (\bibinfo{date}{April} \bibinfo{year}{2020}),
+  \bibinfo{pages}{525--534}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ahmed and Wahed}{Ahmed and Wahed}{2020}]%
+        {de_democratizing}
+\bibfield{author}{\bibinfo{person}{Nur Ahmed} {and} \bibinfo{person}{Muntasir
+  Wahed}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The De-democratization of {AI:} Deep Learning and
+  the Compute Divide in Artificial Intelligence Research}.
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/2010.15581}
+  (\bibinfo{year}{2020}).
+\newblock
+\showeprint[arXiv]{2010.15581}
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2010.15581}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{AI Act}{AI Act}{[n.d.]}]%
+        {AI_Act}
+AI Act \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Proposal for a Regulation of the European Parliament
+  and of the Council laying down harmonised rules on artificial intelligence
+  (Artificial Intelligence Act) and amending certain Union legislative acts
+  (COM(2021) 206 final)}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Akpinar, De-Arteaga, and Chouldechova}{Akpinar
+  et~al\mbox{.}}{2021}]%
+        {Akpinar2021-fb}
+\bibfield{author}{\bibinfo{person}{Nil-Jana Akpinar}, \bibinfo{person}{Maria
+  De-Arteaga}, {and} \bibinfo{person}{Alexandra Chouldechova}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The effect of differential victim crime reporting
+  on predictive policing systems}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 2021 {ACM} Conference on Fairness, Accountability, and Transparency}}
+  (Virtual Event, Canada) \emph{(\bibinfo{series}{FAccT '21})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{838--849}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Allam, Dey, and Jones}{Allam
+  et~al\mbox{.}}{2020}]%
+        {covid_intl}
+\bibfield{author}{\bibinfo{person}{Zaheer Allam}, \bibinfo{person}{Gourav Dey},
+  {and} \bibinfo{person}{David~S Jones}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Artificial intelligence (AI) provided early
+  detection of the coronavirus (COVID-19) in China and will influence future
+  Urban health policy internationally}.
+\newblock \bibinfo{journal}{\emph{AI}} \bibinfo{volume}{1}, \bibinfo{number}{2}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{156--165}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Anderson}{Anderson}{2015}]%
+        {anderson2015snake}
+\bibfield{author}{\bibinfo{person}{Ann Anderson}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Snake oil, hustlers and hambones: the
+  American medicine show}}.
+\newblock \bibinfo{publisher}{McFarland}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Atkinson}{Atkinson}{2018}]%
+        {atkinson2018going}
+\bibfield{author}{\bibinfo{person}{Robert~D Atkinson}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{" It Is Going to Kill Us!" and Other Myths About
+  the Future of Artificial Intelligence}.
+\newblock \bibinfo{journal}{\emph{IUP Journal of Computer Sciences}}
+  \bibinfo{volume}{12}, \bibinfo{number}{4} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{7--56}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Awasthi and George}{Awasthi and
+  George}{2020}]%
+        {democratization2}
+\bibfield{author}{\bibinfo{person}{Pranjal Awasthi} {and}
+  \bibinfo{person}{Jordana~J George}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{A case for Data Democratization}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Barocas and Selbst}{Barocas and
+  Selbst}{2016}]%
+        {barocas2016big}
+\bibfield{author}{\bibinfo{person}{Solon Barocas} {and}
+  \bibinfo{person}{Andrew~D Selbst}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Big data's disparate impact}.
+\newblock \bibinfo{journal}{\emph{Calif. L. Rev.}}  \bibinfo{volume}{104}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{671}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Barocas, Selbst, and Raghavan}{Barocas
+  et~al\mbox{.}}{2020}]%
+        {barocas2020hidden}
+\bibfield{author}{\bibinfo{person}{Solon Barocas}, \bibinfo{person}{Andrew~D
+  Selbst}, {and} \bibinfo{person}{Manish Raghavan}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The hidden assumptions behind counterfactual
+  explanations and principal reasons}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 2020 Conference on Fairness, Accountability, and Transparency}}.
+  \bibinfo{pages}{80--89}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bausell}{Bausell}{2009}]%
+        {bausell2009snake}
+\bibfield{author}{\bibinfo{person}{R~Barker Bausell}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Snake oil science: The truth about
+  complementary and alternative medicine}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bender, Gebru, McMillan-Major, and
+  Shmitchell}{Bender et~al\mbox{.}}{2021}]%
+        {bender2021dangers}
+\bibfield{author}{\bibinfo{person}{Emily~M Bender}, \bibinfo{person}{Timnit
+  Gebru}, \bibinfo{person}{Angelina McMillan-Major}, {and}
+  \bibinfo{person}{Shmargaret Shmitchell}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{On the Dangers of Stochastic Parrots: Can Language
+  Models Be Too Big?}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM
+  Conference on Fairness, Accountability, and Transparency}}.
+  \bibinfo{pages}{610--623}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bender and Koller}{Bender and Koller}{2020}]%
+        {bender2020climbing}
+\bibfield{author}{\bibinfo{person}{Emily~M Bender} {and}
+  \bibinfo{person}{Alexander Koller}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Climbing towards NLU: On meaning, form, and
+  understanding in the age of data}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 58th Annual Meeting of the Association for Computational
+  Linguistics}}. \bibinfo{pages}{5185--5198}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Benjamens, Dhunnoo, and Mesk{\'o}}{Benjamens
+  et~al\mbox{.}}{2020}]%
+        {benjamens2020state}
+\bibfield{author}{\bibinfo{person}{Stan Benjamens},
+  \bibinfo{person}{Pranavsingh Dhunnoo}, {and} \bibinfo{person}{Bertalan
+  Mesk{\'o}}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The state of artificial intelligence-based
+  FDA-approved medical devices and algorithms: an online database}.
+\newblock \bibinfo{journal}{\emph{NPJ digital medicine}} \bibinfo{volume}{3},
+  \bibinfo{number}{1} (\bibinfo{year}{2020}), \bibinfo{pages}{1--8}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Berger}{Berger}{2019}]%
+        {berger2019mta}
+\bibfield{author}{\bibinfo{person}{Paul Berger}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{MTA’s Initial Foray Into Facial Recognition at
+  High Speed Is a Bust}.
+\newblock \bibinfo{journal}{\emph{The Wall Street Journal}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bernstein}{Bernstein}{2021}]%
+        {badnews}
+\bibfield{author}{\bibinfo{person}{Joseph Bernstein}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Bad News}.
+\newblock
+  \bibinfo{howpublished}{\url{https://harpers.org/archive/2021/09/bad-news-selling-the-story-of-disinformation/}}.
+\newblock \bibinfo{journal}{\emph{Harper's Magazine}} (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bhatt, Xiang, Sharma, Weller, Taly, Jia,
+  Ghosh, Puri, Moura, and Eckersley}{Bhatt et~al\mbox{.}}{2020}]%
+        {bhatt2020explainable}
+\bibfield{author}{\bibinfo{person}{Umang Bhatt}, \bibinfo{person}{Alice Xiang},
+  \bibinfo{person}{Shubham Sharma}, \bibinfo{person}{Adrian Weller},
+  \bibinfo{person}{Ankur Taly}, \bibinfo{person}{Yunhan Jia},
+  \bibinfo{person}{Joydeep Ghosh}, \bibinfo{person}{Ruchir Puri},
+  \bibinfo{person}{Jos{\'e}~MF Moura}, {and} \bibinfo{person}{Peter
+  Eckersley}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Explainable machine learning in deployment}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2020 Conference on Fairness,
+  Accountability, and Transparency}}. \bibinfo{pages}{648--657}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Blum}{Blum}{2018}]%
+        {blum2018poison}
+\bibfield{author}{\bibinfo{person}{Deborah Blum}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Poison Squad: One Chemist's
+  Single-minded Crusade for Food Safety at the Turn of the Twentieth Century}}.
+\newblock \bibinfo{publisher}{Penguin}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Board}{Board}{2017a}]%
+        {tesla-crash}
+\bibfield{author}{\bibinfo{person}{National Transportation~Safety Board}.}
+  \bibinfo{year}{2017}\natexlab{a}.
+\newblock \bibinfo{title}{Collision Between a Car Operating With Automated
+  Vehicle Control Systems and a Tractor-Semitrailer Truck}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://ntsb.gov/investigations/Pages/HWY18FH010.aspx}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Board}{Board}{2017b}]%
+        {tesla-crash-2}
+\bibfield{author}{\bibinfo{person}{National Transportation~Safety Board}.}
+  \bibinfo{year}{2017}\natexlab{b}.
+\newblock \bibinfo{title}{Driver Errors, Overreliance on Automation, Lack of
+  Safeguards, Led to Fatal Tesla Crash}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.ntsb.gov/news/press-releases/pages/pr20170912.aspx}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Board}{Board}{2018}]%
+        {uber-crash}
+\bibfield{author}{\bibinfo{person}{National Transportation~Safety Board}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Collision Between Vehicle Controlled by Developmental
+  Automated Driving System and Pedestrian}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://ntsb.gov/investigations/Pages/HWY18FH010.aspx}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Broussard}{Broussard}{2018}]%
+        {broussard2018artificial}
+\bibfield{author}{\bibinfo{person}{Meredith Broussard}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Artificial unintelligence: How computers
+  misunderstand the world}}.
+\newblock \bibinfo{publisher}{mit Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brundage, Avin, Clark, Toner, Eckersley,
+  Garfinkel, Dafoe, Scharre, Zeitzoff, Filar, et~al\mbox{.}}{Brundage
+  et~al\mbox{.}}{2018}]%
+        {brundage2018malicious}
+\bibfield{author}{\bibinfo{person}{Miles Brundage}, \bibinfo{person}{Shahar
+  Avin}, \bibinfo{person}{Jack Clark}, \bibinfo{person}{Helen Toner},
+  \bibinfo{person}{Peter Eckersley}, \bibinfo{person}{Ben Garfinkel},
+  \bibinfo{person}{Allan Dafoe}, \bibinfo{person}{Paul Scharre},
+  \bibinfo{person}{Thomas Zeitzoff}, \bibinfo{person}{Bobby Filar},
+  {et~al\mbox{.}}} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The malicious use of artificial intelligence:
+  Forecasting, prevention, and mitigation}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1802.07228}}
+  (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bryson}{Bryson}{[n.d.]}]%
+        {noonetrustai-xo}
+\bibfield{author}{\bibinfo{person}{Joanna Bryson}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{{AI} \& Global Governance: No One Should Trust {AI} -
+  United Nations University Centre for Policy Research}.
+\newblock
+  \bibinfo{howpublished}{\url{https://cpr.unu.edu/publications/articles/ai-global-governance-no-one-should-trust-ai.html}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-6.}
+
+
+\bibitem[\protect\citeauthoryear{Buolamwini, Friedler, and Wilson}{Buolamwini
+  et~al\mbox{.}}{[n.d.]}]%
+        {Buolamwini_undated-dd}
+\bibfield{author}{\bibinfo{person}{Joy Buolamwini}, \bibinfo{person}{Sorelle~A
+  Friedler}, {and} \bibinfo{person}{Christo Wilson}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Gender shades: Intersectional accuracy disparities in
+  commercial gender classification}.
+\newblock
+  \bibinfo{howpublished}{\url{http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-12.}
+
+
+\bibitem[\protect\citeauthoryear{Calo}{Calo}{2015}]%
+        {calo2015robotics}
+\bibfield{author}{\bibinfo{person}{Ryan Calo}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Robotics and the Lessons of Cyberlaw}.
+\newblock \bibinfo{journal}{\emph{Calif. L. Rev.}}  \bibinfo{volume}{103}
+  (\bibinfo{year}{2015}), \bibinfo{pages}{513}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Carter}{Carter}{2009}]%
+        {NCLC_Report}
+\bibfield{author}{\bibinfo{person}{Carolyn~L. Carter}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Consumer Protection in the States}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{National
+  Consumer Law Center}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Charette}{Charette}{2018}]%
+        {charette2018michigan}
+\bibfield{author}{\bibinfo{person}{Robert Charette}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Michigan’s MiDAS Unemployment System: Algorithm
+  Alchemy Created Lead, Not Gold-IEEE Spectrum}.
+\newblock \bibinfo{journal}{\emph{IEEE Spectrum}} \bibinfo{volume}{18},
+  \bibinfo{number}{3} (\bibinfo{year}{2018}), \bibinfo{pages}{6}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Charlie Pownall}}{{Charlie Pownall}}{2021}]%
+        {AIAAIC}
+\bibfield{author}{\bibinfo{person}{{Charlie Pownall}}.}
+  \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{AI, Algorithmic and Automation Incident and
+  Controversy Repository (AIAAIC)}.
+\newblock \bibinfo{howpublished}{\url{https://www.aiaaic.org/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Choi}{Choi}{2019}]%
+        {choi2019crashworthy}
+\bibfield{author}{\bibinfo{person}{Bryan~H Choi}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Crashworthy code}.
+\newblock \bibinfo{journal}{\emph{Wash. L. Rev.}}  \bibinfo{volume}{94}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{39}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Citron}{Citron}{2007}]%
+        {citron2007technological}
+\bibfield{author}{\bibinfo{person}{Danielle~Keats Citron}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Technological due process}.
+\newblock \bibinfo{journal}{\emph{Wash. UL Rev.}}  \bibinfo{volume}{85}
+  (\bibinfo{year}{2007}), \bibinfo{pages}{1249}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Citron}{Citron}{2016}]%
+        {citron2016privacy}
+\bibfield{author}{\bibinfo{person}{Danielle~Keats Citron}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{The Privacy Policymaking of State Attorneys
+  General}.
+\newblock \bibinfo{journal}{\emph{Notre Dame L. Rev.}}  \bibinfo{volume}{92}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{747}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Commission}{Commission}{[n.d.]}]%
+        {CPSC_about}
+\bibfield{author}{\bibinfo{person}{Consumer Product~Safety Commission}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{About Us}.
+\newblock \bibinfo{howpublished}{\url{https://www.cpsc.gov/About-CPSC}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Commission}{Commission}{2014}]%
+        {Snapchat_consent_decree}
+\bibfield{author}{\bibinfo{person}{Federal~Trade Commission}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{\textup{In re Snapchat, Inc., File No. 132-3078,
+  Docket No. C-4501 (consent decree)}}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Commission}{Commission}{2021}]%
+        {FTC_Mag_Moss}
+\bibfield{author}{\bibinfo{person}{Federal~Trade Commission}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{FTC Votes to Update Rulemaking Procedures, Sets Stage
+  for Stronger Deterrence of Corporate Misconduct}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.ftc.gov/news-events/press-releases/2021/07/ftc-votes-update-rulemaking-procedures-sets-stage-stronger}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Crawford}{Crawford}{2016}]%
+        {crawford2016artificial}
+\bibfield{author}{\bibinfo{person}{Kate Crawford}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Artificial intelligence’s white guy problem}.
+\newblock \bibinfo{journal}{\emph{The New York Times}} \bibinfo{volume}{25},
+  \bibinfo{number}{06} (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Daniel E.~Ho}{Daniel E.~Ho}{2021}]%
+        {NAIR}
+\bibfield{author}{\bibinfo{person}{Russell C. Wald Christopher~Wan Daniel
+  E.~Ho, Jennifer~King}.} \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{Building a National AI Research Resource: A Blueprint
+  for the National Research Cloud}.
+\newblock
+  \bibinfo{howpublished}{\url{https://hai.stanford.edu/sites/default/files/2022-01/HAI_NRCR_v17.pdf}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Mauro, Greco, Grimaldi, and
+  Ritala}{De~Mauro et~al\mbox{.}}{2018}]%
+        {De_Mauro2018-mi}
+\bibfield{author}{\bibinfo{person}{Andrea De~Mauro}, \bibinfo{person}{Marco
+  Greco}, \bibinfo{person}{Michele Grimaldi}, {and} \bibinfo{person}{Paavo
+  Ritala}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Human resources for Big Data professions: A
+  systematic classification of job roles and required skill sets}.
+\newblock \bibinfo{journal}{\emph{Inf. Process. Manag.}} \bibinfo{volume}{54},
+  \bibinfo{number}{5} (\bibinfo{date}{Sept.} \bibinfo{year}{2018}),
+  \bibinfo{pages}{807--817}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{D{\'\i}az and Hecht}{D{\'\i}az and
+  Hecht}{2021}]%
+        {diaz2021double}
+\bibfield{author}{\bibinfo{person}{{\'A}ngel D{\'\i}az} {and}
+  \bibinfo{person}{Laura Hecht}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Double Standards in Social Media Content
+  Moderation}.
+\newblock \bibinfo{howpublished}{\url{https://www. brennancenter.
+  org/sites/default/files/2021-08/Double\_Standards\_Content\_Moderation.
+  pdf}}.
+\newblock \bibinfo{journal}{\emph{New York: Brennan Center for Justice}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Digwatch}{Digwatch}{2021}]%
+        {digiwatch}
+\bibfield{author}{\bibinfo{person}{Digwatch}.}
+  \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{The COVID-19 crisis: A digital policy overview}.
+\newblock
+  \bibinfo{howpublished}{\url{https://dig.watch/trends/covid-19-crisis-digital-policy-overview/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dobbe, Gilbert, and Mintz}{Dobbe
+  et~al\mbox{.}}{2019}]%
+        {Dobbe2019-ms}
+\bibfield{author}{\bibinfo{person}{Roel Dobbe}, \bibinfo{person}{Thomas~Krendl
+  Gilbert}, {and} \bibinfo{person}{Yonatan Mintz}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Hard Choices in Artificial Intelligence: Addressing
+  Normative Uncertainty through Sociotechnical Commitments}.
+\newblock  (\bibinfo{date}{Nov.} \bibinfo{year}{2019}).
+\newblock
+\showeprint[arxiv]{1911.09005}~[cs.AI]
+
+
+\bibitem[\protect\citeauthoryear{Douglas~Heaven}{Douglas~Heaven}{2020}]%
+        {mit_replication}
+\bibfield{author}{\bibinfo{person}{Will Douglas~Heaven}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{AI is wrestling with a replication crisis}.
+\newblock \bibinfo{journal}{\emph{MIT Technology Review}} (\bibinfo{date}{Nov.}
+  \bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Editorial}{Editorial}{2021}]%
+        {covid_greece}
+\bibfield{author}{\bibinfo{person}{Nature Editorial}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Greece used {AI} to curb {COVID}: what other
+  nations can learn}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{597},
+  \bibinfo{number}{7877} (\bibinfo{year}{2021}), \bibinfo{pages}{447--448}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Edwards and Veale}{Edwards and Veale}{2017}]%
+        {edwards2017slave}
+\bibfield{author}{\bibinfo{person}{Lilian Edwards} {and}
+  \bibinfo{person}{Michael Veale}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Slave to the algorithm: Why a right to an
+  explanation is probably not the remedy you are looking for}.
+\newblock \bibinfo{journal}{\emph{Duke L. \& Tech. Rev.}}  \bibinfo{volume}{16}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{18}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Egan}{Egan}{2019}]%
+        {bankrupt_MIDAS}
+\bibfield{author}{\bibinfo{person}{Paul Egan}.}
+  \bibinfo{year}{{2019}}\natexlab{}.
+\newblock \bibinfo{title}{State of Michigan's mistake led to man filing
+  bankruptcy}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.freep.com/story/news/local/michigan/2019/12/22/government-artificial-intelligence-midas-computer-fraud-fiasco/4407901002/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Engler}{Engler}{2021}]%
+        {engler2021independent}
+\bibfield{author}{\bibinfo{person}{Alex~C Engler}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Independent auditors are struggling to hold AI
+  companies accountable. FastCompany}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Engstrom}{Engstrom}{2013}]%
+        {engstrom20133D}
+\bibfield{author}{\bibinfo{person}{Nora~Freeman Engstrom}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{3-D printing and product liability: identifying the
+  obstacles}.
+\newblock \bibinfo{journal}{\emph{U. Pa. L. Rev. Online}}
+  \bibinfo{volume}{162} (\bibinfo{year}{2013}), \bibinfo{pages}{35}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ensign, Friedler, Neville, Scheidegger, and
+  Venkatasubramanian}{Ensign et~al\mbox{.}}{2017}]%
+        {Ensign2017-vi}
+\bibfield{author}{\bibinfo{person}{Danielle Ensign}, \bibinfo{person}{Sorelle~A
+  Friedler}, \bibinfo{person}{Scott Neville}, \bibinfo{person}{Carlos
+  Scheidegger}, {and} \bibinfo{person}{Suresh Venkatasubramanian}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Runaway Feedback Loops in Predictive Policing}.
+\newblock  (\bibinfo{date}{June} \bibinfo{year}{2017}).
+\newblock
+\showeprint[arxiv]{1706.09847}~[cs.CY]
+
+
+\bibitem[\protect\citeauthoryear{Ettinger}{Ettinger}{2020}]%
+        {ettinger2020bert}
+\bibfield{author}{\bibinfo{person}{Allyson Ettinger}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{What BERT is not: Lessons from a new suite of
+  psycholinguistic diagnostics for language models}.
+\newblock \bibinfo{journal}{\emph{Transactions of the Association for
+  Computational Linguistics}}  \bibinfo{volume}{8} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{34--48}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Eubanks}{Eubanks}{2018}]%
+        {virginia_eubanks}
+\bibfield{author}{\bibinfo{person}{Virginia Eubanks}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Automating Inequality: How High-Tech Tools
+  Profile, Police, and Punish the Poor}}.
+\newblock \bibinfo{publisher}{St. Martin's Press}, \bibinfo{address}{New York}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Feathers}{Feathers}{[n.d.]}]%
+        {vegas_pd}
+\bibfield{author}{\bibinfo{person}{Todd Feathers}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \showarticletitle{Las Vegas Cops Used ‘Unsuitable’ Facial
+  Recognition Photos To Make Arrests}.
+\newblock \bibinfo{journal}{\emph{Vice}} (\bibinfo{year}{[n.\,d.]}).
+\newblock
+\urldef\tempurl%
+\url{https://www.vice.com/en/article/pkyxwv/las-vegas-cops-used-unsuitable-facial-recognition-photos-to-make-arrests}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Federal Trade Commission Act, 15 U.S.C. §
+  45}{Federal Trade Commission Act, 15 U.S.C. § 45}{[n.d.]}]%
+        {Section_5}
+Federal Trade Commission Act, 15 U.S.C. § 45
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Feldman, Friedler, Moeller, Scheidegger, and
+  Venkatasubramanian}{Feldman et~al\mbox{.}}{2015a}]%
+        {disparate_impact_suresh}
+\bibfield{author}{\bibinfo{person}{Michael Feldman},
+  \bibinfo{person}{Sorelle~A. Friedler}, \bibinfo{person}{John Moeller},
+  \bibinfo{person}{Carlos Scheidegger}, {and} \bibinfo{person}{Suresh
+  Venkatasubramanian}.} \bibinfo{year}{2015}\natexlab{a}.
+\newblock \showarticletitle{Certifying and Removing Disparate Impact}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 21th ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}} (Sydney, NSW, Australia)
+  \emph{(\bibinfo{series}{KDD '15})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{259–268}.
+\newblock
+\showISBNx{9781450336642}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2783258.2783311}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Feldman, Friedler, Moeller, Scheidegger, and
+  Venkatasubramanian}{Feldman et~al\mbox{.}}{2015b}]%
+        {feldman2015certifying}
+\bibfield{author}{\bibinfo{person}{Michael Feldman}, \bibinfo{person}{Sorelle~A
+  Friedler}, \bibinfo{person}{John Moeller}, \bibinfo{person}{Carlos
+  Scheidegger}, {and} \bibinfo{person}{Suresh Venkatasubramanian}.}
+  \bibinfo{year}{2015}\natexlab{b}.
+\newblock \showarticletitle{Certifying and removing disparate impact}. In
+  \bibinfo{booktitle}{\emph{proceedings of the 21th ACM SIGKDD international
+  conference on knowledge discovery and data mining}}.
+  \bibinfo{pages}{259--268}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ferguson}{Ferguson}{2016}]%
+        {Ferguson2016-bs}
+\bibfield{author}{\bibinfo{person}{A~G Ferguson}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Policing predictive policing}.
+\newblock \bibinfo{journal}{\emph{Wash. UL Rev.}} (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Firestone}{Firestone}{2020}]%
+        {firestone2020performance}
+\bibfield{author}{\bibinfo{person}{Chaz Firestone}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Performance vs. competence in human--machine
+  comparisons}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{117}, \bibinfo{number}{43}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{26562--26571}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fish, Kun, and Lelkes}{Fish
+  et~al\mbox{.}}{2016}]%
+        {fish2016confidence}
+\bibfield{author}{\bibinfo{person}{Benjamin Fish}, \bibinfo{person}{Jeremy
+  Kun}, {and} \bibinfo{person}{{\'A}d{\'a}m~D Lelkes}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{A confidence-based approach for balancing fairness
+  and accuracy}. In \bibinfo{booktitle}{\emph{Proceedings of the 2016 SIAM
+  International Conference on Data Mining}}. SIAM, \bibinfo{pages}{144--152}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Food and Administration}{Food and
+  Administration}{2021}]%
+        {FDA}
+\bibfield{author}{\bibinfo{person}{U.S. Food} {and} \bibinfo{person}{Drug
+  Administration}.} \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{Good Machine Learning Practice for Medical Device
+  Development: Guiding Principles}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{for Critical~Technology}{for
+  Critical~Technology}{[n.d.]}]%
+        {coalition}
+\bibfield{author}{\bibinfo{person}{Coalition for Critical~Technology}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Abolish the \#TechToPrisonPipeline}.
+\newblock
+  \bibinfo{howpublished}{\url{https://medium.com/@CoalitionForCriticalTechnology/abolish-the-techtoprisonpipeline-9b5b14366b16}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Freeman, Geppert, Stinton, Todkill, Johnson,
+  Clarke, and Taylor-Phillips}{Freeman et~al\mbox{.}}{2021}]%
+        {freeman2021use}
+\bibfield{author}{\bibinfo{person}{Karoline Freeman}, \bibinfo{person}{Julia
+  Geppert}, \bibinfo{person}{Chris Stinton}, \bibinfo{person}{Daniel Todkill},
+  \bibinfo{person}{Samantha Johnson}, \bibinfo{person}{Aileen Clarke}, {and}
+  \bibinfo{person}{Sian Taylor-Phillips}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Use of artificial intelligence for image analysis
+  in breast cancer screening programmes: systematic review of test accuracy}.
+\newblock \bibinfo{journal}{\emph{bmj}}  \bibinfo{volume}{374}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Friedler, Scheidegger, and
+  Venkatasubramanian}{Friedler et~al\mbox{.}}{2021}]%
+        {impossibility_of_fairness}
+\bibfield{author}{\bibinfo{person}{Sorelle~A. Friedler},
+  \bibinfo{person}{Carlos Scheidegger}, {and} \bibinfo{person}{Suresh
+  Venkatasubramanian}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The (Im)Possibility of Fairness: Different Value
+  Systems Require Different Mechanisms for Fair Decision Making}.
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{64},
+  \bibinfo{number}{4} (\bibinfo{date}{mar} \bibinfo{year}{2021}),
+  \bibinfo{pages}{136–143}.
+\newblock
+\showISSN{0001-0782}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3433949}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Friedler, Scheidegger, Venkatasubramanian,
+  Choudhary, Hamilton, and Roth}{Friedler et~al\mbox{.}}{2019}]%
+        {friedler2019comparative}
+\bibfield{author}{\bibinfo{person}{Sorelle~A Friedler}, \bibinfo{person}{Carlos
+  Scheidegger}, \bibinfo{person}{Suresh Venkatasubramanian},
+  \bibinfo{person}{Sonam Choudhary}, \bibinfo{person}{Evan~P Hamilton}, {and}
+  \bibinfo{person}{Derek Roth}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{A comparative study of fairness-enhancing
+  interventions in machine learning}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the conference on fairness, accountability, and transparency}}.
+  \bibinfo{pages}{329--338}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fussell}{Fussell}{[n.d.]}]%
+        {wired_criminality}
+\bibfield{author}{\bibinfo{person}{Sidney Fussell}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \showarticletitle{An Algorithm That ‘Predicts’ Criminality Based
+  on a Face Sparks a Furor}.
+\newblock \bibinfo{journal}{\emph{Wired}} (\bibinfo{year}{[n.\,d.]}).
+\newblock
+\urldef\tempurl%
+\url{https://www.wired.com/story/algorithm-predicts-criminality-based-face-sparks-furor/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Garvey}{Garvey}{2017}]%
+        {democratization3}
+\bibfield{author}{\bibinfo{person}{Colin~K Garvey}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{On the Democratization of AI}. In
+  \bibinfo{booktitle}{\emph{Datapower Conference Proceedings}}.
+  \bibinfo{pages}{5--3}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Garvie}{Garvie}{2019}]%
+        {garvie2019garbage}
+\bibfield{author}{\bibinfo{person}{Clare Garvie}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Garbage in, Garbage out. Face recognition on flawed
+  data}.
+\newblock \bibinfo{journal}{\emph{Georgetown Law Center on Privacy \&
+  Technology}} (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gehr, Mirman, Drachsler-Cohen, Tsankov,
+  Chaudhuri, and Vechev}{Gehr et~al\mbox{.}}{2018}]%
+        {ieee_cert}
+\bibfield{author}{\bibinfo{person}{Timon Gehr}, \bibinfo{person}{Matthew
+  Mirman}, \bibinfo{person}{Dana Drachsler-Cohen}, \bibinfo{person}{Petar
+  Tsankov}, \bibinfo{person}{Swarat Chaudhuri}, {and} \bibinfo{person}{Martin
+  Vechev}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Ai2: Safety and robustness certification of neural
+  networks with abstract interpretation}. In \bibinfo{booktitle}{\emph{2018
+  IEEE Symposium on Security and Privacy (SP)}}. IEEE, \bibinfo{pages}{3--18}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Geistfeld}{Geistfeld}{2017}]%
+        {geistfeld2017roadmap}
+\bibfield{author}{\bibinfo{person}{Mark~A Geistfeld}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A roadmap for autonomous vehicles: State tort
+  liability, automobile insurance, and federal safety regulation}.
+\newblock \bibinfo{journal}{\emph{Calif. L. Rev.}}  \bibinfo{volume}{105}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{1611}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gianfrancesco, Tamang, Yazdany, and
+  Schmajuk}{Gianfrancesco et~al\mbox{.}}{2018}]%
+        {Gianfrancesco2018-vl}
+\bibfield{author}{\bibinfo{person}{Milena~A Gianfrancesco},
+  \bibinfo{person}{Suzanne Tamang}, \bibinfo{person}{Jinoos Yazdany}, {and}
+  \bibinfo{person}{Gabriela Schmajuk}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Potential Biases in Machine Learning Algorithms
+  Using Electronic Health Record Data}.
+\newblock \bibinfo{journal}{\emph{JAMA Intern. Med.}} \bibinfo{volume}{178},
+  \bibinfo{number}{11} (\bibinfo{date}{Nov.} \bibinfo{year}{2018}),
+  \bibinfo{pages}{1544--1547}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gibney}{Gibney}{2018}]%
+        {gibney2018scant}
+\bibfield{author}{\bibinfo{person}{Elizabeth Gibney}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The scant science behind Cambridge Analytica’s
+  controversial marketing techniques}.
+\newblock \bibinfo{journal}{\emph{Nature}} (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Goodfellow, Shlens, and Szegedy}{Goodfellow
+  et~al\mbox{.}}{2014}]%
+        {adversarial_examples}
+\bibfield{author}{\bibinfo{person}{Ian~J Goodfellow}, \bibinfo{person}{Jonathon
+  Shlens}, {and} \bibinfo{person}{Christian Szegedy}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Explaining and harnessing adversarial examples}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1412.6572}}
+  (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Green}{Green}{2019}]%
+        {green2019smart}
+\bibfield{author}{\bibinfo{person}{Ben Green}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The smart enough city: putting technology
+  in its place to reclaim our urban future}}.
+\newblock \bibinfo{publisher}{MIT Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Guetta, Shabtai, Singh, Momiyama, and
+  Elovici}{Guetta et~al\mbox{.}}{2021}]%
+        {makeup}
+\bibfield{author}{\bibinfo{person}{Nitzan Guetta}, \bibinfo{person}{Asaf
+  Shabtai}, \bibinfo{person}{Inderjeet Singh}, \bibinfo{person}{Satoru
+  Momiyama}, {and} \bibinfo{person}{Yuval Elovici}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Dodging Attack Using Carefully Crafted Natural
+  Makeup}.
+\newblock \bibinfo{journal}{\emph{CoRR}}  \bibinfo{volume}{abs/2109.06467}
+  (\bibinfo{year}{2021}).
+\newblock
+\showeprint[arXiv]{2109.06467}
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2109.06467}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Haibe-Kains, Adam, Hosny, Khodakarami,
+  Shraddha, Kusko, Sansone, Tong, Wolfinger, Mason, Jones, Dopazo, Furlanello,
+  Waldron, Wang, McIntosh, Goldenberg, Kundaje, Greene, Broderick, Hoffman,
+  Leek, Korthauer, Huber, Brazma, Pineau, Tibshirani, Hastie, Ioannidis,
+  Quackenbush, Aerts, and of~Directors}{Haibe-Kains et~al\mbox{.}}{2020}]%
+        {haibe_kains}
+\bibfield{author}{\bibinfo{person}{Benjamin Haibe-Kains},
+  \bibinfo{person}{George~Alexandru Adam}, \bibinfo{person}{Ahmed Hosny},
+  \bibinfo{person}{Farnoosh Khodakarami}, \bibinfo{person}{Thakkar Shraddha},
+  \bibinfo{person}{Rebecca Kusko}, \bibinfo{person}{Susanna-Assunta Sansone},
+  \bibinfo{person}{Weida Tong}, \bibinfo{person}{Russ~D. Wolfinger},
+  \bibinfo{person}{Christopher~E. Mason}, \bibinfo{person}{Wendell Jones},
+  \bibinfo{person}{Joaquin Dopazo}, \bibinfo{person}{Cesare Furlanello},
+  \bibinfo{person}{Levi Waldron}, \bibinfo{person}{Bo Wang},
+  \bibinfo{person}{Chris McIntosh}, \bibinfo{person}{Anna Goldenberg},
+  \bibinfo{person}{Anshul Kundaje}, \bibinfo{person}{Casey~S. Greene},
+  \bibinfo{person}{Tamara Broderick}, \bibinfo{person}{Michael~M. Hoffman},
+  \bibinfo{person}{Jeffrey~T. Leek}, \bibinfo{person}{Keegan Korthauer},
+  \bibinfo{person}{Wolfgang Huber}, \bibinfo{person}{Alvis Brazma},
+  \bibinfo{person}{Joelle Pineau}, \bibinfo{person}{Robert Tibshirani},
+  \bibinfo{person}{Trevor Hastie}, \bibinfo{person}{John P.~A. Ioannidis},
+  \bibinfo{person}{John Quackenbush}, \bibinfo{person}{Hugo J. W.~L. Aerts},
+  {and} \bibinfo{person}{Massive Analysis Quality Control (MAQC) Society~Board
+  of Directors}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Transparency and reproducibility in artificial
+  intelligence}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{586},
+  \bibinfo{number}{7829} (\bibinfo{year}{2020}), \bibinfo{pages}{E14--E16}.
+\newblock
+\showISBNx{1476-4687}
+\urldef\tempurl%
+\url{https://doi.org/10.1038/s41586-020-2766-y}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hamilton}{Hamilton}{2020}]%
+        {fb_nudity}
+\bibfield{author}{\bibinfo{person}{Isobel~Asher Hamilton}.}
+  \bibinfo{year}{{2020}}\natexlab{}.
+\newblock \bibinfo{title}{Facebook's nudity-spotting AI mistook a photo of some
+  onions for 'sexually suggestive' content}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.businessinsider.com/facebook-mistakes-onions-for-sexualised-content-2020-10}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Harris}{Harris}{2019}]%
+        {harris2019ntsb}
+\bibfield{author}{\bibinfo{person}{M Harris}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{NTSB investigation into deadly Uber self-driving
+  car crash reveals lax attitude toward safety}.
+\newblock \bibinfo{journal}{\emph{IEEE Spectrum}} (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hartzog}{Hartzog}{2018}]%
+        {hartzog2018privacy}
+\bibfield{author}{\bibinfo{person}{Woodrow Hartzog}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Privacy’s blueprint}}.
+\newblock \bibinfo{publisher}{Harvard University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hasbe and Lippert}{Hasbe and
+  Lippert}{[n.d.]}]%
+        {democratizing_cloud}
+\bibfield{author}{\bibinfo{person}{Sudhir Hasbe} {and} \bibinfo{person}{Ryan
+  Lippert}.} \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock  (\bibinfo{year}{[n.\,d.]}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Havens and Hessami}{Havens and
+  Hessami}{2019}]%
+        {havens2019principles}
+\bibfield{author}{\bibinfo{person}{John~C Havens} {and} \bibinfo{person}{Ali
+  Hessami}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{From Principles and Standards to Certification}.
+\newblock \bibinfo{journal}{\emph{Computer}} \bibinfo{volume}{52},
+  \bibinfo{number}{4} (\bibinfo{year}{2019}), \bibinfo{pages}{69--72}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Heaven}{Heaven}{2021}]%
+        {covidfail_summ}
+\bibfield{author}{\bibinfo{person}{Will~Douglas Heaven}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Hundreds of AI tools have been built to catch covid.
+  None of them helped}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Henke, Levine, and McInerney}{Henke
+  et~al\mbox{.}}{2018}]%
+        {Henke2018-ua}
+\bibfield{author}{\bibinfo{person}{Nicolaus Henke}, \bibinfo{person}{Jordan
+  Levine}, {and} \bibinfo{person}{Paul McInerney}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{You Don't Have to Be a Data Scientist to Fill This
+  {Must-Have} Analytics Role}.
+\newblock \bibinfo{journal}{\emph{Harvard Business Review}}
+  (\bibinfo{date}{Feb.} \bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Heppenheimer and Heppenheimer}{Heppenheimer
+  and Heppenheimer}{1995}]%
+        {heppenheimer1995turbulent}
+\bibfield{author}{\bibinfo{person}{Thomas~A Heppenheimer} {and}
+  \bibinfo{person}{Ta Heppenheimer}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Turbulent skies: the history of commercial
+  aviation}}.
+\newblock \bibinfo{publisher}{Wiley New York}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hern}{Hern}{2018}]%
+        {hern2018cambridge}
+\bibfield{author}{\bibinfo{person}{Alex Hern}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Cambridge Analytica: how did it turn clicks into
+  votes}.
+\newblock \bibinfo{journal}{\emph{The Guardian}}  \bibinfo{volume}{6}
+  (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Herper}{Herper}{2017}]%
+        {md_anderson_benches_watson}
+\bibfield{author}{\bibinfo{person}{Matthew Herper}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{MD} Anderson Benches {IBM} Watson In Setback For
+  Artificial Intelligence In Medicine}.
+\newblock \bibinfo{journal}{\emph{Forbes Magazine}} (\bibinfo{date}{Feb.}
+  \bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hill}{Hill}{2020}]%
+        {hill2020wrongfully}
+\bibfield{author}{\bibinfo{person}{Kashmir Hill}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Wrongfully accused by an algorithm}.
+\newblock \bibinfo{journal}{\emph{The New York Times}}  \bibinfo{volume}{24}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoffman and Podgurski}{Hoffman and
+  Podgurski}{2013a}]%
+        {Hoffman2013-oa}
+\bibfield{author}{\bibinfo{person}{Sharona Hoffman} {and} \bibinfo{person}{Andy
+  Podgurski}.} \bibinfo{year}{2013}\natexlab{a}.
+\newblock \showarticletitle{Big bad data: law, public health, and biomedical
+  databases}.
+\newblock \bibinfo{journal}{\emph{J. Law Med. Ethics}}  \bibinfo{volume}{41
+  Suppl 1} (\bibinfo{date}{March} \bibinfo{year}{2013}),
+  \bibinfo{pages}{56--60}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoffman and Podgurski}{Hoffman and
+  Podgurski}{2013b}]%
+        {Hoffman2013-ms}
+\bibfield{author}{\bibinfo{person}{Sharona Hoffman} {and} \bibinfo{person}{Andy
+  Podgurski}.} \bibinfo{year}{2013}\natexlab{b}.
+\newblock \showarticletitle{The use and misuse of biomedical data: is bigger
+  really better?}
+\newblock \bibinfo{journal}{\emph{Am. J. Law Med.}} \bibinfo{volume}{39},
+  \bibinfo{number}{4} (\bibinfo{year}{2013}), \bibinfo{pages}{497--538}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoofnagle}{Hoofnagle}{2016}]%
+        {hoofnagle2016federal}
+\bibfield{author}{\bibinfo{person}{Chris~Jay Hoofnagle}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Federal Trade Commission: Privacy Law and
+  Policy}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hubbard}{Hubbard}{2014}]%
+        {hubbard2014sophisticated}
+\bibfield{author}{\bibinfo{person}{F~Patrick Hubbard}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Sophisticated robots: balancing liability,
+  regulation, and innovation}.
+\newblock \bibinfo{journal}{\emph{Fla. L. Rev.}}  \bibinfo{volume}{66}
+  (\bibinfo{year}{2014}), \bibinfo{pages}{1803}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hwang}{Hwang}{2020}]%
+        {hwang2020subprime}
+\bibfield{author}{\bibinfo{person}{Tim Hwang}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Subprime attention crisis: advertising and
+  the time bomb at the heart of the Internet}}.
+\newblock \bibinfo{publisher}{FSG originals}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{IEEE}{IEEE}{2006}]%
+        {ieee_dictionary_dependability}
+\bibfield{author}{\bibinfo{person}{IEEE}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{{IEEE} Standard Dictionary of Measures of the
+  Software Aspects of Dependability}.
+\newblock \bibinfo{journal}{\emph{IEEE Std 982. 1-2005 (Revision of IEEE Std
+  982. 1-1988)}} (\bibinfo{date}{May} \bibinfo{year}{2006}),
+  \bibinfo{pages}{1--41}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Inken~von Borzyskowski}{Inken~von
+  Borzyskowski}{2021}]%
+        {covidfail3}
+\bibfield{author}{\bibinfo{person}{Bilal Mateen Michael~Wooldridge Inken~von
+  Borzyskowski, Anjali~Mazumder}.} \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{Data science and AI in the age of COVID-19}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.turing.ac.uk/sites/default/files/2021-06/data-science-and-ai-in-the-age-of-covid_full-report_2.pdf}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jacobs}{Jacobs}{2021}]%
+        {Jacobs2021-og}
+\bibfield{author}{\bibinfo{person}{Abigail~Z Jacobs}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Measurement as governance in and for responsible
+  {AI}}.
+\newblock  (\bibinfo{date}{Sept.} \bibinfo{year}{2021}).
+\newblock
+\showeprint[arxiv]{2109.05658}~[cs.CY]
+
+
+\bibitem[\protect\citeauthoryear{Jacobs and Wallach}{Jacobs and
+  Wallach}{2021}]%
+        {Jacobs2021-rk}
+\bibfield{author}{\bibinfo{person}{Abigail~Z Jacobs} {and}
+  \bibinfo{person}{Hanna Wallach}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Measurement and Fairness}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 {ACM} Conference on
+  Fairness, Accountability, and Transparency}} (Virtual Event Canada).
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jeans}{Jeans}{2020}]%
+        {scalefactor}
+\bibfield{author}{\bibinfo{person}{David Jeans}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{ScaleFactor} Raised \$100 Million In A Year Then
+  Blamed Covid-19 For Its Demise. Employees Say It Had Much Bigger Problems}.
+\newblock \bibinfo{journal}{\emph{Forbes Magazine}} (\bibinfo{date}{July}
+  \bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jobin, Ienca, and Vayena}{Jobin
+  et~al\mbox{.}}{2019}]%
+        {Jobin2019-oa}
+\bibfield{author}{\bibinfo{person}{Anna Jobin}, \bibinfo{person}{Marcello
+  Ienca}, {and} \bibinfo{person}{Effy Vayena}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The global landscape of {AI} ethics guidelines}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{1}, \bibinfo{number}{9} (\bibinfo{date}{Sept.}
+  \bibinfo{year}{2019}), \bibinfo{pages}{389--399}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kaltheuner, Birhane, Raji, Amironesei, Denton,
+  Hanna, Nicole, Smart, Oduro, Vincent, Reben, Milne, Black, Harvey, Strait,
+  Parida, Ashok, Jansen, Cath, and Peppin}{Kaltheuner et~al\mbox{.}}{2021}]%
+        {fake_ai}
+\bibfield{author}{\bibinfo{person}{Frederike Kaltheuner},
+  \bibinfo{person}{Abeba Birhane}, \bibinfo{person}{Inioluwa~Deborah Raji},
+  \bibinfo{person}{Razvan Amironesei}, \bibinfo{person}{Emily Denton},
+  \bibinfo{person}{Alex Hanna}, \bibinfo{person}{Hilary Nicole},
+  \bibinfo{person}{Andrew Smart}, \bibinfo{person}{Serena~Dokuaa Oduro},
+  \bibinfo{person}{James Vincent}, \bibinfo{person}{Alexander Reben},
+  \bibinfo{person}{Gemma Milne}, \bibinfo{person}{Crofton Black},
+  \bibinfo{person}{Adam Harvey}, \bibinfo{person}{Andrew Strait},
+  \bibinfo{person}{Tulsi Parida}, \bibinfo{person}{Aparna Ashok},
+  \bibinfo{person}{Fieke Jansen}, \bibinfo{person}{Corinne Cath}, {and}
+  \bibinfo{person}{Aidan Peppin}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Fake AI}}.
+\newblock \bibinfo{publisher}{Meatspace Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kaminski}{Kaminski}{2019}]%
+        {kaminski2019right}
+\bibfield{author}{\bibinfo{person}{Margot~E Kaminski}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The Right to Explanation, Explained}.
+\newblock \bibinfo{journal}{\emph{Berkeley Technology Law Journal}}
+  \bibinfo{volume}{34} (\bibinfo{year}{2019}), \bibinfo{pages}{189}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kaminski and Urban}{Kaminski and
+  Urban}{2021}]%
+        {kaminski2021right}
+\bibfield{author}{\bibinfo{person}{Margot~E Kaminski} {and}
+  \bibinfo{person}{Jennifer~M Urban}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The right to contest AI}.
+\newblock \bibinfo{journal}{\emph{Columbia Law Review}} \bibinfo{volume}{121},
+  \bibinfo{number}{7} (\bibinfo{year}{2021}), \bibinfo{pages}{1957--2048}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kapoor and Narayanan}{Kapoor and
+  Narayanan}{2021}]%
+        {kapoor_irreproducible_2021}
+\bibfield{author}{\bibinfo{person}{Sayash Kapoor} {and} \bibinfo{person}{Arvind
+  Narayanan}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{({Ir}){Reproducible} {Machine} {Learning}: {A} {Case}
+  {Study}}.
+\newblock \bibinfo{howpublished}{\url{https://reproducible.cs.princeton.edu/}}.
+  , \bibinfo{numpages}{6}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://reproducible.cs.princeton.edu/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kippin and Cairney}{Kippin and
+  Cairney}{2021}]%
+        {kippin2021covid}
+\bibfield{author}{\bibinfo{person}{Sean Kippin} {and} \bibinfo{person}{Paul
+  Cairney}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The COVID-19 exams fiasco across the UK: four
+  nations and two windows of opportunity}.
+\newblock \bibinfo{journal}{\emph{British Politics}} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{1--23}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kirchner and Goldstein}{Kirchner and
+  Goldstein}{2020a}]%
+        {kirchner2020access}
+\bibfield{author}{\bibinfo{person}{Lauren Kirchner} {and}
+  \bibinfo{person}{Matthew Goldstein}.} \bibinfo{year}{2020}\natexlab{a}.
+\newblock \showarticletitle{Access Denied: Faulty Automated Background Checks
+  Freeze Out Renters}.
+\newblock \bibinfo{journal}{\emph{The Markup}} (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kirchner and Goldstein}{Kirchner and
+  Goldstein}{2020b}]%
+        {kirchner2020automated}
+\bibfield{author}{\bibinfo{person}{Lauren Kirchner} {and}
+  \bibinfo{person}{Matthew Goldstein}.} \bibinfo{year}{2020}\natexlab{b}.
+\newblock \showarticletitle{How Automated Background Checks Freeze Out
+  Renters}.
+\newblock \bibinfo{journal}{\emph{The New York Times}}  \bibinfo{volume}{28}
+  (\bibinfo{date}{May} \bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kpakima}{Kpakima}{2021}]%
+        {tiktokerror}
+\bibfield{author}{\bibinfo{person}{Kumba Kpakima}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Tiktok’s algorithm reportedly bans creators using
+  terms 'Black' and 'BLM'}.
+\newblock
+  \bibinfo{howpublished}{\url{https://i-d.vice.com/en_uk/article/m7epya/tiktoks-algorithm-reportedly-bans-creators-using-terms-black-and-blm}}.
+\newblock \bibinfo{journal}{\emph{The Verge}} (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krafft, Young, Katell, Huang, and
+  Bugingo}{Krafft et~al\mbox{.}}{2020}]%
+        {krafft_et_al}
+\bibfield{author}{\bibinfo{person}{P.~M. Krafft}, \bibinfo{person}{Meg Young},
+  \bibinfo{person}{Michael Katell}, \bibinfo{person}{Karen Huang}, {and}
+  \bibinfo{person}{Ghislain Bugingo}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Defining AI in Policy versus Practice}}.
+\newblock \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{72–78}.
+\newblock
+\showISBNx{9781450371100}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3375627.3375835}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Krass, Henderson, Mello, Studdert, and
+  Ho}{Krass et~al\mbox{.}}{2021}]%
+        {krass2021us}
+\bibfield{author}{\bibinfo{person}{Mark Krass}, \bibinfo{person}{Peter
+  Henderson}, \bibinfo{person}{Michelle~M Mello}, \bibinfo{person}{David~M
+  Studdert}, {and} \bibinfo{person}{Daniel~E Ho}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{How US law will evaluate artificial intelligence
+  for covid-19}.
+\newblock \bibinfo{journal}{\emph{bmj}}  \bibinfo{volume}{372}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lab}{Lab}{2021}]%
+        {NMIP}
+\bibfield{author}{\bibinfo{person}{NHS~AI Lab}.}
+  \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{National Medical Imaging Platform (NMIP)}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.nhsx.nhs.uk/ai-lab/ai-lab-programmes/ai-in-imaging/national-medical-imaging-platform-nmip/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lamont}{Lamont}{2021}]%
+        {alevels}
+\bibfield{author}{\bibinfo{person}{Tom Lamont}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{The student and the algorithm: how the exam results
+  fiasco threatened one pupil’s future}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{L{\"a}ubli, Sennrich, and Volk}{L{\"a}ubli
+  et~al\mbox{.}}{2018}]%
+        {Laubli2018-sn}
+\bibfield{author}{\bibinfo{person}{Samuel L{\"a}ubli}, \bibinfo{person}{Rico
+  Sennrich}, {and} \bibinfo{person}{Martin Volk}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Has Machine Translation Achieved Human Parity? A
+  Case for Document-level Evaluation}.
+\newblock  (\bibinfo{date}{Aug.} \bibinfo{year}{2018}).
+\newblock
+\showeprint[arxiv]{1808.07048}~[cs.CL]
+
+
+\bibitem[\protect\citeauthoryear{Lecher}{Lecher}{[n.d.]}]%
+        {verge_aclu_idaho}
+\bibfield{author}{\bibinfo{person}{Colin Lecher}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \showarticletitle{What Happens When an Algorithm Cuts Your Health
+  Care}.
+\newblock \bibinfo{journal}{\emph{The Verge}} (\bibinfo{year}{[n.\,d.]}).
+\newblock
+\urldef\tempurl%
+\url{https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lecher}{Lecher}{2018}]%
+        {lecher2018happens}
+\bibfield{author}{\bibinfo{person}{Colin Lecher}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{What happens when an algorithm cuts your health
+  care}.
+\newblock \bibinfo{journal}{\emph{The Verge}} (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lehr and Ohm}{Lehr and Ohm}{[n.d.]}]%
+        {Lehr_undated-aq}
+\bibfield{author}{\bibinfo{person}{David Lehr} {and} \bibinfo{person}{Paul
+  Ohm}.} \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Playing with the data: What legal scholars should
+  learn about machine learning}.
+\newblock
+  \bibinfo{howpublished}{\url{https://lawreview.law.ucdavis.edu/issues/51/2/Symposium/51-2_Lehr_Ohm.pdf}}.
+\newblock
+\newblock
+\shownote{Accessed: 2021-8-10.}
+
+
+\bibitem[\protect\citeauthoryear{Liao, Taori, Raji, and Schmidt}{Liao
+  et~al\mbox{.}}{2021}]%
+        {LiaoAreWe2021}
+\bibfield{author}{\bibinfo{person}{Thomas Liao}, \bibinfo{person}{Rohan Taori},
+  \bibinfo{person}{Inioluwa~Deborah Raji}, {and} \bibinfo{person}{Ludwig
+  Schmidt}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Are We Learning Yet? A Meta Review of Evaluation
+  Failures Across Machine Learning}. In \bibinfo{booktitle}{\emph{Thirty-fifth
+  Conference on Neural Information Processing Systems Datasets and Benchmarks
+  Track (Pre-Proceedings)}}.
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=mPducS1MsEK}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Liu, Rivera, Moher, Calvert, and
+  Denniston}{Liu et~al\mbox{.}}{2020}]%
+        {liu2020reporting}
+\bibfield{author}{\bibinfo{person}{Xiaoxuan Liu},
+  \bibinfo{person}{Samantha~Cruz Rivera}, \bibinfo{person}{David Moher},
+  \bibinfo{person}{Melanie~J Calvert}, {and} \bibinfo{person}{Alastair~K
+  Denniston}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Reporting guidelines for clinical trial reports for
+  interventions involving artificial intelligence: the CONSORT-AI extension}.
+\newblock \bibinfo{journal}{\emph{bmj}}  \bibinfo{volume}{370}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lum and Isaac}{Lum and Isaac}{2016}]%
+        {Lum2016-hz}
+\bibfield{author}{\bibinfo{person}{Kristian Lum} {and} \bibinfo{person}{William
+  Isaac}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{To predict and serve?}
+\newblock \bibinfo{journal}{\emph{Signif. (Oxf.)}} \bibinfo{volume}{13},
+  \bibinfo{number}{5} (\bibinfo{date}{Oct.} \bibinfo{year}{2016}),
+  \bibinfo{pages}{14--19}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McGeveran}{McGeveran}{2018}]%
+        {mcgeveran2018duty}
+\bibfield{author}{\bibinfo{person}{William McGeveran}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The Duty of Data Security}.
+\newblock \bibinfo{journal}{\emph{Minn. L. Rev.}}  \bibinfo{volume}{103}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{1135}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mellado, Wu, Kong, Bragazzi, Asgary, Kawonga,
+  Choma, Hayasi, Lieberman, Mathaha, et~al\mbox{.}}{Mellado
+  et~al\mbox{.}}{2021}]%
+        {covid_africa}
+\bibfield{author}{\bibinfo{person}{Bruce Mellado}, \bibinfo{person}{Jianhong
+  Wu}, \bibinfo{person}{Jude~Dzevela Kong}, \bibinfo{person}{Nicola~Luigi
+  Bragazzi}, \bibinfo{person}{Ali Asgary}, \bibinfo{person}{Mary Kawonga},
+  \bibinfo{person}{Nalomotse Choma}, \bibinfo{person}{Kentaro Hayasi},
+  \bibinfo{person}{Benjamin Lieberman}, \bibinfo{person}{Thuso Mathaha},
+  {et~al\mbox{.}}} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Leveraging Artificial Intelligence and Big Data to
+  optimize COVID-19 clinical public health and vaccination roll-out strategies
+  in Africa}.
+\newblock \bibinfo{journal}{\emph{Available at SSRN 3787748}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Menegus}{Menegus}{2019}]%
+        {menegus2019defense}
+\bibfield{author}{\bibinfo{person}{Brian Menegus}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Defense of amazon’s face recognition tool
+  undermined by its only known police client}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mitchell, Potash, Barocas, D'Amour, and
+  Lum}{Mitchell et~al\mbox{.}}{2021}]%
+        {Mitchell2021-pk}
+\bibfield{author}{\bibinfo{person}{Shira Mitchell}, \bibinfo{person}{Eric
+  Potash}, \bibinfo{person}{Solon Barocas}, \bibinfo{person}{Alexander
+  D'Amour}, {and} \bibinfo{person}{Kristian Lum}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Algorithmic Fairness: Choices, Assumptions, and
+  Definitions}.
+\newblock \bibinfo{journal}{\emph{Annu. Rev. Stat. Appl.}} \bibinfo{volume}{8},
+  \bibinfo{number}{1} (\bibinfo{date}{March} \bibinfo{year}{2021}),
+  \bibinfo{pages}{141--163}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Moradi and Samwald}{Moradi and
+  Samwald}{2021}]%
+        {moradi2021evaluating}
+\bibfield{author}{\bibinfo{person}{Milad Moradi} {and}
+  \bibinfo{person}{Matthias Samwald}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Evaluating the robustness of neural language models
+  to input perturbations}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2108.12237}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Muller, Feinberg, George, Jackson, John, Kery,
+  and Passi}{Muller et~al\mbox{.}}{2019}]%
+        {Muller2019-cy}
+\bibfield{author}{\bibinfo{person}{Michael Muller}, \bibinfo{person}{Melanie
+  Feinberg}, \bibinfo{person}{Timothy George}, \bibinfo{person}{Steven~J
+  Jackson}, \bibinfo{person}{Bonnie~E John}, \bibinfo{person}{Mary~Beth Kery},
+  {and} \bibinfo{person}{Samir Passi}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{Human-Centered} Study of Data Science Work
+  Practices}. In \bibinfo{booktitle}{\emph{Extended Abstracts of the 2019 {CHI}
+  Conference on Human Factors in Computing Systems}} (Glasgow, Scotland Uk)
+  \emph{(\bibinfo{series}{CHI EA '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1--8}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mulligan and Bamberger}{Mulligan and
+  Bamberger}{2019}]%
+        {mulligan2019procurement}
+\bibfield{author}{\bibinfo{person}{Deirdre~K Mulligan} {and}
+  \bibinfo{person}{Kenneth~A Bamberger}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Procurement as policy: Administrative process for
+  machine learning}.
+\newblock \bibinfo{journal}{\emph{Berkeley Tech. LJ}}  \bibinfo{volume}{34}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{773}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nader}{Nader}{1965}]%
+        {nader1965unsafe}
+\bibfield{author}{\bibinfo{person}{Ralph Nader}.}
+  \bibinfo{year}{1965}\natexlab{}.
+\newblock \showarticletitle{Unsafe at any speed. The designed-in dangers of the
+  American automobile}.
+\newblock  (\bibinfo{year}{1965}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nagendran, Chen, Lovejoy, Gordon, Komorowski,
+  Harvey, Topol, Ioannidis, Collins, and Maruthappu}{Nagendran
+  et~al\mbox{.}}{2020}]%
+        {ai_vs_clinicians}
+\bibfield{author}{\bibinfo{person}{Myura Nagendran}, \bibinfo{person}{Yang
+  Chen}, \bibinfo{person}{Christopher~A Lovejoy}, \bibinfo{person}{Anthony~C
+  Gordon}, \bibinfo{person}{Matthieu Komorowski}, \bibinfo{person}{Hugh
+  Harvey}, \bibinfo{person}{Eric~J Topol}, \bibinfo{person}{John P~A
+  Ioannidis}, \bibinfo{person}{Gary~S Collins}, {and} \bibinfo{person}{Mahiben
+  Maruthappu}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Artificial intelligence versus clinicians:
+  systematic review of design, reporting standards, and claims of deep learning
+  studies}.
+\newblock \bibinfo{journal}{\emph{BMJ}}  \bibinfo{volume}{368}
+  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1136/bmj.m689}
+\showDOI{\tempurl}
+\showeprint{https://www.bmj.com/content/368/bmj.m689.full.pdf}
+
+
+\bibitem[\protect\citeauthoryear{Narayanan}{Narayanan}{2019}]%
+        {narayanan2019recognize}
+\bibfield{author}{\bibinfo{person}{Arvind Narayanan}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{How to recognize AI snake oil}.
+\newblock \bibinfo{journal}{\emph{Arthur Miller Lecture on Science and Ethics}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nayak}{Nayak}{2019}]%
+        {nayak2019understanding}
+\bibfield{author}{\bibinfo{person}{Pandu Nayak}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Understanding searches better than ever before}.
+\newblock \bibinfo{journal}{\emph{The Keyword}}  \bibinfo{volume}{295}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Oakden-Rayner, Dunnmon, Carneiro, and
+  R{\'e}}{Oakden-Rayner et~al\mbox{.}}{2020}]%
+        {oakden2020hidden}
+\bibfield{author}{\bibinfo{person}{Luke Oakden-Rayner}, \bibinfo{person}{Jared
+  Dunnmon}, \bibinfo{person}{Gustavo Carneiro}, {and}
+  \bibinfo{person}{Christopher R{\'e}}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Hidden stratification causes clinically meaningful
+  failures in machine learning for medical imaging}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the ACM conference on health,
+  inference, and learning}}. \bibinfo{pages}{151--159}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Obermeyer, Powers, Vogeli, and
+  Mullainathan}{Obermeyer et~al\mbox{.}}{2019}]%
+        {obermeyer2019dissecting}
+\bibfield{author}{\bibinfo{person}{Ziad Obermeyer}, \bibinfo{person}{Brian
+  Powers}, \bibinfo{person}{Christine Vogeli}, {and} \bibinfo{person}{Sendhil
+  Mullainathan}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Dissecting racial bias in an algorithm used to
+  manage the health of populations}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{366},
+  \bibinfo{number}{6464} (\bibinfo{year}{2019}), \bibinfo{pages}{447--453}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{OED Online}{OED Online}{2021}]%
+        {OED}
+OED Online \bibinfo{year}{2021}\natexlab{}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.oed.com/view/Entry/54950742}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Office}{Office}{2020}]%
+        {nao_ets}
+\bibfield{author}{\bibinfo{person}{National~Audit Office}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Investigation into the response to cheating in
+  English language tests - national audit office (NAO) press release}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.nao.org.uk/press-release/investigation-into-the-response-to-cheating-in-english-language-tests/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Olsson}{Olsson}{2019}]%
+        {catherine_olsson}
+\bibfield{author}{\bibinfo{person}{Catherine Olsson}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Unsolved research problems vs. real-world threat
+  models}.
+\newblock
+  \bibinfo{howpublished}{\url{https://medium.com/@catherio/unsolved-research-problems-vs-real-world-threat-models-e270e256bc9e}}.
+\newblock
+\urldef\tempurl%
+\url{https://medium.com/@catherio/unsolved-research-problems-vs-real-world-threat-models-e270e256bc9e}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Overly}{Overly}{2020}]%
+        {covid_us}
+\bibfield{author}{\bibinfo{person}{Steven Overly}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{White House seeks Silicon Valley help battling
+  coronavirus}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Owen}{Owen}{2001}]%
+        {owen2001manufacturing}
+\bibfield{author}{\bibinfo{person}{David~G Owen}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Manufacturing Defects}.
+\newblock \bibinfo{journal}{\emph{SCL Rev.}}  \bibinfo{volume}{53}
+  (\bibinfo{year}{2001}), \bibinfo{pages}{851}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{O’Neill}{O’Neill}{2021}]%
+        {fb_hoes}
+\bibfield{author}{\bibinfo{person}{Jesse O’Neill}.}
+  \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{Facebook cracks down on discussing ‘hoes’ in
+  gardening group}.
+\newblock
+  \bibinfo{howpublished}{\url{https://nypost.com/2021/07/20/facebook-cracks-down-on-discussing-hoes-in-gardening-group/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Paige and Amrein-Beardsley}{Paige and
+  Amrein-Beardsley}{2020}]%
+        {paige2020houston}
+\bibfield{author}{\bibinfo{person}{Mark~A Paige} {and} \bibinfo{person}{Audrey
+  Amrein-Beardsley}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{“Houston, We Have a Lawsuit”: A Cautionary Tale
+  for the Implementation of Value-Added Models for High-Stakes Employment
+  Decisions}.
+\newblock \bibinfo{journal}{\emph{Educational Researcher}}
+  \bibinfo{volume}{49}, \bibinfo{number}{5} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{350--359}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Passi and Barocas}{Passi and Barocas}{2019}]%
+        {Passi2019-av}
+\bibfield{author}{\bibinfo{person}{Samir Passi} {and} \bibinfo{person}{Solon
+  Barocas}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Problem Formulation and Fairness}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Conference on Fairness,
+  Accountability, and Transparency}} (Atlanta, GA, USA)
+  \emph{(\bibinfo{series}{FAT* '19})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{39--48}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Passi and Jackson}{Passi and Jackson}{2018}]%
+        {Passi2018-jt}
+\bibfield{author}{\bibinfo{person}{Samir Passi} {and} \bibinfo{person}{Steven~J
+  Jackson}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Trust in Data Science: Collaboration, Translation,
+  and Accountability in Corporate Data Science Projects}.
+\newblock \bibinfo{journal}{\emph{Proc. ACM Hum.-Comput. Interact.}}
+  \bibinfo{volume}{2}, \bibinfo{number}{CSCW} (\bibinfo{date}{Nov.}
+  \bibinfo{year}{2018}), \bibinfo{pages}{1--28}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Passi and Sengers}{Passi and Sengers}{2020}]%
+        {Passi2020-dr}
+\bibfield{author}{\bibinfo{person}{Samir Passi} {and} \bibinfo{person}{Phoebe
+  Sengers}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Making data science systems work}.
+\newblock \bibinfo{journal}{\emph{Big Data \& Society}} \bibinfo{volume}{7},
+  \bibinfo{number}{2} (\bibinfo{date}{July} \bibinfo{year}{2020}),
+  \bibinfo{pages}{2053951720939605}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Peters}{Peters}{[n.d.]}]%
+        {3d_printed_masks}
+\bibfield{author}{\bibinfo{person}{Jay Peters}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \showarticletitle{Researchers fooled Chinese facial recognition
+  terminals with just a mask}.
+\newblock \bibinfo{journal}{\emph{The Verge}} (\bibinfo{year}{[n.\,d.]}).
+\newblock
+\urldef\tempurl%
+\url{https://www.theverge.com/2019/12/13/21020575/china-facial-recognition-terminals-fooled-3d-mask-kneron-research-fallibility}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Pineau, Vincent-Lamarre, Sinha, Larivi{\`e}re,
+  Beygelzimer, d’Alch{\'e} Buc, Fox, and Larochelle}{Pineau
+  et~al\mbox{.}}{2021}]%
+        {pineau2021improving}
+\bibfield{author}{\bibinfo{person}{Joelle Pineau}, \bibinfo{person}{Philippe
+  Vincent-Lamarre}, \bibinfo{person}{Koustuv Sinha}, \bibinfo{person}{Vincent
+  Larivi{\`e}re}, \bibinfo{person}{Alina Beygelzimer},
+  \bibinfo{person}{Florence d’Alch{\'e} Buc}, \bibinfo{person}{Emily Fox},
+  {and} \bibinfo{person}{Hugo Larochelle}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Improving reproducibility in machine learning
+  research: a report from the NeurIPS 2019 reproducibility program}.
+\newblock \bibinfo{journal}{\emph{Journal of Machine Learning Research}}
+  \bibinfo{volume}{22} (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Prunkl and Whittlestone}{Prunkl and
+  Whittlestone}{2020}]%
+        {prunkl2020beyond}
+\bibfield{author}{\bibinfo{person}{Carina Prunkl} {and} \bibinfo{person}{Jess
+  Whittlestone}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Beyond near-and long-term: Towards a clearer
+  account of research priorities in AI ethics and society}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the AAAI/ACM Conference on AI,
+  Ethics, and Society}}. \bibinfo{pages}{138--143}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pruthi, Dhingra, and Lipton}{Pruthi
+  et~al\mbox{.}}{2019}]%
+        {pruthi2019combating}
+\bibfield{author}{\bibinfo{person}{Danish Pruthi}, \bibinfo{person}{Bhuwan
+  Dhingra}, {and} \bibinfo{person}{Zachary~C Lipton}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Combating adversarial misspellings with robust word
+  recognition}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1905.11268}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Raghavan, Barocas, Kleinberg, and
+  Levy}{Raghavan et~al\mbox{.}}{2020}]%
+        {raghavan2020mitigating}
+\bibfield{author}{\bibinfo{person}{Manish Raghavan}, \bibinfo{person}{Solon
+  Barocas}, \bibinfo{person}{Jon Kleinberg}, {and} \bibinfo{person}{Karen
+  Levy}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Mitigating bias in algorithmic hiring: Evaluating
+  claims and practices}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020
+  conference on fairness, accountability, and transparency}}.
+  \bibinfo{pages}{469--481}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Raji, Bender, Paullada, Denton, and
+  Hanna}{Raji et~al\mbox{.}}{2021}]%
+        {grover}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji},
+  \bibinfo{person}{Emily~M Bender}, \bibinfo{person}{Amandalynne Paullada},
+  \bibinfo{person}{Emily Denton}, {and} \bibinfo{person}{Alex Hanna}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{AI and the everything in the whole wide world
+  benchmark}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2111.15366}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Raji and Buolamwini}{Raji and
+  Buolamwini}{2019}]%
+        {raji2019actionable}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji} {and}
+  \bibinfo{person}{Joy Buolamwini}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Actionable auditing: Investigating the impact of
+  publicly naming biased performance results of commercial ai products}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 AAAI/ACM Conference on AI,
+  Ethics, and Society}}. \bibinfo{pages}{429--435}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Raji, Costanza-Chock, and Buolamwini}{Raji
+  et~al\mbox{.}}{2022}]%
+        {UNESCO}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji},
+  \bibinfo{person}{Sasha Costanza-Chock}, {and} \bibinfo{person}{Joy
+  Buolamwini}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Change From the Outside: Towards Credible
+  Third-Party Audits of AI Systems}.
+\newblock \bibinfo{journal}{\emph{Missing Links in AI Policy}}
+  (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Raji, Smart, White, Mitchell, Gebru,
+  Hutchinson, Smith-Loud, Theron, and Barnes}{Raji et~al\mbox{.}}{2020}]%
+        {raji2020closing}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji},
+  \bibinfo{person}{Andrew Smart}, \bibinfo{person}{Rebecca~N White},
+  \bibinfo{person}{Margaret Mitchell}, \bibinfo{person}{Timnit Gebru},
+  \bibinfo{person}{Ben Hutchinson}, \bibinfo{person}{Jamila Smith-Loud},
+  \bibinfo{person}{Daniel Theron}, {and} \bibinfo{person}{Parker Barnes}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Closing the AI accountability gap: Defining an
+  end-to-end framework for internal algorithmic auditing}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2020 conference on fairness,
+  accountability, and transparency}}. \bibinfo{pages}{33--44}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Raji and Yang}{Raji and Yang}{2019}]%
+        {raji2019ml}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji} {and}
+  \bibinfo{person}{Jingying Yang}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{About ml: Annotation and benchmarking on
+  understanding and transparency of machine learning lifecycles}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1912.06166}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ratner, Alistarh, Alonso, Andersen, Bailis,
+  Bird, Carlini, Catanzaro, Chayes, Chung, et~al\mbox{.}}{Ratner
+  et~al\mbox{.}}{2019}]%
+        {ratner2019mlsys}
+\bibfield{author}{\bibinfo{person}{Alexander Ratner}, \bibinfo{person}{Dan
+  Alistarh}, \bibinfo{person}{Gustavo Alonso}, \bibinfo{person}{David~G
+  Andersen}, \bibinfo{person}{Peter Bailis}, \bibinfo{person}{Sarah Bird},
+  \bibinfo{person}{Nicholas Carlini}, \bibinfo{person}{Bryan Catanzaro},
+  \bibinfo{person}{Jennifer Chayes}, \bibinfo{person}{Eric Chung},
+  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{MLSys: The new frontier of machine learning
+  systems}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1904.03257}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Restatement (Third) of Torts: Products
+  Liability § 3}{Restatement (Third) of Torts: Products Liability §
+  3}{[n.d.]}]%
+        {ThirdRestatement_S3}
+Restatement (Third) of Torts: Products Liability § 3
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Richardson}{Richardson}{2021a}]%
+        {richardson2021best}
+\bibfield{author}{\bibinfo{person}{Rashida Richardson}.}
+  \bibinfo{year}{2021}\natexlab{a}.
+\newblock \showarticletitle{Best Practices for Government Procurement of
+  Data-Driven Technologies}.
+\newblock \bibinfo{journal}{\emph{Available at SSRN 3855637}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Richardson}{Richardson}{2021b}]%
+        {richardson2021defining}
+\bibfield{author}{\bibinfo{person}{Rashida Richardson}.}
+  \bibinfo{year}{2021}\natexlab{b}.
+\newblock \showarticletitle{Defining and Demystifying Automated Decision
+  Systems}.
+\newblock \bibinfo{journal}{\emph{Maryland Law Review, Forthcoming}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Richardson, Schultz, and Crawford}{Richardson
+  et~al\mbox{.}}{2019a}]%
+        {Richardson2019-cn}
+\bibfield{author}{\bibinfo{person}{Rashida Richardson}, \bibinfo{person}{Jason
+  Schultz}, {and} \bibinfo{person}{Kate Crawford}.}
+  \bibinfo{year}{2019}\natexlab{a}.
+\newblock \bibinfo{title}{Dirty Data, Bad Predictions: How Civil Rights
+  Violations Impact Police Data, Predictive Policing Systems, and Justice}.
+  (\bibinfo{date}{Feb.} \bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Richardson, Schultz, and
+  Southerland}{Richardson et~al\mbox{.}}{2019b}]%
+        {richardson2019litigating}
+\bibfield{author}{\bibinfo{person}{Rashida Richardson},
+  \bibinfo{person}{Jason~M Schultz}, {and} \bibinfo{person}{Vincent~M
+  Southerland}.} \bibinfo{year}{2019}\natexlab{b}.
+\newblock \showarticletitle{Litigating Algorithms: 2019 US Report}.
+\newblock \bibinfo{journal}{\emph{AI Now Institute, September}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rivera, Liu, Chan, Denniston, and
+  Calvert}{Rivera et~al\mbox{.}}{2020}]%
+        {rivera2020guidelines}
+\bibfield{author}{\bibinfo{person}{Samantha~Cruz Rivera},
+  \bibinfo{person}{Xiaoxuan Liu}, \bibinfo{person}{An-Wen Chan},
+  \bibinfo{person}{Alastair~K Denniston}, {and} \bibinfo{person}{Melanie~J
+  Calvert}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Guidelines for clinical trial protocols for
+  interventions involving artificial intelligence: the SPIRIT-AI extension}.
+\newblock \bibinfo{journal}{\emph{bmj}}  \bibinfo{volume}{370}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Roberts, Driggs, Thorpe, Gilbey, Yeung,
+  Ursprung, Aviles-Rivero, Etmann, McCague, Beer, et~al\mbox{.}}{Roberts
+  et~al\mbox{.}}{2021}]%
+        {covidfail1}
+\bibfield{author}{\bibinfo{person}{Michael Roberts}, \bibinfo{person}{Derek
+  Driggs}, \bibinfo{person}{Matthew Thorpe}, \bibinfo{person}{Julian Gilbey},
+  \bibinfo{person}{Michael Yeung}, \bibinfo{person}{Stephan Ursprung},
+  \bibinfo{person}{Angelica~I Aviles-Rivero}, \bibinfo{person}{Christian
+  Etmann}, \bibinfo{person}{Cathal McCague}, \bibinfo{person}{Lucian Beer},
+  {et~al\mbox{.}}} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Common pitfalls and recommendations for using
+  machine learning to detect and prognosticate for COVID-19 using chest
+  radiographs and CT scans}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{3}, \bibinfo{number}{3} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{199--217}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Robertson, Green, Ruck, Ognyanova, Wilson, and
+  Lazer}{Robertson et~al\mbox{.}}{2021}]%
+        {robertson2021engagement}
+\bibfield{author}{\bibinfo{person}{Ronald~E Robertson}, \bibinfo{person}{Jon
+  Green}, \bibinfo{person}{Damian Ruck}, \bibinfo{person}{Katya Ognyanova},
+  \bibinfo{person}{Christo Wilson}, {and} \bibinfo{person}{David Lazer}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Engagement Outweighs Exposure to Partisan and
+  Unreliable News within Google Search}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2201.00074}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Roland and Moriarty}{Roland and
+  Moriarty}{1991}]%
+        {roland1991system}
+\bibfield{author}{\bibinfo{person}{Harold~E Roland} {and}
+  \bibinfo{person}{Brian Moriarty}.} \bibinfo{year}{1991}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{System safety engineering and management}}.
+\newblock \bibinfo{publisher}{John Wiley \& Sons}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ross, Swetlitz, Cohrs, Dillingham, {STAT
+  Staff}, Florko, and Bender}{Ross et~al\mbox{.}}{2018}]%
+        {Ross2018-nn}
+\bibfield{author}{\bibinfo{person}{Casey Ross}, \bibinfo{person}{Ike Swetlitz},
+  \bibinfo{person}{Rachel Cohrs}, \bibinfo{person}{Ian Dillingham},
+  \bibinfo{person}{{STAT Staff}}, \bibinfo{person}{Nicholas Florko}, {and}
+  \bibinfo{person}{Maddie Bender}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{{IBM's} Watson supercomputer recommended 'unsafe and
+  incorrect' cancer treatments, internal documents show}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.statnews.com/2018/07/25/ibm-watson-recommended-unsafe-incorrect-treatments/?utm_source=STAT+Newsletters&utm_campaign=beb06f048d-MR_COPY_08&utm_medium=email&utm_term=0_8cab1d7961-beb06f048d-150085821}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-13.}
+
+
+\bibitem[\protect\citeauthoryear{Rubenstein}{Rubenstein}{2021}]%
+        {rubenstein2021acquiring}
+\bibfield{author}{\bibinfo{person}{David~S Rubenstein}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Acquiring ethical AI}.
+\newblock \bibinfo{journal}{\emph{Florida Law Review}}  \bibinfo{volume}{73}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sculley, Holt, Golovin, Davydov, Phillips,
+  Ebner, Chaudhary, Young, Crespo, and Dennison}{Sculley et~al\mbox{.}}{2015}]%
+        {sculley2015hidden}
+\bibfield{author}{\bibinfo{person}{David Sculley}, \bibinfo{person}{Gary Holt},
+  \bibinfo{person}{Daniel Golovin}, \bibinfo{person}{Eugene Davydov},
+  \bibinfo{person}{Todd Phillips}, \bibinfo{person}{Dietmar Ebner},
+  \bibinfo{person}{Vinay Chaudhary}, \bibinfo{person}{Michael Young},
+  \bibinfo{person}{Jean-Francois Crespo}, {and} \bibinfo{person}{Dan
+  Dennison}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Hidden technical debt in machine learning systems}.
+\newblock \bibinfo{journal}{\emph{Advances in neural information processing
+  systems}}  \bibinfo{volume}{28} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{2503--2511}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Selbst and Powles}{Selbst and Powles}{2017}]%
+        {selbst2017meaningful}
+\bibfield{author}{\bibinfo{person}{Andrew~D Selbst} {and}
+  \bibinfo{person}{Julia Powles}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Meaningful information and the right to
+  explanation}.
+\newblock \bibinfo{journal}{\emph{International Data Privacy Law}}
+  \bibinfo{volume}{7}, \bibinfo{number}{4} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{233--242}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shane}{Shane}{2019}]%
+        {shane2019janelle}
+\bibfield{author}{\bibinfo{person}{J Shane}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Janelle Shane: The danger of AI is weirder than you
+  think TED Talk, 10: 20. Katsottu 8.8, 2020}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shankar and Parameswaran}{Shankar and
+  Parameswaran}{2021}]%
+        {shankar2021towards}
+\bibfield{author}{\bibinfo{person}{Shreya Shankar} {and}
+  \bibinfo{person}{Aditya Parameswaran}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Towards Observability for Machine Learning
+  Pipelines}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2108.13557}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Silver}{Silver}{2012}]%
+        {silver2012signal}
+\bibfield{author}{\bibinfo{person}{Nate Silver}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The signal and the noise: why so many
+  predictions fail--but some don't}}.
+\newblock \bibinfo{publisher}{Penguin}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Simon, DiNardo, Takahashi, Cascone, Powers,
+  Stevens, Allen, Antonoff, Gomez, Keane, Suarez~Saiz, Nguyen, Roarty, Pierce,
+  Zhang, Hardeman~Barnhill, Lakhani, Shaw, Smith, Swisher, High, Futreal,
+  Heymach, and Chin}{Simon et~al\mbox{.}}{2019}]%
+        {Simon2019-ed}
+\bibfield{author}{\bibinfo{person}{George Simon}, \bibinfo{person}{Courtney~D
+  DiNardo}, \bibinfo{person}{Koichi Takahashi}, \bibinfo{person}{Tina Cascone},
+  \bibinfo{person}{Cynthia Powers}, \bibinfo{person}{Rick Stevens},
+  \bibinfo{person}{Joshua Allen}, \bibinfo{person}{Mara~B Antonoff},
+  \bibinfo{person}{Daniel Gomez}, \bibinfo{person}{Pat Keane},
+  \bibinfo{person}{Fernando Suarez~Saiz}, \bibinfo{person}{Quynh Nguyen},
+  \bibinfo{person}{Emily Roarty}, \bibinfo{person}{Sherry Pierce},
+  \bibinfo{person}{Jianjun Zhang}, \bibinfo{person}{Emily Hardeman~Barnhill},
+  \bibinfo{person}{Kate Lakhani}, \bibinfo{person}{Kenna Shaw},
+  \bibinfo{person}{Brett Smith}, \bibinfo{person}{Stephen Swisher},
+  \bibinfo{person}{Rob High}, \bibinfo{person}{P~Andrew Futreal},
+  \bibinfo{person}{John Heymach}, {and} \bibinfo{person}{Lynda Chin}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Applying Artificial Intelligence to Address the
+  Knowledge Gaps in Cancer Care}.
+\newblock \bibinfo{journal}{\emph{Oncologist}} \bibinfo{volume}{24},
+  \bibinfo{number}{6} (\bibinfo{date}{June} \bibinfo{year}{2019}),
+  \bibinfo{pages}{772--782}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sloane, Chowdhury, Havens, Lazovich, and
+  Rincon~Alba}{Sloane et~al\mbox{.}}{2021}]%
+        {sloane2021ai}
+\bibfield{author}{\bibinfo{person}{Mona Sloane}, \bibinfo{person}{Rumman
+  Chowdhury}, \bibinfo{person}{John~C Havens}, \bibinfo{person}{Tomo Lazovich},
+  {and} \bibinfo{person}{Luis Rincon~Alba}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{AI and Procurement-A Primer}.
+\newblock  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sloane, Moss, and Chowdhury}{Sloane
+  et~al\mbox{.}}{2022}]%
+        {sloane2022silicon}
+\bibfield{author}{\bibinfo{person}{Mona Sloane}, \bibinfo{person}{Emanuel
+  Moss}, {and} \bibinfo{person}{Rumman Chowdhury}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{A Silicon Valley love triangle: Hiring algorithms,
+  pseudo-science, and the quest for auditability}.
+\newblock \bibinfo{journal}{\emph{Patterns}} \bibinfo{volume}{3},
+  \bibinfo{number}{2} (\bibinfo{year}{2022}), \bibinfo{pages}{100425}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Smith and Simpson}{Smith and Simpson}{2004}]%
+        {smith2004functional}
+\bibfield{author}{\bibinfo{person}{David Smith} {and} \bibinfo{person}{Kenneth
+  Simpson}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Functional safety}}.
+\newblock \bibinfo{publisher}{Routledge}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Snow}{Snow}{2018}]%
+        {Snow2018-vw}
+\bibfield{author}{\bibinfo{person}{Jacob Snow}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Amazon's Face Recognition Falsely Matched 28 Members
+  of Congress With Mugshots}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.aclu.org/blog/privacy-technology/surveillance-technologies/amazons-face-recognition-falsely-matched-28}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-12.}
+
+
+\bibitem[\protect\citeauthoryear{Solaiman, Brundage, Clark, Askell,
+  Herbert-Voss, Wu, Radford, Krueger, Kim, Kreps, McCain, Newhouse, Blazakis,
+  McGuffie, and Wang}{Solaiman et~al\mbox{.}}{2019}]%
+        {llmopenai}
+\bibfield{author}{\bibinfo{person}{Irene Solaiman}, \bibinfo{person}{Miles
+  Brundage}, \bibinfo{person}{Jack Clark}, \bibinfo{person}{Amanda Askell},
+  \bibinfo{person}{Ariel Herbert-Voss}, \bibinfo{person}{Jeff Wu},
+  \bibinfo{person}{Alec Radford}, \bibinfo{person}{Gretchen Krueger},
+  \bibinfo{person}{Jong~Wook Kim}, \bibinfo{person}{Sarah Kreps},
+  \bibinfo{person}{Miles McCain}, \bibinfo{person}{Alex Newhouse},
+  \bibinfo{person}{Jason Blazakis}, \bibinfo{person}{Kris McGuffie}, {and}
+  \bibinfo{person}{Jasmine Wang}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Release Strategies and the Social Impacts of Language
+  Models}.
+\newblock
+\newblock
+\showeprint[arxiv]{1908.09203}~[cs.CL]
+
+
+\bibitem[\protect\citeauthoryear{Stanley}{Stanley}{[n.d.]}]%
+        {aclu_idaho}
+\bibfield{author}{\bibinfo{person}{Jay Stanley}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \showarticletitle{Pitfalls of Artificial Intelligence Decisionmaking
+  Highlighted In Idaho ACLU Case}.
+\newblock \bibinfo{journal}{\emph{ACLU Blogs}} (\bibinfo{year}{[n.\,d.]}).
+\newblock
+\urldef\tempurl%
+\url{https://www.aclu.org/blog/privacy-technology/pitfalls-artificial-intelligence-decisionmaking-highlighted-idaho-aclu-case}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Stanton and Jensen}{Stanton and
+  Jensen}{2021}]%
+        {Stanton2021-oa}
+\bibfield{author}{\bibinfo{person}{Brian Stanton} {and}
+  \bibinfo{person}{Theodore Jensen}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Trust and Artificial Intelligence}.
+  (\bibinfo{date}{March} \bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Stark and Hutson}{Stark and Hutson}{2022}]%
+        {stark_and_hutson}
+\bibfield{author}{\bibinfo{person}{Luke Stark} {and} \bibinfo{person}{Jevan
+  Hutson}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Physiognomic Artificial Intelligence}.
+\newblock \bibinfo{journal}{\emph{forthcoming in Fordham Intellectual Property,
+  Media \& Entertainment Law Journal XXXII}} (\bibinfo{year}{2022}).
+\newblock
+\urldef\tempurl%
+\url{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3927300}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Strickland}{Strickland}{[n.d.]}]%
+        {Strickland_undated-ng}
+\bibfield{author}{\bibinfo{person}{Eliza Strickland}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{{IBM} Watson Heal Thyself: How {IBM} Watson
+  Overpromised And Underdeliverd On {AI} Health Care}.
+\newblock
+  \bibinfo{howpublished}{\url{https://spectrum.ieee.org/how-ibm-watson-overpromised-and-underdelivered-on-ai-health-care}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-13.}
+
+
+\bibitem[\protect\citeauthoryear{Sudmann}{Sudmann}{2020}]%
+        {democratization}
+\bibfield{author}{\bibinfo{person}{Andreas Sudmann}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The Democratization of Artificial Intelligence}.
+\newblock In \bibinfo{booktitle}{\emph{The Democratization of Artificial
+  Intelligence}}. \bibinfo{publisher}{transcript-Verlag},
+  \bibinfo{pages}{9--32}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Szalavitz}{Szalavitz}{2021}]%
+        {pain_wired}
+\bibfield{author}{\bibinfo{person}{Maia Szalavitz}.}
+  \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{The Pain Was Unbearable. So Why Did Doctors Turn Her
+  Away?}
+\newblock
+  \bibinfo{howpublished}{\url{https://www.wired.com/story/opioid-drug-addiction-algorithm-chronic-pain/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Taori, Dave, Shankar, Carlini, Recht, and
+  Schmidt}{Taori et~al\mbox{.}}{2020}]%
+        {measuring_robustness_to_natural_distribution_shifts}
+\bibfield{author}{\bibinfo{person}{Rohan Taori}, \bibinfo{person}{Achal Dave},
+  \bibinfo{person}{Vaishaal Shankar}, \bibinfo{person}{Nicholas Carlini},
+  \bibinfo{person}{Benjamin Recht}, {and} \bibinfo{person}{Ludwig Schmidt}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Measuring Robustness to Natural Distribution Shifts
+  in Image Classification}. In \bibinfo{booktitle}{\emph{Advances in Neural
+  Information Processing Systems}},
+  \bibfield{editor}{\bibinfo{person}{H.~Larochelle},
+  \bibinfo{person}{M.~Ranzato}, \bibinfo{person}{R.~Hadsell},
+  \bibinfo{person}{M.~F. Balcan}, {and} \bibinfo{person}{H.~Lin}} (Eds.),
+  Vol.~\bibinfo{volume}{33}. \bibinfo{publisher}{Curran Associates, Inc.},
+  \bibinfo{pages}{18583--18599}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.neurips.cc/paper/2020/file/d8330f857a17c53d217014ee776bfd50-Paper.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Tennant and Stilgoe}{Tennant and
+  Stilgoe}{2021}]%
+        {tennant2021attachments}
+\bibfield{author}{\bibinfo{person}{Chris Tennant} {and} \bibinfo{person}{Jack
+  Stilgoe}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The attachments of ‘autonomous’ vehicles}.
+\newblock \bibinfo{journal}{\emph{Social Studies of Science}}
+  \bibinfo{volume}{51}, \bibinfo{number}{6} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{846--870}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Toral, Castilho, Hu, and Way}{Toral
+  et~al\mbox{.}}{2018}]%
+        {Toral2018-wn}
+\bibfield{author}{\bibinfo{person}{Antonio Toral}, \bibinfo{person}{Sheila
+  Castilho}, \bibinfo{person}{Ke Hu}, {and} \bibinfo{person}{Andy Way}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Attaining the Unattainable? Reassessing Claims of
+  Human Parity in Neural Machine Translation}.
+\newblock  (\bibinfo{date}{Aug.} \bibinfo{year}{2018}).
+\newblock
+\showeprint[arxiv]{1808.10432}~[cs.CL]
+
+
+\bibitem[\protect\citeauthoryear{Translator}{Translator}{2018}]%
+        {Translator2018-ki}
+\bibfield{author}{\bibinfo{person}{Microsoft Translator}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Neural Machine Translation reaches historic
+  milestone: human parity for Chinese to English translations}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.microsoft.com/en-us/translator/blog/2018/03/14/human-parity-for-chinese-to-english-translations/}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-12.}
+
+
+\bibitem[\protect\citeauthoryear{Uniform Commercial Code § 2-314}{Uniform
+  Commercial Code § 2-314}{[n.d.]}]%
+        {UCC_2-314}
+Uniform Commercial Code § 2-314 \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Uniform Commercial Code § 2-315}{Uniform
+  Commercial Code § 2-315}{[n.d.]}]%
+        {UCC_2-315}
+Uniform Commercial Code § 2-315 \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Varghese}{Varghese}{2021}]%
+        {goog_search_fail}
+\bibfield{author}{\bibinfo{person}{Sam Varghese}.}
+  \bibinfo{year}{{2021}}\natexlab{}.
+\newblock \bibinfo{title}{How a Google search could end up endangering a life}.
+\newblock
+  \bibinfo{howpublished}{\url{https://itwire.com/home-it/how-a-google-search-could-end-up-endangering-a-life.html}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Veale and Borgesius}{Veale and
+  Borgesius}{2021}]%
+        {veale_euact}
+\bibfield{author}{\bibinfo{person}{Michael Veale} {and}
+  \bibinfo{person}{Frederik~Zuiderveen Borgesius}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Demystifying the Draft EU Artificial Intelligence
+  Act—Analysing the good, the bad, and the unclear elements of the proposed
+  approach}.
+\newblock \bibinfo{journal}{\emph{Computer Law Review International}}
+  \bibinfo{volume}{22}, \bibinfo{number}{4} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{97--112}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vinsel}{Vinsel}{[n.d.]}]%
+        {vinsel_critihype}
+\bibfield{author}{\bibinfo{person}{Lee Vinsel}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \showarticletitle{You’re Doing It Wrong: Notes on Criticism and
+  Technology Hype}.
+\newblock  (\bibinfo{year}{[n.\,d.]}).
+\newblock
+\urldef\tempurl%
+\url{https://sts-news.medium.com/youre-doing-it-wrong-notes-on-criticism-and-technology-hype-18b08b4307e5}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Vinsel}{Vinsel}{2019}]%
+        {vinsel2019moving}
+\bibfield{author}{\bibinfo{person}{Lee Vinsel}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Moving Violations: Automobiles, Experts,
+  and Regulations in the United States}}.
+\newblock \bibinfo{publisher}{JHU Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wachter, Mittelstadt, and Floridi}{Wachter
+  et~al\mbox{.}}{2017}]%
+        {wachter2017right}
+\bibfield{author}{\bibinfo{person}{Sandra Wachter}, \bibinfo{person}{Brent
+  Mittelstadt}, {and} \bibinfo{person}{Luciano Floridi}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Why a right to explanation of automated
+  decision-making does not exist in the general data protection regulation}.
+\newblock \bibinfo{journal}{\emph{International Data Privacy Law}}
+  \bibinfo{volume}{7}, \bibinfo{number}{2} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{76--99}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wan, Xia, Lo, and Murphy}{Wan
+  et~al\mbox{.}}{2021}]%
+        {ml_software_practices}
+\bibfield{author}{\bibinfo{person}{Zhiyuan Wan}, \bibinfo{person}{Xin Xia},
+  \bibinfo{person}{David Lo}, {and} \bibinfo{person}{Gail~C. Murphy}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{How does Machine Learning Change Software
+  Development Practices?}
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{47}, \bibinfo{number}{9} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{1857--1871}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2019.2937083}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Weidinger, Mellor, Rauh, Griffin, Uesato,
+  Huang, Cheng, Glaese, Balle, Kasirzadeh, et~al\mbox{.}}{Weidinger
+  et~al\mbox{.}}{2021}]%
+        {llmdeepmind}
+\bibfield{author}{\bibinfo{person}{Laura Weidinger}, \bibinfo{person}{John
+  Mellor}, \bibinfo{person}{Maribeth Rauh}, \bibinfo{person}{Conor Griffin},
+  \bibinfo{person}{Jonathan Uesato}, \bibinfo{person}{Po-Sen Huang},
+  \bibinfo{person}{Myra Cheng}, \bibinfo{person}{Mia Glaese},
+  \bibinfo{person}{Borja Balle}, \bibinfo{person}{Atoosa Kasirzadeh},
+  {et~al\mbox{.}}} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Ethical and social risks of harm from Language
+  Models}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2112.04359}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Weinstein}{Weinstein}{2020}]%
+        {covid_china}
+\bibfield{author}{\bibinfo{person}{Emily Weinstein}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{China's Use of AI in its COVID-19 Response}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Weiss}{Weiss}{2019}]%
+        {uber-crash-2}
+\bibfield{author}{\bibinfo{person}{Eric Weiss}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{‘Inadequate Safety Culture’ Contributed to Uber
+  Automated Test Vehicle Crash - NTSB Calls for Federal Review Process for
+  Automated Vehicle Testing on Public Roads}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.ntsb.gov/news/press-releases/Pages/NR20191119c.aspx}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Wick, panda, and Tristan}{Wick
+  et~al\mbox{.}}{2019}]%
+        {fairness_tradeoffs_neurips}
+\bibfield{author}{\bibinfo{person}{Michael Wick}, \bibinfo{person}{swetasudha
+  panda}, {and} \bibinfo{person}{Jean-Baptiste Tristan}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Unlocking Fairness: a Trade-off Revisited}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, \bibfield{editor}{\bibinfo{person}{H.~Wallach},
+  \bibinfo{person}{H.~Larochelle}, \bibinfo{person}{A.~Beygelzimer},
+  \bibinfo{person}{F.~d\textquotesingle Alch\'{e}-Buc},
+  \bibinfo{person}{E.~Fox}, {and} \bibinfo{person}{R.~Garnett}} (Eds.),
+  Vol.~\bibinfo{volume}{32}. \bibinfo{publisher}{Curran Associates, Inc.}
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.neurips.cc/paper/2019/file/373e4c5d8edfa8b74fd4b6791d0cf6dc-Paper.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Wilson, Ghosh, Jiang, Mislove, Baker, Szary,
+  Trindel, and Polli}{Wilson et~al\mbox{.}}{2021}]%
+        {wilson2021building}
+\bibfield{author}{\bibinfo{person}{Christo Wilson}, \bibinfo{person}{Avijit
+  Ghosh}, \bibinfo{person}{Shan Jiang}, \bibinfo{person}{Alan Mislove},
+  \bibinfo{person}{Lewis Baker}, \bibinfo{person}{Janelle Szary},
+  \bibinfo{person}{Kelly Trindel}, {and} \bibinfo{person}{Frida Polli}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Building and auditing fair algorithms: A case study
+  in candidate screening}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021
+  ACM Conference on Fairness, Accountability, and Transparency}}.
+  \bibinfo{pages}{666--677}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wingfield}{Wingfield}{2014}]%
+        {nest}
+\bibfield{author}{\bibinfo{person}{Nick Wingfield}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Nest Labs Stops Selling Its Smoke Detector}.
+\newblock \bibinfo{journal}{\emph{The New York Times}} (\bibinfo{date}{Apr}
+  \bibinfo{year}{2014}).
+\newblock
+\urldef\tempurl%
+\url{https://www.nytimes.com/2014/04/04/technology/nest-labs-citing-flaw-halts-smoke-detector-sales.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Winter v. G.P. Putnam's Sons, 938 F.2d 1033
+  (9th Cir. 1991)}{Winter v. G.P. Putnam's Sons, 938 F.2d 1033 (9th Cir.
+  1991)}{1991}]%
+        {Winter}
+Winter v. G.P. Putnam's Sons, 938 F.2d 1033 (9th Cir. 1991)
+  \bibinfo{year}{1991}\natexlab{}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wojcik}{Wojcik}{[n.d.]}]%
+        {Wojcik_undated-nb}
+\bibfield{author}{\bibinfo{person}{Natalia Wojcik}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{{IBM's} Watson `is a joke,' says Social Capital {CEO}
+  Palihapitiya}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.cnbc.com/2017/05/08/ibms-watson-is-a-joke-says-social-capital-ceo-palihapitiya.html}}.
+\newblock
+\newblock
+\shownote{Accessed: 2022-1-13.}
+
+
+\bibitem[\protect\citeauthoryear{Wong, Otles, Donnelly, Krumm, McCullough,
+  DeTroyer-Cooley, Pestrue, Phillips, Konye, Penoza, Ghous, and Singh}{Wong
+  et~al\mbox{.}}{2021}]%
+        {sepsis_validation}
+\bibfield{author}{\bibinfo{person}{Andrew Wong}, \bibinfo{person}{Erkin Otles},
+  \bibinfo{person}{John~P. Donnelly}, \bibinfo{person}{Andrew Krumm},
+  \bibinfo{person}{Jeffrey McCullough}, \bibinfo{person}{Olivia
+  DeTroyer-Cooley}, \bibinfo{person}{Justin Pestrue}, \bibinfo{person}{Marie
+  Phillips}, \bibinfo{person}{Judy Konye}, \bibinfo{person}{Carleen Penoza},
+  \bibinfo{person}{Muhammad Ghous}, {and} \bibinfo{person}{Karandeep Singh}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{External Validation of a Widely Implemented
+  Proprietary Sepsis Prediction Model in Hospitalized Patients}}.
+\newblock \bibinfo{journal}{\emph{JAMA Internal Medicine}}
+  \bibinfo{volume}{181}, \bibinfo{number}{8} (\bibinfo{date}{08}
+  \bibinfo{year}{2021}), \bibinfo{pages}{1065--1070}.
+\newblock
+\showISSN{2168-6106}
+\urldef\tempurl%
+\url{https://doi.org/10.1001/jamainternmed.2021.2626}
+\showDOI{\tempurl}
+\showeprint{https://jamanetwork.com/journals/jamainternalmedicine/articlepdf/2781307/jamainternal\_wong\_2021\_oi\_210027\_1627674961.11707.pdf}
+
+
+\bibitem[\protect\citeauthoryear{Wood}{Wood}{[n.d.]}]%
+        {Wood_undated-ek}
+\bibfield{author}{\bibinfo{person}{Matt Wood}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Thoughts On Machine Learning Accuracy}.
+\newblock
+  \bibinfo{howpublished}{\url{https://aws.amazon.com/blogs/aws/thoughts-on-machine-learning-accuracy/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wu, Wu, Daneshjou, Ouyang, Ho, and Zou}{Wu
+  et~al\mbox{.}}{2021}]%
+        {wu2021medical}
+\bibfield{author}{\bibinfo{person}{Eric Wu}, \bibinfo{person}{Kevin Wu},
+  \bibinfo{person}{Roxana Daneshjou}, \bibinfo{person}{David Ouyang},
+  \bibinfo{person}{Daniel~E Ho}, {and} \bibinfo{person}{James Zou}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{How medical AI devices are evaluated: limitations
+  and recommendations from an analysis of FDA approvals}.
+\newblock \bibinfo{journal}{\emph{Nature Medicine}} \bibinfo{volume}{27},
+  \bibinfo{number}{4} (\bibinfo{year}{2021}), \bibinfo{pages}{582--584}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wynants, Van~Calster, Collins, Riley, Heinze,
+  Schuit, Bonten, Dahly, Damen, Debray, et~al\mbox{.}}{Wynants
+  et~al\mbox{.}}{2020}]%
+        {covidfail2}
+\bibfield{author}{\bibinfo{person}{Laure Wynants}, \bibinfo{person}{Ben
+  Van~Calster}, \bibinfo{person}{Gary~S Collins}, \bibinfo{person}{Richard~D
+  Riley}, \bibinfo{person}{Georg Heinze}, \bibinfo{person}{Ewoud Schuit},
+  \bibinfo{person}{Marc~MJ Bonten}, \bibinfo{person}{Darren~L Dahly},
+  \bibinfo{person}{Johanna~A Damen}, \bibinfo{person}{Thomas~PA Debray},
+  {et~al\mbox{.}}} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Prediction models for diagnosis and prognosis of
+  covid-19: systematic review and critical appraisal}.
+\newblock \bibinfo{journal}{\emph{bmj}}  \bibinfo{volume}{369}
+  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yeung}{Yeung}{2020}]%
+        {yeung2020recommendation}
+\bibfield{author}{\bibinfo{person}{Karen Yeung}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Recommendation of the council on artificial
+  intelligence (oecd)}.
+\newblock \bibinfo{journal}{\emph{International Legal Materials}}
+  \bibinfo{volume}{59}, \bibinfo{number}{1} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{27--34}.
+\newblock
+
+
+\end{thebibliography}

@@ -1,0 +1,86 @@
+While we have defined data-centric governance in terms of data and algorithms, governance processes ultimately are implemented by humans. Effective governance requires a proper separation of concerns among development teams and proper alignment of their incentives to the goals of governance. Misconfiguring these teams introduces perverse incentives into the governance of the system and renders governance efforts ineffective. In this section, we advocate for a governance structure consisting of four teams with distinct goals and areas of responsibility -- the Product Team, the Data Team, the Solution Team, and the Verification Team.
+
+\subsection{The Product Team}
+
+The product team is the first team involved in producing an AI solution. Their objective is to direct the purchase or production of a system solving a specific problem by clearly defining the system's goals and requirements. Product teams often serve as advocates for the customer's interests when discussing requirements within an organization, which can introduce tensions between teams. 
+
+% For the purpose of data-centric governance, we will define the ``product team'' as follows.
+
+% \begin{definition}[Product Team]
+% The people responsible for defining the system's goals and requirements.
+% \end{definition}
+
+% While this definition could apply to product teams for a variety of non-AI product types, 
+
+The phrase ``goals and requirements'' has special meaning in the AI community. Most AI systems are produced by an optimization process that repeatedly updates system configurations to better satisfy a particular performance measure. So, while product team activities determine \textit{what} gets built, their decisions are also integral to \textit{how} the solution will be built through optimization, since they effectively design the target metric to be optimized. Thus, when governance requirements are added after the product definition, it reopens the entire solution engineering process.
+
+\highlight{
+\textbf{Can you figure out the system requirements during solution engineering?} In contrast to typical software development processes that increasingly plan through iteration, product definition for AI systems is intricately linked with the possibilities afforded by data that are time consuming and expensive to collect. A failure to rigorously define the system profoundly impacts system capabilities and appropriate operating circumstances \cite{damour_underspecification_2020}. Ideally projects will be perfectly scoped to the ``must-have'' requirements, otherwise when mis-scoped the system will:
+
+\begin{itemize}
+    \item \textbf{Over-scope}. Underperform on core tasks and data/compute requirements increase
+    \item \textbf{Under-scope}. Perform poorly on unstated requirements
+\end{itemize}
+
+\takeaway{Tightly defining system requirements greatly reduces program risks.}}
+
+The boundaries of possibility for AI systems are currently determined more by the availability of data for the task than by the capacities of current AI techniques. Thus the product team must work closely with the data team.
+
+\subsection{The Data Team}
+
+% \begin{definition}[Data Team]
+% The team responsible for collecting and preparing data characterizing the inputs to the system and defining the system evaluation.
+% \end{definition}
+
+The data team is responsible for collecting and preparing the data necessary for system engineering and evaluation.
+Data teams are populated with subject matter experts (SMEs) and data engineers. For instance, when producing a system that identifies cancers in medical images, the SMEs are responsible for applying their expert judgment to generate metadata (e.g., drawing an outline around a cancer in an image and labeling it ``carcinoma''). Data engineers build the user interfaces for the SMEs to manage metadata on the underlying data (e.g., display radiographs with labels) and maintain the library of data for use by the solution and verification teams described below.
+
+As the datasets required for producing a solution expand, the size of the data team must also increase, often to the point where they outnumber all the other teams. Anecdotally, the most common failure point we observe in companies staffing AI engineering efforts is to place solution engineers on a problem without budgeting or staffing dataset preparation. The circumstance is then analogous to hiring a delivery driver without providing them with a vehicle: their only option is to walk the distance.
+
+When applying data-centric governance, the data team operates in a service capacity for the product, verification, and solution teams to produce several interrelated data products. We will introduce these data products after introducing the solution and verification teams.
+
+\subsection{The Solution Team}
+
+% \begin{definition}[Solution Team]
+% The people responsible for engineering the product.
+% \end{definition}
+
+%
+% Need to resolve DARPA issue where they do V and V work and they want to think of it as being a "solution", but it is still not something that would be appropriately deployed on the basis of the V and V performed
+%
+
+The solution team is responsible for engineering the product. They often receive most of the public recognition when a machine learning research program makes a breakthrough, but research programs rarely produce product deployments outside of research contexts. After establishing what is possible via research, solution teams turn to making a system that can perform its task comprehensively according to the requirements adopted by the product team. Often this involves expanding the dataset requirements to cover the entirety of the system input space. Working with the ``edge cases'' provided by the data team occupies the vast majority of deployment solution engineering. Until edge cases are handled appropriately, it is the prerogative of the verification team to block solution deployment.
+
+%\begin{wrapfigure}{r}{0.50\linewidth}
+\highlight{
+\textbf{What if the solution is not known?} Projects with significant uncertainties are research projects. Training requirements, edge cases, achievable performance, and operating conditions are often unknowable prior to research prototyping. Successful completion of a proof-of-concept is thus a prerequisite to formalizing governance requirements. Research reduces uncertainties allowing subsequent engineering and governance processes to be applied. We recommend contacting an institutional review board (IRB) for research program governance requirements.
+
+\takeaway{Separate research programs from producing shipped intelligent systems.}}
+%\end{wrapfigure}
+
+\subsection{The Verification Team}
+
+% \begin{definition}[Verification Team]
+% The people responsible for ensuring the solution is consistent with organizational, regulatory, and ethical requirements prior to and following deployment of the intelligent system.
+% \end{definition}
+
+The verification team is responsible for ensuring that the solution is consistent with organizational, regulatory, and ethical requirements prior to and following deployment.
+This definition combines the remit of several teams operating in industry, including those responsible for quality assurance, test, verification, validation, compliance, and risk. As intelligent systems are increasingly subject to regulatory requirements, the Chief Compliance Officer or General Counsel office is often brought in to run compliance processes. However, as traditionally instituted, these offices are not capable of implementing a governance program without the assistance of an engineering department or outside consultants. Alternatively, firms are constituting special-purpose teams tasked with various aspects of AI assurance, such as Google's team assessing compliance with the corporate AI principles. Such teams require cross functional connections to be successful.
+
+For the purpose of this position paper, we will assume the verification team either has people in-house or consults with people that know the risks of a product, including how to assess the likelihood a system will produce harms at initial deployment time and as the system and world continue to develop. From the perspective of the verification team, well-executed data-centric governance makes the final authorization to deploy an intelligent system perfunctory since all the governance processes will have been carried out prior to final verification.
+
+\highlight{
+\textbf{What happens if you combine teams?} The interests of one team will come to dominate the interests of the other team in the combination.
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Product + Verification:} The verification team is responsible for telling the product team when a solution can ship. Product teams typically want fewer limitations and are closer to revenue sources so they tend to dominate in commercial organizations.
+  \item \textbf{Product + Data:} Similarly, when product responsibilities are embedded within the data team, the data team will tend to prioritize the product team's interests, which typically means more focus on data for the solution team and less for the verification team.
+  \item \textbf{Product + Solution:} The product team wants the best, highest performing solution possible while the solution team wants to meet requirements as quickly as possible. If the product team dominates, then the requirements of the system may be unreasonably high -- which can result in missed deadlines, extreme data requirements, and more. Should the solution team come to dominate, then the product definition will tend to be scoped around what is more immediately achievable -- a form of ``bikeshedding'' \cite{knauss_detecting_2012}.
+  \item \textbf{Data + Verification:} The resources of the data team are not infinite. If the data and verification teams are combined, then the verification team will receive rich and comprehensive measures for the system while the solution team will not receive attention for improving those measures. By separating the data team from both the verification and solution team, it is possible to seek a balance.
+  \item \textbf{Data + Solution:} Data used for requirements verification must not be disclosed to the solution team. When data and solution teams combine, it is difficult to know whether the integrity of the withheld datasets has been violated. High performance may be entirely illusory. More details on this problem are presented later in the paper.
+  \item \textbf{Solution + Verification:} The verification team determines when the solution team has met its requirements. If these teams are combined, there is a tendency to change requirements to match what the system is capable of.
+\end{itemize}
+
+\takeaway{Separate the four teams and ensure they are evaluated according to their disparate purposes.}}
+
+% Having defined the players involved in data-centric governance, we can now turn to the data assets they act upon.

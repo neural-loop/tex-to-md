@@ -1,0 +1,449 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{30}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[202(2023)]%
+        {2023exclusive}
+ \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Exclusive: {{The}} \$2 {{Per Hour Workers Who Made
+  ChatGPT Safer}}}.
+\newblock
+  \bibinfo{howpublished}{https://time.com/6247678/openai-chatgpt-kenya-workers/}.
+\newblock
+
+
+\bibitem[Ballard et~al\mbox{.}(2019)]%
+        {ballard_judgment_2019}
+\bibfield{author}{\bibinfo{person}{Stephanie Ballard},
+  \bibinfo{person}{Karen~M. Chappell}, {and} \bibinfo{person}{Kristen
+  Kennedy}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Judgment {Call} the {Game}: {Using} value sensitive
+  design and design fiction to surface ethical concerns related to technology}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 2019 on {Designing}
+  {Interactive} {Systems} {Conference} - {DIS} '19}}. \bibinfo{publisher}{ACM
+  Press}, \bibinfo{address}{New York, New York, USA},
+  \bibinfo{pages}{421--433}.
+\newblock
+\showISBNx{978-1-4503-5850-7}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3322276.3323697}
+\showDOI{\tempurl}
+
+
+\bibitem[{Carlos Munoz Ferrandis}(2022)]%
+        {carlosmunozferrandis2022openrail}
+\bibfield{author}{\bibinfo{person}{{Carlos Munoz Ferrandis}}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{{{OpenRAIL}}: {{Towards}} Open and Responsible {{AI}}
+  Licensing Frameworks}.
+\newblock \bibinfo{howpublished}{https://huggingface.co/blog/open\_rail}.
+\newblock
+
+
+\bibitem[Contractor et~al\mbox{.}(2022)]%
+        {contractor2022behavioral}
+\bibfield{author}{\bibinfo{person}{Danish Contractor}, \bibinfo{person}{Daniel
+  McDuff}, \bibinfo{person}{Julia~Katherine Haines}, \bibinfo{person}{Jenny
+  Lee}, \bibinfo{person}{Christopher Hines}, \bibinfo{person}{Brent Hecht},
+  \bibinfo{person}{Nicholas Vincent}, {and} \bibinfo{person}{Hanlin Li}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Behavioral use licensing for responsible AI}. In
+  \bibinfo{booktitle}{\emph{2022 ACM Conference on Fairness, Accountability,
+  and Transparency}}. \bibinfo{pages}{778--788}.
+\newblock
+
+
+\bibitem[Crawford and Joler(2018)]%
+        {crawford2018anatomy}
+\bibfield{author}{\bibinfo{person}{Kate Crawford} {and} \bibinfo{person}{Vladan
+  Joler}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Anatomy of an AI System}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://anatomyof.ai/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Declaration(2018)]%
+        {declaration2018montreal}
+\bibfield{author}{\bibinfo{person}{Montreal Declaration}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{The Montreal Declaration for the Responsible
+  Development of Artificial Intelligence}.
+\newblock
+\newblock
+
+
+\bibitem[Doorey(2011)]%
+        {doorey2011transparent}
+\bibfield{author}{\bibinfo{person}{David~J. Doorey}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{The {{Transparent Supply Chain}}: From
+  {{Resistance}} to {{Implementation}} at {{Nike}} and {{Levi-Strauss}}}.
+\newblock \bibinfo{journal}{\emph{Journal of Business Ethics}}
+  \bibinfo{volume}{103}, \bibinfo{number}{4} (\bibinfo{date}{Nov.}
+  \bibinfo{year}{2011}), \bibinfo{pages}{587--603}.
+\newblock
+\showISSN{0167-4544, 1573-0697}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s10551-011-0882-1}
+\showDOI{\tempurl}
+
+
+\bibitem[Fiesler(2018)]%
+        {fiesler_black_2018}
+\bibfield{author}{\bibinfo{person}{Casey Fiesler}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Black {Mirror}, {Light} {Mirror}: {Teaching}
+  {Technology} {Ethics} {Through} {Speculation}}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://howwegettonext.com/the-black-mirror-writers-room-teaching-technology-ethics-through-speculation-f1a9e2deccf4}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Fiesler and Garrett(2020)]%
+        {ethicaldebt2020fiesler}
+\bibfield{author}{\bibinfo{person}{Casey Fiesler} {and}
+  \bibinfo{person}{Natalie Garrett}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Ethical Tech Starts with Addressing Ethical Debt}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+
+
+\bibitem[Flacks and Songy(1200)]%
+        {flacks2022uyghur}
+\bibfield{author}{\bibinfo{person}{\hspace{0pt}Marti Flacks} {and}
+  \bibinfo{person}{Madeleine Songy}.} \bibinfo{year}{Mon, 06/27/2022 -
+  12:00}\natexlab{}.
+\newblock \showarticletitle{The {{Uyghur Forced Labor Prevention Act Goes}}
+  into {{Effect}}}.
+\newblock  (\bibinfo{year}{Mon, 06/27/2022 - 12:00}).
+\newblock
+
+
+\bibitem[{Fukuda-Parr} and Gibbons(2021)]%
+        {fukuda-parr2021emerging}
+\bibfield{author}{\bibinfo{person}{Sakiko {Fukuda-Parr}} {and}
+  \bibinfo{person}{Elizabeth Gibbons}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Emerging {{Consensus}} on `{{Ethical AI}}': {{Human
+  Rights Critique}} of {{Stakeholder Guidelines}}}.
+\newblock \bibinfo{journal}{\emph{Global Policy}} \bibinfo{volume}{12},
+  \bibinfo{number}{S6} (\bibinfo{year}{2021}), \bibinfo{pages}{32--44}.
+\newblock
+\showISSN{1758-5899}
+\urldef\tempurl%
+\url{https://doi.org/10.1111/1758-5899.12965}
+\showDOI{\tempurl}
+
+
+\bibitem[Gansky and McDonald(2022)]%
+        {gansky2022counterfacctual}
+\bibfield{author}{\bibinfo{person}{Ben Gansky} {and} \bibinfo{person}{Sean
+  McDonald}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{CounterFAccTual: How FAccT undermines its
+  organizing principles}. In \bibinfo{booktitle}{\emph{2022 ACM Conference on
+  Fairness, Accountability, and Transparency}}. \bibinfo{pages}{1982--1992}.
+\newblock
+
+
+\bibitem[Greene et~al\mbox{.}(2019)]%
+        {greene2019better}
+\bibfield{author}{\bibinfo{person}{Daniel Greene}, \bibinfo{person}{Anna~Lauren
+  Hoffmann}, {and} \bibinfo{person}{Luke Stark}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Better, nicer, clearer, fairer: A critical
+  assessment of the movement for ethical artificial intelligence and machine
+  learning}. In \bibinfo{booktitle}{\emph{52nd Hawaii international conference
+  on system sciences}}.
+\newblock
+
+
+\bibitem[Gürses and van Hoboken(2018)]%
+        {gurses2018agile}
+\bibfield{author}{\bibinfo{person}{Seda Gürses} {and} \bibinfo{person}{Joris
+  van Hoboken}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Privacy after the Agile Turn}}.
+\newblock \bibinfo{publisher}{Cambridge}, \bibinfo{pages}{579–601}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1017/9781316831960.032}
+\showDOI{\tempurl}
+
+
+\bibitem[Initiative(0)]%
+        {GlobalReportingInitiativeGRI}
+\bibfield{author}{\bibinfo{person}{Global~Reporting Initiative}.}
+  \bibinfo{year}{0}\natexlab{}.
+\newblock \bibinfo{title}{GRI Standards - English}.
+\newblock
+\newblock
+\showISBNx{9789088661334}
+\urldef\tempurl%
+\url{https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-english-language/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; accessed 2022-07-09]}.
+
+
+\bibitem[Kaissar(2022)]%
+        {Kaissar2022Institutional}
+\bibfield{author}{\bibinfo{person}{Nir Kaissar}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Institutional Investors Are Flexing Their ESG
+  Muscles}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.bloomberg.com/opinion/articles/2022-04-13/institutional-investors-are-flexing-their-esg-muscles}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; accessed 2022-07-09]}.
+
+
+\bibitem[Keyes et~al\mbox{.}(2019)]%
+        {keyes2019mulching}
+\bibfield{author}{\bibinfo{person}{Os Keyes}, \bibinfo{person}{Jevan Hutson},
+  {and} \bibinfo{person}{Meredith Durbin}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{A mulching proposal: Analysing and improving an
+  algorithmic system for turning the elderly into high-nutrient slurry}. In
+  \bibinfo{booktitle}{\emph{Extended Abstracts Of ACM Conference On Human
+  Factors In Computing Systems}}. \bibinfo{pages}{1--11}.
+\newblock
+
+
+\bibitem[Krafft et~al\mbox{.}(2021)]%
+        {Krafft2021toolkit}
+\bibfield{author}{\bibinfo{person}{P.~M. Krafft}, \bibinfo{person}{Meg Young},
+  \bibinfo{person}{Michael Katell}, \bibinfo{person}{Jennifer~E. Lee},
+  \bibinfo{person}{Shankar Narayan}, \bibinfo{person}{Micah Epstein},
+  \bibinfo{person}{Dharma Dailey}, \bibinfo{person}{Bernease Herman},
+  \bibinfo{person}{Aaron Tam}, \bibinfo{person}{Vivian Guetler},
+  \bibinfo{person}{Corinne Bintz}, \bibinfo{person}{Daniella Raz},
+  \bibinfo{person}{Pa~Ousman Jobe}, \bibinfo{person}{Franziska Putz},
+  \bibinfo{person}{Brian Robick}, {and} \bibinfo{person}{Bissan Barghouti}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{An Action-Oriented AI Policy Toolkit for Technology
+  Audits by Community Advocates and Activists}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}} (Virtual Event, Canada)
+  \emph{(\bibinfo{series}{FAccT '21})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{772–781}.
+\newblock
+\showISBNx{9781450383097}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445938}
+\showDOI{\tempurl}
+
+
+\bibitem[Kriebitz and Max(2020)]%
+        {kriebitz2020xinjiang}
+\bibfield{author}{\bibinfo{person}{Alexander Kriebitz} {and}
+  \bibinfo{person}{Raphael Max}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The {{Xinjiang Case}} and {{Its Implications}} from
+  a {{Business Ethics Perspective}}}.
+\newblock \bibinfo{journal}{\emph{Human Rights Review}} \bibinfo{volume}{21},
+  \bibinfo{number}{3} (\bibinfo{date}{Sept.} \bibinfo{year}{2020}),
+  \bibinfo{pages}{243--265}.
+\newblock
+\showISSN{1874-6306}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s12142-020-00591-0}
+\showDOI{\tempurl}
+
+
+\bibitem[Martelaro and Ju(2020)]%
+        {martelaro2020could}
+\bibfield{author}{\bibinfo{person}{Nikolas Martelaro} {and}
+  \bibinfo{person}{Wendy Ju}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{What could go wrong? Exploring the downsides of
+  autonomous vehicles}. In \bibinfo{booktitle}{\emph{12th International
+  Conference on Automotive User Interfaces and Interactive Vehicular
+  Applications}}. \bibinfo{pages}{99--101}.
+\newblock
+
+
+\bibitem[Mulligan and Bamberger(2019)]%
+        {mulligan2019procurement}
+\bibfield{author}{\bibinfo{person}{Deirdre~K Mulligan} {and}
+  \bibinfo{person}{Kenneth~A Bamberger}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Procurement as policy: Administrative process for
+  machine learning}.
+\newblock \bibinfo{journal}{\emph{Berkeley Tech. LJ}}  \bibinfo{volume}{34}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{773}.
+\newblock
+
+
+\bibitem[Schreck(2013)]%
+        {Schreck2013Disclosure}
+\bibfield{author}{\bibinfo{person}{Philipp Schreck}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Disclosure (CSR Reporting)}.
+\newblock In \bibinfo{booktitle}{\emph{Encyclopedia of Corporate Social
+  Responsibility}}, \bibfield{editor}{\bibinfo{person}{Samuel~O Idowu},
+  \bibinfo{person}{Nicholas Capaldi}, \bibinfo{person}{Liangrong Zu}, {and}
+  \bibinfo{person}{Das~Ananda Gupta}} (Eds.). \bibinfo{publisher}{Springer
+  Berlin Heidelberg}.
+\newblock
+\showISBNx{9783642280368}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-642-28036-8}
+\showDOI{\tempurl}
+
+
+\bibitem[Shen et~al\mbox{.}(2021)]%
+        {shen_value_2021}
+\bibfield{author}{\bibinfo{person}{Hong Shen}, \bibinfo{person}{Wesley~H.
+  Deng}, \bibinfo{person}{Aditi Chattopadhyay}, \bibinfo{person}{Zhiwei~Steven
+  Wu}, \bibinfo{person}{Xu Wang}, {and} \bibinfo{person}{Haiyi Zhu}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Value {Cards}: {An} {Educational} {Toolkit} for
+  {Teaching} {Social} {Impacts} of {Machine} {Learning} through
+  {Deliberation}}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021 {ACM}
+  {Conference} on {Fairness}, {Accountability}, and {Transparency}}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{Virtual Event Canada},
+  \bibinfo{pages}{850--861}.
+\newblock
+\showISBNx{978-1-4503-8309-7}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3442188.3445971}
+\showDOI{\tempurl}
+
+
+\bibitem[Shilton(2013)]%
+        {shilton_values_2013}
+\bibfield{author}{\bibinfo{person}{Katie Shilton}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Values {Levers}: {Building} {Ethics} into
+  {Design}}.
+\newblock \bibinfo{journal}{\emph{Science, Technology, \& Human Values}}
+  \bibinfo{volume}{38}, \bibinfo{number}{3} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{374--397}.
+\newblock
+\showISSN{0162-2439}
+\urldef\tempurl%
+\url{https://doi.org/10.1177/0162243912436985}
+\showDOI{\tempurl}
+
+
+\bibitem[Widder and Nafus(2022)]%
+        {widder2022dislocateda}
+\bibfield{author}{\bibinfo{person}{David~Gray Widder} {and}
+  \bibinfo{person}{Dawn Nafus}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Dislocated {{Accountabilities}} in the {{AI Supply
+  Chain}}: {{Modularity}} and {{Developers}}' {{Notions}} of
+  {{Responsibility}}}.
+\newblock  (\bibinfo{date}{Sept.} \bibinfo{year}{2022}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.2209.09780}
+\showDOI{\tempurl}
+
+
+\bibitem[Widder et~al\mbox{.}(2022)]%
+        {widder2022limits}
+\bibfield{author}{\bibinfo{person}{David~Gray Widder}, \bibinfo{person}{Dawn
+  Nafus}, \bibinfo{person}{Laura Dabbish}, {and} \bibinfo{person}{James
+  Herbsleb}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Limits and Possibilities for “Ethical AI” in
+  Open Source: A Study of Deepfakes}. In \bibinfo{booktitle}{\emph{conference
+  on fairness, accountability, and transparency}}.
+\newblock
+
+
+\bibitem[Wong(2021)]%
+        {wong2021tactics}
+\bibfield{author}{\bibinfo{person}{Richmond~Y Wong}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Tactics of Soft Resistance in User Experience
+  Professionals' Values Work}.
+\newblock \bibinfo{journal}{\emph{Conference on Human-Computer Interaction}}
+  \bibinfo{volume}{5}, \bibinfo{number}{CSCW2} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{1--28}.
+\newblock
+
+
+\bibitem[Wong et~al\mbox{.}(2023)]%
+        {wong2023privacy}
+\bibfield{author}{\bibinfo{person}{Richmond~Y Wong}, \bibinfo{person}{Andrew
+  Chong}, {and} \bibinfo{person}{R~Cooper Aspegren}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Privacy Legislation as Business Risks: How GDPR and
+  CCPA are Represented in Technology Companies’ Investment Risk Disclosures}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{7}, \bibinfo{number}{CSCW1}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Wong and Mulligan(2019)]%
+        {wong2019bringing}
+\bibfield{author}{\bibinfo{person}{Richmond~Y. Wong} {and}
+  \bibinfo{person}{Deirdre~K. Mulligan}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Bringing {Design} to the {Privacy} {Table}:
+  {Broadening} "{Design}" in "{Privacy} by {Design}" {Through} the {Lens} of
+  {HCI}}. In \bibinfo{booktitle}{\emph{{CHI} {Conference} on {Human} {Factors}
+  in {Computing} {Systems} ({CHI} 2019)}}.
+\newblock
+\showISBNx{978-1-4503-5970-2}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3290605.3300492}
+\showDOI{\tempurl}
+
+
+\bibitem[Zevenbergen et~al\mbox{.}(2020)]%
+        {zevenbergen2020explainability}
+\bibfield{author}{\bibinfo{person}{Ben Zevenbergen}, \bibinfo{person}{Allison
+  Woodruff}, {and} \bibinfo{person}{Patrick~Gage Kelley}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Explainability Case Studies}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/ARXIV.2009.00246}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}

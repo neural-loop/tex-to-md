@@ -1,0 +1,683 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{57}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Almeida, Shmarko, and Lomas}{Almeida
+  et~al\mbox{.}}{2021}]%
+        {almeida2021ethics}
+\bibfield{author}{\bibinfo{person}{Denise Almeida}, \bibinfo{person}{Konstantin
+  Shmarko}, {and} \bibinfo{person}{Elizabeth Lomas}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The ethics of facial recognition technologies,
+  surveillance, and accountability in an age of artificial intelligence: a
+  comparative analysis of US, EU, and UK regulatory frameworks}.
+\newblock \bibinfo{journal}{\emph{AI and Ethics}} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{1--11}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Anderson, Anderson, and Armen}{Anderson
+  et~al\mbox{.}}{2004}]%
+        {anderson2004towards}
+\bibfield{author}{\bibinfo{person}{Michael Anderson},
+  \bibinfo{person}{Susan~Leigh Anderson}, {and} \bibinfo{person}{Chris Armen}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Towards machine ethics}. In
+  \bibinfo{booktitle}{\emph{AAAI-04 workshop on agent organizations: theory and
+  practice, San Jose, CA}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Apressyan}{Apressyan}{2018}]%
+        {apressyan2018kant}
+\bibfield{author}{\bibinfo{person}{RG Apressyan}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Kant, Universality Test, and a Criterion of
+  Morality}.
+\newblock \bibinfo{journal}{\emph{Russian Journal of Philosophical Sciences}}
+  \bibinfo{volume}{11} (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Arnold and Scheutz}{Arnold and
+  Scheutz}{2018}]%
+        {arnold2018big}
+\bibfield{author}{\bibinfo{person}{Thomas Arnold} {and}
+  \bibinfo{person}{Matthias Scheutz}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The “big red button” is too late: an
+  alternative model for the ethical evaluation of AI systems}.
+\newblock \bibinfo{journal}{\emph{Ethics and Information Technology}}
+  \bibinfo{volume}{20}, \bibinfo{number}{1} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{59--69}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bostrom and Yudkowsky}{Bostrom and
+  Yudkowsky}{2014}]%
+        {bostrom2014ethics}
+\bibfield{author}{\bibinfo{person}{Nick Bostrom} {and} \bibinfo{person}{Eliezer
+  Yudkowsky}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{The ethics of artificial intelligence}.
+\newblock \bibinfo{journal}{\emph{The Cambridge handbook of artificial
+  intelligence}}  \bibinfo{volume}{1} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{316--334}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brey}{Brey}{2012a}]%
+        {brey2012anticipating}
+\bibfield{author}{\bibinfo{person}{PAE Brey}.}
+  \bibinfo{year}{2012}\natexlab{a}.
+\newblock \showarticletitle{Anticipating ethical issues in emerging IT}.
+\newblock \bibinfo{journal}{\emph{Ethics and Information Technology}}
+  \bibinfo{volume}{14}, \bibinfo{number}{4} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{305--317}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brey}{Brey}{2012b}]%
+        {brey2012anticipatory}
+\bibfield{author}{\bibinfo{person}{PAE Brey}.}
+  \bibinfo{year}{2012}\natexlab{b}.
+\newblock \bibinfo{title}{Anticipatory ethics for emerging technologies.
+  NanoEthics 6: 1--13}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bynum and Rogerson}{Bynum and
+  Rogerson}{2004}]%
+        {bynum2004computer}
+\bibfield{author}{\bibinfo{person}{Terrell~W Bynum} {and} \bibinfo{person}{S
+  Rogerson}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{title}{Computer ethics and professional responsibility (pp.
+  98--106). Kundli}.
+\newblock
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Capurro}{Capurro}{2009}]%
+        {capurro2009digital}
+\bibfield{author}{\bibinfo{person}{Rafael Capurro}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Digital ethics}. In
+  \bibinfo{booktitle}{\emph{Global Forum on Civilization and Peace}}.
+  \bibinfo{pages}{207--216}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Capurro}{Capurro}{2017}]%
+        {capurro2017digitization}
+\bibfield{author}{\bibinfo{person}{Rafael Capurro}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Digitization as an ethical challenge}.
+\newblock \bibinfo{journal}{\emph{Ai \& Society}} \bibinfo{volume}{32},
+  \bibinfo{number}{2} (\bibinfo{year}{2017}), \bibinfo{pages}{277--283}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Capurro, Grimm, et~al\mbox{.}}{Capurro
+  et~al\mbox{.}}{2020}]%
+        {capurro2020digitale}
+\bibfield{author}{\bibinfo{person}{Vgl~R Capurro}, \bibinfo{person}{Vgl~P
+  Grimm}, {et~al\mbox{.}}} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Digitale Ethik: Das Wesen des Digitalen im
+  Narrativen finden?}
+\newblock \bibinfo{journal}{\emph{Religi{\"o}se Bildung und Digitalisierung}}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{61}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chander}{Chander}{2017}]%
+        {chander2017racist}
+\bibfield{author}{\bibinfo{person}{Anupam Chander}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{The racist algorithm?}
+\newblock \bibinfo{journal}{\emph{Michigan Law Review}} \bibinfo{volume}{115},
+  \bibinfo{number}{6} (\bibinfo{year}{2017}), \bibinfo{pages}{1023--1045}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Darwall}{Darwall}{1983}]%
+        {darwall1983impartial}
+\bibfield{author}{\bibinfo{person}{Stephen~L Darwall}.}
+  \bibinfo{year}{1983}\natexlab{}.
+\newblock \showarticletitle{Impartial reason}.
+\newblock  (\bibinfo{year}{1983}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dignum, Baldoni, Baroglio, Caon, Chatila,
+  Dennis, G{\'e}nova, Haim, Klie{\ss}, Lopez-Sanchez, et~al\mbox{.}}{Dignum
+  et~al\mbox{.}}{2018}]%
+        {dignum2018ethics}
+\bibfield{author}{\bibinfo{person}{Virginia Dignum}, \bibinfo{person}{Matteo
+  Baldoni}, \bibinfo{person}{Cristina Baroglio}, \bibinfo{person}{Maurizio
+  Caon}, \bibinfo{person}{Raja Chatila}, \bibinfo{person}{Louise Dennis},
+  \bibinfo{person}{Gonzalo G{\'e}nova}, \bibinfo{person}{Galit Haim},
+  \bibinfo{person}{Malte~S Klie{\ss}}, \bibinfo{person}{Maite Lopez-Sanchez},
+  {et~al\mbox{.}}} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Ethics by design: Necessity or curse?}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2018 AAAI/ACM Conference on AI,
+  Ethics, and Society}}. \bibinfo{pages}{60--66}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ess}{Ess}{2013}]%
+        {ess2013digital}
+\bibfield{author}{\bibinfo{person}{Charles Ess}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Digital media ethics}}.
+\newblock \bibinfo{publisher}{Polity}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Flanagan, Howe, and Nissenbaum}{Flanagan
+  et~al\mbox{.}}{2005}]%
+        {flanagan2005values}
+\bibfield{author}{\bibinfo{person}{Mary Flanagan}, \bibinfo{person}{Daniel~C
+  Howe}, {and} \bibinfo{person}{Helen Nissenbaum}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Values at play: Design tradeoffs in
+  socially-oriented game design}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the SIGCHI conference on human factors in computing systems}}.
+  \bibinfo{pages}{751--760}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Floridi}{Floridi}{2013}]%
+        {floridi2013ethics}
+\bibfield{author}{\bibinfo{person}{Luciano Floridi}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The ethics of information}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Floridi}{Floridi}{2016}]%
+        {floridi2016tolerant}
+\bibfield{author}{\bibinfo{person}{Luciano Floridi}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Tolerant paternalism: Pro-ethical design as a
+  resolution of the dilemma of toleration}.
+\newblock \bibinfo{journal}{\emph{Science and engineering ethics}}
+  \bibinfo{volume}{22}, \bibinfo{number}{6} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{1669--1688}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Floridi, Cowls, Beltrametti, Chatila,
+  Chazerand, Dignum, Luetge, Madelin, Pagallo, Rossi, et~al\mbox{.}}{Floridi
+  et~al\mbox{.}}{2018}]%
+        {floridi2018ai4people}
+\bibfield{author}{\bibinfo{person}{Luciano Floridi}, \bibinfo{person}{Josh
+  Cowls}, \bibinfo{person}{Monica Beltrametti}, \bibinfo{person}{Raja Chatila},
+  \bibinfo{person}{Patrice Chazerand}, \bibinfo{person}{Virginia Dignum},
+  \bibinfo{person}{Christoph Luetge}, \bibinfo{person}{Robert Madelin},
+  \bibinfo{person}{Ugo Pagallo}, \bibinfo{person}{Francesca Rossi},
+  {et~al\mbox{.}}} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{AI4People—An ethical framework for a good AI
+  society: Opportunities, risks, principles, and recommendations}.
+\newblock \bibinfo{journal}{\emph{Minds and Machines}} \bibinfo{volume}{28},
+  \bibinfo{number}{4} (\bibinfo{year}{2018}), \bibinfo{pages}{689--707}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Friedman and Hendry}{Friedman and
+  Hendry}{2019}]%
+        {friedman2019value}
+\bibfield{author}{\bibinfo{person}{Batya Friedman} {and}
+  \bibinfo{person}{David~G Hendry}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Value sensitive design: Shaping technology
+  with moral imagination}}.
+\newblock \bibinfo{publisher}{Mit Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gogoll and M{\"u}ller}{Gogoll and
+  M{\"u}ller}{2017}]%
+        {gogoll2017autonomous}
+\bibfield{author}{\bibinfo{person}{Jan Gogoll} {and} \bibinfo{person}{Julian~F
+  M{\"u}ller}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Autonomous cars: in favor of a mandatory ethics
+  setting}.
+\newblock \bibinfo{journal}{\emph{Science and engineering ethics}}
+  \bibinfo{volume}{23}, \bibinfo{number}{3} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{681--700}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gogoll, Zuber, Kacianka, Greger, Pretschner,
+  and Nida-R{\"u}melin}{Gogoll et~al\mbox{.}}{2021}]%
+        {gogoll2021ethics}
+\bibfield{author}{\bibinfo{person}{Jan Gogoll}, \bibinfo{person}{Niina Zuber},
+  \bibinfo{person}{Severin Kacianka}, \bibinfo{person}{Timo Greger},
+  \bibinfo{person}{Alexander Pretschner}, {and} \bibinfo{person}{Julian
+  Nida-R{\"u}melin}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Ethics in the software development process: from
+  codes of conduct to ethical deliberation}.
+\newblock \bibinfo{journal}{\emph{Philosophy \& Technology}}
+  \bibinfo{volume}{34}, \bibinfo{number}{4} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{1085--1108}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Grush}{Grush}{2015}]%
+        {grush2015google}
+\bibfield{author}{\bibinfo{person}{Loren Grush}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Google engineer apologizes after Photos app tags
+  two black people as gorillas}.
+\newblock \bibinfo{journal}{\emph{The Verge}}  \bibinfo{volume}{1}
+  (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gurovich, Hanani, Bar, Nadav, Fleischer,
+  Gelbman, Basel-Salmon, Krawitz, Kamphausen, Zenker, et~al\mbox{.}}{Gurovich
+  et~al\mbox{.}}{2019}]%
+        {gurovich2019identifying}
+\bibfield{author}{\bibinfo{person}{Yaron Gurovich}, \bibinfo{person}{Yair
+  Hanani}, \bibinfo{person}{Omri Bar}, \bibinfo{person}{Guy Nadav},
+  \bibinfo{person}{Nicole Fleischer}, \bibinfo{person}{Dekel Gelbman},
+  \bibinfo{person}{Lina Basel-Salmon}, \bibinfo{person}{Peter~M Krawitz},
+  \bibinfo{person}{Susanne~B Kamphausen}, \bibinfo{person}{Martin Zenker},
+  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Identifying facial phenotypes of genetic disorders
+  using deep learning}.
+\newblock \bibinfo{journal}{\emph{Nature medicine}} \bibinfo{volume}{25},
+  \bibinfo{number}{1} (\bibinfo{year}{2019}), \bibinfo{pages}{60--64}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hevelke and Nida-R{\"u}melin}{Hevelke and
+  Nida-R{\"u}melin}{2015}]%
+        {hevelke2015responsibility}
+\bibfield{author}{\bibinfo{person}{Alexander Hevelke} {and}
+  \bibinfo{person}{Julian Nida-R{\"u}melin}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Responsibility for crashes of autonomous vehicles:
+  An ethical analysis}.
+\newblock \bibinfo{journal}{\emph{Science and engineering ethics}}
+  \bibinfo{volume}{21}, \bibinfo{number}{3} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{619--630}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Johnson}{Johnson}{1985}]%
+        {johnson1985computer}
+\bibfield{author}{\bibinfo{person}{Deborah~G Johnson}.}
+  \bibinfo{year}{1985}\natexlab{}.
+\newblock \showarticletitle{Computer ethics}.
+\newblock \bibinfo{journal}{\emph{Englewood Cliffs (NJ)}}  \bibinfo{volume}{10}
+  (\bibinfo{year}{1985}), \bibinfo{pages}{102926}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kacianka and Pretschner}{Kacianka and
+  Pretschner}{2021}]%
+        {kacianka2021designing}
+\bibfield{author}{\bibinfo{person}{Severin Kacianka} {and}
+  \bibinfo{person}{Alexander Pretschner}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Designing accountable systems}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency}}. \bibinfo{pages}{424--437}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Langford}{Langford}{2000}]%
+        {langford2000internet}
+\bibfield{author}{\bibinfo{person}{Duncan Langford}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Internet ethics}}.
+\newblock \bibinfo{publisher}{Macmillan London}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{MacIntyre}{MacIntyre}{2013}]%
+        {macintyre2013after}
+\bibfield{author}{\bibinfo{person}{Alasdair MacIntyre}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{After virtue}}.
+\newblock \bibinfo{publisher}{A\&C Black}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Maner}{Maner}{1999}]%
+        {maner1999computer}
+\bibfield{author}{\bibinfo{person}{Walter Maner}.}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Is computer ethics unique?}
+\newblock  (\bibinfo{year}{1999}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McLaughlin and Castro}{McLaughlin and
+  Castro}{2020}]%
+        {mclaughlin2020critics}
+\bibfield{author}{\bibinfo{person}{Michael McLaughlin} {and}
+  \bibinfo{person}{Daniel Castro}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Critics Were Wrong: NIST Data Shows the
+  Best Facial Recognition Algorithms Are Neither Racist Nor Sexist}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+  \bibinfo{institution}{Information Technology and Innovation Foundation}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mead}{Mead}{1923}]%
+        {mead1923scientific}
+\bibfield{author}{\bibinfo{person}{George~H Mead}.}
+  \bibinfo{year}{1923}\natexlab{}.
+\newblock \showarticletitle{Scientific method and the moral sciences}.
+\newblock \bibinfo{journal}{\emph{The International Journal of Ethics}}
+  \bibinfo{volume}{33}, \bibinfo{number}{3} (\bibinfo{year}{1923}),
+  \bibinfo{pages}{229--247}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mead and Schubert}{Mead and Schubert}{1934}]%
+        {mead1934mind}
+\bibfield{author}{\bibinfo{person}{George~Herbert Mead} {and}
+  \bibinfo{person}{Cornelius Schubert}.} \bibinfo{year}{1934}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Mind, self and society}}.
+  Vol.~\bibinfo{volume}{111}.
+\newblock \bibinfo{publisher}{University of Chicago press Chicago}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mittelstadt}{Mittelstadt}{2019}]%
+        {mittelstadt2019principles}
+\bibfield{author}{\bibinfo{person}{Brent Mittelstadt}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Principles alone cannot guarantee ethical AI}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{1}, \bibinfo{number}{11} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{501--507}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Montgomery, Parsa-Parsi, and
+  Wiesing}{Montgomery et~al\mbox{.}}{2018}]%
+        {montgomery2018genfer}
+\bibfield{author}{\bibinfo{person}{Frank~Ulrich Montgomery},
+  \bibinfo{person}{Ramin~Walter Parsa-Parsi}, {and} \bibinfo{person}{Urban
+  Wiesing}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Das Genfer Gel{\"o}bnis des Welt{\"a}rztebunds}.
+\newblock , \bibinfo{numpages}{67--69}~pages.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Moor}{Moor}{1985}]%
+        {moor1985computer}
+\bibfield{author}{\bibinfo{person}{James~H Moor}.}
+  \bibinfo{year}{1985}\natexlab{}.
+\newblock \showarticletitle{What is computer ethics?}
+\newblock \bibinfo{journal}{\emph{Metaphilosophy}} \bibinfo{volume}{16},
+  \bibinfo{number}{4} (\bibinfo{year}{1985}), \bibinfo{pages}{266--275}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Morley, Floridi, Kinsey, and Elhalal}{Morley
+  et~al\mbox{.}}{2021}]%
+        {morley2021initial}
+\bibfield{author}{\bibinfo{person}{Jessica Morley}, \bibinfo{person}{Luciano
+  Floridi}, \bibinfo{person}{Libby Kinsey}, {and} \bibinfo{person}{Anat
+  Elhalal}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{From what to how: an initial review of publicly
+  available AI ethics tools, methods and research to translate principles into
+  practices}.
+\newblock In \bibinfo{booktitle}{\emph{Ethics, Governance, and Policies in
+  Artificial Intelligence}}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{153--183}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nida-R{\"u}melin}{Nida-R{\"u}melin}{1998}]%
+        {nida1998ethische}
+\bibfield{author}{\bibinfo{person}{Julian Nida-R{\"u}melin}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Ethische Begr{\"u}ndungen: ein kritischer
+  {\"U}berblick}.
+\newblock \bibinfo{journal}{\emph{Ethica}} \bibinfo{volume}{6},
+  \bibinfo{number}{1} (\bibinfo{year}{1998}), \bibinfo{pages}{7--36}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nida-R{\"u}melin}{Nida-R{\"u}melin}{2005}]%
+        {nida2005menschliche}
+\bibfield{author}{\bibinfo{person}{Julian Nida-R{\"u}melin}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{\"U}ber menschliche Freiheit}}.
+\newblock \bibinfo{publisher}{Reclam}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nida-R{\"u}melin}{Nida-R{\"u}melin}{2011}]%
+        {nida2011optimierungsfalle}
+\bibfield{author}{\bibinfo{person}{Julian Nida-R{\"u}melin}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Die Optimierungsfalle: Philosophie einer
+  humanen {\"O}konomie}}.
+\newblock \bibinfo{publisher}{Irisiana}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nida-R{\"u}melin}{Nida-R{\"u}melin}{2019}]%
+        {nida2019structural}
+\bibfield{author}{\bibinfo{person}{Julian Nida-R{\"u}melin}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Structural Rationality and Other Essays on
+  Practical Reason}}. Vol.~\bibinfo{volume}{52}.
+\newblock \bibinfo{publisher}{Springer}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nida-R{\"u}melin, Gutwald, and
+  Zuber}{Nida-R{\"u}melin et~al\mbox{.}}{2021}]%
+        {knauff2021handbook}
+\bibfield{author}{\bibinfo{person}{Julian Nida-R{\"u}melin},
+  \bibinfo{person}{Rebecca Gutwald}, {and} \bibinfo{person}{Niina Zuber}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Structural Rationality}}.
+\newblock \bibinfo{publisher}{MIT Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nida-R{\"u}melin and
+  Weidenfeld}{Nida-R{\"u}melin and Weidenfeld}{2018}]%
+        {nida2018digitaler}
+\bibfield{author}{\bibinfo{person}{Julian Nida-R{\"u}melin} {and}
+  \bibinfo{person}{Nathalie Weidenfeld}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Digitaler Humanismus: eine Ethik f{\"u}r
+  das Zeitalter der k{\"u}nstlichen Intelligenz}}.
+\newblock \bibinfo{publisher}{Piper ebooks}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Raji, Gebru, Mitchell, Buolamwini, Lee, and
+  Denton}{Raji et~al\mbox{.}}{2020}]%
+        {raji2020saving}
+\bibfield{author}{\bibinfo{person}{Inioluwa~Deborah Raji},
+  \bibinfo{person}{Timnit Gebru}, \bibinfo{person}{Margaret Mitchell},
+  \bibinfo{person}{Joy Buolamwini}, \bibinfo{person}{Joonseok Lee}, {and}
+  \bibinfo{person}{Emily Denton}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Saving face: Investigating the ethical concerns of
+  facial recognition auditing}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  AAAI/ACM Conference on AI, Ethics, and Society}}. \bibinfo{pages}{145--151}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Reijers and Coeckelbergh}{Reijers and
+  Coeckelbergh}{2020}]%
+        {reijers2020narrative}
+\bibfield{author}{\bibinfo{person}{Wessel Reijers} {and} \bibinfo{person}{Mark
+  Coeckelbergh}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Narrative and technology ethics}}.
+\newblock \bibinfo{publisher}{Springer}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schulz}{Schulz}{2012}]%
+        {schulz2012privacy}
+\bibfield{author}{\bibinfo{person}{Sebastian Schulz}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Privacy by design}.
+\newblock \bibinfo{journal}{\emph{Computer und Recht}} \bibinfo{volume}{28},
+  \bibinfo{number}{3} (\bibinfo{year}{2012}), \bibinfo{pages}{204--208}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Skorupinski}{Skorupinski}{2000}]%
+        {skorupinski2000technikfolgenabschatzung}
+\bibfield{author}{\bibinfo{person}{Barbara Skorupinski}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Technikfolgenabsch{\"a}tzung und Ethik-Eine
+  Verh{\"a}ltnisbestimmung in Theorie und Praxis}.
+\newblock \bibinfo{journal}{\emph{TATuP-Zeitschrift f{\"u}r
+  Technikfolgenabsch{\"a}tzung in Theorie und Praxis}} \bibinfo{volume}{9},
+  \bibinfo{number}{2} (\bibinfo{year}{2000}), \bibinfo{pages}{88--93}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Spiekermann}{Spiekermann}{2019}]%
+        {spiekermann2019digitale}
+\bibfield{author}{\bibinfo{person}{Sarah Spiekermann}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Digitale Ethik: ein Wertesystem f{\"u}r das
+  21. Jahrhundert}}.
+\newblock \bibinfo{publisher}{Droemer eBook}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Strawson}{Strawson}{2008}]%
+        {strawson2008freedom}
+\bibfield{author}{\bibinfo{person}{Peter~Frederick Strawson}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Freedom and resentment and other essays}}.
+\newblock \bibinfo{publisher}{Routledge}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tavani}{Tavani}{1996}]%
+        {tavani1996cyberethics}
+\bibfield{author}{\bibinfo{person}{Herman~T Tavani}.}
+  \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Cyberethics and the future of computing}.
+\newblock \bibinfo{journal}{\emph{Acm Sigcas Computers and Society}}
+  \bibinfo{volume}{26}, \bibinfo{number}{2} (\bibinfo{year}{1996}),
+  \bibinfo{pages}{22--29}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Turilli and Floridi}{Turilli and
+  Floridi}{2009}]%
+        {turilli2009ethics}
+\bibfield{author}{\bibinfo{person}{Matteo Turilli} {and}
+  \bibinfo{person}{Luciano Floridi}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{The ethics of information transparency}.
+\newblock \bibinfo{journal}{\emph{Ethics and Information Technology}}
+  \bibinfo{volume}{11}, \bibinfo{number}{2} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{105--112}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vallor}{Vallor}{2016}]%
+        {vallor2016technology}
+\bibfield{author}{\bibinfo{person}{Shannon Vallor}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Technology and the virtues: A philosophical
+  guide to a future worth wanting}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wallach and Allen}{Wallach and Allen}{2008}]%
+        {wallach2008moral}
+\bibfield{author}{\bibinfo{person}{Wendell Wallach} {and}
+  \bibinfo{person}{Colin Allen}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Moral machines: Teaching robots right from
+  wrong}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wiener}{Wiener}{1950}]%
+        {wiener1950cybernetics}
+\bibfield{author}{\bibinfo{person}{Norbert Wiener}.}
+  \bibinfo{year}{1950}\natexlab{}.
+\newblock \showarticletitle{Cybernetics}.
+\newblock \bibinfo{journal}{\emph{Bulletin of the American Academy of Arts and
+  Sciences}} \bibinfo{volume}{3}, \bibinfo{number}{7} (\bibinfo{year}{1950}),
+  \bibinfo{pages}{2--4}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wiener}{Wiener}{1988}]%
+        {wiener1988human}
+\bibfield{author}{\bibinfo{person}{Norbert Wiener}.}
+  \bibinfo{year}{1988}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The human use of human beings: Cybernetics
+  and society}}.
+\newblock Number 320. \bibinfo{publisher}{Da Capo Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zuber, Kacianka, Pretschner, and
+  Nida-R{\"u}melin}{Zuber et~al\mbox{.}}{2020}]%
+        {Zuber2020}
+\bibfield{author}{\bibinfo{person}{Niina Zuber}, \bibinfo{person}{Severin
+  Kacianka}, \bibinfo{person}{Alexander Pretschner}, {and}
+  \bibinfo{person}{Julian Nida-R{\"u}melin}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Ethical Deliberation for Agile Processes: The EDAP
+  Manual}.
+\newblock In \bibinfo{booktitle}{\emph{Digital Transformation and Ethics}}.
+  \bibinfo{publisher}{ecowin}, \bibinfo{pages}{134--150}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zwitter}{Zwitter}{2014}]%
+        {zwitter2014big}
+\bibfield{author}{\bibinfo{person}{Andrej Zwitter}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Big data ethics}.
+\newblock \bibinfo{journal}{\emph{Big Data \& Society}} \bibinfo{volume}{1},
+  \bibinfo{number}{2} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{2053951714559253}.
+\newblock
+
+
+\end{thebibliography}

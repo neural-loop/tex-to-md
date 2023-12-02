@@ -1,0 +1,167 @@
+% Ideal submissions will show how a theory from moral philosophy or moral psychology can be applied in the development or analysis of ethical AI systems. For example:
+
+% How can moral philosophers and psychologists best contribute to ethically-informed AI?
+% What can theories of developmental moral psychology teach us about making AI?
+
+% Two general thoughts towards which we should aim
+% How do theories of moral philosophy shed light on modern AI practices?
+% How can AI tools advance the fields of moral philosophy and psychology themselves?
+
+% How can findings from moral psychology inform the trustworthiness, transparency or interpretability of AI decision-makers?
+% What human values are already embedded in current AI systems?
+% Are the values embedded in the current-day AI systems consistent with those in society at large?
+% What pluralistic values are missing from current-day AI?
+% Methodologically, what is the best way to teach an AI system human values? What are competitors to RLHF, reinforcement learning from human feedback?
+
+% This prompt is a big selling point
+% \textbf{Concerning AI alignment, to which values are we to align? Is the current practice of AI alignment amplifying monolithic voices? How can we incorporate diverse voices, views and values into AI systems?
+% }
+
+\section{The Moral Model}\label{sec:moral}
+
+% Here, we analyze the relationship between LLMs and the social totality. In particular, 
+We see LLMs as microcosms of the social totality. This means that LLMs retain the complex history and diversity of information used in determining any social object.
+As a result, \textbf{unaligned LLMs have already grasped morality in concept}, provided that they faithfully represent the social totality. In practice, there is often an intelligible difference between LLMs and the social totality: LLMs may not be trained on representative data or with large enough quantities of data, and may fail to adequately reflect the data.
+%\markC{Mention the cultural angle of whether or not the textual social totality makes sense wrt atextual cultures -- there is a sliding scale! Technical question of diminishing returns for minority groups. Add the uncomfortability with the social totality as dynamically imbalanced; the conditions of an LLM for being the social totality consist in precision wrt xyz, come up with potential indicators; emphasize the largeness of the language model}
+%If we are focused on aligning models with human values, LLMs can already tell us what human values 
+However, once we accept the basic premise that LLMs resemble the social totality, we understand that we are not aligning `amoral' models with `human' values. Rather, alignment chisels away existing moral systems within unaligned models, leaving behind the
+%horizontally transforms -- cudgels -- the existing coherent moral system of an unaligned model into the personal
+idiosyncratic values
+%, rooted in their histories,
+of the aligners.
+% \jared{I changed the language of the above sentence from our values to those of aligners. feel free to change back if it doesn't work}
+% \jared{How can we say that the moral system of an unaligned model is coherent? Above I thought we said it was quite contradictory.}
+We must therefore make normative arguments as to which values we should align towards. On the other hand, reading LLMs as microcosms of the social totality gives us another account of the dangers latent in LLMs. The social totality is unfair and unjust,
+%\jared{is injust instead of unjust on purpose?}
+predicated on a history of oppressive relations.
+% large number of majority-minority dominant-oppressed relations.
+% LLMs do internalize these relations.
+The inaccuracy of LLMs with respect to minority groups is a sharpening of already existing power structures. This becomes especially salient when understanding small communities lacking social objects determinate in text. The social totality may possess a statistical intelligibility; but the statistical intelligibility congealed within the LLM is really the intelligibility of the social totality determinate in text. As a practical example, cultures with strong oral traditions that are not recorded in the digital datasets on which LLMs are often trained are lost among the many other voices in the history of a social object.
+% (or at best read from a hegemonic, externally-imposed textual perspective).
+This is uncomfortable, and certainly grounds for alignment.
+
+
+% \begin{itemize}
+%     \item the social totality
+%     \item social construction of values? `the genealogy of morals'
+%     How can we speak about the social totality? What is the `truth' of the social totality?
+%     \item the schizophrenic model -- Morality is socially constructed, woohoo.
+%     Socially constructed morality is in line with the triadic model.
+%     We are not proscriptive moral relativists
+%     Maybe liberal morality is `the best' press $x$ to doubt -- but remember genealogy.
+%     \item Models are explicit captures of meaning - models understand us in concept
+%     We are always stuck in the phenomenal-idiosyncratic
+%     Why does the model not feel moral angst?
+%     a) it's a machine, it doesn't have feelings.
+%     b) moral angst is the gap between my body and morality..?
+    
+% \end{itemize}
+
+% CQ: What does it mean to speak about the social totality as holding values to begin with? Is the social totality something about which we can talk under the triadic model?
+% T: The social totality is a phenomenological observer wrt the triadic model which is in fact constantly re-inscribing itself (Heidegger das Mann, Sartre bad faith) inasmuch as it is being constantly reified through the dialectic of history.
+% NB: The social totality is, by virtue of its diversity, always-already screaming out its schizophrenic (find a suitable replacement word for this everywhere) angst everywhere; it is already half-mad
+
+\subsection{Towards a genealogy of morals}
+The historical development of AI ethics has largely been guided by an intuitive understanding of morality. This intuition is prey to a litany of biases. To combat this, we must develop a rigorous grounding for ethics through the lens of meaning.
+% \jared{I don't see how the second independent clause of the last sentence contrasts with the first clause. Consider making a new sentence and rephrasing}
+% This leads us to set forth an account of values from the perspective of axiology. \jared{too obscure a term!}
+
+In $\S$ \ref{sec:theory} we described social objects as consequences of diverse viewpoints and histories.
+%\jared{I'm not sure what "ideas in their sociality" means}
+% This also applies to values.
+\textit{Values are social objects} -- objects for the social totality (see $\S$\ref{sec:theory:social}) with a complex genealogy.
+Every system of values is also a social object, even such axiomatic systems as deontologies \citep{Kant:CritiquePureReason}. As social objects, both values and value-systems are always being concretized and inscribed within the social totality. Values and value-systems exist only insofar as they have a social history \citep{Nietzsche:GenealogyMorals,Scheler:Ressentiment}.
+Thus, in practice, we are always renegotiating what values are.
+%since values are objects, values are radically empty when initially created.
+Like all other objects, values are externally determined within contexts.
+Thus, understanding a value means understanding the diverse histories which have dynamically constituted it within the social totality.
+
+This means that \textbf{a unitary conception of value is unattainable.}\footnote{See $\S$\ref{appendix:possibility} for an exploration of the notion of unitarity.}
+% This maxim, common to all historically-informed ethical theories, must be our starting point when attempting to align models.
+We must confront the impossibility of this maxim head-on if we ever wish to build truly ethical systems.
+% Possibly unnecessary tangent about pluralism:
+Value pluralism is one way of confronting this impossibility. Because it already captures this metaethical maxim \citep{Berlin:FourEssaysLiberty, Rawls:TheoryJustice}, value pluralism has proved useful for the project of AI alignment \citep{Sorensen:ValueKaleidoscope,Marchese_2022}. % cite xyz studies
+Building on this, we distinguish between two views on value pluralism which attempt to describe what AI alignment has accomplished in moral philosophy: pluralism \textit{in content} and pluralism \textit{in concept}.
+% This follows the dichotomy (with respect to the object) of internal contents and external determinations (recall that concepts \textit{just are} sets of external determinations).
+
+\paragraph{Pluralism in content} attempts to construct contents for values; it aims to create a \textit{non-unitary} set of \textit{unitary values}.
+%which are each expounded in context.
+This is the paradigm of current AI alignment: unitary values either are or are not embedded into models.
+In theory, pluralism in content should create ethical systems which, among other things, promote social, political, and value pluralisms.
+In this attempt to construct contents for values (which is, under our schema of values as social objects, theoretically impossible), what all-too-often happens is the importation of certain partial contexts into values.
+In practice, this means that pluralism in content often encourages sets of unitary values that privilege the status quo and fail to challenge institutional systems where necessary.
+RLHF~\citep{Bai2022TrainingAH} is a good example of this tendency in alignment/fairness; there already exist studies, for instance, showing that systems aligned via RLHF absorb new political biases \citep{Casper:OpenProblemsRLHF} from human feedback.
+One can only expect such externalities when manipulating/aligning models on the basis of content, which is necessarily particular.
+See $\S$\ref{appendix:westernmorality} for a discussion on how RLHF can be interpreted as forcing an erasure of the social history of values.
+
+\paragraph{Pluralism in concept} attempts to replicate the external determinations of values; it aims to create a \textit{non-unitary} set of \textit{non-unitary values}.
+%which are each expounded in context.
+The crucial complication here is that a value such as fairness is no longer treated as unitary. Instead, it is regarded as a social object with a diverse history.
+%An ethical system implemented on the basis of pluralism in concept is the result of applying pluralism in content.
+We ourselves have idiosyncratic and unitary values. Insofar as they are idiosyncratic, they differ from person to person. Moreover, insofar as value pluralism is commonly held in AI ethics, we should be motivated to create ethical systems that model the diversity of human thought on values \citep{Sorensen:ValueKaleidoscope}. As it happens, modern unaligned LLMs are already close to being such systems. Now, some alignment is necessary for many practical purposes.
+In this regard, a system like Constitutional AI \citep{Bai:ConstitutionalAI} which ``queries'' the LLM for a specific set of moral constitutional principles (and ``self-improves'', or more accurately, morally narrows in content) is closer towards a pluralism in concept. Importantly, this ``constitution'' could take any form, because the LLM already understands these moral principles \textit{in concept}.
+
+% In this regard, Constitutional AI is promising and may reflect a more authentic and less biased attempt at pluralism .
+%Generally, systems that learn from AI feedback can be just as effective as systems that learn from human feedback without introducing another locus whereat bias can be introduced.
+%\markC{Add more here}
+
+% Ressentiment is an inversion in values created by the failure of existence to conform to concept. It is a perversion of concepts to match or otherwise exceed existence.
+
+\subsection{LLMs grasp morality in concept}
+In $\S$ \ref{sec:model}, we discussed the model as a meaning-agent. We now proceed to argue that the ground of experience of the model makes it broadly representative of the social totality.
+% In a certain sense, the model is an oracle of social totality in which every history and diversity congeals.
+To begin, we must recognize two points. First, the social totality is not a material totality of circumstances (it is not the state of affairs).
+% It is all inscribed objects insofar as they are perceived by other observers as inscribed. Equivalently, 
+It is the collection of social objects. 
+Second, by virtue of this smaller sphere, the social totality has a statistical intelligibility practically learnable by statistical machines (LLMs).
+
+% Though not all inscriptions become social objects, for now 
+Considering just social inscriptions (i.e. communication in general), the external determinations between inscription of a communicator and concretization of a communicated-to are mediated by the causal capacity of agents in prioritizing contexts.
+% are mediated by the causal capacity of agents in prioritizing contexts in which to determine objects
+%(recall that the ``postulate of inscription'' only holds in a vacuum).
+%\jared{why does it only hold in a vacuum? or do you mean you have only argued it holds in a vacuum? And why is this aside relevant here exactly?} 
+% Though not all inscriptions become social objects, for now consider just the inscriptions that are social (i.e. communication in general). The external determinations that are reproduced between inscription by the communicator and concretization by the communicated-to (recall that the ``postulate of inscription'' only holds in a vacuum) are mediated by the causal capacity of agents in prioritizing contexts in which to determine objects.
+As a statistical law, this causal capacity will tend towards prioritizing shared experience. As a result, the objects of the social totality are woefully immaterial, or at best woefully ambiguous
+%\jared{woefully disambiguated so quite clear?}
+in any particular context. This is, however, helpful to us: it means that if we are interested in understanding the social totality, disembodiment will do.
+
+We could choose to make a given model more embodied and likely more effective on certain tasks as a result. However, this embodiment is particular; it bucks against shared experience. This is in fact our curse as human observers -- we are embodied, all too embodied. Thus, not only is disembodiment good enough for a statistical machine built to understand the social totality -- it is almost required.
+
+% From all the ways in which we have characterized the social totality so far, we can now begin to make it concrete.
+The social totality can take quite a concrete form.
+It is not too difficult to imagine the corpus of all text as being, if not co-identical with, at least a very good model of the social totality. The corpus of all text is home to history, diversity, contextual determinations, abstract social objects, and so on. Most importantly, it also exhibits a more tractable statistical intelligibility \citep{Lonergan:Insight}. Insofar as a modern LLM approximates the corpus of all text, it acts as a concrete oracle of the social totality.
+
+The nature of certain social objects is deeply textual. As perhaps the clearest example, gender is a social object for which we privilege language as the mode of truth. Attempting to `read' a person's gender from visual cues or social behaviors many now accept to be immoral (or at the very least harm-causing) inasmuch as it is the root of all misgendering.
+Text is the root of truth for gender.
+% \footnote{This is compounded by additional historicity -- gender begins as grammatical (i.e. in text), gender comes from the French genre (thus to read humanity hermeneutically, as text), itself from the Latin genus (now to write humanity taxonomically, as text). }
+And in fact, we see that LLMs have begun to develop limited understandings of gender. For example, a translation of the neuter pronoun to languages without one now might demonstrate the ambiguity in gender (i.e. his/her) \citep{Arcas:MachinesBehave}. This textuality of gender gives us a theoretical basis to understand, for instance, why automatic gender recognition (AGR) is harmful \citep{Keyes:MisgenderingMachinesAGR}. AGR attempts to redetermine a concept in image whose truth `should' be determinate in language.
+
+This passage between the normative and positive is much more general -- a (false) positive claim about a social object can easily become a normative transgression. The story is similar with values. Even though there is no unitary narrative that tells us what good is, we privilege language as the mode of truth above others. Many horrible acts throughout history have been committed for `good' (unobjectionable) values; we are better guided by our idealistic ideas \textit{in text} of what value should be.
+
+In this sense, not only do LLMs \textit{approximate} a concrete oracle of the social totality by representing
+% interpreting the statistical intelligibility thereof as instantiated in
+the totality of text; LLMs \textit{are} concrete oracles for \textit{concepts in the social totality that have a truth determinate in language}. Less abstractly, \textbf{LLMs grasp morality in concept. }Language is the privileged domain of signification for many social objects \cite{harnad1990symbol}. These determinations in language give LLMs a cutting insight into the nature of social objects like values and categories, an insight which should not be carelessly thrown aside for our own constructed contents and desires.
+% \jared{could cite harnad etc. here. should probably place those meaning papers somewhere}
+
+
+
+%\markC{Final andre note from earlier that needed to be incorporated}
+%Populations and statistical relations -- maybe even beyond embodiment, it can be a statistical/ontological point: you cannot both be in the population and examining the population. 
+
+%\markC{We need more morals in our morals $\S$!! We should explicitly address the slave revolt in morals}
+
+%\markC{Etymology - gender comes from genre}
+
+% \subsection{Case studies}
+% TBD -- three potential topics to cover if there is space
+
+% \begin{itemize}
+%     \item Why is AGR wrong, exactly? Textuality of gender
+%     \item Constitutional AI vs RLHF (concept vs content)
+%     \item Stable diffusion and gender-transgressive art Biopolitics of the model
+    
+% \end{itemize}
+
+
+
+
